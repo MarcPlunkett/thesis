@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.27)  27 SEP 2019 21:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.27)  27 SEP 2019 21:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -472,15 +472,15 @@ Chapter 6.
 
 ] (/Users/marc/Thesis/master.aux (/Users/marc/Thesis/Chapter1/ch1.aux) (/Users/marc/Thesis/Chapter2/ch2.aux) (/Users/marc/Thesis/Chapter3/ch3.aux) (/Users/marc/Thesis/Chapter4/ch4.aux) (/Users/marc/Thesis/Chapter5/ch5.aux) (/Users/marc/Thesis/Chapter6/ch6.aux)) ) 
 Here is how much of TeX's memory you used:
- 2931 strings out of 492609
- 42698 string characters out of 6129048
- 99183 words of memory out of 5000000
- 6728 multiletter control sequences out of 15000+600000
+ 2932 strings out of 492609
+ 42704 string characters out of 6129048
+ 99194 words of memory out of 5000000
+ 6729 multiletter control sequences out of 15000+600000
  61523 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,28p,1274b,279s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /Users/marc/Thesis/master.pdf (19 pages, 190596 bytes).
+Output written on /Users/marc/Thesis/master.pdf (19 pages, 190598 bytes).
 PDF statistics:
  116 PDF objects out of 1000 (max. 8388607)
  83 compressed objects within 1 object stream
