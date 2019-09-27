@@ -1,0 +1,42 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Department for Environment} and {Department for
+  Transport}(2017)]{DepartmentforEnvironment2017}
+Food {\&} Rural~Affairs {Department for Environment} and {Department for
+  Transport}.
+\newblock {Air quality plan for nitrogen dioxide (NO2) in UK}, 2017.
+
+\bibitem[Toyota(2015)]{Toyota2015}
+Toyota.
+\newblock {The Toyota Mirai}, 2015.
+\newblock URL
+  \url{\url{https://www.toyota.co.uk/new-cars/new-mirai/landing.json}}.
+
+\bibitem[Hyundai(2015)]{Hyundai2015}
+Hyundai.
+\newblock {Hyundai ix35 Hydrogen Fuel Cell Vehicle}, 2015.
+\newblock URL
+  \url{\url{https://www.hyundai.co.uk/about-us/environment/hydrogen-fuel-cell}}.
+
+\bibitem[Honda()]{Honda}
+Honda.
+\newblock {Honda Clarity Fuel Cell}.
+\newblock URL
+  \url{\url{http://www.honda.co.uk/cars/new/coming-soon/clarity-fuel-cell/overview.html}}.
+
+\bibitem[Mohrdieck(2014)]{Mohrdieck2014}
+C~Mohrdieck.
+\newblock {Daimler's road to FCEV market introduction}.
+\newblock In \emph{7th Stakeholder Forum of the FCH JU}, Brussels, 2014.
+
+\bibitem[FCell(2016)]{FCell2016}
+Symbio FCell.
+\newblock {Zero emission mobility solutions}, 2016.
+\newblock URL \url{https://www.symbio.one/en/}.
+
+\end{thebibliography}

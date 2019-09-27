@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: ch1.aux
+The style file: unsrtnat.bst
+Database file #1: library.bib
+Warning--empty journal in Honda
+Warning--empty year in Honda
+Warning--empty year in Honda
+You've used 6 entries,
+            2481 wiz_defined-function locations,
+            584 strings with 5207 characters,
+and the built_in function-call counts, 1650 in all, are:
+= -- 135
+> -- 50
+< -- 6
++ -- 26
+- -- 14
+* -- 80
+:= -- 258
+add.period$ -- 17
+call.type$ -- 6
+change.case$ -- 12
+chr.to.int$ -- 6
+cite$ -- 9
+duplicate$ -- 96
+empty$ -- 185
+format.name$ -- 22
+if$ -- 356
+int.to.chr$ -- 1
+int.to.str$ -- 7
+missing$ -- 2
+newline$ -- 37
+num.names$ -- 18
+pop$ -- 75
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 68
+stack$ -- 0
+substring$ -- 12
+swap$ -- 11
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 42
+warning$ -- 3
+while$ -- 12
+width$ -- 0
+write$ -- 77
+(There were 3 warnings)
