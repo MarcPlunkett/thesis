@@ -28,6 +28,238 @@ for sulphur tests. The non-sulphur tests closely matched with the actual compone
 however in the second set of tests there was some loss of sulphur observed, most likely due to the 
 formation of palladium sulphide on the surface of the membrane, or through wall catalysed reactions. 
 
+A similar experiment was performed by National Physical Laboratory with the aim of decreasing the uncertainty 
+of using such a device. \cite{Murugan2014} The non-ideal gas law method used in the previous paper \cite{Ahmed2010} 
+was compared to a novel tracer enrichment method developed by NPL. \cite{Murugan2014} 
+The tracer enrichment method involves spiking the hydrogen sample with a known quantity of krypton prior to 
+enrichment. The enrichment factor is then calculated using the change in concentration of the krypton as 
+shown in equation \ref{eq:3}.
+
+\begin{equation} \label{eq:3}
+    CEF_{Tracer} = \frac{y_{kr_b}}{y_{Kr_b}} = \frac{1}{y_{Kr_a}} \frac{A_{Kr_b}}{A_{Kr_a}} y_{Kr_{st}}
+\end{equation}
+
+The set-up was similar to the one used by Papadias et al \cite{Ahmed2010} and was used to enrich a 50 bar 10L hydrogen sample 
+containing 1.5-2 \textmu mol/mol of CO, Kr, CH\textsubscript{4} and N\textsubscript{2}. Use of the tracer enrichment 
+method reduced the associated uncertainty from 2.6\% to 1\%. 
+Two tests were performed, with the second test resulting in membrane failure. 
+
+When operating the hydrogen impurity enrichment device it was found that both methods should be used to 
+calculate the CEF.\cite{Murugan2014}\cite{Murugan2015} While the tracer enrichment method has a lower uncertainty 
+due to it being dependant on fewer variables, it is impossible to tell if a leak has occurred in the device 
+due to the covariance 
+phenomena. \cite{Murugan2014} Leaks in the enrichment device could occur due to thermal expansion of components due to heating 
+to the required operating temperature or cracks forming in the membrane. The stability of membranes used in 
+such a device will be discussed in the following section. During a leak it will be expected that the ratio of 
+krypton, along with other impurities which are not naturally present in air, will remain constant, resulting 
+in no change in the CEF. A leak will allow oxygen and nitrogen to enter the system and throw off the 
+measurement of these two impurities. While the tracer enrichment method could still be used to calculate 
+the amount fraction of other impurities, the non-ideal gas law method would have to be used to provide an 
+accurate measurement for Oxygen and Nitrogen.
+
+A device similar to the HIED is the Hydrogen Elimination Mass Spectrometer (HEMS) designed by Power + Energy USA. \cite{Bossard} 
+The principle behind the HEMS is the same as the HIED, where a palladium membrane is used to selectively 
+remove the hydrogen matrix gas and thus concentrate the impurities within the hydrogen sample. 
+The output is directly fed into a mass spectrometer which allows in-situ measurements to be performed. 
+The limit of detection specified by the manufacturer claims to be in the range of pmol/mol however there is 
+no published information regarding the accuracy or uncertainty associated with the device. 
+As of 2016 the device was discontinued by the manufacturer.
+
+\subsection{Criteria for a hydrogen impurity enrichment material}
+In order for a membrane to be suitable for hydrogen impurity enrichment material it must be able to 
+increase the concentration of low-level impurities in a hydrogen sample. 
+Although all past examples of hydrogen impurity enrichment have used dense membranes with an infinite 
+selectivity towards hydrogen, it is theoretically possible to use a membrane which has a lower selectivity 
+to perform enrichment. This would have the advantage of allowing membranes with faster flux to be used, 
+greatly reducing the amount of time required for an enrichment run, while allowing cheaper materials to be 
+used in place of the palladium membranes used in past studies. In order to perform this calculation, 
+the following must be known:
+\begin{itemize}
+\item Selectivity of the membrane must be known to a high accuracy
+\item Total number of moles leaving the system
+\item Concentration of enriched impurities
+\end{itemize}
+
+Since the selectivity shows the ratio of substances passing through the membrane 
+(i.e. H\textsubscript{2}/N\textsubscript{2} selectivity of 2 represents 2 moles of hydrogen for every 1 mole 
+of nitrogen passing through 
+the membrane) if both quantities are known the number of moles of impurity leaving the system through 
+permeation could be easily estimated.
+
+\begin{equation}
+    n_{i_{exit}} = n_{exit_{total}}/ \alpha^{H_2 /i}    
+\end{equation}
+
+The concentration, and therefore the number of moles of impurity on the retentate side of the membrane 
+could then be analysed using suitable instrumentation. These values could then be added together and 
+divided by the enrichment factor in order to give the original number of moles that would be in the vessel.
+
+\begin{equation}
+    y_i=\frac{(n_{i_{ret}}+n_{i_{exit}})/n_{tot_{ret}}}{CEF} 
+\end{equation}
+
+In practice however this may not be feasible due to the low concentrations of impurities expected to be 
+present in these hydrogen samples. In order for an enrichment calculation to work there must be an analysable 
+concentration of impurity remaining in order to back calculate. Since the level of expected impurities in a 
+hydrogen sample is so low, and the selectivity of many membranes also low, there is a high risk of either all 
+impurities simply leaving the sample during the enrichment run, or only achieving a lower enrichment factor. 
+Take the example of enriching a sample containing 0.2 \textmu mol/mol of CO by 100 in order to analyse its 
+composition on 
+a GC-MS. If the sample is a standard 10L cylinder containing 100 bar a H\textsubscript{2}/CO selectivity of 
+\textasciitilde 4950000 is required to simply prevent all of the CO leaving the enrichment device, which is 
+effectively the 
+same as the selectivity’s seen in dense metal membranes. However, for the same sample containing 0.3 \textmu mol/mol 
+of 
+Helium a H\textsubscript{2}/He selectivity of 330 is the minimum required which is more feasible. However, both these values 
+are the exact values required by the standard, in reality they would be much lower. The highest reported 
+selectivity of a non-infinitely selective membrane was Liquid crystalline polyester which had a 
+H\textsubscript{2}/N\textsubscript{2} 
+selectivity of  2632 \cite{Weinkauf1992} which indicates that this method may be suitable for enriching some of the higher 
+concentration impurities in hydrogen samples, it is not a solution for lower concentration. 
+It is also unlikely that the selectivity of a membrane material will stay constant throughout its lifespan. 
+Any drift in selectivity would throw off the calculation and either require regular changing of the membrane, 
+driving up cost, or regular calibration to recalculate the selectivity of the membrane at a given time, which 
+would be time consuming. It is however likely that infinitely selective membranes are the only feasible 
+enrichment material due to their ability to enrich every impurity in hydrogen, whereas non-infinitely 
+selective membranes may be applied to analysis of individual impurities, it is unlikely such a scenario 
+would occur in reality which makes them a non-ideal solution. 
+
+\subsection{Other enrichment methods}
+\subsubsection{Sorbent tubes}
+The use of traps and sorbent tubes to pre-concentrate impurities in gases is very common in gas analysis, 
+but only two hydrogen purity analysis standards have incorporated this technique to facilitate purity analysis. 
+A method for concentrating the impurities in a sample of hydrogen using a zeolite- packed chromatographic 
+column has been described in a paper by Hille \cite{Hille1990a}. The method involves flowing the gas sample into the column 
+using a pump and cooling the column to a temperature that allows the impurities to remain trapped whilst the 
+matrix gas passes through. The sample is then transferred to GC-MS for analysis. The enrichment factor for 
+this method is determined by the flowrate and amount of time that the gas is sampled into the column. 
+The method was validated by analysing gas mixtures of hydrogen containing 8.7 mmol/mol of silane. 
+By enriching the sample, the signal- to-noise for the same measurement was increased by a factor of 2000 
+indicating that levels in the range of 4 nmol/mol of silane would easily be measured using this method 
+whereas the usual limit of detection (without pre-concentration) would have been 1 \textmu mol/mol
+
+\subsubsection{Cryo-focusing}
+A method for performing pre-concentration by cryo-focusing has been detailed in ASTM WK34574 
+where the device is used to concentrate the impurities in a sample of hydrogen before introducing 
+the gas to a GC-MS \cite{Murugan2015} The pre-concentration method involves trapping the impurities onto a glass bead trap 
+at -150\textdegree C. By increasing the temperature of the trap all of the impurities apart from water 
+are transferred to a separate Tenax trap which is cooled to -170\textdegree C. 
+Upon heating once again the enriched sample is introduced to the analyser. 
+Very high enrichment factors can be achieved using this method by flowing a high volume of the sample 
+gas through the pre-concentration device to allow capture of the impurities whilst the hydrogen is removed. 
+No information was provided in the standard to indicate the accuracy or limitations of this method.
+
+\section{Review of hydrogen selective membranes}
+The term membrane is used to describe a semipermeable barrier which selectively allows certain species to 
+pass through it, while preventing or inhibiting the passage of others. The driving force for gas separation 
+through a membrane is the pressure and component concentration gradients across the chosen material. 
+In the context of hydrogen separation, the trans-membrane pressure and hydrogen concentration gradient 
+across the feed and permeate, combined with the unique properties of the chosen separation material, 
+will allow hydrogen to pass through the membrane, while preventing or inhibiting the transport of impurities 
+which the membrane is not selective or less selective towards. A large number of materials have been studied 
+for hydrogen separation. For the purpose of this review they will be split into four broad categories based 
+on their material type and separation mechanism which is related to their pore structure (dense or porous); 
+these categories are shown in Table 2 and visualized in Figure \ref{fig:1}.
+
+The material, its structure with regards to pore size and pore size distribution, and surface chemistry, 
+all contribute to the separation mechanism for removing hydrogen from its constituent gas mixture. 
+The six main membrane separation mechanisms are visualised in Figure \ref{fig:1}, with (i) – (iv) showing the 
+four separation mechanisms for gases in porous media, and (V)- (Vi) showing gas separation through dense media. 
+For porous materials typically a combination of these mechanisms dictates the overall separation performance 
+due to imperfections in the membranes structure. All dense membranes should be dictated by the solution 
+diffusion mechanism and the presence of any other mechanisms are evidence of imperfections in the membrane. 
+
+For most porous media, the separation mechanism is dominated by Poiseuille flow or Knudsen Diffusion. 
+The precise separation mechanism can be determined by calculating the ratio between the mean free path of 
+the gas molecules (\textlambda) and the pore radius (r) as shown in Equation \ref{eq:6} where \texteta \ is the viscosity of the gas, 
+P is the pressure, T is the temperature, M\textsubscript{w} is the molecular weight of the gas, and R is the universal gas 
+constant.
+
+\begin{figure}
+    \includegraphics[width=\linewidth]{figures/septype.png}
+    \caption{Illustration of the five membrane separation mechanisms (i) Poiseuille Flow/Knudsen diffusion, (ii) Molecular Sieving, (iii) Surface diffusion (iV) Capillary condensation (V) Solution diffusion (Vi) Facilitated transport}
+    \label{fig:1}
+  \end{figure}
+
+\begin{equation}\label{eq:6}
+    \frac{r}{\lambda} = \frac{2P}{3\eta}\sqrt{\left(\frac{2M_w}{\pi RT} \right)}
+\end{equation}
+
+This ratio determines the contribution of Knudsen and Poiseuille flow. If r/\textlambda \ > 1 it would indicate 
+that the main gas transport rate limiting step is due to molecule-molecule collisions indicating that 
+Poiseuille flow is the dominant transport mechanism. Likewise if r/\textlambda \ < 1 it indicates that 
+molecule-wall collisions govern the rate limiting step showing that Knudsen diffusion is the dominant 
+mechanism. If the transport is purely Knudsen diffusion the H\textsubscript{2}/CO\textsubscript{2} selectivity of 
+the membrane will be equal to around 4.7. Since this value is relatively low, it has pushed researchers 
+into fabricating membranes with smaller pore structures, and to modify their membranes to take advantage of 
+specific surface interactions. Both of these developments allow researchers to surpass the selectivity 
+achievable with purely Knudsen diffusion.
+
+Molecular sieve materials can be classed as macroporous (>50nm), mesoporous (2-50nm) and microporous (<2nm) 
+with microporous materials being the most relevant for hydrogen separation processes. These membranes are 
+fabricated in such a way that the passageways are small enough that the entrance of molecules with large 
+kinetic diameters is not possible. This results in higher permeation of smaller components in a gas mixture 
+such as H2 or He while slowing, or completely preventing the passage of bulkier molecules. This mechanism, 
+while effective for some gas mixtures, may not be feasible when looking to perform separation on similar 
+sized gas pairs; selectivity is often hindered by competitive adsorption between the species due to the 
+surface chemistry of the material. Fabrication of these membranes can also be difficult and manufacturing 
+large scale membranes with a tight enough pore size distribution to ensure molecular sieving still proves 
+to be a difficult task. Common microporous materials which are able to be fabricated into molecular sieving 
+membranes are zeolites, metal organic frameworks, activated carbon, and amorphous silica.
+
+Surface diffusion and capillary condensation are similar in that the surface chemistry of the pores in the 
+membrane has a large effect on the separation efficiency. Surface diffusion occurs when the walls of the pore 
+either intrinsically, or following modification, provides adsorption sites for the desired gas molecule. 
+The gas molecule will adsorb onto the walls resulting in faster diffusion through the pore structure than 
+other gases in the mixture. Similarly, capillary condensation typically follows on from surface diffusion 
+and involves the gas species condensing within the pore of the membrane, either due to stronger molecule-wall 
+interactions, or a smaller pore radius. The condensation of the molecule results in further selectivity 
+improvements towards this component by providing an added transport barrier to other gas species. 
+
+Gas transport in dense media is typically harder to categorise due to the unique material chemistry present 
+in each material, however all dense membranes perform separation through some variation of the solution 
+diffusion model. Typically, the following steps are always present in some form:
+\begin{enumerate}
+\item Adsorption of gas species onto the surface of the membrane 
+\item Diffusion of gas species through the bulk of the membrane 
+\item Desorption and diffusion of the gas species in the downstream. 
+\end{enumerate}
+
+More details will be provided on the precise features of solution diffusion in each material in the following 
+sections. Facilitated transport is a sub section of solution diffusion and occurs in dense membranes which 
+have a selected chemical species added into the bulk of the membrane. These materials are chosen based on the 
+presence of a particular interaction with components of a gas species. These interactions are typically 
+reversible reactions between the added species and the gas intended for separation and is intended to enhance 
+the diffusion of the selected gas, this additive could either be fixed species (solid) or mobile (liquid). 
+
+The most commonly reported metrics for membrane performance is the flux or permeability coefficient and 
+selectivity. The flux (J) of a membrane is a measure of the amount of gas the membrane is allowing to pass 
+per unit time per unit surface area and is typically used as a measure for how effective the fabricated 
+membrane performs. The permeability coefficient (P) can be derived from the flux and is a quantitative 
+expression which gives a specific measure of the separation properties of a material independent of 
+operational and manufacturing constraints such as operating pressure and membrane thickness. 
+While flux and permeability are similar and tied to each other they are both useful in their own way. 
+The permeability coefficient is typically tied to the material and is useful for comparing different 
+materials to each other, while the flux offers a measure on how effective the material is when fabricated 
+into a membrane. 
+
+The selectivity (\textalpha \ i/j) represents the separating ability of the membrane for a specific gas species 
+(i) with respect to another gas species (j). This is common notation for porous membranes and membranes which 
+are not completely selective towards one component. For membranes which are only selective towards one 
+component such as dense metal and dense ceramic, the selectivity is not reported since any presence of 
+another component in the exit stream is generally an indication of a manufacturing defect. 
+
+While these values are reported for all membranes in order to allow for a direct comparison of 
+performance, this is where the similarities end. The fundamental separation mechanism, manufacturing 
+techniques, and unique material chemistry are often different for each material. In addition to this 
+there are other important metrics for the usefulness of a membrane such as mechanical stability, lifespan, 
+and chemical resistance which are more difficult to quantify. 
+
+\subsection{Types of hydrogen separation membrane}
+
 \renewcommand{\bibname}{References}
 \bibliographystyle{unsrtnat}
+
+
+
 \bibliography{library.bib}

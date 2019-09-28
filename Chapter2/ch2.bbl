@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{6}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -12,5 +12,41 @@ Shabbir Ahmed, Sheldon H~D Lee, and Dionissios~D Papadias.
 \newblock \emph{International Journal of Hydrogen Energy}, 35\penalty0
   (22):\penalty0 12480--12490, 2010.
 \newblock \doi{10.1016/j.ijhydene.2010.08.042}.
+
+\bibitem[Murugan and Brown(2014)]{Murugan2014}
+Arul Murugan and Andrew~S Brown.
+\newblock {Advancing the analysis of impurities in hydrogen by use of a novel
+  tracer enrichment method}.
+\newblock \emph{Analytical Methods}, 6\penalty0 (15):\penalty0 5472, 2014.
+\newblock \doi{10.1039/c3ay42174k}.
+
+\bibitem[Murugan and Brown(2015)]{Murugan2015}
+Arul Murugan and Andrew~S Brown.
+\newblock {Review of purity analysis methods for performing quality assurance
+  of fuel cell hydrogen}.
+\newblock \emph{International Journal of Hydrogen Energy}, 40\penalty0
+  (11):\penalty0 4219--4233, 2015.
+\newblock \doi{10.1016/j.ijhydene.2015.01.041}.
+
+\bibitem[Bossard et~al.()Bossard, Mettes, Breziner, and Gornick]{Bossard}
+Peter~R Bossard, Jacques Mettes, Luis Breziner, and Emeritus~Fred Gornick.
+\newblock {New Sensor for Measuring Trace Impurities in Ultra Pure Hydrogen}.
+\newblock \emph{Power {\&} Energy, USA}.
+
+\bibitem[Weinkauf and Paul(1992)]{Weinkauf1992}
+D.H. Weinkauf and D.R. Paul.
+\newblock {Gas transport properties of thermotropic liquid-crystalline
+  copolyesters. II. The effects of copolymer composition}.
+\newblock \emph{J. Polym. Sci.: Part B: Polym. Phys.}, 30:\penalty0 837, 1992.
+
+\bibitem[Hille(1990)]{Hille1990a}
+J{\"{u}}rgen Hille.
+\newblock {Enrichment and mass spectrometric analysis of trace impurity
+  concentrations in gases}.
+\newblock \emph{Journal of Chromatography A}, 502:\penalty0 265--274, 1990.
+\newblock ISSN 0021-9673.
+\newblock \doi{https://doi.org/10.1016/S0021-9673(01)89591-1}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0021967301895911}.
 
 \end{thebibliography}
