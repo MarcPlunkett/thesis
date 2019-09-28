@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.27)  28 SEP 2019 10:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.27)  28 SEP 2019 12:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -247,42 +247,68 @@ Package: notoccite 2000/07/20
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/cite/chapterbib.sty
 \c@inputfile=\count90
 Package: chapterbib 2010/09/18  v 1.17
-) (/Users/marc/Thesis/master.aux (/Users/marc/Thesis/Chapter1/ch1.aux) (/Users/marc/Thesis/Chapter2/ch2.aux) (/Users/marc/Thesis/Chapter3/ch3.aux) (/Users/marc/Thesis/Chapter4/ch4.aux) (/Users/marc/Thesis/Chapter5/ch5.aux) (/Users/marc/Thesis/Chapter6/ch6.aux))
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen105
+\lightrulewidth=\dimen106
+\cmidrulewidth=\dimen107
+\belowrulesep=\dimen108
+\belowbottomsep=\dimen109
+\aboverulesep=\dimen110
+\abovetopsep=\dimen111
+\cmidrulesep=\dimen112
+\cmidrulekern=\dimen113
+\defaultaddspace=\dimen114
+\@cmidla=\count91
+\@cmidlb=\count92
+\@aboverulesep=\dimen115
+\@belowrulesep=\dimen116
+\@thisruleclass=\count93
+\@lastruleclass=\count94
+\@thisrulewidth=\dimen117
+) (/Users/marc/Thesis/master.aux (/Users/marc/Thesis/Chapter1/ch1.aux) (/Users/marc/Thesis/Chapter2/ch2.aux
+
+LaTeX Warning: Label `eq:1' multiply defined.
+
+
+LaTeX Warning: Label `eq:2' multiply defined.
+
+) (/Users/marc/Thesis/Chapter3/ch3.aux) (/Users/marc/Thesis/Chapter4/ch4.aux) (/Users/marc/Thesis/Chapter5/ch5.aux) (/Users/marc/Thesis/Chapter6/ch6.aux))
 \openout1 = `master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 13.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 12.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 13.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count91
-\scratchdimen=\dimen105
+\scratchcounter=\count95
+\scratchdimen=\dimen118
 \scratchbox=\box27
-\nofMPsegments=\count92
-\nofMParguments=\count93
+\nofMPsegments=\count96
+\nofMParguments=\count97
 \everyMPshowfont=\toks15
-\MPscratchCnt=\count94
-\MPscratchDim=\dimen106
-\MPnumerator=\count95
-\makeMPintoPDFobject=\count96
+\MPscratchCnt=\count98
+\MPscratchDim=\dimen119
+\MPnumerator=\count99
+\makeMPintoPDFobject=\count100
 \everyMPtoPDFconversion=\toks16
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -320,47 +346,47 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 17.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 18.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 17.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 18.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 17.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 18.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 17.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 18.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 17.
+(Font)              <14.4> on input line 18.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 17.
+(Font)              <10> on input line 18.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 17.
+(Font)              <7> on input line 18.
  [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 22--24
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
 <figures/sig.png, id=8, 418.56375pt x 133.49875pt>
 File: figures/sig.png Graphic file (type png)
 <use figures/sig.png>
-Package pdftex.def Info: figures/sig.png  used on input line 25.
+Package pdftex.def Info: figures/sig.png  used on input line 26.
 (pdftex.def)             Requested size: 209.28136pt x 66.74919pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
 
  []
 
@@ -372,13 +398,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
 ] [4
 
-] [5
-
-] [6
-
-] [7
-
-] (/Users/marc/Thesis/master.toc
+] (/Users/marc/Thesis/master.lof
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -386,8 +406,22 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 3.
 )
-\tf@toc=\write3
-\openout3 = `master.toc'.
+\tf@lof=\write3
+\openout3 = `master.lof'.
+
+ [5
+
+] (/Users/marc/Thesis/master.lot)
+\tf@lot=\write4
+\openout4 = `master.lot'.
+
+ [6
+
+] [7
+
+] (/Users/marc/Thesis/master.toc)
+\tf@toc=\write5
+\openout5 = `master.toc'.
 
  [8
 
@@ -401,51 +435,63 @@ Chapter 1.
 
 
 ]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 11.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmr.fd
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 42.
+
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 49.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [10] [11]
-Overfull \hbox (9.58597pt too wide) in paragraph at lines 46--47
+) [10] [11] [12]
+Overfull \hbox (9.58597pt too wide) in paragraph at lines 123--124
  \T1/lmr/bx/n/12 Hy-dro-car-bon de-com-po-si-tion[] \T1/lmr/m/n/12 is a pro-cess by which hy-dro-car-bon molecules
  []
 
-[12] [13] [14] [15]
-Overfull \hbox (8.21799pt too wide) in paragraph at lines 128--129
+[13] [14] [15] [16]
+Overfull \hbox (8.21799pt too wide) in paragraph at lines 205--206
  \T1/lmr/bx/n/12 To-tal halo-genated com-pounds[] \T1/lmr/m/n/12 Halo-genated com-pounds cause ir-re-versible
  []
 
-[16] [17] (/Users/marc/Thesis/Chapter1/ch1.bbl [18]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 18.
+[17]
+<figures/funnel.png, id=73, 638.385pt x 415.5525pt>
+File: figures/funnel.png Graphic file (type png)
+<use figures/funnel.png>
+Package pdftex.def Info: figures/funnel.png  used on input line 230.
+(pdftex.def)             Requested size: 390.0pt x 253.8671pt.
+ (/Users/marc/Thesis/Chapter1/ch1.bbl [18] [19 </Users/marc/Thesis/figures/funnel.png>]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 17.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 6559) in paragraph at lines 21--25
+Underfull \hbox (badness 5105) in paragraph at lines 20--24
 []\T1/lmr/m/n/12 Hyundai.  Hyundai ix35 Hy-dro-gen Fuel Cell Ve-hi-cle, 2015.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--25
-\T1/lmr/m/n/12 URL $\T1/lmtt/m/n/12 \url{https : / / www . hyundai . co . uk / about-[]us / environment /
+Underfull \hbox (badness 10000) in paragraph at lines 20--24
+\T1/lmr/m/n/12 URL $\T1/lmtt/m/n/12 https : / / www . hyundai . co . uk / about-[]us / environment /
  []
 
-)) [19
+[20
 
-]
+])) [21]
 \openout2 = `Chapter2/ch2.aux'.
 
  (/Users/marc/Thesis/Chapter2/ch2.tex
 Chapter 2.
-) [20
+(/Users/marc/Thesis/Chapter2/ch2.bbl [22
 
 
 
+
+])) [23
 
 ]
 \openout2 = `Chapter3/ch3.aux'.
 
  (/Users/marc/Thesis/Chapter3/ch3.tex
 Chapter 3.
-) [21
+) [24
 
 
 
@@ -455,7 +501,7 @@ Chapter 3.
 
  (/Users/marc/Thesis/Chapter4/ch4.tex
 Chapter 4.
-) [22
+) [25
 
 
 
@@ -465,7 +511,7 @@ Chapter 4.
 
  (/Users/marc/Thesis/Chapter5/ch5.tex
 Chapter 5.
-) [23
+) [26
 
 
 
@@ -475,25 +521,29 @@ Chapter 5.
 
  (/Users/marc/Thesis/Chapter6/ch6.tex
 Chapter 6.
-) [24
+) [27
 
 
 
 
-] (/Users/marc/Thesis/master.aux (/Users/marc/Thesis/Chapter1/ch1.aux) (/Users/marc/Thesis/Chapter2/ch2.aux) (/Users/marc/Thesis/Chapter3/ch3.aux) (/Users/marc/Thesis/Chapter4/ch4.aux) (/Users/marc/Thesis/Chapter5/ch5.aux) (/Users/marc/Thesis/Chapter6/ch6.aux)) ) 
+] (/Users/marc/Thesis/master.aux (/Users/marc/Thesis/Chapter1/ch1.aux) (/Users/marc/Thesis/Chapter2/ch2.aux) (/Users/marc/Thesis/Chapter3/ch3.aux) (/Users/marc/Thesis/Chapter4/ch4.aux) (/Users/marc/Thesis/Chapter5/ch5.aux) (/Users/marc/Thesis/Chapter6/ch6.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2937 strings out of 492609
- 42744 string characters out of 6129048
- 100227 words of memory out of 5000000
- 6734 multiletter control sequences out of 15000+600000
+ 3029 strings out of 492609
+ 44301 string characters out of 6129048
+ 101359 words of memory out of 5000000
+ 6813 multiletter control sequences out of 15000+600000
  61523 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,28p,1365b,279s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /Users/marc/Thesis/master.pdf (25 pages, 214072 bytes).
+ 41i,11n,28p,831b,287s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on /Users/marc/Thesis/master.pdf (28 pages, 260219 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
+ 159 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

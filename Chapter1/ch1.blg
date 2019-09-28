@@ -6,45 +6,48 @@ Database file #1: library.bib
 Warning--empty journal in Honda
 Warning--empty year in Honda
 Warning--empty year in Honda
-You've used 6 entries,
+Warning--empty institution in UKH2Mobility2013
+Warning--empty institution in Summerton2015
+Warning--empty institution in Hayter2014
+You've used 11 entries,
             2481 wiz_defined-function locations,
-            584 strings with 5207 characters,
-and the built_in function-call counts, 1650 in all, are:
-= -- 135
-> -- 50
-< -- 6
-+ -- 26
-- -- 14
-* -- 80
-:= -- 258
-add.period$ -- 17
-call.type$ -- 6
-change.case$ -- 12
-chr.to.int$ -- 6
-cite$ -- 9
-duplicate$ -- 96
-empty$ -- 185
-format.name$ -- 22
-if$ -- 356
+            614 strings with 6043 characters,
+and the built_in function-call counts, 3214 in all, are:
+= -- 267
+> -- 133
+< -- 11
++ -- 60
+- -- 38
+* -- 192
+:= -- 523
+add.period$ -- 32
+call.type$ -- 11
+change.case$ -- 24
+chr.to.int$ -- 11
+cite$ -- 17
+duplicate$ -- 172
+empty$ -- 318
+format.name$ -- 55
+if$ -- 675
 int.to.chr$ -- 1
-int.to.str$ -- 7
-missing$ -- 2
-newline$ -- 37
-num.names$ -- 18
-pop$ -- 75
+int.to.str$ -- 12
+missing$ -- 3
+newline$ -- 62
+num.names$ -- 33
+pop$ -- 115
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 11
 quote$ -- 0
-skip$ -- 68
+skip$ -- 119
 stack$ -- 0
-substring$ -- 12
-swap$ -- 11
-text.length$ -- 0
+substring$ -- 53
+swap$ -- 19
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 42
-warning$ -- 3
-while$ -- 12
+type$ -- 77
+warning$ -- 6
+while$ -- 24
 width$ -- 0
-write$ -- 77
-(There were 3 warnings)
+write$ -- 138
+(There were 6 warnings)

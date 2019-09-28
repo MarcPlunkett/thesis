@@ -1,7 +1,33 @@
 \chapter{Literature review}
 
 \section{Hydrogen impurity enrichment}
-Hydrogen impurity enrichment is a catch all term for any technique which aims to increase the concentration of impurities within a hydrogen sample by means of removing the hydrogen matrix gas. There are two previous reports of impurity enrichment being used as a technique for hydrogen impurity analysis. The first report by Papadis et al1 at Argonne National Laboratory used a Pd/Cu coated Pd/Ag membrane for non-sulphur containing hydrogen samples and a Pd/Au coated Pd/Ag membrane for sulphur containing hydrogen samples to enrich impurities in a 50 bar sample. The analyte gas used contained N2, CH4 and CO2 at 100 µmol mol-1 and an additional 2 µmol mol-1 of H2S during sulphur tests sulphur. The enrichment was calculated by using measured values of temperature and pressure along with the non-ideal gas law, this was represented through a 'calculated enrichment factor' as shown in Eq (1) and (2). The set-up was able to reach enrichment factors of around 32 for non-sulphur tests and 15 for sulphur tests. The non-sulphur tests closely matched with the actual component concentrations, however in the second set of tests there was some loss of sulphur observed, most likely due to the formation of palladium sulphide on the surface of the membrane, or through wall catalysed reactions. 
+'Hydrogen impurity enrichment' is a term for any technique which involves increasing the 
+concentration of impurities within a hydrogen sample by means of removing the hydrogen matrix gas. 
+There are two previous reports of impurity enrichment being used as a technique for hydrogen impurity 
+analysis. 
+The first report by Papadis et al at Argonne National Laboratory used a Pd/Cu \cite{Ahmed2010}
+coated Pd/Ag membrane for non-sulphur containing hydrogen samples and a Pd/Au coated Pd/Ag membrane for sulphur 
+containing hydrogen samples to enrich impurities in a 50 bar sample. 
+The analyte gas used contained 
+N\textsubscript{2}, CH\textsubscript{4} and CO\textsubscript{2} at 100 \textmu mol/mol and an additional 
+ 2 \textmu mol/mol of H\textsubscript{2}S during sulphur tests sulphur. 
+The enrichment was calculated by using measured values of temperature and pressure along with the 
+non-ideal gas law, this was represented through a 'calculated enrichment factor' as shown in equations \ref{eq:1}
+and \ref{eq:2}. 
 
-% \bibliographystyle{plainnat}
-% \bibliography{library.bib}
+\begin{equation} \label{eq:1}
+    % \frac{(\frac{P_{1,a} V_1)}{Z_{1,a} RT_{1,a}})}
+    CEF_{NI} = \frac{\frac{P_{1,a} V_1}{Z_{1,a}RT_{1,a}}\frac{P_{2,a} V_2}{Z_{2,a}RT_{2,a}}-\frac{P_{1,b} V_1}{Z_{1,b}RT_{1,b}}}{\frac{P_{2,b} V_2}{Z_{2,b}RT_{2,b}}}
+\end{equation}
+
+\begin{equation}\label{eq:2}
+    y_{i,a} = \frac{y_{i,b}}{CEF}
+\end{equation}
+The set-up was able to reach enrichment factors of around 32 for non-sulphur tests and 15 
+for sulphur tests. The non-sulphur tests closely matched with the actual component concentrations, 
+however in the second set of tests there was some loss of sulphur observed, most likely due to the 
+formation of palladium sulphide on the surface of the membrane, or through wall catalysed reactions. 
+
+\renewcommand{\bibname}{References}
+\bibliographystyle{unsrtnat}
+\bibliography{library.bib}
