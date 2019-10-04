@@ -4,6 +4,7 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-2}
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Types of hydrogen separation membrane}}{30}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-3}
 \addvspace {10\p@ }
