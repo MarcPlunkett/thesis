@@ -1,49 +1,65 @@
 \gdef \the@ipfilectr {@-1}
-\contentsline {chapter}{\numberline {1}Introduction}{9}% 
-\contentsline {section}{\numberline {1.1}Problem statement}{9}% 
-\contentsline {section}{\numberline {1.2}Research Background}{11}% 
-\contentsline {subsection}{\numberline {1.2.1}Hydrogen Production}{11}% 
-\contentsline {subsubsection}{Hydrogen from fossil fuels and hydrocarbons}{12}% 
-\contentsline {paragraph}{Steam Methane reforming}{12}% 
-\contentsline {paragraph}{Hydrocarbon decomposition}{13}% 
-\contentsline {subsubsection}{Hydrogen from water}{13}% 
-\contentsline {paragraph}{Thermal decomposition of water}{13}% 
-\contentsline {paragraph}{Electrolysis}{13}% 
-\contentsline {subsection}{\numberline {1.2.2}Hydrogen impurities in the supply chain}{14}% 
-\contentsline {subsubsection}{Effect on operation of a fuel cell}{14}% 
-\contentsline {paragraph}{Water}{14}% 
-\contentsline {paragraph}{Total hydrocarbon content}{14}% 
-\contentsline {paragraph}{Oxygen}{15}% 
-\contentsline {paragraph}{Helium, nitrogen and argon}{15}% 
-\contentsline {paragraph}{Carbon dioxide}{15}% 
-\contentsline {paragraph}{Carbon monoxide}{16}% 
-\contentsline {paragraph}{Total sulfur compounds}{16}% 
-\contentsline {paragraph}{Formaldehyde and formic acid}{17}% 
-\contentsline {paragraph}{Ammonia}{17}% 
-\contentsline {paragraph}{Total halogenated compounds}{17}% 
-\contentsline {paragraph}{Particulates}{17}% 
-\contentsline {section}{\numberline {1.3}Research Objectives}{17}% 
-\contentsline {section}{\numberline {1.4}Thesis structure and presentation}{18}% 
+\contentsline {chapter}{\numberline {1}Introduction}{10}% 
+\contentsline {section}{\numberline {1.1}Problem statement}{10}% 
+\contentsline {section}{\numberline {1.2}Research Background}{12}% 
+\contentsline {subsection}{\numberline {1.2.1}Hydrogen Production}{12}% 
+\contentsline {subsubsection}{Hydrogen from fossil fuels and hydrocarbons}{13}% 
+\contentsline {paragraph}{Steam Methane reforming}{13}% 
+\contentsline {paragraph}{Hydrocarbon decomposition}{14}% 
+\contentsline {subsubsection}{Hydrogen from water}{14}% 
+\contentsline {paragraph}{Thermal decomposition of water}{14}% 
+\contentsline {paragraph}{Electrolysis}{14}% 
+\contentsline {subsection}{\numberline {1.2.2}Hydrogen impurities in the supply chain}{15}% 
+\contentsline {subsubsection}{Effect on operation of a fuel cell}{15}% 
+\contentsline {paragraph}{Water}{15}% 
+\contentsline {paragraph}{Total hydrocarbon content}{15}% 
+\contentsline {paragraph}{Oxygen}{16}% 
+\contentsline {paragraph}{Helium, nitrogen and argon}{16}% 
+\contentsline {paragraph}{Carbon dioxide}{16}% 
+\contentsline {paragraph}{Carbon monoxide}{17}% 
+\contentsline {paragraph}{Total sulfur compounds}{17}% 
+\contentsline {paragraph}{Formaldehyde and formic acid}{18}% 
+\contentsline {paragraph}{Ammonia}{18}% 
+\contentsline {paragraph}{Total halogenated compounds}{18}% 
+\contentsline {paragraph}{Particulates}{18}% 
+\contentsline {section}{\numberline {1.3}Research Objectives}{18}% 
+\contentsline {section}{\numberline {1.4}Thesis structure and presentation}{19}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-2}
-\contentsline {chapter}{\numberline {2}Literature review}{22}% 
-\contentsline {section}{\numberline {2.1}Hydrogen impurity enrichment}{22}% 
-\contentsline {subsection}{\numberline {2.1.1}Criteria for a hydrogen impurity enrichment material}{24}% 
-\contentsline {subsection}{\numberline {2.1.2}Other enrichment methods}{25}% 
-\contentsline {subsubsection}{Sorbent tubes}{25}% 
-\contentsline {subsubsection}{Cryo-focusing}{26}% 
-\contentsline {section}{\numberline {2.2}Review of hydrogen selective membranes}{26}% 
-\contentsline {subsection}{\numberline {2.2.1}Types of hydrogen separation membrane}{29}% 
+\contentsline {chapter}{\numberline {2}Literature review}{23}% 
+\contentsline {section}{\numberline {2.1}Hydrogen impurity enrichment}{23}% 
+\contentsline {subsection}{\numberline {2.1.1}Criteria for a hydrogen impurity enrichment material}{25}% 
+\contentsline {subsection}{\numberline {2.1.2}Other enrichment methods}{26}% 
+\contentsline {subsubsection}{Sorbent tubes}{26}% 
+\contentsline {subsubsection}{Cryo-focusing}{27}% 
+\contentsline {section}{\numberline {2.2}Review of hydrogen selective membranes}{27}% 
+\contentsline {subsection}{\numberline {2.2.1}Types of hydrogen separation membrane}{30}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-3}
-\contentsline {chapter}{\numberline {3}Density functional theory as a screening method for dense metal membranes}{32}% 
+\contentsline {chapter}{\numberline {3}Experimental methods}{33}% 
+\contentsline {section}{\numberline {3.1}Simulations}{33}% 
+\contentsline {subsection}{\numberline {3.1.1}Hardware}{33}% 
+\contentsline {subsection}{\numberline {3.1.2}Software}{33}% 
+\contentsline {section}{\numberline {3.2}Membrane manufacture}{33}% 
+\contentsline {subsection}{\numberline {3.2.1}Materials used}{33}% 
+\contentsline {subsection}{\numberline {3.2.2}Support fabritcation}{33}% 
+\contentsline {subsection}{\numberline {3.2.3}Membrane deposition}{33}% 
+\contentsline {subsection}{\numberline {3.2.4}Materials testing}{33}% 
+\contentsline {section}{\numberline {3.3}Membrane testing}{33}% 
+\contentsline {subsection}{\numberline {3.3.1}Preparation of gas standards}{33}% 
+\contentsline {subsection}{\numberline {3.3.2}Membrane testing rig}{33}% 
+\contentsline {section}{\numberline {3.4}Hydrogen impurity enrichment}{33}% 
+\contentsline {subsection}{\numberline {3.4.1}Device design}{33}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
-\contentsline {chapter}{\numberline {4}Impurity resistance of dense metal membranes under hydrogen impurities}{33}% 
+\contentsline {chapter}{\numberline {4}Density functional theory as a screening method for dense metal membranes}{35}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
-\contentsline {chapter}{\numberline {5}A hydrogen impurity measurement device for validating ISO 14687 standard}{34}% 
+\contentsline {chapter}{\numberline {5}Impurity resistance of dense metal membranes under hydrogen impurities}{36}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
-\contentsline {chapter}{\numberline {6}Conclusion and future work}{35}% 
+\contentsline {chapter}{\numberline {6}A hydrogen impurity measurement device for validating ISO 14687 standard}{37}% 
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-7}
+\contentsline {chapter}{\numberline {7}Conclusion and future work}{38}% 
 \gdef \the@ipfilectr {}

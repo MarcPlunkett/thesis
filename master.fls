@@ -63,6 +63,8 @@ INPUT /Users/MarcPlunkett/thesis/Chapter1/ch1.aux
 INPUT /Users/MarcPlunkett/thesis/Chapter1/ch1.aux
 INPUT /Users/MarcPlunkett/thesis/Chapter2/ch2.aux
 INPUT /Users/MarcPlunkett/thesis/Chapter2/ch2.aux
+INPUT /Users/MarcPlunkett/thesis/Experimental/ch1.aux
+INPUT /Users/MarcPlunkett/thesis/Experimental/ch1.aux
 INPUT /Users/MarcPlunkett/thesis/Chapter3/ch3.aux
 INPUT /Users/MarcPlunkett/thesis/Chapter3/ch3.aux
 INPUT /Users/MarcPlunkett/thesis/Chapter4/ch4.aux
@@ -181,6 +183,11 @@ INPUT /Users/MarcPlunkett/thesis/figures/septype.png
 INPUT /Users/MarcPlunkett/thesis/figures/septype.png
 INPUT /Users/MarcPlunkett/thesis/Chapter2/ch2.bbl
 INPUT /Users/MarcPlunkett/thesis/Chapter2/ch2.bbl
+OUTPUT /Users/MarcPlunkett/thesis/Experimental/ch1.aux
+INPUT /Users/MarcPlunkett/thesis/Experimental/ch1.tex
+INPUT /Users/MarcPlunkett/thesis/Experimental/ch1.tex
+INPUT /Users/MarcPlunkett/thesis/Experimental/ch1.bbl
+INPUT /Users/MarcPlunkett/thesis/Experimental/ch1.bbl
 OUTPUT /Users/MarcPlunkett/thesis/Chapter3/ch3.aux
 INPUT /Users/MarcPlunkett/thesis/Chapter3/ch3.tex
 INPUT /Users/MarcPlunkett/thesis/Chapter3/ch3.tex
@@ -198,6 +205,8 @@ INPUT /Users/MarcPlunkett/thesis/Chapter1/ch1.aux
 INPUT /Users/MarcPlunkett/thesis/Chapter1/ch1.aux
 INPUT /Users/MarcPlunkett/thesis/Chapter2/ch2.aux
 INPUT /Users/MarcPlunkett/thesis/Chapter2/ch2.aux
+INPUT /Users/MarcPlunkett/thesis/Experimental/ch1.aux
+INPUT /Users/MarcPlunkett/thesis/Experimental/ch1.aux
 INPUT /Users/MarcPlunkett/thesis/Chapter3/ch3.aux
 INPUT /Users/MarcPlunkett/thesis/Chapter3/ch3.aux
 INPUT /Users/MarcPlunkett/thesis/Chapter4/ch4.aux

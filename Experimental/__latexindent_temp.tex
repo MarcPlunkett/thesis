@@ -1,0 +1,72 @@
+\chapter{Introduction}
+\section{Problem statement}
+Due to the damaging environmental effects of using fossil fuels in the transport sector, national and international targets have been set in order to reduce global CO\textsubscript{2} emissions. In the UK for example, there is a plan to completely ban the sales of new conventional petroleum vehicles by as early as 2040. \cite{DepartmentforEnvironment2017} One proposed solution is further adoption of fuel cells and other energy generation methods which utilize hydrogen as a carbon free energy source. 
+
+Despite the fact that the technology for hydrogen powered fuel cells, in particular proton exchange membrane fuel cells, has existed since the early 1960’s their application has been limited to providing power for space missions and other niche applications. It wasn’t until the late 90’s where developments in lowering platinum catalyst loading and the production of thin film electrodes drove the cost of fuel cells down to a level where they were a realistic option for transportation. As of 2017, a number of auto mobile manufacturers including Toyota,\cite{Toyota2015} Hyundai, \cite{Hyundai2015} Honda \cite{Honda} and Daimler \cite{Mohrdieck2014} now offer hydrogen vehicles commercially and it is becoming increasingly possible to retrofit a petroleum vehicle to run off hydrogen.\cite{FCell2016} Many countries in the EU and globally have ambitious hydrogen infrastructure plans over the next 10 years in an effort to become less reliant on importing fossil fuels, increase their energy security, and transition to a carbon free energy system.
+
+The development of the hydrogen economy is still in its infancy in Europe, but several countries are aiming to employ sizable hydrogen fuelling infrastructures over the next few decades. National reports state that Europe’s position in 2030 will be: UK - 1,100 hydrogen refuelling stations and 1.6 million fuel cell vehicles 7, France – 600 hydrogen refuelling stations and 0.8 million fuel cell vehicles 8, Germany – 1,180 hydrogen refuelling stations and 1.8 million fuel cell vehicles 9 and the Netherlands – 200 hydrogen refuelling stations and 0.2 million fuel cell vehicles. 9 The fuel cell system in a hydrogen vehicle can easily degrade if even parts-per-billion to parts-per-million level of some impurities are present in the hydrogen. Therefore, it is imperative that hydrogen purity, and techniques for verifying the purity, are adequate to ensure customers vehicles are not inadvertently damaged by fluctuations in hydrogen composition. 
+
+International standards dictate that it is mandatory for all hydrogen suppliers to prove that their product is pure enough to prevent degradation of fuel cell components. The international standard ISO 14687-2:2012 10 shown in Table 1 specifies the maximum impurity levels of 13 impurities that are permissible in fuel cell hydrogen. ISO 14687-2:2012 include some challenging hydrogen purity specifications mainly due to the low limits of detection of standard techniques used to measure the compounds included in the standard. 
+
+Existing hydrogen purity laboratories are unable to perform traceable analysis to ISO 14687 specifications because appropriate methods and standards have not been developed. The consequence of this is that hydrogen suppliers cannot provide evidence that their fuel meets the International Standard and therefore are not permitted to supply hydrogen. Of the 13 gaseous impurities listed in ISO 14687-2, there is no single method for measuring all impurities. Laboratories must therefore use several instruments to perform such an analysis.  In 2015 Murugan et al published a review of methods for analysing the purity of fuel grade hydrogen 11. They concluded that in order for a single laboratory to provide full hydrogen analysis to ISO 14687-2 specifications it would need to comprise a variety of instruments including GCs, FTIR and CRDS. The capital cost of purchasing the gas analysers to perform analysis on the measurable impurities in a hydrogen sample can amount to >€500,000 11 and hence performing analysis would be out of reach for many of the smaller laboratories. 
+
+While the impurities listed in ISO 14687-2 are specified at extremely low amount fractions, many can be analysed at higher amount fractions through the use of cheap and routine gas analysers such as GC-MS. A potential solution to this would be to increase the concentration above the limit of detection of one of these cheaper analysers. These techniques are referred to as enrichment or pre-concentration. The most commonly used technique for pre-concentration of hydrogen fuel samples is referred to as ‘Hydrogen Impurity Enrichment’.  This method involves passing the sample through a palladium or palladium alloy membrane which is heated to 400\textdegree C. Palladium as a membrane material only allows the passage of hydrogen, and as hydrogen leaves the system, the impurities remain, increasing in time as more hydrogen permeates through the membrane.  This increase in concentration is referred to as the enrichment factor and. Once the enrichment is complete the sample can then be analysed at these higher concentrations, and using the enrichment factor, the original composition of the sample can be found. 
+
+In order for these devices to provide accurate results the behaviour of the membrane material, and its interaction with any impurities present in the hydrogen same, must be properly understood.  
+
+
+\section{Research Background}
+\subsection{Hydrogen Production}
+Hydrogen production refers to a range of industrial processes for generating hydrogen. Since there are no natural reserves of hydrogen all hydrogen must be obtained through one of these methods. The most important factor for determining the feasibility of a hydrogen production process is the primary source of energy that is used. Currently the options for this are nuclear energy in the form of heat, renewable energy in the form of heat, electricity, or light, or fossil fuels. Currently the primary sources of hydrogen are from steam reforming of methane and other hydrocarbons which in total accounts for 96\% of global hydrogen production, with electrolysis of water accounting for the remaining 4\%.
+\subsubsection{Hydrogen from fossil fuels and hydrocarbons}
+Fossil fuels are the most dominating source of hydrogen production and there are a number of processes which utilize fossil fuels to produce hydrogen. The most popular and therefore the ones which will be discussed are steam methane reforming, hydrocarbon decomposition
+\paragraph{Steam Methane reforming}
+is the conventional and most economical method for producing hydrogen, and it has been predicated by the IEA that this trend will continue despite the emergence of other hydrogen production methods. Steam methane reforming occurs through a two-step chemical process. If another hydrocarbon other than methane is being used it must first be pre-reformed into methane as shown in equation \ref{eq:1}
+
+\begin{equation} \label{eq:1}
+    C_n H_m + H_2 O \rightarrow nCO +(\frac{n+m}{2})H_2 
+\end{equation}
+\begin{equation}\label{eq:2}
+    CH_4 + H_2 O \rightarrow CO + 3H_2 \quad \Delta H_{298K}^o = +205 kJ/mol
+\end{equation}
+\begin{equation}\label{eq:3}
+    CO+ H_2 O \rightarrow CO_2 + H_2 \quad \Delta H_{298K}^o = -41 kJ/mol
+\end{equation}
+
+Equation \ref{eq:2} takes place in a reactor operating at 700-850\textdegree C, at pressures of 3-25 bar, 
+and in the presence of a nickel based catalyst. 
+The result of this step is a mixture of CO and H\textsubscript{2}, commonly referred to as syngas. 
+This syngas is used as a feedstock for the reaction shown in equation \ref{eq:3} known as water gas shift in order to produce greater hydrogen yields.  
+This step is carried out in a two-step reaction. 
+An initial high temperature stage at 350\textdegree C which converts majority of the syngas to CO\textsubscript{2} and hydrogen, and a final low-temperature step which operates at 250\textdegree{O} C which utilizes a catalyst with higher activity to minimise the remaining CO\textsubscript{2}. The final product will be a mixture of CO\textsubscript{2} and H\textsubscript{2}.  
+
+A number of separation steps are utilised in order to prevent impurities from contaminating the resulting gas mixture. The traditional separation step is pressure swing adsorption (PSA) which takes advantage of adsorption of gaseous molecules onto a molecular sieve at high pressures. Hydrogen purities of ~99.9\% are achievable using this method however the cost is high and typically contributes to around 20-30\% of the total production cost. The other main separation step is desulphurization which uses a combination of CoMo and ZnO catalysts in series at 450-550\textdegree C to remove sulphur. This step is essential to ensure sulphur is not present in the gas exit stream and also to ensure catalyst poisoning does not occur at any point in the process. 
+
+\paragraph{Hydrocarbon decomposition}
+is a process by which hydrocarbon molecules are converted into solid carbon and hydrogen. This reaction is typically operated either thermally or by creating a plasma. Both methods require a metallic catalyst such as nickel or iron. The reaction is shown in equation \ref{eq:4}
+
+\begin{equation}\label{eq:4}
+    C_x H_2x+2 \rightarrow xC + (x+1)H_2
+\end{equation}
+
+An advantage of this process is that the only feedstock is the hydrocarbon, so presuming that the feedstock is sufficiently pure this method of hydrogen production should remove the needs for further downstream processing. The main disadvantage of this method is the since solid carbon is the main by-product the catalyst will easily be deactivated and will require regular maintenance.
+\subsubsection{Hydrogen from water}
+\paragraph{Thermal decomposition of water}
+is the process of splitting water into hydrogen and oxygen at temperatures of 2000\textdegree C, this can be lowered under the presence of a nickel or iron based catalyst. Due to the high energy demand for this production method water splitting is not a feasible method of commercial hydrogen production.
+
+\begin{equation}
+    H_2 O \rightarrow H_2 + \frac{1}{2} O_2  \quad \Delta H_{298K}^o = +286 kJ/mol
+\end{equation}
+
+\paragraph{Electrolysis}
+is the second most popular method for producing pure hydrogen after SMR. This method uses an electric current to split water into hydrogen and oxygen. The main competitive advantage of electrolysis is that they are modular and highly scalable, allowing hydrogen to be produced in a distributed manner. The main input to the process is electricity and if this electricity is produced using renewable sources then the process can be considered carbon neutral. This is further incentivised by the increasing price of natural gas and the decreasing price of electricity, which some predict will result in electrolysis becoming more economically feasible than SMR in the future. 
+\begin{equation}
+2H_2 O +  2e^- \rightarrow H_2 + 2OH^-
+\end{equation}
+\begin{equation}
+2OH^- \rightarrow \frac{1}{2}O_2+ H_2 O + 2e^-
+\end{equation}
+
+ \renewcommand{\bibname}{References}
+\bibliographystyle{unsrtnat}
+\bibliography{library.bib}
