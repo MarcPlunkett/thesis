@@ -38,28 +38,27 @@
 \gdef \the@ipfilectr {@-3}
 \contentsline {chapter}{\numberline {3}Experimental methods}{33}% 
 \contentsline {section}{\numberline {3.1}Simulations}{33}% 
-\contentsline {subsection}{\numberline {3.1.1}Hardware}{33}% 
-\contentsline {subsection}{\numberline {3.1.2}Software}{33}% 
-\contentsline {section}{\numberline {3.2}Membrane manufacture}{33}% 
-\contentsline {subsection}{\numberline {3.2.1}Materials used}{33}% 
-\contentsline {subsection}{\numberline {3.2.2}Support fabritcation}{33}% 
-\contentsline {subsection}{\numberline {3.2.3}Membrane deposition}{33}% 
-\contentsline {subsection}{\numberline {3.2.4}Materials testing}{33}% 
-\contentsline {section}{\numberline {3.3}Membrane testing}{33}% 
-\contentsline {subsection}{\numberline {3.3.1}Preparation of gas standards}{33}% 
-\contentsline {subsection}{\numberline {3.3.2}Membrane testing rig}{33}% 
-\contentsline {section}{\numberline {3.4}Hydrogen impurity enrichment}{33}% 
-\contentsline {subsection}{\numberline {3.4.1}Device design}{33}% 
+\contentsline {section}{\numberline {3.2}Membrane manufacture}{34}% 
+\contentsline {subsection}{\numberline {3.2.1}Materials used}{34}% 
+\contentsline {subsection}{\numberline {3.2.2}Support fabritcation}{34}% 
+\contentsline {subsection}{\numberline {3.2.3}Membrane deposition}{34}% 
+\contentsline {subsubsection}{Electoless Plating}{34}% 
+\contentsline {subsection}{\numberline {3.2.4}Materials testing}{36}% 
+\contentsline {section}{\numberline {3.3}Membrane testing}{36}% 
+\contentsline {subsection}{\numberline {3.3.1}Preparation of gas standards}{36}% 
+\contentsline {subsection}{\numberline {3.3.2}Membrane testing rig}{36}% 
+\contentsline {section}{\numberline {3.4}Hydrogen impurity enrichment}{36}% 
+\contentsline {subsection}{\numberline {3.4.1}Device design}{36}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
-\contentsline {chapter}{\numberline {4}Density functional theory as a screening method for dense metal membranes}{35}% 
+\contentsline {chapter}{\numberline {4}Density functional theory as a screening method for dense metal membranes}{38}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
-\contentsline {chapter}{\numberline {5}Impurity resistance of dense metal membranes under hydrogen impurities}{36}% 
+\contentsline {chapter}{\numberline {5}Impurity resistance of dense metal membranes under hydrogen impurities}{39}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
-\contentsline {chapter}{\numberline {6}A hydrogen impurity measurement device for validating ISO 14687 standard}{37}% 
+\contentsline {chapter}{\numberline {6}A hydrogen impurity measurement device for validating ISO 14687 standard}{40}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
-\contentsline {chapter}{\numberline {7}Conclusion and future work}{38}% 
+\contentsline {chapter}{\numberline {7}Conclusion and future work}{41}% 
 \gdef \the@ipfilectr {}
