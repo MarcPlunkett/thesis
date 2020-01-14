@@ -160,7 +160,7 @@ will allow hydrogen to pass through the membrane, while preventing or inhibiting
 which the membrane is not selective or less selective towards. A large number of materials have been studied 
 for hydrogen separation. For the purpose of this review they will be split into four broad categories based 
 on their material type and separation mechanism which is related to their pore structure (dense or porous); 
-these categories are shown in Table 2 and visualized in Figure \ref{fig:1}.
+these categories are shown in Table \ref{tb:1} and visualized in Figure \ref{fig:1}.
 
 The material, its structure with regards to pore size and pore size distribution, and surface chemistry, 
 all contribute to the separation mechanism for removing hydrogen from its constituent gas mixture. 
@@ -280,7 +280,7 @@ and chemical resistance which are more difficult to quantify.
         Difficult to seal due to high operating temperature
          & Degrades under CO\textsubscript{2} 16 & 500-1000 16
          & $\infty$ \\ \hline
-	\end{tabular}}
+	\end{tabular}}\label{tb:1}
 \end{table}
 
 \subsubsection{Micro-Porous materials}
@@ -443,12 +443,316 @@ applications due to its high stability and affinity towards adsorption of hydrog
 which appears to be the most popular choice for fabrication of MOF membranes for hydrogen 
 separations in recent years, has a pore size of around 3.4Å and has been successfully applied 
 to hydrogen separations, however results vary a lot with reported permeability values for the 
-MOF ranging from as high as  2.1x10 \textsuperscript{-5} mol/(m\textsuperscript{2} s pa) 59 
+MOF ranging from as high as 2.1x10 \textsuperscript{-5} mol/(m\textsuperscript{2} s pa) 59 
 to as slow as 6.59x10\textsuperscript{-8} mol/(m\textsuperscript{2} s pa) 60 depending on the 
-operating conditions. This variability is also seen in the selectivity with reported H2/CO2 
+operating conditions. This variability is also seen in the selectivity with reported 
+H\textsubscript{2}/CO\textsubscript{2} 
 selectivity’s ranging from 4 60 to 25 61, showing, that similar to zeolites, the field still 
 has some consistency issues with the fabrication step which must be resolved before scaling 
 up. 
+
+MOF’s have seen intense research focus in the past 10 years however, similar to zeolites, 
+they have yet to be applied to any industrial application.  The issue appears to be related 
+to the fact that despite there being a large number of MOF’s, there is only a small subsection 
+which are stable at ambient conditions. Most MOF’s are susceptible to attack by humidity, 
+decompose under heat, and are difficult to functionalise as a membrane.  62 Despite the high 
+separation performances which have been reported in literature, this technology may be 
+destined for the same fate as zeolites where the lack of tight reproducibility in their 
+manufacturing will hinder their commercial application. 
+
+\subsubsection{Polymers}
+Organic polymers have been a mainstay in the membrane research area since their original 
+commercialization by Dupont in the mid-1970’s 63  and have become common place in many 
+industrial and commercial processes. Polymeric membranes for purification of hydrogen has 
+been a popular target for the technology and is one of the few membrane technologies which 
+has seen widespread commercialisation by a number of companies including Air Medal Products, 
+64 BOC 65 and Linde Group 66.
+
+Dense polymer membranes use the difference between solubility and diffusivity of different 
+gases within the polymer as the solution diffusion rate limiting step. Generally speaking, 
+polymer membranes for gas separation are regarded as either hydrogen selective (H\textsubscript{2}/CO\textsubscript{2} 
+selectivity > 1) or CO\textsubscript{2} selective (H\textsubscript{2}/CO\textsubscript{2} 
+selectivity < 1). Both types of membranes can be used for hydrogen separation with the 
+only difference being whether the hydrogen is recovered from the permeate or retentate side.  
+‘Glassy’ polymeric materials such as poly-sulfone tend to be hydrogen selective due to their 
+rigid structure and small free volume. 11 ‘Rubbery’ polymeric materials such as 
+poly(dimethylsiloxane) tend to be CO\textsubscript{2} selective. 11
+
+Polymer membranes are typically produced through polymer phase separation whereby a chosen 
+polymer material is mixed with a solvent where it is subsequently separated through either 
+non-solvent induced phase separation, or temperature induced phase separation. 
+The result is a membrane composed of a dense and thin skin layer ranging between 0.1-0.5 
+$\mu$m 11 which performs the separation, and a microporous support structure composed of the 
+same material providing mechanical strength for the membrane. 
+
+Polymer membranes are popular within industrial separation processes due to their low 
+manufacturing cost, ability to operate at low temperatures (around 25\textdegree C), and 
+ease of scaling. There are however several issues with polymer membranes which limit their 
+applications. The main limitation of polymer membranes is their low stability in chemically 
+aggressive environments. In particular polymeric membranes are susceptible to CO\textsubscript{2} 
+degradation and are highly susceptible to fouling by sulphur containing compounds. With these 
+two impurities being commonly found in hydrogen streams this poses an obvious issue with 
+regards to a system using polymer membranes. The normal solution to this is simply to remove 
+these impurities prior to the membrane separation step. However, polymer membranes are also 
+susceptible to mechanical problems such as swelling, compaction, 6 and degradation at higher 
+temperatures which can limit their lifespan. \textbf{APPENDIX TABLE} shows a direct comparison 
+of a sample of literature reporting the performance of polymer membranes.
+
+\subsubsection{Dense metallic}
+Metallic membranes are comprised of dense metal or alloy sheets which allow the permeation 
+of hydrogen through its constituent electrons and protons. While this is the same separation 
+mechanism seen in dense polymer membranes the hydrogen selectivity is typically a lot higher 
+in these systems since molecules which are not hydrogen are unable to dissociate and permeate 
+through the membrane surface, giving a theoretically infinite selectivity towards hydrogen. 
+The minimum requirement for a dense metal membrane for hydrogen separation is the ability to 
+dissociate and permeate hydrogen. There are a number of metals which have shown varying 
+degrees of suitability for hydrogen separation and these are shown in Table \ref{tb:2}.
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+\begin{table}[htbp]
+    \centering
+    \caption{Metals which show the ability for hydrogen permeation 11}
+    \resizebox{\textwidth}{!}{\begin{tabular}{@{}ccccc@{}}
+    \toprule
+    Structure            & Metal & \begin{tabular}[c]{@{}c@{}}Activation energy for \\ \\ hydrogen permeation (kJ/mol)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Heat of hydride \\ \\ formation (kJ/mol)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Hydrogen permeability at \\ \\ 500\textdegree C (mol/ m s $pa^{1/2}$)\end{tabular} \\ \midrule
+    \multirow{4}{*}{fcc} & Ni                         & 40.0                                                                                             & -6                                                                               & $7.8*10^{-11}$                                                                                      \\
+                         & Cu                         & 38.9                                                                                             & -                                                                                & $4.9*10^{-12}$                                                                                      \\
+                         & Pd                         & 24.0                                                                                             & 20                                                                               & $1.9*10^{-8}$                                                                                       \\
+                         & Pt                         & 24.7                                                                                             & 26                                                                               & $2.0*10^{-12}$                                                                                      \\
+    \multirow{4}{*}{bcc} & V                          & 5.6                                                                                              & -54                                                                              & $1.9*10^{-7}$                                                                                       \\
+                         & Fe                         & 44.8                                                                                             & 14                                                                               & $1.8*10^{-10}$                                                                                      \\
+                         & Nb                         & 10.2                                                                                             & -60                                                                              & $1.6*10^{-6}$                                                                                       \\
+                         & Ta                         & 14.5                                                                                             & -78                                                                              & $1.3*10^{-7}$                                                                                       \\ \bottomrule
+    \end{tabular}}\label{tb:2}
+    \end{table}
+
+The flux of a dense metal membrane is given by Eqn \ref{eq:7} and is a function of the metals 
+permeability to hydrogen, the concentration and pressure gradient across the membrane, and 
+the thickness of the dense layer. 
+
+\begin{equation}\label{eq:7}
+    J=\frac{\phi}{l} (P_{H,ret}^{0.5} - P_{H,perm}^{0.5})
+\end{equation}
+
+From the metals shown in Table \ref{tb:2} palladium and its alloys are by far the most 
+popular choice due to a combination of high hydrogen permeability, favourable catalytic 
+activity towards hydrogen dissociation and re-association, and aversion towards hydride 
+formation compared to other metals. 11,67,68  
+
+For other metals there is often a trade-off, V, Nb and Ta exhibit higher permeability than 
+palladium but are limited by their low catalytic activity for hydrogen dissociation and 
+typically must be combined with another metal to compensate for this. A common strategy is 
+to deposit palladium particles on both sides of membranes made from these metals to provide 
+this catalytic activity. Embrittlement of pure metal membranes is also an issue, even for 
+metals with a high heat of hydride formation. Embrittlement is a side effect of hydrogen 
+passing through the crystal lattice. During transport a H-M phase will form which has a 
+higher lattice parameter than the original crystal lattice. This change in lattice parameter 
+can cause stress in the overall structure of the dense membrane layer and cause the formation 
+of pin holes, cracks, and eventually membrane failure. Metals with a low heat of hydride 
+formation in Table \ref{tb:2} will readily embrittle within hydrogen containing atmospheres.
+
+This section will discuss developments in both palladium and non-palladium membranes and the 
+issues still surrounding the technology.
+
+As previously mentioned palladium is typically the material of choice for dense metallic 
+membranes due to its combination of high stability, permeability, and catalytic activity. 
+Palladium based membranes have been successfully used to provide ultrapure hydrogen for a 
+number of applications including electronics, industrial gas, and fuel cell industries for a 
+number of years. The main downside to the use of palladium is its high cost of around \$25 
+per gram. 69 This high cost has pushed researchers into focusing on reducing the amount of 
+palladium used in the membrane in order to find a more economical solution. This is done 
+either by using a traditional membrane approach, whereby the thickness of the membrane layer 
+is reduced as much as possible to maximise the flux while decreasing the overall amount of 
+palladium used, or by alloying palladium with a cheaper metal to reduce the amount of bulk 
+palladium in the manufacturing process. 
+
+During operation of a pure palladium membrane at temperatures lower than 300\textdegree C, 
+hydrogen embrittlement can occur due to the aforementioned phase transition between 
+interstitial hydrogen within palladium ($\alpha$ phase) and palladium hydride ($\beta$ phase). 
+The $\beta$ phase (0.4025 nm) has a lattice parameter bigger than the $\alpha$ phase 
+(0.389nm). 70  The formation of this $\alpha$ - $\beta$ phase will cause the membrane to distort, 
+become brittle, and eventually results in membrane failure when a leak occurs. 71 
+Aside from this pure palladium has poor chemical stability, it can be poisoned by a 
+number of impurities which are commonly found in hydrogen. Some of these impurities 
+simply inhibit permeation of hydrogen but do not have a permanent interaction and thus 
+their effects can be mitigated by optimising the operating conditions. Others such as 
+H\textsubscript{2}S and CH\textsubscript{4} are known to interact with the membrane through chemisorption and permanently 
+damage the membrane through the formation of compounds with palladium, breaking the 
+crystalline lattice resulting in membrane failure.  
+
+From the impurities listed in Table 1 CO, H\textsubscript{2}O, Hydrocarbons and sulphur 
+containing compounds are known to have a physisorption interaction with palladium. 
+Physisorption based poisoning occurs by the impurity inducing a competitive adsorption 
+with hydrogen, blocking active sites for hydrogen dissociation, and hence reducing the 
+active area available for hydrogen permeation.14 The ultimate effect of this is a temporary 
+flux reduction which has no long lasting damage on the membrane. Compounds such as 
+H\textsubscript{2}S, and CH\textsubscript{4} have a more extreme effect on the membrane as 
+adsorption leads to a reaction between palladium and the metal permanently changing the 
+membrane composition and structure. The most commonly studied interaction is the interaction 
+between palladium and H\textsubscript{2}S to form palladium sulphide. Palladium sulphide, while still
+permeable to hydrogen, has an extremely low permeability, drastically reducing the efficiency 
+of the membrane. Palladium sulphide also has a larger lattice constant than that of pure 
+palladium which can lead to membrane failure by creating gaps in the crystal lattice 
+resulting in pinholes. Some of these impurities, in particular those which only exhibit 
+physisorption, can be mitigated by altering the operating conditions. It has been reported 
+that the effects of CO and H\textsubscript{2}O poisoning can be completely eliminated by operating at 
+temperatures above 300\textdegree C. Another example where this is shown is with H\textsubscript{2}S related poisoning. 
+Since the reaction between palladium and H\textsubscript{2}S is exothermic, and produces hydrogen as a side 
+product, it can be inhibited by increasing the H\textsubscript{2}: H\textsubscript{2}S ratio and increasing the temperature.  
+
+A combination of cost, readily formation of phase transitions 70,71 and its low tolerance for 
+common impurities found in hydrogen processes limits pure palladiums use as a hydrogen 
+separation material. Many of these effects however, can be completely mitigated through 
+alloying palladium with another metal. By forming an alloy with a metal which has a lattice 
+parameter similar to that of the $\beta$-phase the average difference between the sizes of 
+the two phases is effectively decreased and thus the hydrogen embrittlement effect can be 
+effectively mitigated. The effect of impurities on palladium membranes can also be partially 
+mitigated by alloying with another metal and oftentimes an increase in permeability is 
+reported with certain alloy compositions. 
+
+Both binary and ternary alloys of palladium have been reported and is a mature topic in 
+literature. By far the three most popular alloying compounds with palladium are silver, 
+copper and gold. The current literature landscape of palladium alloy membranes are summarised 
+in \textbf{BIG METAL TABLE} and for the purpose of this review studies which looked at the impurity resistance, which 
+is currently the most pressing issue in the field, were focused on. 
+
+Silver is the most popular dopant for palladium membranes and forms a stable alloy with 
+palladium at concentrations greater than 20wt \%, with the optimal composition occurring at 
+23\%. On top of mitigating the effects of hydrogen embrittlement, a ~60\% increase in 
+permeability is observed when compared to pure Pd membranes. Despite having enhanced 
+permeation properties, PdAg is still susceptible to poisoning, in particular from sulphurous 
+compounds which can form both Pd\textsubscript{4}S and Ag\textsubscript{5}Pd\textsubscript{10}S\textsubscript{5}. Several studies exposing PdAg membranes 
+to sulphurous compounds have been performed and in most cases the membranes suffer a large 
+decrease in flux, and are permanently damaged as shown by a permanent decrease in flux when 
+sulphide is removed from the inlet. 72 It has been observed that exposure to 5 \textmu mol mol\textsuperscript{-1} H\textsubscript{2}S 
+in the feed stream is enough to induce Pd\textsubscript{4}S formation 73 and therefore this composition is 
+only suitable for atmospheres and applications which do not contain any sulphur. 
+
+Copper is another widely studied binary alloy which is known to suppress hydrogen 
+embrittlement. Alloying with copper also has the advantage that it reduces the cost of the 
+membrane by a larger amount than most other metals and through improving the membranes 
+sulphur resistance. The maximum permeability of a palladium copper membrane occurs at the 
+composition Pd\textsubscript{60}Cu\textsubscript{40} and this is due to the formation of a 
+bcc lattice rather than the fcc lattice commonly seen in pure palladium and most binary 
+alloys. 74 Temperature cycling has been performed on this alloy composition and it has been 
+found that the bcc crystalline configuration has a higher permeability than the fcc phase. 75 
+This behaviour is due to the increased number of hcp adsorption sites which hydrogen has a 
+slight preference for.76 Conversely the fcc structure has a higher impurity resistance 
+than the bcc structure, particularly for H\textsubscript{2}S. This has been theorised to be because 
+adsorption of H\textsubscript{2}S on a palladium membranes surface is largely controlled by electronic 
+factors.77 There have been several studies reporting an increased resistance to sulphur 
+poisoning by alloying palladium with copper. A Pd\textsubscript{80}Cu\textsubscript{20} 
+membrane exposed to 20 \textmu mol $mol^{-1}$ of H\textsubscript{2}S for 90 hours results in a 
+22\% drop in flux, performing much better than Pd\textsubscript{75}Ag\textsubscript{25} reported in the same paper which 
+became impermeable after 65 hours of exposure in the same conditions.73 In a similar study, 
+the performance of bcc and fcc alloys in response to H\textsubscript{2}S 
+Pd\textsubscript{20}Cu\textsubscript{80}, Pd\textsubscript{40}Cu\textsubscript{60} and 
+Pd\textsubscript{53}Cu\textsubscript{47} foils at varying temperatures was tested in 
+hydrogen containing 1000 µmol $mol^{-1}$  H\textsubscript{2}S.78 It was found that when the alloys were in the 
+fcc phase the reduction in flux was only round 10\%, while in the bcc phase the membrane 
+loses around 99\% of its permeance. The H\textsubscript{2}S concentration required to make a 
+Pd60Cu40 membrane completely impermeable was found to be around 300 µmol $mol^{-1}$ 79.
+
+PdAu alloys see a slight increase in permeability,  up to 30\% more than pure Pd, with gold 
+additions up to 20\%, after which the permeability rapidly decreases. While alloying with 
+gold does not improve the permeability much compared to silver or copper, gold alloys show 
+greatly improved sulphur resistance. Several studies have been performed which show that PdAu 
+membranes show no permanent permeability loss after exposed to ppm levels of sulphurous 
+compounds implying that permeability decline is only due to H\textsubscript{2}S adsorption. 
+It has been reported that a Pd\textsubscript{92}Au\textsubscript{8} membrane exposed to 
+54.8 µmol $mol^{-1}$ of H\textsubscript{2}S was able to resist reaction with H\textsubscript{2}S and its permeability was 
+completely recoverable. 80. When tested higher temperatures it was also found that the 
+adsorption effect of H\textsubscript{2}S was reduced which is evidence that dissociative adsorption of H2S 
+on metals is exothermic. 80 In the original patent for palladium membranes by  McKinley81 
+in 1964 Pd\textsubscript{60}Au\textsubscript{40} was found to be the composition which performed best under sulphur 
+containing atmospheres, losing only 9.44\% of its flux compared to the 99\% and 95\% lost by 
+PdAg and PdCu membranes respectively.81 However under recovery the flux increased to 120\% 
+of its original value while the PdCu membrane was fully recovered under the same conditions. 
+This may be evidence that the Pd\textsubscript{60}Au\textsubscript{40} membrane used is not completely stable. 81 When 
+comparing the performance of PdCu and PdAu membranes under a number of gases which commonly 
+result from the water gas shift reaction it was found that the PdAu resisted . 82 
+It was found that from the four membranes tested, the PdAu membranes show no permeability 
+loss under an atmosphere containing CO, CO\textsubscript{2} and H\textsubscript{2}O while the PdCu membranes showed 
+considerable permeability loss. 82 The biggest downside to alloying with gold is that 
+due to its high price in recent years alloying palladium with gold drives up the price 
+higher than that of a pure palladium membrane and is one of the less economic options. 83
+
+Other metals have been alloyed with palladium although outside of these three metals, 
+studies evaluating the impurity resistance of other binary alloys are rare. The adsorption 
+of CO on Pd\textsubscript{92}Y\textsubscript{8} membranes under various concentrations has been studied using TDS and XPS 
+and found that CO can react with the Pd-Y allow at 623K, forming YO and solid carbon. 84  
+Bryden et al studied the poisoning resistance of nanostructured palladium-iron alloys 
+compared to polycrystalline membranes of the same composition. 85 They found that 
+nanostructured membranes not only display higher fluxes, but also exhibit a higher 
+resistance to hydrogen sulphide poisoning. When exposed to \textasciitilde 60 µmol $mol^{-1}$, 
+of H\textsubscript{2}S for 2.2 hours there was no permanent reduction in flux. 
+Howard et al studied the performance of PdPt\textsubscript{20} membranes under 1000 µmol $mol^{-1}$ 
+H\textsubscript{2}S at temperatures between 350\textdegree C and 450 \textdegree C. 86 
+The alloy had decent performance on the lower end of the temperature, only losing about 5\% 
+of permanent permeability. At higher temperatures the membrane lost around 25\% of its 
+permeability, much of this attributed to platinum segregation to the surface of the 
+membrane.86 The impurity resistance of PdPt membranes has also been studied under common 
+WGS compositions which concluded that small additions of Pt (Between 5-9\%) can decrease 
+the flux decline caused by WGS mixtures from 39\% for pure Pd, to anywhere between 7\%-22\%.86
+Platinum however does not appear to be as effective at mitigating the effects of WGS mixtures 
+as alloying with Au which can completely mitigate the flux decline. 87 The use of Pd\textsubscript{95}Ru\textsubscript{5} 
+membranes in syngas mixtures has been tested in WGS conditions and also showed good 
+resistance to adsorbing compounds, losing only 6\% of their flux compared to the 
+11\% lost by a pure Pd membrane under the same conditions.88
+
+Ternary alloys are a newly emerging field which aims at utilizing the strengths of a binary 
+alloy while mitigating its weaknesses with another component. Research in this area has 
+mainly focused on ternary alloys based on copper, gold and silver however there are 
+theoretically infinite combinations possible. Due to the large number of potential 
+combinations Density Functional Theory (DFT) is often utilised as a method to screen for 
+potential alloy compositions suitable for hydrogen permeability. 89 While there are many 
+papers in this field relating to the theoretical modelling or ternary alloys there are a 
+lot less regarding the practical impurity resistance of such alloys. A 
+Pd\textsubscript{80}Au\textsubscript{10}Pt\textsubscript{10} membrane manufactured through 
+magnetron sputtering was found to be completely resistant to H\textsubscript{2}S poisoning, 
+recovering 100\% of its flux prior to exposure to impurity containing gas streams. 90 
+However after long term testing, the purity of the permeate decreased which implies that 
+pinholes had started to form on the membrane surface. 90 This is most likely due to 
+segregation of the individual components, destabilising the structure. This was not 
+confirmed in the papers analysis however. 90 The most in depth study of PdAgAu membranes 
+under H2S was performed by Braun et al, who studied the performance of Pd, 
+Pd\textsubscript{90}Ag\textsubscript{10}, Pd\textsubscript{78}Ag\textsubscript{9}Au\textsubscript{13}, 
+Pd\textsubscript{75}Ag\textsubscript{16}Au\textsubscript{9}, and Pd\textsubscript{91}Au\textsubscript{9}. 
+While all the tested membranes saw a permanent permeability loss under 100 µmol $mol^{-1}$ 
+of H\textsubscript{2}S the Pd\textsubscript{91}Au\textsubscript{9}, Pd\textsubscript{78}Ag\textsubscript{9}Au\textsubscript{13}, 
+and Pd\textsubscript{75}Ag\textsubscript{16}Au\textsubscript{9} all resisted bulk corrosion 
+as proven by Energy-dispersive X-ray spectroscopy (EDS), with the Pd\textsubscript{91}Au\textsubscript{9} 
+sample having the highest resistance to H\textsubscript{2}S atmospheres. 91,92 While this 
+study shows that ternary alloys do offer an increase in impurity resistance over pure Pd and 
+PdAg membranes, the original flux values are not provided so it is difficult to see if 
+there are any inherent advantages over simply using a PdAu alloy. 91,92 The Materials 
+and Chemistry group at SINTEF have performed the most extensive study into ternary 
+alloys, 93,94 testing by far the widest range of alloys and using a combination  of X-ray 
+Diffraction (XRD) and X-ray photoelectron spectroscopy to analyse the segregation behaviour 
+of the ternary alloys. 28 Through alloying PdCu alloys with a third transition metal they 
+found that the addition of 1\% of a transition metal component always resulted in an increase 
+in permeability, likely due to a phenomenon where the activation energy for hydrogen 
+permeation decreases with increasing fcc lattice constant. 27 In particular the addition of 
+1\% Ta, 1\% Y and 14\% Ag resulted in an increase in permeability of 10, 45 and 65\% 
+respectively when compared with Pd\textsubscript{73}Cu\textsubscript{27} membranes for 
+Y and Ta, and Pd\textsubscript{65}Cu\textsubscript{35} membranes for Ag additions. 27 
+In the follow up paper Pd\textsubscript{75}Ag\textsubscript{22}Au\textsubscript{3},
+Pd\textsubscript{76}Ag\textsubscript{21}Mo\textsubscript{3} and Pd\textsubscript{69}Ag\textsubscript{27}Y\textsubscript{4} 
+membranes were exposed to 20 µmol $mol^{-1}$ of H\textsubscript{2}S for 500 hours. 
+The Pd\textsubscript{75}Ag\textsubscript{22}Au\textsubscript{3} membrane was the only 
+membrane which showed no bulk sulphur formation, with the other two membrane compositions 
+showing large levels of oxidation and segregation when analysed using XPS. 95 The 
+PdAgAu composition has been further studied by Braun et al, 91 who backed up that small 
+additions of Au to PdAg membranes can reduce the membranes reactivity with sulphides and 
+would be suitable for application in a hydrogen impurity enrichment device. 
+Tarditi et al, have done a similar study on the impurity resistance of PdCuAu membranes. 96 
+While XRD and EDS of this alloy showed no formation of bulk sulphides, the XPS depth 
+profile showed low, but measurable levels of sulphur showing that this composition has some 
+reactivity with impurities. 96
+
 \renewcommand{\bibname}{References}
 
 \bibliographystyle{unsrtnat}
