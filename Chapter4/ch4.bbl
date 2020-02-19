@@ -1,3 +1,62 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Murugan and Brown(2014)]{Murugan2014}
+Arul Murugan and Andrew~S Brown.
+\newblock {Advancing the analysis of impurities in hydrogen by use of a novel
+  tracer enrichment method}.
+\newblock \emph{Analytical Methods}, 6\penalty0 (15):\penalty0 5472, 2014.
+\newblock \doi{10.1039/c3ay42174k}.
+
+\bibitem[Ahmed et~al.(2010)Ahmed, Lee, and Papadias]{Ahmed2010}
+Shabbir Ahmed, Sheldon H~D Lee, and Dionissios~D Papadias.
+\newblock {Analysis of trace impurities in hydrogen: Enrichment of impurities
+  using a H2 selective permeation membrane}.
+\newblock \emph{International Journal of Hydrogen Energy}, 35\penalty0
+  (22):\penalty0 12480--12490, 2010.
+\newblock \doi{10.1016/j.ijhydene.2010.08.042}.
+
+\bibitem[Peters et~al.(2011)Peters, Kaleta, Stange, and Bredesen]{Peters2011}
+T.~A. Peters, T.~Kaleta, M.~Stange, and R.~Bredesen.
+\newblock {Development of thin binary and ternary Pd-based alloy membranes for
+  use in hydrogen production}.
+\newblock \emph{Journal of Membrane Science}, 383\penalty0 (1-2):\penalty0
+  124--134, 2011.
+\newblock ISSN 03767388.
+\newblock \doi{10.1016/j.memsci.2011.08.050}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.memsci.2011.08.050}.
+
+\bibitem[{Gouveia Gil} et~al.(2015){Gouveia Gil}, Reis, Chadwick, Wu, and
+  Li]{GouveiaGil2015}
+Ana {Gouveia Gil}, Miria Hespanhol~M Reis, David Chadwick, Zhentao Wu, and
+  K~Li.
+\newblock {A highly permeable hollow fibre substrate for Pd/Al2O3 composite
+  membranes in hydrogen permeation}.
+\newblock \emph{International Journal of Hydrogen Energy}, 40\penalty0
+  (8):\penalty0 3249--3258, 2015.
+\newblock ISSN 0360-3199.
+\newblock \doi{https://doi.org/10.1016/j.ijhydene.2015.01.021}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0360319915000580}.
+
+\bibitem[Roa and Way(2003)]{Roa2003}
+Fernando Roa and J~Douglas Way.
+\newblock {Influence of Alloy Composition and Membrane Fabrication on the
+  Pressure Dependence of the Hydrogen Flux of Palladium-Copper Membranes}.
+\newblock \emph{Ind. Eng. Chem. Res}, 42\penalty0 (23):\penalty0 5827--5835,
+  2003.
+\newblock ISSN 08885885.
+\newblock \doi{10.1021/ie030426x}.
+
+\bibitem[Nayebossadri et~al.(2013)Nayebossadri, Speight, and
+  Book]{Nayebossadri2013}
+Shahrouz Nayebossadri, John Speight, and David Book.
+\newblock {Development of Pd – Cu Membranes for Hydrogen Separation Why
+  Hydrogen Separation ?}
+\newblock 2013.
 
 \end{thebibliography}

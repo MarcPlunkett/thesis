@@ -59,6 +59,9 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tools/xr.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tools/xr.sty
+INPUT /Users/MarcPlunkett/thesis/Experimental/ch1.aux
 INPUT /Users/MarcPlunkett/thesis/master.aux
 INPUT /Users/MarcPlunkett/thesis/master.aux
 INPUT /Users/MarcPlunkett/thesis/Chapter1/ch1.aux
@@ -193,9 +196,16 @@ INPUT /Users/MarcPlunkett/thesis/Experimental/ch1.bbl
 OUTPUT /Users/MarcPlunkett/thesis/Chapter3/ch3.aux
 INPUT /Users/MarcPlunkett/thesis/Chapter3/ch3.tex
 INPUT /Users/MarcPlunkett/thesis/Chapter3/ch3.tex
+INPUT /Users/MarcPlunkett/thesis/Chapter3/ch3.bbl
+INPUT /Users/MarcPlunkett/thesis/Chapter3/ch3.bbl
 OUTPUT /Users/MarcPlunkett/thesis/Chapter4/ch4.aux
 INPUT /Users/MarcPlunkett/thesis/Chapter4/ch4.tex
 INPUT /Users/MarcPlunkett/thesis/Chapter4/ch4.tex
+INPUT /Users/MarcPlunkett/thesis/figures/Semxsect.png
+INPUT /Users/MarcPlunkett/thesis/figures/Semxsect.png
+INPUT /Users/MarcPlunkett/thesis/figures/Semxsect.png
+INPUT /Users/MarcPlunkett/thesis/Chapter4/ch4.bbl
+INPUT /Users/MarcPlunkett/thesis/Chapter4/ch4.bbl
 OUTPUT /Users/MarcPlunkett/thesis/Chapter5/ch5.aux
 INPUT /Users/MarcPlunkett/thesis/Chapter5/ch5.tex
 INPUT /Users/MarcPlunkett/thesis/Chapter5/ch5.tex

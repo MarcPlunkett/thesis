@@ -5,45 +5,46 @@ The style file: unsrtnat.bst
 Database file #1: library.bib
 Warning--empty year in Bossard
 Warning--empty year in Bossard
-You've used 6 entries,
+Warning--empty year in StructureCommissionoftheInternationalZeoliteAssociation
+You've used 38 entries,
             2481 wiz_defined-function locations,
-            605 strings with 5767 characters,
-and the built_in function-call counts, 2360 in all, are:
-= -- 213
-> -- 100
-< -- 4
-+ -- 40
-- -- 28
-* -- 189
-:= -- 381
-add.period$ -- 24
-call.type$ -- 6
-change.case$ -- 12
-chr.to.int$ -- 6
-cite$ -- 8
-duplicate$ -- 113
-empty$ -- 216
-format.name$ -- 40
-if$ -- 493
+            902 strings with 13877 characters,
+and the built_in function-call counts, 16900 in all, are:
+= -- 1529
+> -- 902
+< -- 19
++ -- 343
+- -- 267
+* -- 1460
+:= -- 2787
+add.period$ -- 188
+call.type$ -- 38
+change.case$ -- 76
+chr.to.int$ -- 38
+cite$ -- 41
+duplicate$ -- 742
+empty$ -- 1429
+format.name$ -- 321
+if$ -- 3531
 int.to.chr$ -- 1
-int.to.str$ -- 7
-missing$ -- 6
-newline$ -- 44
-num.names$ -- 18
-pop$ -- 41
+int.to.str$ -- 39
+missing$ -- 37
+newline$ -- 269
+num.names$ -- 120
+pop$ -- 224
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 38
 quote$ -- 0
-skip$ -- 66
+skip$ -- 420
 stack$ -- 0
-substring$ -- 126
-swap$ -- 12
-text.length$ -- 0
+substring$ -- 895
+swap$ -- 90
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 42
-warning$ -- 2
-while$ -- 20
+type$ -- 266
+warning$ -- 3
+while$ -- 144
 width$ -- 0
-write$ -- 95
-(There were 2 warnings)
+write$ -- 640
+(There were 3 warnings)
