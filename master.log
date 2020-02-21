@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.27)  19 FEB 2020 19:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.27)  21 FEB 2020 15:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -821,7 +821,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
  [5
 
-] (/Users/marc/Thesis/master.lot)
+] (/Users/marc/Thesis/master.lot
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 19.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
 \tf@lot=\write4
 \openout4 = `master.lot'.
 
@@ -849,10 +853,7 @@ Chapter 1.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 45.
 
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 52.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [11] [12] [13]
+[11] [12] [13]
 Overfull \hbox (9.58597pt too wide) in paragraph at lines 151--155
  \T1/lmr/bx/n/12 Hy-dro-car-bon de-com-po-si-tion[] \T1/lmr/m/n/12 is a pro-cess by which hy-dro-car-bon molecules
  []
@@ -1006,21 +1007,36 @@ Chapter 5.
 <figures/Semxsect.png, id=243, 414.348pt x 353.1594pt>
 File: figures/Semxsect.png Graphic file (type png)
 <use figures/Semxsect.png>
-Package pdftex.def Info: figures/Semxsect.png  used on input line 24.
+Package pdftex.def Info: figures/Semxsect.png  used on input line 23.
 (pdftex.def)             Requested size: 390.0pt x 332.40634pt.
- [68] [69 </Users/marc/Thesis/figures/Semxsect.png>] [70] [71] [72]
-Overfull \hbox (3.68411pt too wide) in paragraph at lines 56--57
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 30.
+
+[68] [69 </Users/marc/Thesis/figures/Semxsect.png>] [70]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 58.
+
+[71]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 81.
+
+[72] [73]
+Overfull \hbox (3.68411pt too wide) in paragraph at lines 115--116
 \T1/lmr/m/n/12 All mem-branes tested showed some de-gree of seg-re-ga-tion with the two thinnest
  []
 
-[73] (/Users/marc/Thesis/Chapter4/ch4.bbl [74])) [75
+(/Users/marc/Thesis/Chapter4/ch4.bbl [74] [75
 
-]
+])) [76]
 \openout2 = `Chapter5/ch5.aux'.
 
  (/Users/marc/Thesis/Chapter5/ch5.tex
 Chapter 6.
-) [76
+) [77
 
 
 
@@ -1030,7 +1046,7 @@ Chapter 6.
 
  (/Users/marc/Thesis/Chapter6/ch6.tex
 Chapter 7.
-) [77
+) [78
 
 
 
@@ -1041,18 +1057,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4514 strings out of 492609
- 67822 string characters out of 6129048
- 124810 words of memory out of 5000000
- 8246 multiletter control sequences out of 15000+600000
+ 4542 strings out of 492609
+ 68346 string characters out of 6129048
+ 125380 words of memory out of 5000000
+ 8274 multiletter control sequences out of 15000+600000
  61806 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,16n,28p,2203b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,16n,28p,2260b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /Users/marc/Thesis/master.pdf (78 pages, 1195583 bytes).
+Output written on /Users/marc/Thesis/master.pdf (79 pages, 1200999 bytes).
 PDF statistics:
- 334 PDF objects out of 1000 (max. 8388607)
- 229 compressed objects within 3 object streams
+ 338 PDF objects out of 1000 (max. 8388607)
+ 232 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

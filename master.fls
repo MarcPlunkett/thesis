@@ -156,6 +156,9 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/lmsy6.tfm
 OUTPUT /Users/marc/Thesis/master.lof
 INPUT /Users/marc/Thesis/master.lot
 INPUT /Users/marc/Thesis/master.lot
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmr.fd
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmr.fd
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ts1-lmr12.tfm
 OUTPUT /Users/marc/Thesis/master.lot
 INPUT /Users/marc/Thesis/master.toc
 INPUT /Users/marc/Thesis/master.toc
@@ -164,9 +167,6 @@ OUTPUT /Users/marc/Thesis/Chapter1/ch1.aux
 INPUT /Users/marc/Thesis/Chapter1/ch1.tex
 INPUT /Users/marc/Thesis/Chapter1/ch1.tex
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmr.fd
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmr.fd
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ts1-lmr12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /Users/marc/Thesis/figures/funnel.png
 INPUT /Users/marc/Thesis/figures/funnel.png

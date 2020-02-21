@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{15}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -58,5 +58,76 @@ Shahrouz Nayebossadri, John Speight, and David Book.
 \newblock {Development of Pd – Cu Membranes for Hydrogen Separation Why
   Hydrogen Separation ?}
 \newblock 2013.
+
+\bibitem[She et~al.(2014)She, Emerson, Magdefrau, Opalka, Thibaud-Erkey, and
+  Vanderspurt]{She2014}
+Ying She, Sean~C Emerson, Neal~J Magdefrau, Susanne~M Opalka, Catherine
+  Thibaud-Erkey, and Thomas~H Vanderspurt.
+\newblock {Hydrogen permeability of sulfur tolerant Pd–Cu alloy membranes}.
+\newblock \emph{Journal of Membrane Science}, 452:\penalty0 203--211, 2014.
+\newblock \doi{10.1016/j.memsci.2013.09.025}.
+
+\bibitem[Dolan(2010)]{Dolan2010}
+M~D Dolan.
+\newblock {Non-Pd BCC alloy membranes for industrial hydrogen separation}.
+\newblock \emph{Journal of Membrane Science}, 362\penalty0 (1-2):\penalty0
+  12--28, 2010.
+\newblock \doi{10.1016/j.memsci.2010.06.068}.
+
+\bibitem[Wilcox and Jennifer(2010)]{Wilcox2010}
+Ekin~Ozdogan Wilcox and Jennifer.
+\newblock {Investigation of H2 and H2S Adsorption on Niobium- and Copper-Doped
+  Palladium Surfaces}.
+\newblock \emph{J. Phys. Cherm. B}, pages 12851--12585, 2010.
+\newblock \doi{10.1021/acs.energyfuels.5b01294}.
+
+\bibitem[{D.T. Hughes}(1978)]{D.T.Hughes1978}
+I~R~Harris {D.T. Hughes}.
+\newblock {A comparative study of hydrogen permeabilities and solubilities in
+  some palladium solid solution alloys}.
+\newblock \emph{Journal of Less Common Metals}, 61:\penalty0 9--21, 1978.
+
+\bibitem[Atsonios et~al.(2015)Atsonios, Panopoulos, Doukelis, Koumanakos,
+  Kakaras, Peters, and van Delft]{Atsonios2015}
+K~Atsonios, K~D Panopoulos, A~Doukelis, A~K Koumanakos, E~Kakaras, T~A Peters,
+  and Y~C van Delft.
+\newblock {Introduction to palladium membrane technology}.
+\newblock In A~Doukelis, K~Panopoulos, A~Koumanakos, and E~Kakaras, editors,
+  \emph{Palladium Membrane Technology for Hydrogen Production, Carbon Capture
+  and Other Application}, pages 1--21. Woodhead Publishing, 2015.
+\newblock \doi{10.1533/9781782422419.1}.
+
+\bibitem[Chen and Ma(2010)]{Chen2010}
+Chao-Huang Chen and Yi~Hua Ma.
+\newblock {The effect of H2S on the performance of Pd and Pd/Au composite
+  membrane}.
+\newblock \emph{Journal of Membrane Science}, 362\penalty0 (1-2):\penalty0
+  535--544, 2010.
+\newblock \doi{10.1016/j.memsci.2010.07.002}.
+
+\bibitem[{Nathan W. Ockwig}(2007)]{NathanW.Ockwig2007a}
+Tina M~Nenoff {Nathan W. Ockwig}.
+\newblock {Membranes for Hydrogen Separation}.
+\newblock \emph{Chemical Reviews}, 107:\penalty0 4078--4110, 2007.
+
+\bibitem[Peters et~al.(2016)Peters, Polfus, Stange, Veenstra, Nijmeijer, and
+  Bredesen]{Peters2016b}
+T~A Peters, J~M Polfus, M~Stange, P~Veenstra, A~Nijmeijer, and R~Bredesen.
+\newblock {H2 flux inhibition and stability of Pd-Ag membranes under exposure
+  to trace amounts of NH3}.
+\newblock \emph{Fuel Processing Technology}, 152:\penalty0 259--265, 2016.
+\newblock \doi{10.1016/j.fuproc.2016.06.012}.
+
+\bibitem[Gade et~al.(2011)Gade, DeVoss, Coulter, Paglieri, Alptekin, and
+  Way]{Gade2011}
+Sabina~K. Gade, Sarah~J. DeVoss, Kent~E. Coulter, Stephen~N. Paglieri,
+  G{\"{o}}khan~O. Alptekin, and J.~Douglas Way.
+\newblock {Palladium-gold membranes in mixed gas streams with hydrogen sulfide:
+  Effect of alloy content and fabrication technique}.
+\newblock \emph{Journal of Membrane Science}, 378\penalty0 (1-2):\penalty0
+  35--41, 2011.
+\newblock ISSN 03767388.
+\newblock \doi{10.1016/j.memsci.2010.11.044}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.memsci.2010.11.044}.
 
 \end{thebibliography}
