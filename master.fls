@@ -59,6 +59,10 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tools/xr.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tools/xr.sty
 INPUT /Users/marc/Thesis/Experimental/ch1.aux
