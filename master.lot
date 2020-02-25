@@ -12,6 +12,7 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Simulated total energy values of ISO 14687-2 impurities\relax }}{64}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
 \addvspace {10\p@ }
