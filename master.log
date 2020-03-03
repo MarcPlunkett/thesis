@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.27)  21 FEB 2020 17:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.1)  3 MAR 2020 10:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/marc/Thesis/master.tex
-(/Users/marc/Thesis/master.tex
+**master.tex
+(/Users/MarcPlunkett/thesis/master.tex
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
@@ -671,7 +671,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 Package: xr 2019/01/05 v5.04 eXternal References (DPC)
 )
 Package xr Info: IMPORTING LABELS FROM Experimental/ch1.aux on input line 16.
- (/Users/marc/Thesis/master.aux (/Users/marc/Thesis/Chapter1/ch1.aux) (/Users/marc/Thesis/Chapter2/ch2.aux
+ (/Users/MarcPlunkett/thesis/master.aux (/Users/MarcPlunkett/thesis/Chapter1/ch1.aux) (/Users/MarcPlunkett/thesis/Chapter2/ch2.aux
 
 LaTeX Warning: Label `eq:1' multiply defined.
 
@@ -684,15 +684,15 @@ LaTeX Warning: Label `eq:3' multiply defined.
 
 LaTeX Warning: Label `fig:1' multiply defined.
 
-) (/Users/marc/Thesis/Experimental/ch1.aux
+) (/Users/MarcPlunkett/thesis/Experimental/ch1.aux
 
 LaTeX Warning: Label `eq:1' multiply defined.
 
-) (/Users/marc/Thesis/Chapter3/ch3.aux) (/Users/marc/Thesis/Chapter4/ch4.aux
+) (/Users/MarcPlunkett/thesis/Chapter3/ch3.aux) (/Users/MarcPlunkett/thesis/Chapter4/ch4.aux
 
 LaTeX Warning: Label `fig:1' multiply defined.
 
-) (/Users/marc/Thesis/Chapter5/ch5.aux) (/Users/marc/Thesis/Chapter6/ch6.aux))
+) (/Users/MarcPlunkett/thesis/Chapter5/ch5.aux) (/Users/MarcPlunkett/thesis/Chapter6/ch6.aux))
 \openout1 = `master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -819,13 +819,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
 [1
 
- </Users/marc/Thesis/figures/sig.png>] [2
+ </Users/MarcPlunkett/thesis/figures/sig.png>] [2
 
 ] [3
 
 ] [4
 
-] (/Users/marc/Thesis/master.lof
+] (/Users/MarcPlunkett/thesis/master.lof
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -838,8 +838,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
  [5
 
-] (/Users/marc/Thesis/master.lot
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 19.
+] (/Users/MarcPlunkett/thesis/master.lot
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 20.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
@@ -850,7 +850,7 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 ] [7
 
-] (/Users/marc/Thesis/master.toc [8
+] (/Users/MarcPlunkett/thesis/master.toc [8
 
 ])
 \tf@toc=\write5
@@ -859,7 +859,7 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
  [9]
 \openout2 = `Chapter1/ch1.aux'.
 
- (/Users/marc/Thesis/Chapter1/ch1.tex
+ (/Users/MarcPlunkett/thesis/Chapter1/ch1.tex
 Chapter 1.
 [10
 
@@ -886,7 +886,7 @@ File: figures/funnel.png Graphic file (type png)
 <use figures/funnel.png>
 Package pdftex.def Info: figures/funnel.png  used on input line 362.
 (pdftex.def)             Requested size: 390.0pt x 253.8671pt.
- (/Users/marc/Thesis/Chapter1/ch1.bbl [19] [20 </Users/marc/Thesis/figures/funnel.png>]
+ (/Users/MarcPlunkett/thesis/Chapter1/ch1.bbl [19] [20 </Users/MarcPlunkett/thesis/figures/funnel.png>]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 17.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -905,7 +905,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--24
 ])) [22]
 \openout2 = `Chapter2/ch2.aux'.
 
- (/Users/marc/Thesis/Chapter2/ch2.tex
+ (/Users/MarcPlunkett/thesis/Chapter2/ch2.tex
 Chapter 2.
 [23
 
@@ -926,12 +926,12 @@ File: figures/septype.png Graphic file (type png)
 <use figures/septype.png>
 Package pdftex.def Info: figures/septype.png  used on input line 173.
 (pdftex.def)             Requested size: 390.0pt x 215.97282pt.
-[28 </Users/marc/Thesis/figures/septype.png>] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38]
-Overfull \hbox (9.24258pt too wide) in paragraph at lines 548--550
+[28 </Users/MarcPlunkett/thesis/figures/septype.png>] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38]
+Overfull \hbox (9.24258pt too wide) in paragraph at lines 548--549
 []\T1/lmr/m/n/12 This sec-tion will dis-cuss de-vel-op-ments in both pal-la-dium and non-palladium
  []
 
-[39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] (/Users/marc/Thesis/Chapter2/ch2.bbl [50] [51
+[39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] (/Users/MarcPlunkett/thesis/Chapter2/ch2.bbl [50] [51
 
 ]
 Underfull \hbox (badness 1043) in paragraph at lines 93--101
@@ -981,47 +981,52 @@ Underfull \hbox (badness 4819) in paragraph at lines 298--301
 )) [55]
 \openout2 = `Experimental/ch1.aux'.
 
- (/Users/marc/Thesis/Experimental/ch1.tex
+ (/Users/MarcPlunkett/thesis/Experimental/ch1.tex
 Chapter 3.
 [56
 
 
 
 
-] [57] [58] [59] (/Users/marc/Thesis/Experimental/ch1.bbl [60]
+] [57]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 28.
+
+[58] [59] [60] (/Users/MarcPlunkett/thesis/Experimental/ch1.bbl [61]
 
 Package natbib Warning: Empty `thebibliography' environment on input line 8.
 
-)) [61
+)) [62
 
 ]
 \openout2 = `Chapter3/ch3.aux'.
 
- (/Users/marc/Thesis/Chapter3/ch3.tex
+ (/Users/MarcPlunkett/thesis/Chapter3/ch3.tex
 Chapter 4.
-[62
+[63
 
 
 
 
-] (/Users/marc/Thesis/Chapter3/ch3.bbl [63] [64]
+] (/Users/MarcPlunkett/thesis/Chapter3/ch3.bbl [64] [65]
 
 Package natbib Warning: Empty `thebibliography' environment on input line 8.
 
-)) [65
+)) [66
 
 ]
 \openout2 = `Chapter4/ch4.aux'.
 
- (/Users/marc/Thesis/Chapter4/ch4.tex
+ (/Users/MarcPlunkett/thesis/Chapter4/ch4.tex
 Chapter 5.
-[66
+[67
 
 
 
 
-] [67]
-<figures/Semxsect.png, id=243, 414.348pt x 353.1594pt>
+] [68]
+<figures/Semxsect.png, id=246, 414.348pt x 353.1594pt>
 File: figures/Semxsect.png Graphic file (type png)
 <use figures/Semxsect.png>
 Package pdftex.def Info: figures/Semxsect.png  used on input line 23.
@@ -1031,41 +1036,40 @@ Package pdftex.def Info: figures/Semxsect.png  used on input line 23.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 30.
 
-[68] [69 </Users/marc/Thesis/figures/Semxsect.png>] [70]
+[69] [70 </Users/MarcPlunkett/thesis/figures/Semxsect.png>] [71]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 58.
 
 
-Package caption Warning: \label without proper reference on input line 83.
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 80.
+
+
+Package caption Warning: \label without proper reference on input line 82.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `results:3' on page 71 undefined on input line 79.
+LaTeX Warning: Reference `results:3' on page 72 undefined on input line 99.
 
-[71]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 81.
-
-[72]
+[72] [73]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 107.
+               Default added (so using `tbp') on input line 108.
 
-[73]
-Overfull \hbox (3.68411pt too wide) in paragraph at lines 134--135
+[74]
+Overfull \hbox (3.68411pt too wide) in paragraph at lines 135--136
 \T1/lmr/m/n/12 All mem-branes tested showed some de-gree of seg-re-ga-tion with the two thinnest
  []
 
-[74] (/Users/marc/Thesis/Chapter4/ch4.bbl [75] [76
+[75] (/Users/MarcPlunkett/thesis/Chapter4/ch4.bbl [76] [77
 
-])) [77]
+])) [78]
 \openout2 = `Chapter5/ch5.aux'.
 
- (/Users/marc/Thesis/Chapter5/ch5.tex
+ (/Users/MarcPlunkett/thesis/Chapter5/ch5.tex
 Chapter 6.
-) [78
+) [79
 
 
 
@@ -1073,14 +1077,14 @@ Chapter 6.
 ]
 \openout2 = `Chapter6/ch6.aux'.
 
- (/Users/marc/Thesis/Chapter6/ch6.tex
+ (/Users/MarcPlunkett/thesis/Chapter6/ch6.tex
 Chapter 7.
-) [79
+) [80
 
 
 
 
-] (/Users/marc/Thesis/master.aux (/Users/marc/Thesis/Chapter1/ch1.aux) (/Users/marc/Thesis/Chapter2/ch2.aux) (/Users/marc/Thesis/Experimental/ch1.aux) (/Users/marc/Thesis/Chapter3/ch3.aux) (/Users/marc/Thesis/Chapter4/ch4.aux) (/Users/marc/Thesis/Chapter5/ch5.aux) (/Users/marc/Thesis/Chapter6/ch6.aux))
+] (/Users/MarcPlunkett/thesis/master.aux (/Users/MarcPlunkett/thesis/Chapter1/ch1.aux) (/Users/MarcPlunkett/thesis/Chapter2/ch2.aux) (/Users/MarcPlunkett/thesis/Experimental/ch1.aux) (/Users/MarcPlunkett/thesis/Chapter3/ch3.aux) (/Users/MarcPlunkett/thesis/Chapter4/ch4.aux) (/Users/MarcPlunkett/thesis/Chapter5/ch5.aux) (/Users/MarcPlunkett/thesis/Chapter6/ch6.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -1090,17 +1094,17 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  5658 strings out of 492609
- 88458 string characters out of 6129048
- 146412 words of memory out of 5000000
+ 89050 string characters out of 6129048
+ 146417 words of memory out of 5000000
  9384 multiletter control sequences out of 15000+600000
  61806 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,16n,42p,2260b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,16n,42p,2241b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /Users/marc/Thesis/master.pdf (80 pages, 1202977 bytes).
+Output written on /Users/MarcPlunkett/thesis/master.pdf (81 pages, 1204194 bytes).
 PDF statistics:
- 341 PDF objects out of 1000 (max. 8388607)
- 234 compressed objects within 3 object streams
+ 344 PDF objects out of 1000 (max. 8388607)
+ 236 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
