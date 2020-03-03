@@ -1,5 +1,7 @@
 \chapter{Experimental methods}
 
+
+
 \section{Simulations}
 Density functional theory calculations were performed using the Quantum Espresso (QE) ab initio simulation package using the generalized gradient approximation with the PW91 functional to describe electron-correlation effects. Ion-electron interactions were described using ultra-soft pseudopotentials. A plane-wave expansion with a cut-off of 233.73 eV was used in all calculations. Geometry relaxations were performed with a conjugate gradient method until the forces on all unconstrained atoms were less than 0.03 eV/A. A Monkhorst Pack mesh with 4x4x4 k-points was used for all calculations.
 
@@ -66,6 +68,20 @@ The resulting composite membranes consisting of multiple metal layers stacked we
 \subsubsection{Magnetron Sputtering}
 Membranes were deposited using a closed field unbalanced magnetron sputter ion plating system produced by Teer Coatings Ltd. The thin film membranes were deposited onto the YSZ 3\% hollow fibres by mounting them vertically inside the sputtering system. The system was then evacuated to 1x10\textsuperscript{-6} mBar and subjected to an ion cleaning process with Ar plasma prior to sputtering. Pd, Cu, and Zr targets (99.9\% purity) were used to sputter the chosen alloy composition onto the membranes at the target currents shown in. A bias voltage of 50 V was applied to the magnetron during deposition runs. Samples were deposited using pulsed DC, with a constant target to substrate distance and a sample rotation speed of 16 rpm. An Ar flux of 25 (SCC/m) was used during deposition. PdCu membranes in both BCC and FCC phase were manufactured through magnetron sputtering along with PdCuZr ternary alloys. 
 
+\begin{table}[]
+    \centering
+    \caption{Conditions used during magnetron sputtering of palladium membranes on YSZ tubular substrate}
+    \label{sputtering}
+    \begin{tabular}{@{}cccc@{}}
+    \toprule
+    \multirow{2}{*}{Alloy} & \multicolumn{3}{c}{Target current (A)} \\
+                           & Pd          & Cu          & Zr         \\ \midrule
+    PdCuZr                 & 1.25        & 0.65        & 0.4        \\
+    PdCu (fcc)             & 1.25        & 0.8         & -          \\
+    PdCu (bcc)             & 1.2         & 1.0         & -          \\ \bottomrule
+    \end{tabular}
+    \end{table}
+
 \subsection{Materials testing}\label{MatTest}
 The thickness of the plated layers was characterised by first using a Focused Ion Beam (FIB) to mill through a section of the hollow fibre to provide a flat, cross sectional surface for analysis. The thickness of the metal later was then measured using high resolution Scanning Electron Microscopy (SEM) and composition analysed using Energy Dispersive x-ray Spectrometry (EDS) on the same sample. 
 
@@ -75,7 +91,41 @@ Prior to the H\textsubscript{2} permeation tests, the integrity of the hollow fi
 
 \section{Membrane testing}
 \subsection{Preparation of gas standards}
-Gas standards of hydrogen were prepared gravimetrically in 10 litre cylinders (BOC, UK) in accordance with ISO 6142-1 from pure hydrogen (Air Products, UK), nitrogen (Air Products), carbon monoxide (Scott Speciality Gases, UK), methane (CK Gases, UK) and krypton (BOC, UK). Any impurities that were detected in these pure gases were quantified and these values were then incorporated into the final determination of the gas mixture compositions and uncertainties. For the purpose of this paper the gas standards that were used to perform the permeation tests will be referred to as gas mixtures, and the gas standards that were used to calibrate the analytical instruments will be referred to as calibration gas standards. Before use, the gas mixtures were verified against traceable primary reference materials using Gas Chromatography with either a pulsed helium discharge ionisation detector (PDHID) for samples not containing sulphur, and sulphur chemiluminescence detector (SCD) for sulphur containing samples.
+Gas standards of hydrogen were prepared gravimetrically in 10 litre cylinders (BOC, UK) in accordance with ISO 6142-1 from pure hydrogen (Air Products, UK), nitrogen (Air Products), carbon monoxide (Scott Speciality Gases, UK), methane (CK Gases, UK) and krypton (BOC, UK). Any impurities that were detected in these pure gases were quantified and these values were then incorporated into the final determination of the gas mixture compositions and uncertainties. For the purpose of this paper the gas standards that were used to perform the permeation tests will be referred to as gas mixtures, and the gas standards that were used to calibrate the analytical instruments will be referred to as calibration gas standards. Before use, the gas mixtures were verified against traceable primary reference materials using Gas Chromatography with either a pulsed helium discharge ionisation detector (PDHID) for samples not containing sulphur, and sulphur chemiluminescence detector (SCD) for sulphur containing samples. The compisitions of the non-sulphur, and sulphur contining gas standards created for the purposes of this thesis are shown in tables \ref{nonsulf} and \ref{sulf}
+
+\begin{table}[]
+    \centering
+    \caption{Gas mixture composition of the non-sulphur sample used during impurity tests}
+    \label{nonsulf}
+    \begin{tabular}{@{}cc@{}}
+    \toprule
+    Impurity & \begin{tabular}[c]{@{}c@{}}Concentration \\ ($\mu$mol/mol)\end{tabular} \\ \midrule
+    O\textsubscript{2}       & 10.06                                                               \\
+    N\textsubscript{2}       & 10.04                                                               \\
+    CH\textsubscript{4}      & 10.01                                                               \\
+    CO\textsubscript{2}      & 10                                                                  \\
+    CO       & 9.98                                                                \\
+    H\textsubscript{2}       & Balance                                                             \\ \bottomrule
+    \end{tabular}
+    \end{table}
+
+    \begin{table}[]
+        \centering
+        \caption{Gas mixture composition of the sulphur sample used during impurity tests}
+        \label{sulf}
+        \begin{tabular}{@{}cc@{}}
+        \toprule
+        Impurity & \begin{tabular}[c]{@{}c@{}}Concentration \\ (umol/mol)\end{tabular} \\ \midrule
+        Kr       & 1.1                                                                 \\
+        H2S      & 0.41                                                                \\
+        OCS      & 0.42                                                                \\
+        CS2      & 0.362                                                               \\
+        t-BuSH   & 0.391                                                               \\
+        THT      & 0.409                                                               \\
+        H2       & Balance                                                             \\ \bottomrule
+        \end{tabular}
+        \end{table}
+
 \subsection{Membrane testing rig}
 After the membranes were ensured to be gas tight, hydrogen permeation measurements were performed using the experimental apparatus shown in Figure 1. The palladium alloy composite hollow fibre membranes were sealed on to a stainless steel ¼” NPT fitting. The membrane was then placed in a Sulfinert®-treated sample vessel (Thames Restek, UK) with nominal volume of 300 cm\textsuperscript{3}. The vessel was then heated using heavy insulated heating tape (OMEGA STH051-020). The heating was controlled using the temperature of the membrane using a PID temperature controller (OMRON). The feed was supplied from a cylinder either containing BIP+ hydrogen (Air Products) for pure hydrogen permeability tests or one of two gravimetrically prepared gas mixtures for impurity testing discussed in the previous section. Prior to introducing gas to the membrane the system was evacuated down to 1 x 10\textsuperscript{-6} mbar.
 

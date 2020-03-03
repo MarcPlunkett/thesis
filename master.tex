@@ -11,8 +11,9 @@
 \usepackage{multirow}
 \usepackage[euler]{textgreek}
 \usepackage[center]{caption}
-
+\usepackage{acronym}
 \usepackage{xr}
+
 \externaldocument[exp-]{Experimental/ch1}
 
 \newcolumntype{L}{>{\centering\arraybackslash}m{3cm}}
@@ -62,8 +63,7 @@ The copyright of this thesis rests with the author and is made available under a
 \listoffigures
 \listoftables
 
-\chapter*{List of Acronyms, Abbreviations and Symbols}
-
+\include{acronyms}
 
 \tableofcontents
 
