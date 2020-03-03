@@ -67,7 +67,7 @@
 \contentsline {chapter}{\numberline {4}Density functional theory as a screening method for dense metal membranes}{63}% 
 \contentsline {section}{\numberline {4.1}Abstract}{63}% 
 \contentsline {section}{\numberline {4.2}Introduction}{63}% 
-\contentsline {section}{\numberline {4.3}Results and discussion}{65}% 
+\contentsline {section}{\numberline {4.3}Results and discussion}{64}% 
 \contentsline {subsection}{\numberline {4.3.1}Stability of palladium alloy compositions}{65}% 
 \contentsline {subsection}{\numberline {4.3.2}Hydrogen and Impurity adsorption on palladium alloy membranes}{65}% 
 \contentsline {subsubsection}{Hydrogen}{65}% 

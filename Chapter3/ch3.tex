@@ -9,6 +9,10 @@ Physically testing each potential membrane composition would be time consuming a
 
 This chapter will calculate the behaviour of 56 palladium alloy composition under 13 ISO 14687-2 impurities. This is done by comparing the total energy of different configurations after relaxation of internal forces in the system. The close packed surfaces of palladium alloys were simulated as 
 
+The pure metals and alloy slabs were modelled as slabs with periodic boundary conditions in the two directions parallel to the surface and separated by at 10A thick vaccum region. 
+
+
+\section{Results and discussion}
 The adsorption energy, $E_{i_{ads}}$, for the adsorption of a gaseous impurity on the surface is calculated using:
 
 \begin{equation}
@@ -17,10 +21,29 @@ The adsorption energy, $E_{i_{ads}}$, for the adsorption of a gaseous impurity o
 
 Where $E_{slab + i}$ is the total energy of the relaxed gas-surface system where i is the simulated gas, $E_slab$ and $E_i$ are the total energy of relaxed bare surface and gas molecule respectively. Since a system will always tend towards it's lowest energy state, if the total energy of the $E_{i,ads}$ is lower than the sum of it's component energies, it indicates an affinity for the target impurity to adsorb onto the surface of the membrane.
 
-The pure metals and alloy slabs were modelled as slabs with periodic boundary conditions in the two directions parallel to the surface and separated by at 10A thick vaccum region. 
+\begin{table}[]
+    \centering
+    \caption{Simulated total energy values of ISO 14687-2 impurities}
+    \begin{tabular}{@{}cc@{}}
+    \toprule
+    Gas          & \begin{tabular}[c]{@{}c@{}}Total Energy\\ $(kJ \times 10^{-21})$\end{tabular} \\ \midrule
+    H            & -2.01                                                               \\
+    N\textsubscript{2}           & -123.91                                                             \\
+    O\textsubscript{2}           & -180.86                                                             \\
+    CO           & -130.93                                                             \\
+    CO\textsubscript{2}          & -221.95                                                             \\
+    NH\textsubscript{3}          & -1933.22                                                            \\
+    Ar           & -208.10                                                             \\
+    CH\textsubscript{4}          & -50.73                                                              \\
+    Formaldehyde & -136.13                                                             \\
+    Formic Acid  & -227.08                                                             \\
+    H\textsubscript{2}S          & -150.36                                                             \\
+    He           & -12.62                                                              \\
+    H\textsubscript{2}O          & -95.99                                                              \\ \bottomrule
+    \end{tabular}
+    \end{table}
 
 
-\section{Results and discussion}
 \subsection{Stability of palladium alloy compositions}
 
 \subsection{Hydrogen and Impurity adsorption on palladium alloy membranes}
