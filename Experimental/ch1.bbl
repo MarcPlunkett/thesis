@@ -1,8 +1,21 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{1}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Gouveia Gil} et~al.(2015){Gouveia Gil}, Reis, Chadwick, Wu, and
+  Li]{GouveiaGil2015}
+Ana {Gouveia Gil}, Miria Hespanhol~M Reis, David Chadwick, Zhentao Wu, and
+  K~Li.
+\newblock {A highly permeable hollow fibre substrate for Pd/Al2O3 composite
+  membranes in hydrogen permeation}.
+\newblock \emph{International Journal of Hydrogen Energy}, 40\penalty0
+  (8):\penalty0 3249--3258, 2015.
+\newblock ISSN 0360-3199.
+\newblock \doi{https://doi.org/10.1016/j.ijhydene.2015.01.021}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0360319915000580}.
 
 \end{thebibliography}

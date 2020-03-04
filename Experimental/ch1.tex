@@ -7,7 +7,7 @@ Density functional theory calculations were performed using the Quantum Espresso
 
 The supercell used contained 20 metal atoms and one gaseous molecule located on one of four available sites on the metal lattice. It was assumed that all palladium systems adopt the substitutional; random fcc structure. Metal atoms were randomly distributed among the fcc lattice in the supercell. All atoms were allowed to relax during the calculation, with the volume of the super cell fixed at the optimised volume of the super cell without adsorbed molecules. 
 
-Geometry optimization was performed to get the lattice constant and total energy of each alloy prior to adsorption of gaseous molecules. 
+Geometry optimization was performed to get the lattice constant and total energy of each alloy prior to adsorption of gaseous molecules. Python with scikit learn, pandas, numpy packages were used for scripting, data collection and analysis.
 
 \section{Membrane manufacture}
 
@@ -87,7 +87,7 @@ The thickness of the plated layers was characterised by first using a Focused Io
 
 The surface composition of the membrane was further characterised using X-ray Photoelectron Spectroscopy to provide a more accurate compositional analysis for the top 10 nm of the membrane, the depth which is most relevant for catalytic dissociation of hydrogen and adsorption of impurities.
 
-Prior to the H\textsubscript{2} permeation tests, the integrity of the hollow fibre membranes was evaluated by testing the gas-tightness of the membrane under N\textsubscript{2} atmosphere, up to 10 bar and room temperature and using a gas-tightness apparatus developed in house. 10
+Prior to the H\textsubscript{2} permeation tests, the integrity of the hollow fibre membranes was evaluated by testing the gas-tightness of the membrane under N\textsubscript{2} atmosphere, up to 10 bar and room temperature and using a gas-tightness apparatus developed in house. \cite{GouveiaGil2015}
 
 \section{Membrane testing}
 \subsection{Preparation of gas standards}
@@ -127,7 +127,7 @@ Gas standards of hydrogen were prepared gravimetrically in 10 litre cylinders (B
         \end{table}
 
 \subsection{Membrane testing rig}
-After the membranes were ensured to be gas tight, hydrogen permeation measurements were performed using the experimental apparatus shown in Figure 1. The palladium alloy composite hollow fibre membranes were sealed on to a stainless steel ¼” NPT fitting. The membrane was then placed in a Sulfinert®-treated sample vessel (Thames Restek, UK) with nominal volume of 300 cm\textsuperscript{3}. The vessel was then heated using heavy insulated heating tape (OMEGA STH051-020). The heating was controlled using the temperature of the membrane using a PID temperature controller (OMRON). The feed was supplied from a cylinder either containing BIP+ hydrogen (Air Products) for pure hydrogen permeability tests or one of two gravimetrically prepared gas mixtures for impurity testing discussed in the previous section. Prior to introducing gas to the membrane the system was evacuated down to 1 x 10\textsuperscript{-6} mbar.
+After the membranes were ensured to be gas tight, hydrogen permeation measurements were performed using the experimental apparatus shown in Figure 1. The palladium alloy composite hollow fibre membranes were sealed on to a stainless steel ¼” NPT fitting. The membrane was then placed in a Sulfinert®-treated sample vessel (Thames Restek, UK) with nominal volume of 300 cm\textsuperscript{3}. The vessel was then heated using heavy insulated heating tape (OMEGA STH051-020). The heating was controlled using the temperature of the membrane using a PID temperature controller (OMRON). The feed was supplied from a cylinder either containing BIP+ hydrogen (Air Products) for pure hydrogen permeability tests or one of two gravimetrically prepared gas mixtures for impurity testing shown in tables \ref{nonsulf} and \ref{sulf}. Prior to introducing gas to the membrane the system was evacuated down to 1 x 10\textsuperscript{-6} mbar.
 
 The flux and permeability of the membrane were automatically calculated using software developed in house. Each membrane sample was made using the same batch of substrate and cut to the same length prior to deposition. The permeability (P)  of a dense metal membrane is given by Eqn (1) and is a function of the hydrogen flux through the membrane (J), the concentration and pressure gradient across the membrane ($P^{0.5}_{ret}-P^{0.5}_{perm}$), and the thickness of the metallic membrane (l). 
 
