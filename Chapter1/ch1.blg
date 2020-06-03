@@ -9,45 +9,47 @@ Warning--empty year in Honda
 Warning--empty institution in UKH2Mobility2013
 Warning--empty institution in Summerton2015
 Warning--empty institution in Hayter2014
-You've used 11 entries,
+Warning--empty booktitle in Alaswad2016
+Warning--empty institution in InternationalEnergyAgencyIEA2015
+You've used 26 entries,
             2481 wiz_defined-function locations,
-            614 strings with 6043 characters,
-and the built_in function-call counts, 3214 in all, are:
-= -- 267
-> -- 133
-< -- 11
-+ -- 60
-- -- 38
-* -- 192
-:= -- 523
-add.period$ -- 32
-call.type$ -- 11
-change.case$ -- 24
-chr.to.int$ -- 11
-cite$ -- 17
-duplicate$ -- 172
-empty$ -- 318
-format.name$ -- 55
-if$ -- 675
+            757 strings with 10562 characters,
+and the built_in function-call counts, 10087 in all, are:
+= -- 913
+> -- 486
+< -- 20
++ -- 194
+- -- 142
+* -- 782
+:= -- 1652
+add.period$ -- 116
+call.type$ -- 26
+change.case$ -- 55
+chr.to.int$ -- 26
+cite$ -- 34
+duplicate$ -- 480
+empty$ -- 886
+format.name$ -- 180
+if$ -- 2129
 int.to.chr$ -- 1
-int.to.str$ -- 12
-missing$ -- 3
-newline$ -- 62
-num.names$ -- 33
-pop$ -- 115
+int.to.str$ -- 27
+missing$ -- 17
+newline$ -- 174
+num.names$ -- 82
+pop$ -- 198
 preamble$ -- 1
-purify$ -- 11
+purify$ -- 26
 quote$ -- 0
-skip$ -- 119
+skip$ -- 296
 stack$ -- 0
-substring$ -- 53
-swap$ -- 19
-text.length$ -- 1
+substring$ -- 393
+swap$ -- 68
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 77
-warning$ -- 6
-while$ -- 24
+type$ -- 182
+warning$ -- 8
+while$ -- 81
 width$ -- 0
-write$ -- 138
-(There were 6 warnings)
+write$ -- 409
+(There were 8 warnings)

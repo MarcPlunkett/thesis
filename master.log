@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.1)  1 MAY 2020 11:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.27)  3 JUN 2020 23:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/MarcPlunkett/thesis/master.tex
-(/Users/MarcPlunkett/thesis/master.tex
+**/Users/marc/Thesis/master.tex
+(/Users/marc/Thesis/master.tex
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
@@ -680,79 +680,75 @@ Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 \AC@clearlist=\toks17
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/xr.sty
 Package: xr 2019/01/05 v5.04 eXternal References (DPC)
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count101
+\float@exts=\toks18
+\float@box=\box29
+\@float@everytoks=\toks19
+\@floatcapt=\box30
 )
-Package xr Info: IMPORTING LABELS FROM Experimental/ch1.aux on input line 17.
+   defining Unicode char U+2005 (decimal 8197)
+   defining Unicode char U+2606 (decimal 9734)
+Package xr Info: IMPORTING LABELS FROM Experimental/ch1.aux on input line 20.
 
 
 LaTeX Warning: Label `exp-sintering' multiply defined.
 
-(/Users/MarcPlunkett/thesis/master.aux (/Users/MarcPlunkett/thesis/acronyms.aux) (/Users/MarcPlunkett/thesis/Chapter1/ch1.aux) (/Users/MarcPlunkett/thesis/Chapter2/ch2.aux
-
-LaTeX Warning: Label `eq:1' multiply defined.
-
-
-LaTeX Warning: Label `eq:2' multiply defined.
-
-
-LaTeX Warning: Label `eq:3' multiply defined.
-
-
-LaTeX Warning: Label `fig:1' multiply defined.
-
-) (/Users/MarcPlunkett/thesis/Experimental/ch1.aux
+(/Users/marc/Thesis/master.aux (/Users/marc/Thesis/acronyms.aux) (/Users/marc/Thesis/Chapter1/ch1.aux) (/Users/marc/Thesis/Chapter2/ch2.aux) (/Users/marc/Thesis/Experimental/ch1.aux
 
 LaTeX Warning: Label `sintering' multiply defined.
 
 
 LaTeX Warning: Label `eq:1' multiply defined.
 
-) (/Users/MarcPlunkett/thesis/Chapter3/ch3.aux) (/Users/MarcPlunkett/thesis/Chapter4/ch4.aux
+) (/Users/marc/Thesis/Chapter3/ch3.aux) (/Users/marc/Thesis/Chapter4/ch4.aux
 
 LaTeX Warning: Label `fig:1' multiply defined.
 
-) (/Users/MarcPlunkett/thesis/Chapter5/ch5.aux) (/Users/MarcPlunkett/thesis/Chapter6/ch6.aux))
+) (/Users/marc/Thesis/Chapter5/ch5.aux) (/Users/marc/Thesis/Chapter6/ch6.aux))
 \openout1 = `master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 24.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 21.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 21.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 24.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 24.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 21.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 24.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count101
+\scratchcounter=\count102
 \scratchdimen=\dimen133
-\scratchbox=\box29
-\nofMPsegments=\count102
-\nofMParguments=\count103
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count104
+\scratchbox=\box31
+\nofMPsegments=\count103
+\nofMParguments=\count104
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count105
 \MPscratchDim=\dimen134
-\MPnumerator=\count105
-\makeMPintoPDFobject=\count106
-\everyMPtoPDFconversion=\toks19
+\MPnumerator=\count106
+\makeMPintoPDFobject=\count107
+\everyMPtoPDFconversion=\toks21
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
@@ -790,74 +786,80 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 26.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 29.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 26.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 29.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 26.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 29.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 26.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 29.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 26.
+(Font)              <14.4> on input line 29.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 26.
+(Font)              <10> on input line 29.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 26.
+(Font)              <7> on input line 29.
  [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
 <figures/sig.png, id=8, 418.56375pt x 133.49875pt>
 File: figures/sig.png Graphic file (type png)
 <use figures/sig.png>
-Package pdftex.def Info: figures/sig.png  used on input line 34.
+Package pdftex.def Info: figures/sig.png  used on input line 37.
 (pdftex.def)             Requested size: 209.28136pt x 66.74919pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
 
  []
 
 [1
 
- </Users/MarcPlunkett/thesis/figures/sig.png>] [2
+ </Users/marc/Thesis/figures/sig.png>] [2
 
 ] [3] [4
 
 ] [5
 
-] (/Users/MarcPlunkett/thesis/master.lof
+] (/Users/marc/Thesis/master.lof
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 5.
+
+Overfull \hbox (1.98703pt too wide) in paragraph at lines 8--8
+ [][] []\T1/lmr/m/n/12 Simplified block di-a-gram of a typ-i-cal mod-ern SMR plant. WGS 
+ []
+
 )
 \tf@lof=\write3
 \openout3 = `master.lof'.
 
  [6
 
-] (/Users/MarcPlunkett/thesis/master.lot
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 27.
+] (/Users/marc/Thesis/master.lot
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 28.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
@@ -869,11 +871,11 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ]
 \openout2 = `acronyms.aux'.
 
- (/Users/MarcPlunkett/thesis/acronyms.tex [8
+ (/Users/marc/Thesis/acronyms.tex [8
 
 
 
-] [9]) [10] (/Users/MarcPlunkett/thesis/master.toc [11
+] [9]) [10] (/Users/marc/Thesis/master.toc [11
 
 
 ])
@@ -883,7 +885,7 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
  [12]
 \openout2 = `Chapter1/ch1.aux'.
 
- (/Users/MarcPlunkett/thesis/Chapter1/ch1.tex
+ (/Users/marc/Thesis/Chapter1/ch1.tex
 Chapter 1.
 [13
 
@@ -892,25 +894,58 @@ Chapter 1.
 ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 44.
+               Default added (so using `tbp') on input line 17.
 
-[14] [15] [16]
-Overfull \hbox (9.58597pt too wide) in paragraph at lines 149--153
+[14] [15]
+<figures/pemfccell.jpg, id=62, 214.89133pt x 205.93752pt>
+File: figures/pemfccell.jpg Graphic file (type jpg)
+<use figures/pemfccell.jpg>
+Package pdftex.def Info: figures/pemfccell.jpg  used on input line 71.
+(pdftex.def)             Requested size: 214.8908pt x 205.937pt.
+ [16 </Users/marc/Thesis/figures/pemfccell.jpg>]
+<figures/MEA.png, id=71, 519.9425pt x 493.845pt>
+File: figures/MEA.png Graphic file (type png)
+<use figures/MEA.png>
+Package pdftex.def Info: figures/MEA.png  used on input line 91.
+(pdftex.def)             Requested size: 363.95728pt x 345.68913pt.
+ [17]
+<figures/PEMFCstack.png, id=75, 853.1875pt x 304.13625pt>
+File: figures/PEMFCstack.png Graphic file (type png)
+<use figures/PEMFCstack.png>
+Package pdftex.def Info: figures/PEMFCstack.png  used on input line 97.
+(pdftex.def)             Requested size: 426.59271pt x 152.06775pt.
+
+Overfull \hbox (36.59271pt too wide) in paragraph at lines 97--98
+[][] 
+ []
+
+[18 </Users/marc/Thesis/figures/MEA.png> </Users/marc/Thesis/figures/PEMFCstack.png>]
+<figures/smrprocess.jpg, id=82, 311.46451pt x 152.21469pt>
+File: figures/smrprocess.jpg Graphic file (type jpg)
+<use figures/smrprocess.jpg>
+Package pdftex.def Info: figures/smrprocess.jpg  used on input line 116.
+(pdftex.def)             Requested size: 311.46375pt x 152.21431pt.
+ [19]
+Overfull \hbox (9.58597pt too wide) in paragraph at lines 146--147
  \T1/lmr/bx/n/12 Hy-dro-car-bon de-com-po-si-tion[] \T1/lmr/m/n/12 is a pro-cess by which hy-dro-car-bon molecules
  []
 
-[17] [18] [19] [20]
-Overfull \hbox (8.21799pt too wide) in paragraph at lines 314--317
- \T1/lmr/bx/n/12 To-tal halo-genated com-pounds[] \T1/lmr/m/n/12 Halo-genated com-pounds cause ir-re-versible
+[20 </Users/marc/Thesis/figures/smrprocess.jpg>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 174.
+
+
+Overfull \vbox (14.49998pt too high) detected at line 197
  []
 
-[21]
-<figures/funnel.png, id=87, 638.385pt x 415.5525pt>
+[21] [22] [23] [24] [25] [26] [27]
+<figures/funnel.png, id=112, 4333.18875pt x 2366.8425pt>
 File: figures/funnel.png Graphic file (type png)
 <use figures/funnel.png>
-Package pdftex.def Info: figures/funnel.png  used on input line 360.
-(pdftex.def)             Requested size: 390.0pt x 253.8671pt.
- (/Users/MarcPlunkett/thesis/Chapter1/ch1.bbl [22] [23 </Users/MarcPlunkett/thesis/figures/funnel.png>]
+Package pdftex.def Info: figures/funnel.png  used on input line 308.
+(pdftex.def)             Requested size: 390.0pt x 213.00664pt.
+ (/Users/marc/Thesis/Chapter1/ch1.bbl [28 </Users/marc/Thesis/figures/funnel.png>]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 17.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -924,19 +959,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--24
 \T1/lmr/m/n/12 URL $\T1/lmtt/m/n/12 https : / / www . hyundai . co . uk / about-[]us / environment /
  []
 
-[24
+[29
 
-])) [25]
+] [30]
+Underfull \hbox (badness 1348) in paragraph at lines 155--164
+\T1/lmr/m/n/12 and Fa-had Al-Muhaish.  De-com-po-si-tion of hy-dro-car-bons to hy-
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 155--164
+\T1/lmr/m/n/12 dro-gen and car-bon.  \T1/lmr/m/it/12 Ap-plied Catal-y-sis A: Gen-eral\T1/lmr/m/n/12 , 359(1):1--24,
+ []
+
+[31])) [32]
 \openout2 = `Chapter2/ch2.aux'.
 
- (/Users/MarcPlunkett/thesis/Chapter2/ch2.tex
+ (/Users/marc/Thesis/Chapter2/ch2.tex
 Chapter 2.
-[26
+[33
 
 
 
 
-] [27] [28] [29] [30]
+] [34] [35] [36] [37]
 LaTeX Font Info:    Try loading font information for U+eur on input line 168.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/ueur.fd
 File: ueur.fd 2013/01/14 v3.01 Euler Roman
@@ -945,75 +990,92 @@ Overfull \hbox (12.7615pt too wide) in paragraph at lines 166--171
 []\T1/lmr/m/n/12 For most porous me-dia, the sep-a-ra-tion mech-a-nism is dom-i-nated by Poiseuille
  []
 
-<figures/septype.png, id=122, 452.4102pt x 250.536pt>
+<figures/septype.png, id=150, 452.4102pt x 250.536pt>
 File: figures/septype.png Graphic file (type png)
 <use figures/septype.png>
 Package pdftex.def Info: figures/septype.png  used on input line 173.
 (pdftex.def)             Requested size: 390.0pt x 215.97282pt.
-[31 </Users/MarcPlunkett/thesis/figures/septype.png>] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41]
+[38 </Users/marc/Thesis/figures/septype.png>] [39]
+
+Package natbib Warning: Citation `Ockwig2007' on page 40 undefined on input line 276.
+
+
+Package natbib Warning: Citation `Ockwig2007' on page 40 undefined on input line 285.
+
+
+Package natbib Warning: Citation `Ockwig2007' on page 40 undefined on input line 285.
+
+
+Package natbib Warning: Citation `Ockwig2007' on page 40 undefined on input line 285.
+
+[40] [41]
+
+Package natbib Warning: Citation `Ockwig2007' on page 42 undefined on input line 293.
+
+[42] [43] [44] [45] [46] [47] [48]
 Overfull \hbox (9.24258pt too wide) in paragraph at lines 548--549
 []\T1/lmr/m/n/12 This sec-tion will dis-cuss de-vel-op-ments in both pal-la-dium and non-palladium
  []
 
-[42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] (/Users/MarcPlunkett/thesis/Chapter2/ch2.bbl [53] [54
+[49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] (/Users/marc/Thesis/Chapter2/ch2.bbl [60] [61
 
 ]
-Underfull \hbox (badness 1043) in paragraph at lines 93--101
+Underfull \hbox (badness 1043) in paragraph at lines 88--96
 []\T1/lmr/m/n/12 Hong Joo Lee, Hi-royuki Suda, Kenji Haraya, and Se-ung Hyeon
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 93--101
+Underfull \hbox (badness 1867) in paragraph at lines 88--96
 \T1/lmr/m/n/12 Moon.  Gas per-me-ation prop-er-ties of car-bon molec-u-lar siev-ing
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 119--125
+Underfull \hbox (badness 1314) in paragraph at lines 114--120
 []\T1/lmr/m/n/12 Truls Norby and Rei-dar Haugsrud.  Dense Ce-ramic Mem-branes
  []
 
 
-Underfull \hbox (badness 6641) in paragraph at lines 119--125
+Underfull \hbox (badness 6641) in paragraph at lines 114--120
 \T1/lmr/m/n/12 for Hy-dro-gen Sep-a-ra-tion, in Mem-branes for En-ergy Con-ver-
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 119--125
+Underfull \hbox (badness 3942) in paragraph at lines 114--120
 \T1/lmr/m/n/12 sion.  \T1/lmr/m/it/12 Non-porous in-or-ganic mem-branes\T1/lmr/m/n/12 , pages 169--216, 2008.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--125
+Underfull \hbox (badness 10000) in paragraph at lines 114--120
 \T1/lmr/m/n/12 URL $\T1/lmtt/m/n/12 http : / / books . google . com / books ? hl = en{\ & }lr = {\ & }id =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--125
+Underfull \hbox (badness 10000) in paragraph at lines 114--120
 \T1/lmtt/m/n/12 gCQjw-[]cyulAC{\ & }oi = fnd{\ & }pg = PA1{\ & }dq = Dense + Ceramic +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--125
+Underfull \hbox (badness 10000) in paragraph at lines 114--120
 \T1/lmtt/m/n/12 Membranes + for + Hydrogen + Separation{\ & }ots = e-[]3oiNW5EW{\ &
  []
 
-[55] [56] [57]
-Underfull \hbox (badness 4819) in paragraph at lines 298--301
+[62] [63] [64]
+Underfull \hbox (badness 4819) in paragraph at lines 293--296
 []\T1/lmr/m/n/12 Structure Com-mis-sion of the In-ter-na-tional Ze-o-lite As-so-ci-a-tion.
  []
 
-)) [58]
+)) [65]
 \openout2 = `Experimental/ch1.aux'.
 
- (/Users/MarcPlunkett/thesis/Experimental/ch1.tex
+ (/Users/marc/Thesis/Experimental/ch1.tex
 Chapter 3.
-[59
+[66
 
 
 
 
 ]
-<figures/hollowfibresintering.png, id=218, 842.14626pt x 1346.02875pt>
+<figures/hollowfibresintering.png, id=247, 842.14626pt x 1346.02875pt>
 File: figures/hollowfibresintering.png Graphic file (type png)
 <use figures/hollowfibresintering.png>
 Package pdftex.def Info: figures/hollowfibresintering.png  used on input line 18.
@@ -1022,18 +1084,18 @@ Package pdftex.def Info: figures/hollowfibresintering.png  used on input line 18
 
 LaTeX Warning: Float too large for page by 70.35008pt on input line 21.
 
-[60] [61 </Users/MarcPlunkett/thesis/figures/hollowfibresintering.png>]
+[67] [68 </Users/marc/Thesis/figures/hollowfibresintering.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 35.
 
-<figures/pretreatment.png, id=227, 1621.05624pt x 867.24pt>
+<figures/pretreatment.png, id=255, 1621.05624pt x 867.24pt>
 File: figures/pretreatment.png Graphic file (type png)
 <use figures/pretreatment.png>
 Package pdftex.def Info: figures/pretreatment.png  used on input line 65.
 (pdftex.def)             Requested size: 390.0pt x 208.6447pt.
-[62] [63 </Users/MarcPlunkett/thesis/figures/pretreatment.png>]
-<figures/ELpprocedure.png, id=235, 2155.05125pt x 462.72874pt>
+[69] [70 </Users/marc/Thesis/figures/pretreatment.png>]
+<figures/ELpprocedure.png, id=263, 2155.05125pt x 462.72874pt>
 File: figures/ELpprocedure.png Graphic file (type png)
 <use figures/ELpprocedure.png>
 Package pdftex.def Info: figures/ELpprocedure.png  used on input line 81.
@@ -1043,7 +1105,7 @@ Package pdftex.def Info: figures/ELpprocedure.png  used on input line 81.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 89.
 
-[64 </Users/MarcPlunkett/thesis/figures/ELpprocedure.png>]
+[71 </Users/marc/Thesis/figures/ELpprocedure.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 114.
@@ -1052,14 +1114,14 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 130.
 
-[65] [66] (/Users/MarcPlunkett/thesis/Experimental/ch1.bbl [67])) [68
+[72] [73] (/Users/marc/Thesis/Experimental/ch1.bbl [74])) [75
 
 ]
 \openout2 = `Chapter3/ch3.aux'.
 
- (/Users/MarcPlunkett/thesis/Chapter3/ch3.tex
+ (/Users/marc/Thesis/Chapter3/ch3.tex
 Chapter 4.
-[69
+[76
 
 
 
@@ -1073,24 +1135,24 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 49.
 
-(/Users/MarcPlunkett/thesis/Chapter3/ch3.bbl [70] [71] [72]
+(/Users/marc/Thesis/Chapter3/ch3.bbl [77] [78] [79]
 
 Package natbib Warning: Empty `thebibliography' environment on input line 8.
 
-)) [73
+)) [80
 
 ]
 \openout2 = `Chapter4/ch4.aux'.
 
- (/Users/MarcPlunkett/thesis/Chapter4/ch4.tex
+ (/Users/marc/Thesis/Chapter4/ch4.tex
 Chapter 5.
-[74
+[81
 
 
 
 
-] [75]
-<figures/Semxsect.png, id=275, 2810.5pt x 4474.7175pt>
+] [82]
+<figures/Semxsect.png, id=303, 2810.5pt x 4474.7175pt>
 File: figures/Semxsect.png Graphic file (type png)
 <use figures/Semxsect.png>
 Package pdftex.def Info: figures/Semxsect.png  used on input line 24.
@@ -1103,7 +1165,7 @@ LaTeX Warning: Float too large for page by 8.77792pt on input line 27.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 31.
 
-[76] [77 </Users/MarcPlunkett/thesis/figures/Semxsect.png>] [78]
+[83] [84 </Users/marc/Thesis/figures/Semxsect.png>] [85]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 59.
@@ -1112,13 +1174,13 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 81.
 
-[79] [80]
+[86] [87]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 109.
 
-[81] [82]
-<figures/permeabilitychart.png, id=299, 1482.53876pt x 707.64375pt>
+[88] [89]
+<figures/permeabilitychart.png, id=327, 1482.53876pt x 707.64375pt>
 File: figures/permeabilitychart.png Graphic file (type png)
 <use figures/permeabilitychart.png>
 Package pdftex.def Info: figures/permeabilitychart.png  used on input line 136.
@@ -1128,14 +1190,14 @@ Overfull \hbox (3.68411pt too wide) in paragraph at lines 142--143
 \T1/lmr/m/n/12 All mem-branes tested showed some de-gree of seg-re-ga-tion with the two thinnest
  []
 
-[83 </Users/MarcPlunkett/thesis/figures/permeabilitychart.png>] (/Users/MarcPlunkett/thesis/Chapter4/ch4.bbl [84] [85
+[90 </Users/marc/Thesis/figures/permeabilitychart.png>] (/Users/marc/Thesis/Chapter4/ch4.bbl [91] [92
 
-])) [86]
+])) [93]
 \openout2 = `Chapter5/ch5.aux'.
 
- (/Users/MarcPlunkett/thesis/Chapter5/ch5.tex
+ (/Users/marc/Thesis/Chapter5/ch5.tex
 Chapter 6.
-) [87
+) [94
 
 
 
@@ -1143,31 +1205,35 @@ Chapter 6.
 ]
 \openout2 = `Chapter6/ch6.aux'.
 
- (/Users/MarcPlunkett/thesis/Chapter6/ch6.tex
+ (/Users/marc/Thesis/Chapter6/ch6.tex
 Chapter 7.
-) [88
+) [95
 
 
 
 
-] (/Users/MarcPlunkett/thesis/master.aux (/Users/MarcPlunkett/thesis/acronyms.aux) (/Users/MarcPlunkett/thesis/Chapter1/ch1.aux) (/Users/MarcPlunkett/thesis/Chapter2/ch2.aux) (/Users/MarcPlunkett/thesis/Experimental/ch1.aux) (/Users/MarcPlunkett/thesis/Chapter3/ch3.aux) (/Users/MarcPlunkett/thesis/Chapter4/ch4.aux) (/Users/MarcPlunkett/thesis/Chapter5/ch5.aux) (/Users/MarcPlunkett/thesis/Chapter6/ch6.aux))
+]
+
+Package natbib Warning: There were undefined citations.
+
+(/Users/marc/Thesis/master.aux (/Users/marc/Thesis/acronyms.aux) (/Users/marc/Thesis/Chapter1/ch1.aux) (/Users/marc/Thesis/Chapter2/ch2.aux) (/Users/marc/Thesis/Experimental/ch1.aux) (/Users/marc/Thesis/Chapter3/ch3.aux) (/Users/marc/Thesis/Chapter4/ch4.aux) (/Users/marc/Thesis/Chapter5/ch5.aux) (/Users/marc/Thesis/Chapter6/ch6.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6212 strings out of 492609
- 96749 string characters out of 6129048
- 160350 words of memory out of 5000000
- 9913 multiletter control sequences out of 15000+600000
+ 6340 strings out of 492609
+ 98268 string characters out of 6129048
+ 167899 words of memory out of 5000000
+ 10032 multiletter control sequences out of 15000+600000
  64801 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,16n,42p,2268b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,19n,45p,2260b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /Users/MarcPlunkett/thesis/master.pdf (89 pages, 8768583 bytes).
+Output written on /Users/marc/Thesis/master.pdf (96 pages, 9307578 bytes).
 PDF statistics:
- 381 PDF objects out of 1000 (max. 8388607)
- 256 compressed objects within 3 object streams
+ 409 PDF objects out of 1000 (max. 8388607)
+ 271 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
