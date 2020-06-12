@@ -3,49 +3,50 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: ch2.aux
 The style file: unsrtnat.bst
 Database file #1: library.bib
-Warning--I didn't find a database entry for "Ockwig2007"
+Warning--empty booktitle in Alaswad2016
+Warning--empty institution in InternationalEnergyAgencyIEA2015
 Warning--empty year in Bossard
 Warning--empty year in Bossard
 Warning--empty year in StructureCommissionoftheInternationalZeoliteAssociation
-You've used 37 entries,
+You've used 53 entries,
             2481 wiz_defined-function locations,
-            897 strings with 13783 characters,
-and the built_in function-call counts, 16536 in all, are:
-= -- 1493
-> -- 895
-< -- 18
-+ -- 339
-- -- 265
-* -- 1436
-:= -- 2732
-add.period$ -- 185
-call.type$ -- 37
-change.case$ -- 74
-chr.to.int$ -- 37
-cite$ -- 40
-duplicate$ -- 723
-empty$ -- 1390
-format.name$ -- 318
-if$ -- 3453
+            1031 strings with 18455 characters,
+and the built_in function-call counts, 23652 in all, are:
+= -- 2158
+> -- 1255
+< -- 28
++ -- 477
+- -- 371
+* -- 2035
+:= -- 3897
+add.period$ -- 271
+call.type$ -- 53
+change.case$ -- 107
+chr.to.int$ -- 53
+cite$ -- 58
+duplicate$ -- 1045
+empty$ -- 1988
+format.name$ -- 446
+if$ -- 4961
 int.to.chr$ -- 1
-int.to.str$ -- 38
-missing$ -- 36
-newline$ -- 264
-num.names$ -- 117
-pop$ -- 217
+int.to.str$ -- 54
+missing$ -- 50
+newline$ -- 380
+num.names$ -- 169
+pop$ -- 313
 preamble$ -- 1
-purify$ -- 37
+purify$ -- 53
 quote$ -- 0
-skip$ -- 409
+skip$ -- 598
 stack$ -- 0
-substring$ -- 862
-swap$ -- 88
-text.length$ -- 2
+substring$ -- 1204
+swap$ -- 139
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 259
-warning$ -- 3
-while$ -- 140
+type$ -- 371
+warning$ -- 5
+while$ -- 199
 width$ -- 0
-write$ -- 627
-(There were 4 warnings)
+write$ -- 908
+(There were 5 warnings)

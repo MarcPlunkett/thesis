@@ -1,6 +1,220 @@
 
 \chapter{Literature review}
 
+\section{Fuel cell electric vehicles}
+A Fuel cell electric vehicle (FCEV) refers to a vehicle which uses a solid state electrochemical device to convert chemical energy into electrical energy for motor power. The most common fuel source for FCEV's is hydrogen, where energy is produced using oxygen from air and compressed hydrogen stored on board. 
+
+A fuel cell is made up from an electrolyte and two electrocatalysts at both the anode and cathode sides of the cell. The electrolyte separates the two electrodes and usually defines the type of fuel cell. At the anode side the fuel is oxidised as shown in equation \ref{pemfcanode}, creating a positivley charged ion and an electron. The electrolyte is designed to only allow the passage of ions, and prevents the passage of electrons. The freed electron travels through a circuit, creating an electric current to provide power for it's desired use. The ions travel through the electrolyte to the cathode side of the fuel cell where they are reunited with the freed electrons, and oxygen to produce water as shown in equation \ref{pemfccathode}. The overall process for a hydrogen fuel cell is shown in equation \ref{pemfcall} and visualised in figure \ref{fig:pemfccell}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{figures/pemfccell.jpg}
+    \caption{Schematic of a PEMFC cell \cite{Dharmalingam2019}}
+    \label{fig:pemfccell}
+\end{figure}
+
+\begin{equation} \label{pemfcanode}
+    H_2 \rightarrow 2H^+ + 2e^-
+\end{equation}
+\begin{equation} \label{pemfccathode}
+    \frac{1}{2}O_2 + 2H^+ + 2e^- \rightarrow H_2 O
+\end{equation}
+\begin{equation} \label{pemfcall}
+    H_2 + \frac{1}{2} \rightarrow H_2O
+\end{equation}
+
+While a number of fuel cell technologies can use hydrogen as a fuel source, the most suitable for FCEV's, and in particular mass production of affordable vehicles, are proton exchange membrane fuel cells (PEMFC). This is due to their high power density, low start up time, and low operating temperatures. \cite{Alaswad2016}
+
+A PEMFC uses a proton conducting polymer membrane as an electrolyte material, typically nafion. A PEMFC cell consists of two metal bipolar plates which act to distribute the fuel and oxident within the cell, aid water management within the cell, separate individual cells in a fuel cell stack, and carry current away from the cell. \cite{Alaswad2016} A Membrane electrode assembly (MEA) which consists of the polymer membrane, two dispersed noble metal catalyst layers to enable the anode and cathode reactions, and two gas diffusion layers to ensure uniform access of fuel and oxident to the catalyst layer. Common materials for the MEA are shown in figure \ref{fig:MEA}\cite{Mehta2003}. The components are wedged between two rubber seals to ensure gas the cell is gas tight. Individual cells are combined in series to form a fuel cell stack which can provide the desired power as shown in \ref{fig:pemfcstack}
+
+\begin{figure}[H]
+    \includegraphics[scale=0.7]{figures/MEA.png}
+    \caption{Classification of MEA materials \cite{Mehta2003}}
+    \label{fig:MEA}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[scale=0.5]{figures/PEMFCstack.png}
+    \caption{Schematic of a PEMFC stack \cite{Li2019}}
+    \label{fig:pemfcstack}
+\end{figure}
+
+\section{Hydrogen Production}
+Hydrogen production refers to a range of industrial processes for generating hydrogen. 
+Since there are no natural reserves of hydrogen, it must be obtained through one of these methods. The most important factor for determining the feasibility of a hydrogen production process is the primary source of energy that is used. Currently the options for this are nuclear energy in the form of heat, renewable energy in the form of heat, electricity, light, or fossil fuels. 
+Currently the primary sources of hydrogen are from fossil fuels: steam reforming of methane accounts for 48\% and other hydrocarbons account for 30\% of global hydrogen production; gasification of coal accounts for 18\%; and electrolysis of water accounting for the remaining 4\%. \cite{Mangold2009} Electrolysis and SMR will be discussed since these are expected to be the most dominant production methods in the future. \cite{Holladay2009}
+
+\subsection{Hydrogen from fossil fuels and hydrocarbons}
+Fossil fuels are the most dominant source of hydrogen production \cite{Mangold2009} and there are a number of processes which are commonly utilized in industry. The most popular and therefore the ones which will be discussed are steam methane reforming and hydrocarbon decomposition.
+
+\paragraph{Steam Methane reforming} is the conventional and most economical method for producing hydrogen, and it has been predicated by the 
+IEA that this trend will continue despite the emergence of other hydrogen production methods. \cite{InternationalEnergyAgencyIEA2015}
+Steam methane reforming occurs through a two-step chemical process. If another hydrocarbon other than methane is being used it must first be pre-reformed into methane as shown in equation \ref{smr1}. A schematic representation of the process can be seen in figure \ref{fig:smrprocess}
+
+\begin{figure}
+    \centering
+    \includegraphics{figures/smrprocess.jpg}
+    \caption{Simplified block diagram of a typical modern SMR plant. WGS is a water gas shift reactor. CO\textsubscript{2} concentrations are in mol.\%. \cite{Muradov2015}}
+    \label{fig:smrprocess}
+\end{figure}
+
+\begin{equation} \label{smr1}
+    C_n H_m + H_2 O \rightarrow nCO +(\frac{n+m}{2})H_2 
+\end{equation}
+\begin{equation}\label{smr2}
+    CH_4 + H_2 O \rightarrow CO + 3H_2 \quad \Delta H_{298K}^o = +205 kJ/mol
+\end{equation}
+\begin{equation}\label{smr3}
+    CO+ H_2 O \rightarrow CO_2 + H_2 \quad \Delta H_{298K}^o = -41 kJ/mol
+\end{equation}
+
+Equation \ref{smr2} takes place in a reactor operating at 700-850\textdegree C, at pressures of 3-25 bar, and in the presence of a nickel based catalyst. \cite{Muradov2015}
+The result of this step is a mixture of CO and H\textsubscript{2}, commonly referred to as syngas. 
+This syngas is further used as a feedstock for the reaction shown in equation \ref{smr3} known as water gas 
+shift in order to produce greater hydrogen yields.  
+This step is carried out in a two-step reaction. An initial high temperature stage at 350\textdegree C which converts majority of the syngas to CO\textsubscript{2} and hydrogen, and a final low-temperature step which operates at 250\textdegree C which utilizes a catalyst with higher activity to minimise the remaining CO\textsubscript{2}. \cite{Muradov2015}
+The final product will be a mixture of CO\textsubscript{2} and H\textsubscript{2}.  
+
+A number of separation steps are used in order to prevent impurities from contaminating the 
+resulting gas mixture. The traditional separation step is pressure swing adsorption (PSA) which takes 
+advantage of adsorption of gaseous molecules onto a molecular sieve at high pressures. Hydrogen purities of \textasciitilde99.9\% are achievable using this method however the cost is high and typically contributes to around 
+20-30\% of the total production cost. \cite{Muradov2015} The other main separation step is desulphurization which uses a 
+combination of CoMo and ZnO catalysts in series at 450-550\textdegree C to remove sulphur. \cite{Muradov2015}
+This step is essential to ensure sulphur is not present in the gas exit stream and also to ensure catalyst 
+poisoning does not occur at any point in the process. 
+
+\paragraph{Hydrocarbon decomposition} is a process by which hydrocarbon molecules are converted into solid carbon and hydrogen. \cite{Ahmed2009} This reaction is typically operated either thermally or by creating a plasma. A metallic catalyst such as nickel or iron is required. The reaction is shown in equation \ref{eq:4} \cite{Muradov2008} 
+
+\begin{equation}\label{eq:4}
+    C_x H_2x+2 \rightarrow xC + (x+1)H_2
+\end{equation}
+
+An advantage of this process is that the only feedstock is the hydrocarbon, so presuming that the feedstock is sufficiently pure this method of hydrogen production should remove the needs for further downstream processing. \cite{Ahmed2009} The main disadvantage of this method is the since solid carbon is the main by-product the catalyst will be easily deactivated and will require regular maintenance to ensure carbon build up is managed. \cite{Ahmed2009}
+
+\subsection{Hydrogen from water}
+
+\paragraph{Electrolysis} uses an electric current to split water into hydrogen and oxygen using separate anode and cathode chambers isolated using an ion exchange membrane. The anode and cathode reactions are shown in equations \ref{electrolysis1} and \ref{electrolysis2}. The main competitive advantage of electrolysis is that reactors are modular and highly scalable, allowing hydrogen to be produced in a distributed manner. \cite{Acar2014} The main input to the process is electricity and if this electricity is produced using renewable sources then the process can be considered carbon neutral. However if a non-renewable source of energy is used the net carbon produced per mole of hydrogen would be higher than that produced by SMR. \cite{Koroneos2004}
+Electrolysis is incentivised by the increasing price of natural gas and the decreasing price of electricity, which some predict will result in electrolysis becoming more economically feasible than SMR in the future. \cite{Acar2014}
+
+\begin{equation}\label{electrolysis1}
+2H_2 O +  2e^- \rightarrow H_2 + 2OH^-
+\end{equation}
+\begin{equation}\label{electrolysis2}
+2OH^- \rightarrow \frac{1}{2}O_2+ H_2 O + 2e^-
+\end{equation}
+
+\paragraph{Thermal decomposition of water} is the process of splitting water into hydrogen and oxygen at temperatures of 2000\textdegree C as shown in equation \ref{thermdec}. \cite{Holladay2009} The operating temperature of the reaction can be lowered under the presence of a nickel or iron based catalyst. \cite{Holladay2009} Due to the high energy demand for this production method water splitting is not a feasible method of commercial hydrogen production.
+
+\begin{equation}\label{thermdec}
+    H_2 O \rightarrow H_2 + \frac{1}{2} O_2  \quad \Delta H_{298K}^o = +286 kJ/mol
+\end{equation}
+
+\section{Hydrogen impurities in the supply chain}
+The method used to manufacture hydrogen will affect which potential impurities can be present in the final product. While steps are taken in both electrolysis and SMR to ensure a pure product is produced, there is still the chance of impurities reaching the customers fuel cell. This section will explore how ISO 14687-2 impurities can enter the supply chain, and their effect on the operation of a PEMFC. A summary is shown in table \ref{impuritytbl}
+\begin{table}[]
+    \caption{Summary of ISO 14687-2 impurities in the supply chain and their effects on fuel cell operation adapted from \cite{Bacquart2018}}
+    \resizebox{\textwidth}{!}{\begin{tabular}{@{}ccccc@{}}
+    \toprule
+    Impurity                               & Production sources & Contamination source                                                                                                                                                                     & Contamination barriers                                                                                                                                                            & Effect on fuel cell operation                                                                                                                                       \\ \midrule
+    \multirow{2}{*}{N\textsubscript{2}}                    & SMR                & \begin{tabular}[c]{@{}c@{}}Raw material\\ PSA malfunction\end{tabular}                                                                                                                   & PSA                                                                                                                                                                               & \multirow{4}{*}{Reduced energy density of fuel}                                                                                                                     \\
+                                           & Electrolysis       & \begin{tabular}[c]{@{}c@{}}Maintenance\\ Leakage\\ Air intake into water tank\end{tabular}                                                                                & \begin{tabular}[c]{@{}c@{}}Maintainance\\ PEM membrane\\ H\textsubscript{2} pressure \textgreater N\textsubscript{2} pressure supply\end{tabular}              &                                                                                                                                                                     \\
+    Ar                                     & SMR                & Raw materials                                                                                                                                                                            & PSA                                                                                                                                                                               &                                                                                                                                                                     \\
+    He                                     & -                  & -                                                                                                                                                                                        & -                                                                                                                                                                                 &                                                                                                                                                                     \\
+    O\textsubscript{2}                                     & Electrolysis       & \begin{tabular}[c]{@{}c@{}}Generation at the anode\\ Membrane cross over\\ TSA malfunction\end{tabular}                                                              & \begin{tabular}[c]{@{}c@{}}TSA operating condition\\ Oxygen sensor\end{tabular}                                                                                                   & \begin{tabular}[c]{@{}c@{}}Potential damage to hydrogen storage\end{tabular} \\
+    CO                                     & SMR                & \begin{tabular}[c]{@{}c@{}}By-product\\ Raw materials\end{tabular}                                                                                                                       & \begin{tabular}[c]{@{}c@{}}PSA\\ CO sensor on line\end{tabular}                                                                                                                   & Temporary electrocatalyst poisoning                                                                                                                                 \\
+    \multirow{2}{*}{CO\textsubscript{2}}                   & SMR                & \begin{tabular}[c]{@{}c@{}}By-product\\ Raw materials\end{tabular}                                                                                                                       & PSA                                                                                                                                                                               & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Damage to hydrogen storage medium\\ Could cause formation of CO\end{tabular}}                                  \\
+                                           & Electrolysis       & \begin{tabular}[c]{@{}c@{}}Water at anodic side\\ Air into the pure water tank\end{tabular}                                                                                              & \begin{tabular}[c]{@{}c@{}}CO\textsubscript{2} filter\\ Anodic separator tank\\ Ion exchange resin \\in closed water loop\\ PEM membrane\end{tabular} &                                                                                                                                                                     \\
+    CH\textsubscript{4}                                    & SMR                & Raw material                                                                                                                                                                             & \begin{tabular}[c]{@{}c@{}}PSA\\ Methane sensor on line\end{tabular}                                                                                                              & Reduced energy density of fuel                                                                                                                                      \\
+    \multirow{2}{*}{H\textsubscript{2}O}                   & SMR                & Raw material                                                                                                                                                                             & PSA                                                                                                                                                                               & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Ice formation during refilling\\ K+ and Na+ contamination \\ reducing cathode side conductivity\end{tabular}}            \\
+                                           & Electrolysis       & \begin{tabular}[c]{@{}c@{}}Reactant\\ Through PEM membrane\\ Hydrogen output water saturated\\ TSA malfunction\end{tabular}                                                              & \begin{tabular}[c]{@{}c@{}}TSA dryer\\ Dew point monitor\\ Operating procedure\end{tabular}                                                                                       &                                                                                                                                                                     \\
+    Total sulphur compounds                & SMR                & Raw material                                                                                                                                                                             & \begin{tabular}[c]{@{}c@{}}Desulfuration unit\\ Sulphur trap in reforming system \\ PSA\\ Stainless steel pipe and vessl\end{tabular}                & Permanent electrocatalyst poisoning                                                                                                                                 \\
+    \multirow{2}{*}{NH\textsubscript{3}}                   & SMR                & Raw material                                                                                                                                                                             & PSA                                                                                                                                                                               & \multirow{2}{*}{Reduced ion exchange capacity}                                                                                                          \\
+                                           & Electrolysis       & Water at anodic side                                                                                                                                                                     & \begin{tabular}[c]{@{}c@{}}Reverse osmosis \\ PEM membrane\end{tabular}                                                                                          &                                                                                                                                                                     \\
+    Formaldehyde                           & SMR                & Raw material                                                                                                                                                                             & PSA                                                                                                                                                                               & Temporary electrocatalyst poisoning                                                                                                                                 \\
+    Formic acid                            & SMR                & Raw material                                                                                                                                                                             & PSA                                                                                                                                                                               & Temporary electrocatalyst poisoning                                                                                                                                 \\
+    \multirow{2}{*}{Halogenated compounds} & SMR                & Raw material                                                                                                                                                                             & \begin{tabular}[c]{@{}c@{}}Desulfuration unit\\ Chlorinated trap in reforming system \\ PSA\\ Stainless steel pipe and vessel\end{tabular}           & \multirow{2}{*}{Permanent electrocatalyst poisoning}                                                                                                                \\
+                                           & Electrolysis       & \begin{tabular}[c]{@{}c@{}}Raw material contamination\end{tabular} & Reverse osmosis\\Monitoring Cl\textsubscript{2} concentration                                                                                                                                      &                                                                                                                                                                     \\ \bottomrule
+    \end{tabular}}\label{impuritytbl}
+    \end{table}
+
+    
+\subsection*{Water}
+Water can be present from both SMR and electrolysis due to it being a main by-product of SMR reactions, and the main reactant in electrolysis. 
+
+The PSA process used in SMR is an appropriate barrier to prevent water contaminating the end product. This is due to the molecular sieves commonly used  having a high selectivity for water. \cite{Muradov2015} When a PSA system is designed to produce an output of CO below 0.2 \textmu mol/mol, the concentration of water will be less than 0.1 \textmu mol/mol. \cite{Bacquart2018} This makes it unlikely for H\textsubscript{2}O to be present in hydrogen produced using this method.
+
+There are three potential pathways for water to contaminate hydrogen through electrolysis. These are:
+\begin{itemize}
+    \item Electro-osmosis through the proton exchange membrane
+    \item Hydrogen water saturated at 60\textdegree C
+    \item Drier malfunction
+\end{itemize}
+Modern electrolysers are fitted with a drier, which is the main barrier for water vapour exiting the process with hydrogen. \cite{Bacquart2018} In the event of drier failure, most systems are fit with a dew point analyser that will trip, shutting off production until the issue can be fixed. \cite{Bacquart2018}
+
+Water generally does not affect the function of a fuel cell, however; it provides a transport mechanism for water-soluble contaminants such as K+ and Na+ \cite{InternationalStandardISO14687-2:20122012} to pass through the electrolyte and have a negative long-term effect on the conductivity of the cathode side of the membrane. In addition, water may increase the risk of ice formation within vehicle fuel storage and hydrogen dispensing systems under certain conditions. 
+
+\subsection*{Total hydrocarbon content}
+The presence of hydrocarbons are most likely to result from the SMR process. Hydrocarbons are not expected to be present at all in electrolysis. Similar to water contamination through SMR, the most likely reason for hydrocarbon contamination is due to malfunction of the PSA system used to purify the product hydrogen. 
+
+A PSA system designed to deliver hydrogen with a CO concentration <0.2 \textmu mol/mol should be sufficient to reduce the amount fraction of hydrocarbons to below the 5 \textmu mol/mol required by ISO 14687. \cite{Bacquart2018}
+
+Different hydrocarbons have different effects on fuel cell performance. Generally aromatic hydrocarbons adsorb more strongly on the catalyst surface than other hydrocarbons, inhibiting access to hydrogen.\cite{InternationalStandardISO14687-2:20122012} Methane (CH\textsubscript{4}) is generally considered an inert constituent and it's main effect on fuel cell performance is  diluting the hydrogen fuel stream. \cite{InternationalStandardISO14687-2:20122012}
+
+\subsection*{Oxygen}
+In SMR processes oxygen is not used as a raw material, nor is it stable during the process conditions, readily reacting with hydrogen to produce water. In addition to this the oxygen content of the feedstock to the PSA separation stage must be below a certain level for safety reasons. Therefore oxygen contamination from hydrogen produced from SMR is unlikely. 
+
+Oxygen is a main by-product of electrolysis, although is generated at the anode side of the electrolysis stack. Likely methods of contamination are through cross over through the PEM membrane. Due to the danger of high oxygen levels in hydrogen streams, most electrolysis systems are fit with an oxygen sensor that trips the system if the concentration of oxygen in the hydrogen stream surpasses 5 umol/mol. \cite{Bacquart2018}
+
+Oxygen in low concentrations does not adversely affect the function of the fuel cell system; however, it may be a concern for some on-board vehicle storage systems, for example, by reaction with metal hydride storage materials. \cite{InternationalStandardISO14687-2:20122012} 
+
+\subsection*{Helium, nitrogen and argon}
+Helium is not present as a feed material in any of the discussed processes, however there is also no barrier to Helium in the exit stream and therefore any helium that enters a SMR or electrolysis process will not be removed. Despite this it is unlikely that helium will be present in a hydrocarbon feedstock, or water.
+
+Argon is similar to helium, however it is more likely for Argon to be present in the natural gas feedstock for SMR. Unlike helium, the PSA step in SMR can act as a barrier for Argon, however this will depend on the specific molecular sieve used in the system. \cite{Bacquart2018}
+
+Nitrogen is the most likely inert impurity to be present in fuel cell hydrogen, this is due to the abundance of nitrogen in the air which the system could be exposed to, and the frequency at which nitrogen is used as a functional gas in processes for purging chambers, actuating valves etc.
+
+Inert constituents, such as helium (He), nitrogen (N\textsubscript{2}) and argon (Ar) do not adversely affect the function of fuel cell components or a fuel cell system. However, they dilute the hydrogen gas. N\textsubscript{2} and Ar especially can affect system operation and efficiency and can also affect the accuracy of mass metering instruments used for hydrogen dispensing. \cite{InternationalStandardISO14687-2:20122012}
+
+\subsection*{Carbon dioxide} 
+Like most other impurities which are present in SMR, CO\textsubscript{2} is likely to be removed from the SMR process at the PSA step, with most commonly used molecular sieves being able to remove carbon dioxide during normal operation. \cite{Muradov2015} 
+
+CO\textsubscript{2} can be present in the water used for electrolysis although there are several interlocks to prevent it reaching the exit stream. Most electrolysis systems have a CO\textsubscript{2} filter on the inlet and a reverse osmosis unit to ensure the purity of the inlet water. An anodic separation tank which features an ion exchange resin in a closed water loop also acts as an additional barrier, and finally CO\textsubscript{2} has a low crossover potential through the PEM membrane and therefore is unlikely to cross into the cathode side of the system.\cite{Bacquart2018}
+
+CO\textsubscript{2} does not typically affect the function of fuel cells. However, CO\textsubscript{2} may adversely effect on board hydrogen storage systems using metal hydride alloys. With CO\textsubscript{2}, at levels higher than the specification, a reverse water gas shift reaction can occur under certain conditions in fuel cell systems to create carbon monoxide. \cite{InternationalStandardISO14687-2:20122012}
+
+
+\subsection*{Carbon monoxide}
+Carbon monoxide is a main byproduct of SMR which is separated from the exit gas stream through PSA. \cite{Muradov2015} If this fails SMR processes are fitted with a CO sensor to ensure the concentration in the product does not pass a certain threashold. \cite{Bacquart2018} It is unlikely for CO to be present from electrolysis.
+
+Carbon monoxide (CO) is a severe catalyst poison that adversely effects fuel cell performance by inducing a competitive adsorption effect between itself and hydrogen on the electrocatalyst surface. The result is a temporary reduction in operating efficiency. \cite{InternationalStandardISO14687-2:20122012} Although its effect can be reversed through mitigating strategies, such as material selection of membrane electrode assembly (MEA), system design, and operating conditions, it's effect on operation is still a concern. Lower catalyst loadings are particularly susceptible to catalyst poisoning contaminants.
+
+\subsection*{Total sulfur compounds}
+Sulphur contamination is most likely to come from hydrogen produced from hydrocarbon sources. 
+Since the SMR process also uses catalysts that are susceptible to poisoning from sulphur compounds all plants are fit with a desulphurisation unit upstream from the main process. \cite{Muradov2015} This is designed to reduce the concentration of sulphurous compounds to <50 nmol/mol. \cite{Bacquart2018}
+
+Should the desulphurisation unit fail the catalysts used in both reforming steps will be deactivated, preventing the process from operating and will likely result in shut down of the plant. PSA also acts as a final barrier, since H\textsubscript{2}S will adsorb onto the molecular sieves more strongly than CO. \cite{Bacquart2018}
+
+The other potential source of sulphur contamination is the potential release from any gasket materials used in the process. This can be easily prevented by ensuring only materials that do not contain sulphur are used. \cite{InternationalStandardISO14687-2:20122012}. It is unlikely that sulphur contamination will arise from electrolysis. 
+
+Sulfur containing compounds are severe catalyst poisons that at even very low levels can cause irreversible degradation of fuel cell performance due to a permanant reaction taking place between sulphur and the platinum catalyst. The specific sulfur compounds addressed in particular are: hydrogen sulfide (H\textsubscript{2}S), carbonyl sulfide (COS), carbon disulfide(CS\textsubscript{2}), methyl mercaptan (CH\textsubscript{3}SH). \cite{InternationalStandardISO14687-2:20122012} 
+
+\subsection*{Formaldehyde and formic acid}
+Formaldehyde (HCHO) and formic acid (HCOOH) is a produced through a side reaction in SMR depending on the specific operating conditions of the process.\cite{Muradov2015} PSA is the main barrier for preventing contamination of the product. \cite{Bacquart2018}
+
+Formaldehyde and formic acid have a similar effect on fuel cell performance as CO and are thus considered as reversible contaminants. The effect of HCHO and HCOOH on fuel cell performance can be more severe than that of CO due to slower recovery kinetics and their specifications are lower than that for CO. \cite{InternationalStandardISO14687-2:20122012} Lower catalyst loadings are particularly susceptible to catalyst poisoning contaminants.
+
+\subsection*{Ammonia}
+Hydrogen could be contaminated with ammonia through either SMR or electrolysis. Ammonia is a by-product of the reforming steps and PSA should be sufficient to remove ammoinia from the exit stream of SMR. Ammonia can also be present in water used in electrolysis however the reverse osmosis step used to purify the water before the process is normally sufficient in removing all ammonia before it is used in the process. \cite{Bacquart2018}
+
+Ammonia (NH\textsubscript{3}) causes some irreversible fuel cell performance degradation by affecting the ion exchange capacity of the ionomer of the proton exchange membrane. \cite{InternationalStandardISO14687-2:20122012}
+
+\subsection*{Total halogenated compounds} 
+Halogenated compounds can contaminate hydrogen by entering either SMR or electrolysis through the process input, or leaking into the process at other points where they are used. Potential sources include chlor-alkali production processes, refrigerants used in processing, and cleaning agents. \cite{Bacquart2018}
+
+Halogenated compounds cause irreversible performance degradation similar to sulphur, reacting with the platinum electrocatalysts to form platinum-halides such as PtCl\textsubscript{4}. \cite{Dona2009} However the concentrations required to cause this damage has not been well documented in literature.
+
+
 \section{Hydrogen impurity enrichment}
 'Hydrogen impurity enrichment' is a term for any technique which involves increasing the concentration of impurities within a hydrogen sample by means of removing the hydrogen matrix gas. There are two previous reports of impurity enrichment being used as a technique for hydrogen impurity 
 analysis. The first report by Papadis et al at Argonne National Laboratory used a Pd/Cu \cite{Ahmed2010} coated Pd/Ag membrane for non-sulphur containing hydrogen samples and a Pd/Au coated Pd/Ag membrane for sulphur 
@@ -193,7 +407,7 @@ Molecular sieve materials can be classed as macroporous (>50nm), mesoporous (2-5
 with microporous materials being the most relevant for hydrogen separation processes. These membranes are 
 fabricated in such a way that the passageways are small enough that the entrance of molecules with large 
 kinetic diameters is not possible. This results in higher permeation of smaller components in a gas mixture 
-such as H2 or He while slowing, or completely preventing the passage of bulkier molecules. This mechanism, 
+such as H\textsubscript{2} or He while slowing, or completely preventing the passage of bulkier molecules. This mechanism, 
 while effective for some gas mixtures, may not be feasible when looking to perform separation on similar 
 sized gas pairs; selectivity is often hindered by competitive adsorption between the species due to the 
 surface chemistry of the material. Fabrication of these membranes can also be difficult and manufacturing 
@@ -212,7 +426,7 @@ improvements towards this component by providing an added transport barrier to o
 
 Gas transport in dense media is typically harder to categorise due to the unique material chemistry present 
 in each material, however all dense membranes perform separation through some variation of the solution 
-diffusion model. Typically, the following steps are always present in some form:
+diffusion mechanism. Typically, the following steps are always present in some form:
 \begin{enumerate}
 \item Adsorption of gas species onto the surface of the membrane 
 \item Diffusion of gas species through the bulk of the membrane 
@@ -234,10 +448,9 @@ expression which gives a specific measure of the separation properties of a mate
 operational and manufacturing constraints such as operating pressure and membrane thickness. 
 While flux and permeability are similar and tied to each other they are both useful in their own way. 
 The permeability coefficient is typically tied to the material and is useful for comparing different 
-materials to each other, while the flux offers a measure on how effective the material is when fabricated 
-into a membrane. 
+materials to each other, while the flux offers a measure on how effective a specific membrane is. 
 
-The selectivity (\textalpha \ i/j) represents the separating ability of the membrane for a specific gas species 
+The selectivity (\textalpha \ \textsubscript{i/j}) represents the separating ability of the membrane for a specific gas species 
 (i) with respect to another gas species (j). This is common notation for porous membranes and membranes which 
 are not completely selective towards one component. For membranes which are only selective towards one 
 component such as dense metal and dense ceramic, the selectivity is not reported since any presence of 
@@ -262,7 +475,7 @@ and chemical resistance which are more difficult to quantify.
 		Polymer (Porous) & Knudsen diffusion, Molecular sieving, Surface diffusion, Capillary condensation, Poiseuille flow  & Susceptible to Compaction \cite{Volkov2014} and Swelling \cite{Gugliuzza2015} & Low chemical stability, Degrades under H\textsubscript{2}S, HCl, CO\textsubscript{2}, SO\textsubscript{x} \cite{Farrauto2003}
          & <100\textsuperscript{O}C & 2.5 9 –960 \cite{Polotskaya2005}
          (H\textsubscript{2}/N\textsubscript{2} selectivity)         \\
-		Nano-porous & Knudsen diffusion, Poiseuille flow, Capillary condensation, Surface diffusion, Molecular sieving & Brittle & Good\cite{Ockwig2007} & Ambient -500\textdegree C & 2.4 \cite{Lee2007} -  1000 \textbf{ref for this}
+		Nano-porous & Knudsen diffusion, Poiseuille flow, Capillary condensation, Surface diffusion, Molecular sieving & Brittle & Good\cite{NathanW.Ockwig2007a} & Ambient -500\textdegree C & 2.4 \cite{Lee2007} -  1000 \textbf{ref for this}
         (H\textsubscript{2}/N\textsubscript{2} selectivity)
          \\
         Dense Metal & Solution Diffusion & Phase transition \cite{Gao2004}
@@ -282,7 +495,7 @@ materials which possess small pores on a micrometre scale. Due to wide ranging s
 term and the large volume of literature available on the following topics this section will 
 aim to give a brief overview of each technology and identification of new trends in the field.
 For more information on each topic the following reviews can be referred to for zeolites 
-\cite{Ockwig2007, Li2015, Lin2001, Lin2013, Gascon2012, Rangnekar2015, Kosinov2016}, micro porous silica \cite{Ockwig2007, Li2015, Khatib2011}, carbon molecular sieve membranes\cite{Ockwig2007, Li2015, Khatib2011, He2017, Saufi2004, Salleh2011, He2017} and 
+\cite{NathanW.Ockwig2007a, Li2015, Lin2001, Lin2013, Gascon2012, Rangnekar2015, Kosinov2016}, micro porous silica \cite{NathanW.Ockwig2007a, Li2015, Khatib2011}, carbon molecular sieve membranes\cite{NathanW.Ockwig2007a, Li2015, Khatib2011, He2017, Saufi2004, Salleh2011, He2017} and 
 Metal Organic Frameworks (MOFs).\cite{Qiu2014, Long2009, Caro2011, Kang2017, Kim2018, Barea2014, Li2009, Stassen2017} A direct comparison of recently reported micro-porous 
 material membranes can be found in \textbf{'APPENDIX TABLE'}.
 
@@ -290,7 +503,7 @@ material membranes can be found in \textbf{'APPENDIX TABLE'}.
 and are the most widely resmearched class of micro-porous material. Zeolites are a popular 
 choice for separation material due to their good thermal and chemical stability, and have 
 been successfully applied to a number of fields including being fabricated into membranes 
-for a range of gas separation applications.\cite{Ockwig2007} Zeolites can either occur naturally, or 
+for a range of gas separation applications.\cite{NathanW.Ockwig2007a} Zeolites can either occur naturally, or 
 synthesised both at laboratory or industrial scale. \cite{Rangnekar2015}  There are around 45 naturally 
 occurring zeolites and an additional 232 synthetic zeolites, each given a three letter 
 designation when approved by the International Zeolite Association Structure Commission. 3\cite{StructureCommissionoftheInternationalZeoliteAssociation}
@@ -405,7 +618,7 @@ ultraviolet induced oxidative etching or oxygen plasma etching as performed by C
 58 While these techniques have the potential for producing high performing membranes, 
 synthesising pristine, large area, graphene on a large scale still remains a problem and 
 even small areas are costly to produce. 55  The defect-based nature of graphene based 
-membranes also makes their commercial use questionably as there is little evidence that 
+membranes also makes their commercial use questionable as there is little evidence that 
 many of the reported membranes have repeatable performance characteristics. It may be that 
 many of the reports are statistical anomalies and the technology simply will not show the 
 repeatability to provide a commercial solution for light gas separations.
@@ -591,9 +804,9 @@ physisorption, can be mitigated by altering the operating conditions. It has bee
 that the effects of CO and H\textsubscript{2}O poisoning can be completely eliminated by operating at 
 temperatures above 300\textdegree C. Another example where this is shown is with H\textsubscript{2}S related poisoning. 
 Since the reaction between palladium and H\textsubscript{2}S is exothermic, and produces hydrogen as a side 
-product, it can be inhibited by increasing the H\textsubscript{2}: H\textsubscript{2}S ratio and increasing the temperature.  
+product, it can be inhibited by increasing the H\textsubscript{2}:H\textsubscript{2}S ratio and increasing the temperature.  
 
-A combination of cost, readily formation of phase transitions 70,71 and its low tolerance for 
+A combination of cost, easy formation of phase transitions 70,71 and its low tolerance for 
 common impurities found in hydrogen processes limits pure palladiums use as a hydrogen 
 separation material. Many of these effects however, can be completely mitigated through 
 alloying palladium with another metal. By forming an alloy with a metal which has a lattice 
@@ -644,7 +857,7 @@ Pd\textsubscript{53}Cu\textsubscript{47} foils at varying temperatures was teste
 hydrogen containing 1000 µmol $mol^{-1}$  H\textsubscript{2}S.78 It was found that when the alloys were in the 
 fcc phase the reduction in flux was only round 10\%, while in the bcc phase the membrane 
 loses around 99\% of its permeance. The H\textsubscript{2}S concentration required to make a 
-Pd60Cu40 membrane completely impermeable was found to be around 300 µmol $mol^{-1}$ 79.
+Pd\textsubscript{60}Cu\textsubscript{40} membrane completely impermeable was found to be around 300 µmol $mol^{-1}$ 79.
 
 PdAu alloys see a slight increase in permeability,  up to 30\% more than pure Pd, with gold 
 additions up to 20\%, after which the permeability rapidly decreases. While alloying with 
@@ -655,7 +868,7 @@ compounds implying that permeability decline is only due to H\textsubscript{2}S 
 It has been reported that a Pd\textsubscript{92}Au\textsubscript{8} membrane exposed to 
 54.8 µmol $mol^{-1}$ of H\textsubscript{2}S was able to resist reaction with H\textsubscript{2}S and its permeability was 
 completely recoverable. 80. When tested higher temperatures it was also found that the 
-adsorption effect of H\textsubscript{2}S was reduced which is evidence that dissociative adsorption of H2S 
+adsorption effect of H\textsubscript{2}S was reduced which is evidence that dissociative adsorption of H\textsubscript{2}S 
 on metals is exothermic. 80 In the original patent for palladium membranes by  McKinley81 
 in 1964 Pd\textsubscript{60}Au\textsubscript{40} was found to be the composition which performed best under sulphur 
 containing atmospheres, losing only 9.44\% of its flux compared to the 99\% and 95\% lost by 
@@ -696,19 +909,15 @@ resistance to adsorbing compounds, losing only 6\% of their flux compared to the
 Ternary alloys are a newly emerging field which aims at utilizing the strengths of a binary 
 alloy while mitigating its weaknesses with another component. Research in this area has 
 mainly focused on ternary alloys based on copper, gold and silver however there are 
-theoretically infinite combinations possible. Due to the large number of potential 
-combinations Density Functional Theory (DFT) is often utilised as a method to screen for 
-potential alloy compositions suitable for hydrogen permeability. 89 While there are many 
-papers in this field relating to the theoretical modelling or ternary alloys there are a 
-lot less regarding the practical impurity resistance of such alloys. A 
-Pd\textsubscript{80}Au\textsubscript{10}Pt\textsubscript{10} membrane manufactured through 
+theoretically infinite combinations possible. 
+A Pd\textsubscript{80}Au\textsubscript{10}Pt\textsubscript{10} membrane manufactured through 
 magnetron sputtering was found to be completely resistant to H\textsubscript{2}S poisoning, 
 recovering 100\% of its flux prior to exposure to impurity containing gas streams. 90 
 However after long term testing, the purity of the permeate decreased which implies that 
 pinholes had started to form on the membrane surface. 90 This is most likely due to 
 segregation of the individual components, destabilising the structure. This was not 
 confirmed in the papers analysis however. 90 The most in depth study of PdAgAu membranes 
-under H2S was performed by Braun et al, who studied the performance of Pd, 
+under H\textsubscript{2}S was performed by Braun et al, who studied the performance of Pd, 
 Pd\textsubscript{90}Ag\textsubscript{10}, Pd\textsubscript{78}Ag\textsubscript{9}Au\textsubscript{13}, 
 Pd\textsubscript{75}Ag\textsubscript{16}Au\textsubscript{9}, and Pd\textsubscript{91}Au\textsubscript{9}. 
 While all the tested membranes saw a permanent permeability loss under 100 µmol $mol^{-1}$ 
@@ -743,6 +952,26 @@ While XRD and EDS of this alloy showed no formation of bulk sulphides, the XPS d
 profile showed low, but measurable levels of sulphur showing that this composition has some 
 reactivity with impurities. 96
 
+\afterpage{% Insert after the current page
+\clearpage
+\KOMAoptions{paper=A3,paper=landscape, pagesize}
+\recalctypearea
+\begin{table}[]
+    \begin{tabular}{@{}cccllllcccccc@{}}
+    \toprule
+    Membrane composition & Support              & \multicolumn{5}{c}{Susceptability to poisoning compounds}                                                                   & Feed pressure        & Reported Permeability & Operating temperature & Fabrication technique & Membrane thickness   & Ref                  \\ \cmidrule(lr){3-7}
+    \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{Compound concentration} & Exposure time & Percentatge flux drop & Flux Recovery & Flux prior to exposure & \multicolumn{1}{l}{} & \multicolumn{1}{l}{}  & \multicolumn{1}{l}{}  & \multicolumn{1}{l}{}  & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\ \midrule
+                         &                      &                                            &               &                       &               &                        &                      &                       &                       &                       &                      &                      \\
+                         &                      &                                            &               &                       &               &                        &                      &                       &                       &                       &                      &                      \\ \bottomrule
+    \end{tabular}
+    \end{table}
+
+\clearpage
+\KOMAoptions{paper=A4,paper=portrait,pagesize}
+\recalctypearea
+}
+
+\subsubsection*{Non-palladium}
 Due to the high cost of palladium there is a particular interest to use alternative materials 
 which still give the high selectivity intrinsic to dense metallic membranes, while reducing 
 the cost, for example, by switching to a cheaper, non-platinum group metal. Non-palladium 
@@ -862,7 +1091,7 @@ Extensive efforts have been placed into developing proton-electron conducting ce
 materials for hydrogen separation however there are still many technical hurdles which must 
 be overcome before the technology can be applied on a useful scale. The main problem holding 
 back the technology is the incredibly low flux values reported despite operating at such high 
-temperatures. Until this is increased there will be no point in using the technology over 
+temperatures. Until this is solved there will be no point in using the technology over 
 faster porous materials, or even dense metal membranes which offer the same selectivity’s, 
 at much faster permeation rates. This stems back to a lack of understanding behind the 
 surface kinetics of hydrogen dissociation (which is also an issue for non-palladium dense 
@@ -915,7 +1144,7 @@ impurity enrichment are the next logical step in development of these membranes 
 analytical purposes due to their lower costs however more practical research on the materials 
 must first be performed.
 
-\section{Membrane manufacture}
+\subsection{Membrane manufacture}
 Dense metal membranes can either be supported or unsupported. Unsupported membranes are free 
 standing structures, which usually feature high wall thicknesses in order to achieve the 
 required mechanical strength to withstand use in a process. As a result of this the flux 
@@ -929,7 +1158,7 @@ material. This allows thinner membranes to be deposited, thereby increasing the 
 flux, and greatly reducing the cost of such a membrane.[56] Because of these clear advantages 
 this thesis will explore the use of self-supported membranes. 
 
-\subsection{Support selection}
+\subsubsection{Support selection}
 When selecting a support material there are a number of considerations which should be taken 
 into account prior to deposition:
 \begin{itemize}
@@ -955,6 +1184,8 @@ glass have been the most widely used.
 
 
 \section{Density functional theory for screening of membrane alloy compositions}
+
+\section{Conclusion}
 
 
 \bibliographystyle{unsrtnat}
