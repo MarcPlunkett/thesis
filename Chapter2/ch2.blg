@@ -7,46 +7,45 @@ Warning--empty booktitle in Alaswad2016
 Warning--empty institution in InternationalEnergyAgencyIEA2015
 Warning--empty year in Bossard
 Warning--empty year in Bossard
-Warning--empty year in StructureCommissionoftheInternationalZeoliteAssociation
-You've used 53 entries,
+You've used 30 entries,
             2481 wiz_defined-function locations,
-            1031 strings with 18455 characters,
-and the built_in function-call counts, 23652 in all, are:
-= -- 2158
-> -- 1255
-< -- 28
-+ -- 477
-- -- 371
-* -- 2035
-:= -- 3897
-add.period$ -- 271
-call.type$ -- 53
-change.case$ -- 107
-chr.to.int$ -- 53
-cite$ -- 58
-duplicate$ -- 1045
-empty$ -- 1988
-format.name$ -- 446
-if$ -- 4961
+            821 strings with 12709 characters,
+and the built_in function-call counts, 13340 in all, are:
+= -- 1199
+> -- 710
+< -- 19
++ -- 269
+- -- 209
+* -- 1114
+:= -- 2186
+add.period$ -- 146
+call.type$ -- 30
+change.case$ -- 61
+chr.to.int$ -- 30
+cite$ -- 34
+duplicate$ -- 613
+empty$ -- 1134
+format.name$ -- 253
+if$ -- 2817
 int.to.chr$ -- 1
-int.to.str$ -- 54
-missing$ -- 50
-newline$ -- 380
-num.names$ -- 169
-pop$ -- 313
+int.to.str$ -- 31
+missing$ -- 28
+newline$ -- 209
+num.names$ -- 100
+pop$ -- 203
 preamble$ -- 1
-purify$ -- 53
+purify$ -- 30
 quote$ -- 0
-skip$ -- 598
+skip$ -- 353
 stack$ -- 0
-substring$ -- 1204
-swap$ -- 139
+substring$ -- 638
+swap$ -- 93
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 371
-warning$ -- 5
-while$ -- 199
+type$ -- 210
+warning$ -- 4
+while$ -- 112
 width$ -- 0
-write$ -- 908
-(There were 5 warnings)
+write$ -- 499
+(There were 4 warnings)

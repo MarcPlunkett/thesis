@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.27)  11 JUN 2020 19:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.27)  13 JUN 2020 23:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -274,66 +274,131 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
- (/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+\LTleft=\skip48
+\LTright=\skip49
+\LTpre=\skip50
+\LTpost=\skip51
+\LTchunksize=\count90
+\LTcapwidth=\dimen105
+\LT@head=\box29
+\LT@firsthead=\box30
+\LT@foot=\box31
+\LT@lastfoot=\box32
+\LT@cols=\count91
+\LT@rows=\count92
+\c@LT@tables=\count93
+\c@LT@chunks=\count94
+\LT@p@ftn=\toks16
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+ (/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+)
+\XKV@depth=\count95
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/local/texlive/2019/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box33
+)
+\tc@llx=\dimen106
+\tc@lly=\dimen107
+\tc@urx=\dimen108
+\tc@ury=\dimen109
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen110
+\adjbox@Height=\dimen111
+\adjbox@Depth=\dimen112
+\adjbox@Totalheight=\dimen113
+\adjbox@pwidth=\dimen114
+\adjbox@pheight=\dimen115
+\adjbox@pdepth=\dimen116
+\adjbox@ptotalheight=\dimen117
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count96
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box34
+\sift@deathcycles=\count97
+\@vwid@loff=\dimen118
+\@vwid@roff=\dimen119
+)) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+) (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+ (/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )) (/usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip48
-\bibsep=\skip49
+\bibhang=\skip52
+\bibsep=\skip53
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count90
+\c@NAT@ctr=\count98
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/notoccite/notoccite.sty
 Package: notoccite 2000/07/20
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/cite/chapterbib.sty
-\c@inputfile=\count91
+\c@inputfile=\count99
 Package: chapterbib 2010/09/18  v 1.17
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
  (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
-\col@sep=\dimen105
-\ar@mcellbox=\box29
-\extrarowheight=\dimen106
-\NC@list=\toks16
-\extratabsurround=\skip50
-\backup@length=\skip51
-\ar@cellbox=\box30
+\col@sep=\dimen120
+\ar@mcellbox=\box35
+\extrarowheight=\dimen121
+\NC@list=\toks19
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box36
 )
-\TX@col@width=\dimen107
-\TX@old@table=\dimen108
-\TX@old@col=\dimen109
-\TX@target=\dimen110
-\TX@delta=\dimen111
-\TX@cols=\count92
-\TX@ftn=\toks17
+\TX@col@width=\dimen122
+\TX@old@table=\dimen123
+\TX@old@col=\dimen124
+\TX@target=\dimen125
+\TX@delta=\dimen126
+\TX@cols=\count100
+\TX@ftn=\toks20
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen112
-\lightrulewidth=\dimen113
-\cmidrulewidth=\dimen114
-\belowrulesep=\dimen115
-\belowbottomsep=\dimen116
-\aboverulesep=\dimen117
-\abovetopsep=\dimen118
-\cmidrulesep=\dimen119
-\cmidrulekern=\dimen120
-\defaultaddspace=\dimen121
-\@cmidla=\count93
-\@cmidlb=\count94
-\@aboverulesep=\dimen122
-\@belowrulesep=\dimen123
-\@thisruleclass=\count95
-\@lastruleclass=\count96
-\@thisrulewidth=\dimen124
+\heavyrulewidth=\dimen127
+\lightrulewidth=\dimen128
+\cmidrulewidth=\dimen129
+\belowrulesep=\dimen130
+\belowbottomsep=\dimen131
+\aboverulesep=\dimen132
+\abovetopsep=\dimen133
+\cmidrulesep=\dimen134
+\cmidrulekern=\dimen135
+\defaultaddspace=\dimen136
+\@cmidla=\count101
+\@cmidlb=\count102
+\@aboverulesep=\dimen137
+\@belowrulesep=\dimen138
+\@thisruleclass=\count103
+\@lastruleclass=\count104
+\@thisrulewidth=\dimen139
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
-\multirow@colwidth=\skip52
-\multirow@cntb=\count97
-\multirow@dima=\skip53
-\bigstrutjot=\dimen125
+\multirow@colwidth=\skip56
+\multirow@cntb=\count105
+\multirow@dima=\skip57
+\bigstrutjot=\dimen140
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/textgreek/textgreek.sty
 Package: textgreek 2011/10/09 v0.7 Greek symbols in text
 Package textgreek Info: Loading the definitions for the Greek fontencoding. on input line 39.
@@ -700,40 +765,43 @@ Package: caption 2019/09/01 v3.3d Customizing captions (AR)
  (/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2019/09/01 v1.8d caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen126
-\captionmargin@=\dimen127
-\captionwidth=\dimen128
-\caption@tempdima=\dimen129
-\caption@indent=\dimen130
-\caption@parindent=\dimen131
-\caption@hangindent=\dimen132
+\captionmargin=\dimen141
+\captionmargin@=\dimen142
+\captionwidth=\dimen143
+\caption@tempdima=\dimen144
+\caption@indent=\dimen145
+\caption@parindent=\dimen146
+\caption@hangindent=\dimen147
 )
-\c@caption@flags=\count98
-\c@ContinuedFloat=\count99
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/acronym/acronym.sty
+\c@caption@flags=\count106
+\c@ContinuedFloat=\count107
+Package caption Info: longtable package is loaded.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
+)) (/usr/local/texlive/2019/texmf-dist/tex/latex/acronym/acronym.sty
 Package: acronym 2015/03/21 v1.41 Support for acronyms (Tobias Oetiker)
  (/usr/local/texlive/2019/texmf-dist/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
 ) (/usr/local/texlive/2019/texmf-dist/tex/generic/xstring/xstring.sty (/usr/local/texlive/2019/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count100
-\decimalpart=\count101
+\integerpart=\count108
+\decimalpart=\count109
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
-\AC@clearlist=\toks18
+\AC@clearlist=\toks21
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/xr.sty
 Package: xr 2019/01/05 v5.04 eXternal References (DPC)
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count102
-\float@exts=\toks19
-\float@box=\box31
-\@float@everytoks=\toks20
-\@floatcapt=\box32
+\c@float@type=\count110
+\float@exts=\toks22
+\float@box=\box37
+\@float@everytoks=\toks23
+\@floatcapt=\box38
 )
    defining Unicode char U+2005 (decimal 8197)
    defining Unicode char U+2606 (decimal 9734)
-Package xr Info: IMPORTING LABELS FROM Experimental/ch1.aux on input line 23.
+Package xr Info: IMPORTING LABELS FROM Experimental/ch1.aux on input line 26.
 
 
 LaTeX Warning: Label `exp-sintering' multiply defined.
@@ -752,46 +820,46 @@ LaTeX Warning: Label `fig:1' multiply defined.
 ) (/Users/marc/Thesis/Chapter5/ch5.aux) (/Users/marc/Thesis/Chapter6/ch6.aux))
 \openout1 = `master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 30.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 27.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 27.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 30.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 30.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 27.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 30.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count103
-\scratchdimen=\dimen133
-\scratchbox=\box33
-\nofMPsegments=\count104
-\nofMParguments=\count105
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count106
-\MPscratchDim=\dimen134
-\MPnumerator=\count107
-\makeMPintoPDFobject=\count108
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count111
+\scratchdimen=\dimen148
+\scratchbox=\box39
+\nofMPsegments=\count112
+\nofMParguments=\count113
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen149
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
+\everyMPtoPDFconversion=\toks25
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
@@ -813,9 +881,6 @@ Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )))) (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
@@ -831,47 +896,43 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 32.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 32.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 35.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 32.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 35.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 32.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 35.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 32.
+(Font)              <14.4> on input line 35.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 32.
+(Font)              <10> on input line 35.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 32.
+(Font)              <7> on input line 35.
  [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 <figures/sig.png, id=8, 418.56375pt x 133.49875pt>
 File: figures/sig.png Graphic file (type png)
 <use figures/sig.png>
-Package pdftex.def Info: figures/sig.png  used on input line 40.
+Package pdftex.def Info: figures/sig.png  used on input line 43.
 (pdftex.def)             Requested size: 209.28136pt x 66.74919pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--44
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
  []
 
@@ -892,7 +953,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 5.
 
 Overfull \hbox (7.76727pt too wide) in paragraph at lines 18--18
- [][] []\T1/lmr/m/n/12 Schematic rep-re-sen-ta-tion of the se-quen-tial baths for sen-si-ti-sa-tion/activation 
+ [][] []\OT1/lmr/m/n/12 Schematic rep-re-sen-ta-tion of the se-quen-tial baths for sen-si-ti-sa-tion/activation 
  []
 
 )
@@ -946,9 +1007,9 @@ File: figures/funnel.png Graphic file (type png)
 Package pdftex.def Info: figures/funnel.png  used on input line 94.
 (pdftex.def)             Requested size: 448.13095pt x 244.75177pt.
  (/Users/marc/Thesis/Chapter1/ch1.bbl [15 </Users/marc/Thesis/figures/funnel.png>]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 17.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 17.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))) [16
 
 ]
@@ -973,13 +1034,13 @@ File: figures/MEA.png Graphic file (type png)
 Package pdftex.def Info: figures/MEA.png  used on input line 31.
 (pdftex.def)             Requested size: 363.95728pt x 345.68913pt.
  [18 </Users/marc/Thesis/figures/pemfccell.jpg>]
-<figures/PEMFCstack.png, id=83, 853.1875pt x 304.13625pt>
+<figures/PEMFCstack.png, id=81, 853.1875pt x 304.13625pt>
 File: figures/PEMFCstack.png Graphic file (type png)
 <use figures/PEMFCstack.png>
 Package pdftex.def Info: figures/PEMFCstack.png  used on input line 37.
 (pdftex.def)             Requested size: 426.59271pt x 152.06775pt.
  [19 </Users/marc/Thesis/figures/MEA.png> </Users/marc/Thesis/figures/PEMFCstack.png>]
-<figures/smrprocess.jpg, id=89, 311.46451pt x 152.21469pt>
+<figures/smrprocess.jpg, id=87, 311.46451pt x 152.21469pt>
 File: figures/smrprocess.jpg Graphic file (type jpg)
 <use figures/smrprocess.jpg>
 Package pdftex.def Info: figures/smrprocess.jpg  used on input line 56.
@@ -987,146 +1048,83 @@ Package pdftex.def Info: figures/smrprocess.jpg  used on input line 56.
  [20 </Users/marc/Thesis/figures/smrprocess.jpg>] [21]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 114.
+               Default added (so using `tbp') on input line 116.
 
+LaTeX Font Info:    Try loading font information for OML+lmr on input line 139.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmr.fd
+File: omllmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OML/lmr/m/n' in size <12> not available
+(Font)              Font shape `OML/lmm/m/it' tried instead on input line 139.
 
-Overfull \vbox (14.49998pt too high) detected at line 137
+Overfull \vbox (14.49998pt too high) detected at line 139
  []
 
 [22] [23] [24] [25] [26] [27]
-Overfull \hbox (4.13824pt too wide) in paragraph at lines 268--275
-[]\T1/lmr/m/n/12 A de-vice sim-i-lar to the HIED is the Hy-dro-gen Elim-i-na-tion Mass Spec-trom-e-ter (HEMS)
+Overfull \hbox (4.13824pt too wide) in paragraph at lines 270--277
+[]\OT1/lmr/m/n/12 A de-vice sim-i-lar to the HIED is the Hy-dro-gen Elim-i-na-tion Mass Spec-trom-e-ter (HEMS)
  []
 
-[28] [29] [30]
-LaTeX Font Info:    Try loading font information for U+eur on input line 382.
+[28] [29]
+LaTeX Font Info:    Try loading font information for U+eur on input line 326.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/ueur.fd
 File: ueur.fd 2013/01/14 v3.01 Euler Roman
 )
-<figures/septype.png, id=128, 452.4102pt x 250.536pt>
+<figures/septype.png, id=122, 452.4102pt x 250.536pt>
 File: figures/septype.png Graphic file (type png)
 <use figures/septype.png>
-Package pdftex.def Info: figures/septype.png  used on input line 387.
+Package pdftex.def Info: figures/septype.png  used on input line 331.
 (pdftex.def)             Requested size: 448.13095pt x 248.16519pt.
- [31 </Users/marc/Thesis/figures/septype.png>] [32] [33] [34] [35] [36] [37] [38]
-Overfull \hbox (6.88675pt too wide) in paragraph at lines 687--693
-[]\T1/lmr/m/n/12 Polymer mem-branes are typ-i-cally pro-duced through poly-mer phase sep-a-ra-tion whereby
- []
-
-[39] [40] [41] [42] [43] [44]
-
-Package typearea Warning: \typearea used at group level 2.
-(typearea)                Using \typearea inside any group, e.g.
-(typearea)                environments, math mode, boxes, etc. may result in
-(typearea)                many type setting problems.
-(typearea)                You should move the command \typearea
-(typearea)                outside all groups on input line 1006.
-
-Package typearea Info: With paper sizes other than (almost) `A4' predefined
-(typearea)             DIV values do not exist. Using DIV calculation for good
-(typearea)             line width (unless using `version=3.24` or prior).
-DIV calculation for typearea with good linewidth.
-Package typearea Info: Maybe no optimal type area settings!
-(typearea)             The detected line width is about 22%
-(typearea)             smaller than the heuristically estimated maximum
-(typearea)             limit of typographical good line width.
-(typearea)             You could e.g. increase DIV, decrease fontsize
-(typearea)             or change the papersize.
-
-Package typearea Warning: Very low DIV value!
-(typearea)                DIV values less than 6 result in textwidth/-height
-(typearea)                smaller than total marginwidth/-height.
-(typearea)                You should e.g. increase DIV, increase fontsize or
-(typearea)                change papersize.
-
-Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 4
-(typearea)             BCOR = 0.0pt
-(typearea)             \paperwidth      = 1195.01587pt
-(typearea)              \textwidth      = 298.75397pt
-(typearea)              DIV departure   = 22%
-(typearea)              \evensidemargin = 375.86096pt
-(typearea)              \oddsidemargin  = 375.86096pt
-(typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 215.0pt
-(typearea)              \topmargin      = 99.11674pt
-(typearea)              \headheight     = 18.125pt
-(typearea)              \headsep        = 21.75pt
-(typearea)              \topskip        = 12.0pt
-(typearea)              \footskip       = 50.75pt
-(typearea)              \baselineskip   = 14.5pt
-(typearea)              on input line 1006.
-Package typearea Info: Using dirty hack to recalculate internal output
-(typearea)             dimensions of LaTeX on input line 1006.
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1006.
-
-
-Overfull \hbox (1049.72269pt too wide) in paragraph at lines 1006--1006
-[][] 
- []
-
-[45]
-
-Package typearea Warning: \typearea used at group level 2.
-(typearea)                Using \typearea inside any group, e.g.
-(typearea)                environments, math mode, boxes, etc. may result in
-(typearea)                many type setting problems.
-(typearea)                You should move the command \typearea
-(typearea)                outside all groups on input line 1006.
-
-Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 12
-(typearea)             BCOR = 0.0pt
-(typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 448.13095pt
-(typearea)              DIV departure   = -6%
-(typearea)              \evensidemargin = 2.4185pt
-(typearea)              \oddsidemargin  = 2.4185pt
-(typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 635.5pt
-(typearea)              \topmargin      = -41.72441pt
-(typearea)              \headheight     = 18.125pt
-(typearea)              \headsep        = 21.75pt
-(typearea)              \topskip        = 12.0pt
-(typearea)              \footskip       = 50.75pt
-(typearea)              \baselineskip   = 14.5pt
-(typearea)              on input line 1006.
-Package typearea Info: Using dirty hack to recalculate internal output
-(typearea)             dimensions of LaTeX on input line 1006.
-[46
-
-
-] [47] [48] [49] [50] (/Users/marc/Thesis/Chapter2/ch2.bbl [51] [52
-
-] [53] [54]
-Underfull \hbox (badness 1178) in paragraph at lines 270--276
-\T1/lmr/m/it/12 mem-branes\T1/lmr/m/n/12 , pages 169--216, 2008.  URL $\T1/lmtt/m/n/12 http : / / books . google . com / books ?
+ [30 </Users/marc/Thesis/figures/septype.png>] [31] [32] [33] [34] [35] [36] [37] [38] [39]
+Overfull \hbox (906.9587pt too wide) in alignment at lines 979--979
+[] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--276
-\T1/lmtt/m/n/12 hl = en{\ & }lr = {\ & }id = gCQjw-[]cyulAC{\ & }oi = fnd{\ & }pg = PA1{\ & }dq = Dense +
+Overfull \hbox (906.9587pt too wide) in alignment at lines 979--979
+[] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--276
-\T1/lmtt/m/n/12 Ceramic + Membranes + for + Hydrogen + Separation{\ & }ots = e-[]3oiNW5EW{\ & }sig =
+Overfull \hbox (906.9587pt too wide) in alignment at lines 979--979
+[] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[55] [56])) [57]
+[40
+
+
+] [41
+
+
+] [42] [43] [44] (/Users/marc/Thesis/Chapter2/ch2.bbl [45] [46
+
+] [47] [48]
+Underfull \hbox (badness 1178) in paragraph at lines 264--270
+\OT1/lmr/m/it/12 mem-branes\OT1/lmr/m/n/12 , pages 169--216, 2008.  URL $\OT1/lmtt/m/n/12 http : / / books . google . com / books ?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--270
+\OT1/lmtt/m/n/12 hl = en{\ & }lr = {\ & }id = gCQjw-[]cyulAC{\ & }oi = fnd{\ & }pg = PA1{\ & }dq = Dense +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--270
+\OT1/lmtt/m/n/12 Ceramic + Membranes + for + Hydrogen + Separation{\ & }ots = e-[]3oiNW5EW{\ & }sig =
+ []
+
+)) [49]
 \openout2 = `Experimental/ch1.aux'.
 
  (/Users/marc/Thesis/Experimental/ch1.tex
 Chapter 3.
-[58
+[50
 
 
 
 
 ]
-<figures/hollowfibresintering.png, id=221, 842.14626pt x 1346.02875pt>
+<figures/hollowfibresintering.png, id=194, 842.14626pt x 1346.02875pt>
 File: figures/hollowfibresintering.png Graphic file (type png)
 <use figures/hollowfibresintering.png>
 Package pdftex.def Info: figures/hollowfibresintering.png  used on input line 18.
@@ -1139,13 +1137,13 @@ LaTeX Warning: Float too large for page by 105.26726pt on input line 21.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 35.
 
-<figures/pretreatment.png, id=222, 1621.05624pt x 867.24pt>
+<figures/pretreatment.png, id=195, 1621.05624pt x 867.24pt>
 File: figures/pretreatment.png Graphic file (type png)
 <use figures/pretreatment.png>
 Package pdftex.def Info: figures/pretreatment.png  used on input line 65.
 (pdftex.def)             Requested size: 448.13095pt x 239.74226pt.
-[59] [60 </Users/marc/Thesis/figures/hollowfibresintering.png>] [61 </Users/marc/Thesis/figures/pretreatment.png>]
-<figures/ELpprocedure.png, id=235, 2155.05125pt x 462.72874pt>
+[51] [52 </Users/marc/Thesis/figures/hollowfibresintering.png>] [53 </Users/marc/Thesis/figures/pretreatment.png>]
+<figures/ELpprocedure.png, id=207, 2155.05125pt x 462.72874pt>
 File: figures/ELpprocedure.png Graphic file (type png)
 <use figures/ELpprocedure.png>
 Package pdftex.def Info: figures/ELpprocedure.png  used on input line 81.
@@ -1155,7 +1153,7 @@ Package pdftex.def Info: figures/ELpprocedure.png  used on input line 81.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 89.
 
-[62 </Users/marc/Thesis/figures/ELpprocedure.png>]
+[54 </Users/marc/Thesis/figures/ELpprocedure.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 114.
@@ -1164,14 +1162,14 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 130.
 
-[63] [64] (/Users/marc/Thesis/Experimental/ch1.bbl [65])) [66
+[55] [56] (/Users/marc/Thesis/Experimental/ch1.bbl [57])) [58
 
 ]
 \openout2 = `Chapter3/ch3.aux'.
 
  (/Users/marc/Thesis/Chapter3/ch3.tex
 Chapter 4.
-[67
+[59
 
 
 
@@ -1185,24 +1183,24 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 49.
 
-(/Users/marc/Thesis/Chapter3/ch3.bbl [68] [69]
+(/Users/marc/Thesis/Chapter3/ch3.bbl [60] [61]
 
 Package natbib Warning: Empty `thebibliography' environment on input line 8.
 
-)) [70
+)) [62
 
 ]
 \openout2 = `Chapter4/ch4.aux'.
 
  (/Users/marc/Thesis/Chapter4/ch4.tex
 Chapter 5.
-[71
+[63
 
 
 
 
-] [72]
-<figures/Semxsect.png, id=272, 2810.5pt x 4474.7175pt>
+] [64]
+<figures/Semxsect.png, id=244, 2810.5pt x 4474.7175pt>
 File: figures/Semxsect.png Graphic file (type png)
 <use figures/Semxsect.png>
 Package pdftex.def Info: figures/Semxsect.png  used on input line 24.
@@ -1212,7 +1210,7 @@ Package pdftex.def Info: figures/Semxsect.png  used on input line 24.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 31.
 
-[73] [74 </Users/marc/Thesis/figures/Semxsect.png>] [75]
+[65] [66 </Users/marc/Thesis/figures/Semxsect.png>] [67]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 59.
@@ -1221,25 +1219,25 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 81.
 
-[76]
+[68]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 109.
 
-[77]
-<figures/permeabilitychart.png, id=289, 1482.53876pt x 707.64375pt>
+[69]
+<figures/permeabilitychart.png, id=262, 1482.53876pt x 707.64375pt>
 File: figures/permeabilitychart.png Graphic file (type png)
 <use figures/permeabilitychart.png>
 Package pdftex.def Info: figures/permeabilitychart.png  used on input line 136.
 (pdftex.def)             Requested size: 448.13095pt x 213.89282pt.
- [78] (/Users/marc/Thesis/Chapter4/ch4.bbl [79 </Users/marc/Thesis/figures/permeabilitychart.png>] [80
+ [70] (/Users/marc/Thesis/Chapter4/ch4.bbl [71 </Users/marc/Thesis/figures/permeabilitychart.png>] [72
 
-])) [81]
+])) [73]
 \openout2 = `Chapter5/ch5.aux'.
 
  (/Users/marc/Thesis/Chapter5/ch5.tex
 Chapter 6.
-) [82
+) [74
 
 
 
@@ -1249,7 +1247,7 @@ Chapter 6.
 
  (/Users/marc/Thesis/Chapter6/ch6.tex
 Chapter 7.
-) [83
+) [75
 
 
 
@@ -1260,18 +1258,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7101 strings out of 492609
- 111862 string characters out of 6129048
- 204881 words of memory out of 5000000
- 10777 multiletter control sequences out of 15000+600000
- 64801 words of font info for 50 fonts, out of 8000000 for 9000
+ 8008 strings out of 492609
+ 128532 string characters out of 6129048
+ 224791 words of memory out of 5000000
+ 11642 multiletter control sequences out of 15000+600000
+ 54579 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,19n,54p,2260b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /Users/marc/Thesis/master.pdf (84 pages, 9302336 bytes).
+ 57i,19n,100p,2260b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on /Users/marc/Thesis/master.pdf (76 pages, 9280081 bytes).
 PDF statistics:
- 371 PDF objects out of 1000 (max. 8388607)
- 245 compressed objects within 3 object streams
+ 342 PDF objects out of 1000 (max. 8388607)
+ 224 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
