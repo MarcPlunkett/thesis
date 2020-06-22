@@ -5,6 +5,7 @@
 \usepackage{afterpage}
 \usepackage{url}
 \usepackage{graphicx}
+\usepackage{pdflscape}
 \usepackage{lmodern,textcomp}
 \usepackage{longtable}
 \usepackage{adjustbox}
@@ -22,6 +23,10 @@
 \usepackage{float}
 \DeclareUnicodeCharacter{2005}{ }
 \DeclareUnicodeCharacter{2606}{ }
+\DeclareUnicodeCharacter{2212}{ }
+
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
 
 \externaldocument[exp-]{Experimental/ch1}
 

@@ -1,4 +1,4 @@
-\begin{thebibliography}{30}
+\begin{thebibliography}{116}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -229,10 +229,11 @@ G.~Polotskaya, M.~Goikhman, I.~Podeshvo, V.~Kudryavtsev, Z.~Pientka,
 \newblock ISSN 00323861.
 \newblock \doi{10.1016/j.polymer.2005.02.111}.
 
-\bibitem[{Nathan W. Ockwig}(2007)]{NathanW.Ockwig2007a}
+\bibitem[{Nathan W. Ockwig}(2007{\natexlab{a}})]{NathanW.Ockwig2007a}
 Tina M~Nenoff {Nathan W. Ockwig}.
 \newblock {Membranes for Hydrogen Separation}.
-\newblock \emph{Chemical Reviews}, 107:\penalty0 4078--4110, 2007.
+\newblock \emph{Chemical Reviews}, 107:\penalty0 4078--4110,
+  2007{\natexlab{a}}.
 
 \bibitem[Lee et~al.(2007)Lee, Suda, Haraya, and Moon]{Lee2007}
 Hong~Joo Lee, Hiroyuki Suda, Kenji Haraya, and Seung~Hyeon Moon.
@@ -273,5 +274,789 @@ D.H. Weinkauf and D.R. Paul.
 \newblock {Gas transport properties of thermotropic liquid-crystalline
   copolyesters. II. The effects of copolymer composition}.
 \newblock \emph{J. Polym. Sci.: Part B: Polym. Phys.}, 30:\penalty0 837, 1992.
+
+\bibitem[{Nathan W. Ockwig}(2007{\natexlab{b}})]{NathanW.Ockwig2007}
+Tina M~Nenoff {Nathan W. Ockwig}.
+\newblock {Membranes for Hydrogen Separation}.
+\newblock \emph{Chemical Reviews}, 107:\penalty0 4078--4110,
+  2007{\natexlab{b}}.
+
+\bibitem[Gryaznov(2000)]{Gryaznov2000}
+V.~Gryaznov.
+\newblock {Metal Containing Membranes for the Production of Ultrapure Hydrogen
+  and the Recovery of Hydrogen Isotopes}.
+\newblock \emph{Separation {\&} Purification Reviews}, 29\penalty0
+  (2):\penalty0 171--187, 2000.
+\newblock ISSN 1542-2119.
+\newblock \doi{10.1081/SPM-100100008}.
+
+\bibitem[Al-Mufachi et~al.(2015)Al-Mufachi, Rees, and
+  Steinberger-Wilkens]{Al-Mufachi2015}
+N~A Al-Mufachi, N~V Rees, and R~Steinberger-Wilkens.
+\newblock {Hydrogen selective membranes: A review of palladium-based dense
+  metal membranes}.
+\newblock \emph{Renewable and Sustainable Energy Reviews}, 47:\penalty0
+  540--551, 2015.
+\newblock \doi{10.1016/j.rser.2015.03.026}.
+
+\bibitem[{Johnson Matthey Precious Metals
+  Management}(2016)]{JohnsomMattheyPreciousMetalsManagement2016}
+{Johnson Matthey Precious Metals Management}.
+\newblock {Price Tables}, 2016.
+
+\bibitem[Flanagan and Oates(1991)]{Flanagan1991}
+Ted~B Flanagan and W~A Oates.
+\newblock {The Palladium-Hydrogen System}.
+\newblock \emph{Annu. Rev. Mater. Sci}, 21:\penalty0 269--304, 1991.
+
+\bibitem[Li et~al.(2008)Li, Xu, and Li]{Li2008b}
+Hui Li, Hengyong Xu, and Wenzhao Li.
+\newblock {Study of n value and $\alpha$/$\beta$ palladium hydride phase
+  transition within the ultra-thin palladium composite membrane}.
+\newblock \emph{Journal of Membrane Science}, 324\penalty0 (1-2):\penalty0
+  44--49, 2008.
+\newblock \doi{10.1016/j.memsci.2008.06.053}.
+
+\bibitem[Mundschau et~al.(2006)Mundschau, Xie, Iv, and Sammells]{Mundschau2006}
+M~V Mundschau, X~Xie, C~R~Evenson Iv, and A~F Sammells.
+\newblock {Dense inorganic membranes for production of hydrogen from methane
+  and coal with carbon dioxide sequestration}.
+\newblock \emph{Catalysis today}, 118:\penalty0 12--23, 2006.
+\newblock \doi{10.1016/j.cattod.2006.01.042}.
+
+\bibitem[She et~al.(2014)She, Emerson, Magdefrau, Opalka, Thibaud-Erkey, and
+  Vanderspurt]{She2014}
+Ying She, Sean~C Emerson, Neal~J Magdefrau, Susanne~M Opalka, Catherine
+  Thibaud-Erkey, and Thomas~H Vanderspurt.
+\newblock {Hydrogen permeability of sulfur tolerant Pd–Cu alloy membranes}.
+\newblock \emph{Journal of Membrane Science}, 452:\penalty0 203--211, 2014.
+\newblock \doi{10.1016/j.memsci.2013.09.025}.
+
+\bibitem[Dolan(2010)]{Dolan2010}
+M~D Dolan.
+\newblock {Non-Pd BCC alloy membranes for industrial hydrogen separation}.
+\newblock \emph{Journal of Membrane Science}, 362\penalty0 (1-2):\penalty0
+  12--28, 2010.
+\newblock \doi{10.1016/j.memsci.2010.06.068}.
+
+\bibitem[Wilcox and Jennifer(2010)]{Wilcox2010}
+Ekin~Ozdogan Wilcox and Jennifer.
+\newblock {Investigation of H2 and H2S Adsorption on Niobium- and Copper-Doped
+  Palladium Surfaces}.
+\newblock \emph{J. Phys. Cherm. B}, pages 12851--12585, 2010.
+\newblock \doi{10.1021/acs.energyfuels.5b01294}.
+
+\bibitem[{D.T. Hughes}(1978)]{D.T.Hughes1978a}
+I~R~Harris {D.T. Hughes}.
+\newblock {A comparative study of hydrogen permeabilities and solubilities in
+  some palladium solid solution alloys}.
+\newblock \emph{Journal of Less Common Metals}, 61:\penalty0 9--21, 1978.
+
+\bibitem[O~Brien et~al.(2010)O~Brien, Howard, Miller, Morreale, and
+  Gellman]{OB2010}
+Casey~P O~Brien, Bret~H Howard, James~B Miller, Bryan~D Morreale, and Andrew~J
+  Gellman.
+\newblock {Inhibition of hydrogen transport through Pd and Pd47Cu53 membranes
+  by H2S at 350C}.
+\newblock \emph{Journal of Membrane Science}, 349\penalty0 (1-2):\penalty0
+  380--384, 2010.
+\newblock \doi{10.1016/j.memsci.2009.11.070}.
+
+\bibitem[Kulprathipanja et~al.(2005)Kulprathipanja, Alptekin, Falconer, and
+  Way]{Kulprathipanja2005}
+A~Kulprathipanja, G~Alptekin, J~Falconer, and J~Way.
+\newblock {Pd and Pd–Cu membranes: inhibition of H2 permeation by H2S}.
+\newblock \emph{Journal of Membrane Science}, 254\penalty0 (1-2):\penalty0
+  49--62, 2005.
+\newblock \doi{10.1016/j.memsci.2004.11.031}.
+
+\bibitem[Chen and Ma(2010)]{Chen2010}
+Chao-Huang Chen and Yi~Hua Ma.
+\newblock {The effect of H2S on the performance of Pd and Pd/Au composite
+  membrane}.
+\newblock \emph{Journal of Membrane Science}, 362\penalty0 (1-2):\penalty0
+  535--544, 2010.
+\newblock \doi{10.1016/j.memsci.2010.07.002}.
+
+\bibitem[{David L. McKinley}(1964)]{DavidL.McKinley1964}
+{David L. McKinley}.
+\newblock {Metal Alloy for Hydrogen Separation and Purification}, 1964.
+
+\bibitem[{Roa, F., Thoen, P.M., Gade, S.K., Way, J.G., De Voss, S., and
+  Alptekin}(2009)]{RoaF.ThoenP.M.GadeS.K.WayJ.G.DeVossS.andAlptekin2009}
+G.~{Roa, F., Thoen, P.M., Gade, S.K., Way, J.G., De Voss, S., and Alptekin}.
+\newblock {Palladium-Copper and Palladium-Gold alloy Composite membranes for
+  hydrogen separations}.
+\newblock In \emph{Inorganic Membranes for Energy and Environmental
+  Applications}, page 211. 2009.
+
+\bibitem[APMEX(2016)]{APMEX2016}
+APMEX.
+\newblock {Silver Prices}, 2016.
+\newblock URL \url{http://www.apmex.com/spotprices/silver-prices}.
+
+\bibitem[Peng et~al.(2009)Peng, Rao, Luo, and Chen]{Peng2009a}
+Lixia Peng, Yongchu Rao, Lizhu Luo, and Chang'An Chen.
+\newblock {The poisoning of Pd–Y alloy membranes by carbon monoxide}.
+\newblock \emph{Journal of Alloys and Compounds}, 486\penalty0 (1-2):\penalty0
+  74--77, 2009.
+\newblock \doi{10.1016/j.jallcom.2009.06.158}.
+
+\bibitem[Bryden and Ying(2002)]{Bryden2002}
+Kenneth~J. Bryden and Jackie~Y. Ying.
+\newblock {Nanostructured palladium-iron membranes for hydrogen separation and
+  membrane hydrogenation reactions}.
+\newblock \emph{Journal of Membrane Science}, 203\penalty0 (1-2):\penalty0
+  29--42, 2002.
+\newblock ISSN 03767388.
+\newblock \doi{10.1016/S0376-7388(01)00736-0}.
+
+\bibitem[Howard and Morreale(2008)]{Howard2008a}
+B.~H. Howard and B.~D. Morreale.
+\newblock {Effect of H
+  {\textless}sub{\textgreater}2{\textless}/sub{\textgreater} S on performance
+  of Pd {\textless}sub{\textgreater}4{\textless}/sub{\textgreater} Pt alloy
+  membranes}.
+\newblock \emph{Energy Materials}, 3\penalty0 (3):\penalty0 177--185, 2008.
+\newblock ISSN 1748-9237.
+\newblock \doi{10.1179/174892309X12519750237717}.
+\newblock URL
+  \url{http://www.tandfonline.com/doi/full/10.1179/174892309X12519750237717}.
+
+\bibitem[Gade et~al.(2011)Gade, DeVoss, Coulter, Paglieri, Alptekin, and
+  Way]{Gade2011}
+Sabina~K. Gade, Sarah~J. DeVoss, Kent~E. Coulter, Stephen~N. Paglieri,
+  G{\"{o}}khan~O. Alptekin, and J.~Douglas Way.
+\newblock {Palladium-gold membranes in mixed gas streams with hydrogen sulfide:
+  Effect of alloy content and fabrication technique}.
+\newblock \emph{Journal of Membrane Science}, 378\penalty0 (1-2):\penalty0
+  35--41, 2011.
+\newblock ISSN 03767388.
+\newblock \doi{10.1016/j.memsci.2010.11.044}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.memsci.2010.11.044}.
+
+\bibitem[Ryi et~al.(2011)Ryi, Li, Lim, and Grace]{Ryi2011}
+Shin~Kun Ryi, Anwu Li, C.~Jim Lim, and John~R. Grace.
+\newblock {Novel non-alloy Ru/Pd composite membrane fabricated by electroless
+  plating for hydrogen separation}.
+\newblock \emph{International Journal of Hydrogen Energy}, 36\penalty0
+  (15):\penalty0 9335--9340, 2011.
+\newblock ISSN 03603199.
+\newblock \doi{10.1016/j.ijhydene.2010.06.014}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.ijhydene.2010.06.014}.
+
+\bibitem[Coulter et~al.(2012)Coulter, Way, Gade, Chaudhari, Alptekin, DeVoss,
+  Paglieri, and Pledger]{Coulter2012}
+Kent~E. Coulter, J.~Douglas Way, Sabina~K. Gade, Saurabh Chaudhari,
+  G{\"{o}}khan~O. Alptekin, Sarah~J. DeVoss, Stephen~N. Paglieri, and Bill
+  Pledger.
+\newblock {Sulfur tolerant PdAu and PdAuPt alloy hydrogen separation
+  membranes}.
+\newblock \emph{Journal of Membrane Science}, 405-406:\penalty0 11--19, 2012.
+\newblock ISSN 03767388.
+\newblock \doi{10.1016/j.memsci.2012.02.018}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.memsci.2012.02.018}.
+
+\bibitem[Braun et~al.(2012)Braun, Miller, Gellman, Tarditi, Fleutot,
+  Kondratyuk, and Cornaglia]{Braun2012}
+Fernando Braun, James~B. Miller, Andrew~J. Gellman, Ana~M. Tarditi, Benoit
+  Fleutot, Petro Kondratyuk, and Laura~M. Cornaglia.
+\newblock {PdAgAu alloy with high resistance to corrosion by H2S}.
+\newblock \emph{International Journal of Hydrogen Energy}, 37\penalty0
+  (23):\penalty0 18547--18555, 2012.
+\newblock ISSN 03603199.
+\newblock \doi{10.1016/j.ijhydene.2012.09.040}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.ijhydene.2012.09.040}.
+
+\bibitem[Braun et~al.(2014)Braun, Tarditi, Miller, and Cornaglia]{Braun2014a}
+Fernando Braun, Ana~M Tarditi, James~B Miller, and Laura~M Cornaglia.
+\newblock {Pd-based binary and ternary alloy membranes: Morphological and
+  perm-selective characterization in the presence of H2S}.
+\newblock \emph{Journal of Membrane Science}, 450:\penalty0 299--307, 2014.
+\newblock \doi{10.1016/j.memsci.2013.09.026}.
+
+\bibitem[Peters et~al.(2011)Peters, Kaleta, Stange, and Bredesen]{Peters2011}
+T.~A. Peters, T.~Kaleta, M.~Stange, and R.~Bredesen.
+\newblock {Development of thin binary and ternary Pd-based alloy membranes for
+  use in hydrogen production}.
+\newblock \emph{Journal of Membrane Science}, 383\penalty0 (1-2):\penalty0
+  124--134, 2011.
+\newblock ISSN 03767388.
+\newblock \doi{10.1016/j.memsci.2011.08.050}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.memsci.2011.08.050}.
+
+\bibitem[Peters et~al.(2013)Peters, Kaleta, Stange, and Bredesen]{Peters2013}
+T~A Peters, T~Kaleta, M~Stange, and R~Bredesen.
+\newblock {Development of ternary Pd–Ag–TM alloy membranes with improved
+  sulphur tolerance}.
+\newblock \emph{Journal of Membrane Science}, 429:\penalty0 448--458, 2013.
+\newblock \doi{10.1016/j.memsci.2012.11.062}.
+
+\bibitem[He and H{\"{a}}gg(2013)]{He2013}
+Xuezhong He and May~Britt H{\"{a}}gg.
+\newblock {Hollow fiber carbon membranes: From material to application}.
+\newblock \emph{Chemical Engineering Journal}, 215-216:\penalty0 440--448,
+  2013.
+\newblock ISSN 13858947.
+\newblock \doi{10.1016/j.cej.2012.10.051}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.cej.2012.10.051}.
+
+\bibitem[Peters et~al.(2015)Peters, Stange, and Bredesen]{Peters2015}
+T~A Peters, M~Stange, and R~Bredesen.
+\newblock {Fabrication of palladium-based membranes by magnetron sputtering}.
+\newblock In A~Doukelis, K~Panopoulos, A~Koumanakos, and E~Kakaras, editors,
+  \emph{Palladium Membrane Technology for Hydrogen Production, Carbon Capture
+  and Other Application}, pages 25--41. Woodhead Publishing, 2015.
+\newblock \doi{10.1533/9781782422419.1.25}.
+
+\bibitem[Tarditi et~al.(2014{\natexlab{a}})Tarditi, Imhoff, and
+  Braun]{Tarditi2014}
+AM~Tarditi, C~Imhoff, and F~Braun.
+\newblock {PdCuAu ternary alloy membranes: Hydrogen permeation properties in
+  the presence of H 2 S}.
+\newblock \emph{Journal of Membrane {\ldots}}, 479:\penalty0 246--255,
+  2014{\natexlab{a}}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0376738814009338}.
+
+\bibitem[Peters et~al.(2008)Peters, Stange, Klette, and Bredesen]{Peters2008a}
+T~A Peters, M~Stange, H~Klette, and R~Bredesen.
+\newblock {High pressure performance of thin Pd–23{\%}Ag/stainless steel
+  composite membranes in water gas shift gas mixtures; influence of dilution,
+  mass transfer and surface effects on the hydrogen flux}.
+\newblock \emph{Journal of Membrane Science}, 316\penalty0 (1-2):\penalty0
+  119--127, 2008.
+\newblock \doi{10.1016/j.memsci.2007.08.056}.
+
+\bibitem[Peters et~al.(2016)Peters, Stange, Veenstra, Nijmeijer, and
+  Bredesen]{Peters2016c}
+T~A Peters, M~Stange, P~Veenstra, A~Nijmeijer, and R~Bredesen.
+\newblock {The performance of Pd–Ag alloy membrane films under exposure to
+  trace amounts of H2S}.
+\newblock \emph{Journal of Membrane Science}, 499:\penalty0 105--115, 2016.
+\newblock \doi{10.1016/j.memsci.2015.10.031}.
+
+\bibitem[Xu et~al.(2016)Xu, Kim, Li, Grace, {Jim Lim}, and Boyd]{Xu2016a}
+Nong Xu, Sung~Su Kim, Anwu Li, John~R Grace, C~{Jim Lim}, and Tony Boyd.
+\newblock {Investigation of the influence of tar-containing syngas from biomass
+  gasification on dense Pd and Pd–Ru membranes}.
+\newblock \emph{Powder Technology}, 290:\penalty0 132--140, 2016.
+\newblock \doi{10.1016/j.powtec.2015.08.037}.
+
+\bibitem[Lundin et~al.(2016)Lundin, Yamaguchi, Wolden, Oyama, and
+  Way]{Lundin2016}
+Sean-Thomas~B Lundin, Taichiro Yamaguchi, Colin~A Wolden, S~Ted Oyama, and
+  J~Douglas Way.
+\newblock {The role (or lack thereof) of nitrogen or ammonia adsorption-induced
+  hydrogen flux inhibition on palladium membrane performance}.
+\newblock \emph{Journal of Membrane Science}, 514:\penalty0 65--72, 2016.
+\newblock \doi{10.1016/j.memsci.2016.04.048}.
+
+\bibitem[Nguyen et~al.(2009)Nguyen, Mori, and Suzuki]{Nguyen2009}
+Thu~Hoai Nguyen, Shinsuke Mori, and Masaaki Suzuki.
+\newblock {Hydrogen permeance and the effect of H2O and CO on the permeability
+  of Pd0.75Ag0.25 membranes under gas-driven permeation and plasma-driven
+  permeation}.
+\newblock \emph{Chemical Engineering Journal}, 155\penalty0 (1-2):\penalty0
+  55--61, 2009.
+\newblock \doi{10.1016/j.cej.2009.06.024}.
+
+\bibitem[Morreale et~al.(2007)Morreale, Howard, Iyoha, Enick, Ling, and
+  Sholl]{Morreale2007}
+Bryan~D Morreale, Bret~H Howard, Osemwengie Iyoha, Robert~M Enick, Chen Ling,
+  and David~S Sholl.
+\newblock {Experimental and Computational Prediction of the Hydrogen Transport
+  Properties of Pd 4 S}.
+\newblock \emph{Ind. Eng. Chem. Res.}, 46:\penalty0 6313--6319, 2007.
+
+\bibitem[Li et~al.(2000)Li, Liang, and Highes]{L2000}
+A~Li, W~Liang, and R~Highes.
+\newblock {The effect of carbon monoxide and steam on the hydrogen permeability
+  of a Pd/stainless steel membrane}.
+\newblock \emph{Journal of Membrane Science}, 165:\penalty0 135--141, 2000.
+
+\bibitem[Pomerantz and {Yi Hua}(2009)]{Pomerantz2009}
+Natalie Pomerantz and Ma~{Yi Hua}.
+\newblock {Effect of H 2S on the performance and long-term stability of Pd/Cu
+  membranes}.
+\newblock \emph{Industrial and Engineering Chemistry Research}, 48\penalty0
+  (8):\penalty0 4030--4039, 2009.
+\newblock ISSN 08885885.
+\newblock \doi{10.1021/ie801947a}.
+
+\bibitem[Saleh(1969)]{Saleh1969}
+M~Saleh.
+\newblock {Interaction of Sulphur Compounds with Palladium}.
+\newblock pages 242--250, 1969.
+\newblock ISSN 00147672.
+\newblock \doi{10.1039/TF9706600242}.
+
+\bibitem[Morreale et~al.(2004)Morreale, Ciocco, Howard, Killmeyer, Cugini, and
+  Enick]{Morreale2004}
+B.~D. Morreale, M.~V. Ciocco, B.~H. Howard, R.~P. Killmeyer, A.~V. Cugini, and
+  R.~M. Enick.
+\newblock {Effect of hydrogen-sulfide on the hydrogen permeance of
+  palladium-copper alloys at elevated temperatures}.
+\newblock \emph{Journal of Membrane Science}, 241\penalty0 (2):\penalty0
+  219--224, 2004.
+\newblock ISSN 03767388.
+\newblock \doi{10.1016/j.memsci.2004.04.033}.
+
+\bibitem[Tarditi et~al.(2014{\natexlab{b}})Tarditi, Imhoff, and Braun]{TD2014}
+AM~Tarditi, C~Imhoff, and F~Braun.
+\newblock {PdCuAu ternary alloy membranes: Hydrogen permeation properties in
+  the presence of H 2 S}.
+\newblock \emph{Journal of Membrane science}, 479:\penalty0 246--255,
+  2014{\natexlab{b}}.
+
+\bibitem[Lewis et~al.(2014)Lewis, Zhao, Syed, Wolden, and Way]{Lewis2014}
+Amanda~E Lewis, Hongbin Zhao, Haseeba Syed, Colin~A Wolden, and J~Douglas Way.
+\newblock {PdAu and PdAuAg composite membranes for hydrogen separation from
+  synthetic water-gas shift streams containing hydrogen sulfide}.
+\newblock \emph{Journal of Membrane Science}, 465:\penalty0 167--176, 2014.
+\newblock \doi{10.1016/j.memsci.2014.04.022}.
+
+\bibitem[{Shane E. Roark, Boulder, CO (US); Richard MacKay, Lafayette}
+  et~al.(2006){Shane E. Roark, Boulder, CO (US); Richard MacKay, Lafayette}, S,
+  and (US)]{Kong2011}
+CO~(US); {Shane E. Roark, Boulder, CO (US); Richard MacKay, Lafayette}, Michael
+  V. Mundschau~Longmont S, and s~CO (US).
+\newblock {DENSE, LAYERED MEMBRANES FOR HYDROGEN SEPARATION}, 2006.
+\newblock ISSN 2004001828.
+
+\bibitem[dos Santos and de~Miranda(1998)]{DosSantos1998}
+D.S dos Santos and P.E.V de~Miranda.
+\newblock {The use of electrochemical hydrogen permeation techniques to detect
+  hydride phase separation in amorphous metallic alloys}.
+\newblock \emph{Journal of Non-Crystalline Solids}, 232-234:\penalty0 133--139,
+  1998.
+\newblock ISSN 00223093.
+\newblock \doi{10.1016/S0022-3093(98)00487-6}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S0022309398004876}.
+
+\bibitem[Yukawa et~al.(2002{\natexlab{a}})Yukawa, Yamashita, Ito, Morinaga, and
+  Yamaguchi]{Yukawa2002}
+Hiroshi Yukawa, Daisuke Yamashita, Shigeyuki Ito, Masahiko Morinaga, and Shu
+  Yamaguchi.
+\newblock {Alloying effects on the phase stability of hydrides formed in
+  vanadium alloys}.
+\newblock \emph{Materials Transactions}, 43\penalty0 (11):\penalty0 2757--2762,
+  2002{\natexlab{a}}.
+\newblock ISSN 1345-9678.
+\newblock \doi{10.2320/matertrans.43.2757}.
+\newblock URL
+  \url{http://www.jim.or.jp/journal/e/pdf3/43/11/2757.pdf{\%}5Cnpapers2://publication/uuid/3C0A7ADC-9BA8-471E-9CF3-40C116284411{\%}5Cnhttp://joi.jlc.jst.go.jp/JST.JSTAGE/matertrans/43.2757?from=CrossRef}.
+
+\bibitem[Yukawa et~al.(2002{\natexlab{b}})Yukawa, Teshima, Yamashita, Ito,
+  Morinaga, and Yamaguchi]{Yukawa2002a}
+Hiroshi Yukawa, Akira Teshima, Daisuke Yamashita, Shigeyuki Ito, Masahiko
+  Morinaga, and Shu Yamaguchi.
+\newblock {Alloying effects on the hydriding properties of vanadium at low
+  hydrogen pressures}.
+\newblock \emph{Journal of Alloys and Compounds}, 337\penalty0 (1-2):\penalty0
+  264--268, 2002{\natexlab{b}}.
+\newblock ISSN 09258388.
+\newblock \doi{10.1016/S0925-8388(01)01936-3}.
+
+\bibitem[Yukawa et~al.(2003)Yukawa, Yamashita, Ito, Morinaga, and
+  Yamaguchi]{Yukawa2003}
+Hiroshi Yukawa, Daisuke Yamashita, Shigeyuki Ito, Masahiko Morinaga, and Shu
+  Yamaguchi.
+\newblock {Compositional dependence of hydriding properties of vanadium alloys
+  at low hydrogen pressures}.
+\newblock \emph{Journal of Alloys and Compounds}, 356-357:\penalty0 45--49,
+  2003.
+\newblock ISSN 09258388.
+\newblock \doi{10.1016/S0925-8388(03)00099-9}.
+
+\bibitem[Xu et~al.(1994)Xu, Sun, Liu, and Chen]{Xu1994}
+J.~Xu, X.~K. Sun, Q.~Q. Liu, and W.~X. Chen.
+\newblock {Hydrogen permeation behavior in IN718 and GH761 superalloys}.
+\newblock \emph{Metallurgical and Materials Transactions A}, 25\penalty0
+  (3):\penalty0 539--544, 1994.
+\newblock ISSN 10735623.
+\newblock \doi{10.1007/BF02651595}.
+
+\bibitem[Hara et~al.(2000{\natexlab{a}})Hara, Sakaki, Itoh, Kimura, Asami, and
+  Inoue]{Hara2000}
+S~Hara, K~Sakaki, N~Itoh, H.-M. Kimura, K~Asami, and A~Inoue.
+\newblock {An amorphous alloy membrane without noble metals for gaseous
+  hydrogen separation}.
+\newblock \emph{Journal of Membrane Science}, 164:\penalty0 289--294,
+  2000{\natexlab{a}}.
+
+\bibitem[Yamaura et~al.(2001)Yamaura, Shimpo, Okouchi, Nishida, Kajita, Kimura,
+  and Inoue]{YM2001}
+Shin-ichi Yamaura, Yoichiro (Fukuda Metal Foil {\&} Powder Co. Ltd.~) Shimpo,
+  Hitoshi (Fukuda Metal Foil {\&} Powder Co. Ltd.~) Okouchi, Motonori (Fukuda
+  Metal Foil {\&} Powder Co. Ltd.~) Nishida, Osamu (Fukuda Metal Foil {\&}
+  Powder Co. Ltd.~) Kajita, Hisamichi Kimura, and Akihisa Inoue.
+\newblock {Hydrogen Permeation Characteristics of Melt-Spun Ni-Nb-Zr Amorphous
+  Alloy Membranes}.
+\newblock \emph{Materials Transactions}, 42\penalty0 (9):\penalty0 1885--1890,
+  2001.
+\newblock ISSN 1345-9678.
+\newblock \doi{10.2320/matertrans.42.1885}.
+\newblock URL \url{http://ci.nii.ac.jp/naid/130004451634/}.
+
+\bibitem[Hara et~al.(2000{\natexlab{b}})Hara, Sakaki, Itoh, Kimura, Asami, and
+  Inoue]{Hara2000a}
+S~Hara, K~Sakaki, N~Itoh, H.-M. Kimura, K~Asami, and A~Inoue.
+\newblock {An amorphous alloy membrane without noble metals for gaseous
+  hydrogen separation}.
+\newblock \emph{Journal of Membrane Science}, 164:\penalty0 289--294,
+  2000{\natexlab{b}}.
+
+\bibitem[Yamaura et~al.(2004)Yamaura, Shimpo, Okouchi, Nishida, Kajita, and
+  Inoue]{YM2004}
+Shin~Ichi Yamaura, Yoichiro Shimpo, Hitoshi Okouchi, Motonori Nishida, Osamu
+  Kajita, and Akihisa Inoue.
+\newblock {The effect of additional elements on hydrogen permeation properties
+  of melt-spun Ni-Nb-Zr amorphous alloys}.
+\newblock \emph{Nippon Kinzoku Gakkaishi/Journal of the Japan Institute of
+  Metals}, 68\penalty0 (12):\penalty0 1039--1042, 2004.
+\newblock ISSN 00214876.
+\newblock \doi{10.2320/jinstmet.68.1039}.
+
+\bibitem[Nishimura et~al.(2002)Nishimura, Komaki, Hwang, and
+  Amano]{Nishimura2002}
+C~Nishimura, M~Komaki, S~Hwang, and M~Amano.
+\newblock {V-Ni alloy membranes for hydrogen purification}.
+\newblock \emph{Journal of Alloys and Compounds}, 330-332:\penalty0 902--906,
+  2002.
+
+\bibitem[Ozaki et~al.(2003)Ozaki, Zhang, Komaki, and Nishimura]{Ozaki2003}
+Tetsuya Ozaki, Yi~Zhang, Masao Komaki, and Chikashi Nishimura.
+\newblock {Preparation of Palladium-coated V and V-15Ni membranes for hydrogen
+  purification by electroless plating technique}.
+\newblock \emph{International Journal of Hydrogen Energy}, 28:\penalty0
+  297--302, 2003.
+
+\bibitem[Nishimura et~al.(2003)Nishimura, Ozaki, Komaki, and
+  Zhang]{Nishimura2003}
+C.~Nishimura, T.~Ozaki, M.~Komaki, and Y.~Zhang.
+\newblock {Hydrogen permeation and transmission electron microscope
+  observations of V-Al alloys}.
+\newblock \emph{Journal of Alloys and Compounds}, 356-357:\penalty0 295--299,
+  2003.
+\newblock ISSN 09258388.
+\newblock \doi{10.1016/S0925-8388(02)01273-2}.
+
+\bibitem[Takano et~al.(2004)Takano, Ishikawa, Matsuda, and Aoki]{Takano2004}
+T.~Takano, K.~Ishikawa, T.~Matsuda, and K.~Aoki.
+\newblock {Hydrogen Permeation of Eutectic Nb-Zr-Ni Alloy Membranes Containing
+  Primary Phases}.
+\newblock \emph{Materials Transactions}, 45\penalty0 (12):\penalty0 3360--3362,
+  2004.
+\newblock ISSN 13459678.
+\newblock \doi{10.2320/matertrans.45.3360}.
+
+\bibitem[Hashi et~al.(2005)Hashi, Ishikawa, Matsuda, and Aoki]{Hashi2005}
+Kunihiko Hashi, Kazuhiro Ishikawa, Takeshi Matsuda, and Kiyoshi Aoki.
+\newblock {Microstructures and Hydrogen Permeability of Nb-Ti-Ni Alloys with
+  High Resistance to Hydrogen Embrittlement}.
+\newblock \emph{Materials Transactions}, 46\penalty0 (5):\penalty0 1026--1031,
+  2005.
+\newblock ISSN 1345-9678.
+\newblock \doi{10.2320/matertrans.46.1026}.
+\newblock URL
+  \url{https://www.jstage.jst.go.jp/article/matertrans/46/5/46{\_}5{\_}1026/{\_}article}.
+
+\bibitem[Yukawa et~al.(2011)Yukawa, Nambu, and Matsumoto]{Yukawa2011}
+H.~Yukawa, T.~Nambu, and Y.~Matsumoto.
+\newblock {Ta-W Alloy for Hydrogen Permeable Membranes}.
+\newblock \emph{Materials Transactions}, 52\penalty0 (4):\penalty0 610--613,
+  2011.
+\newblock ISSN 1347-5320.
+\newblock \doi{10.2320/matertrans.MA201007}.
+\newblock URL
+  \url{http://joi.jlc.jst.go.jp/JST.JSTAGE/matertrans/MA201007?from=CrossRef}.
+
+\bibitem[Tao et~al.(2015)Tao, Yan, Qiao, Wang, Zhang, and Zhang]{Tao2015}
+Zetian Tao, Litao Yan, Jinli Qiao, Baolin Wang, Lei Zhang, and Jiujun Zhang.
+\newblock {A review of advanced proton-conducting materials for hydrogen
+  separation}.
+\newblock \emph{Progress in Materials Science}, 74:\penalty0 1--50, 2015.
+\newblock ISSN 00796425.
+\newblock \doi{10.1016/j.pmatsci.2015.04.002}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.pmatsci.2015.04.002}.
+
+\bibitem[Phair and Donelson(2006)]{Phair2006}
+John~W. Phair and Richard Donelson.
+\newblock {Developments and design of novel (non-palladium-based) metal
+  membranes for hydrogen separation}.
+\newblock \emph{Industrial and Engineering Chemistry Research}, 45\penalty0
+  (16):\penalty0 5657--5674, 2006.
+\newblock ISSN 08885885.
+\newblock \doi{10.1021/ie051333d}.
+
+\bibitem[Yuan et~al.(2010)Yuan, Mao, and Li]{Yuan2010}
+Wen~Hui Yuan, Ling~Ling Mao, and Li~Li.
+\newblock {Novel SrCe0.75Zr0.20Tm0.05O3-alpha membrane for hydrogen
+  separation}.
+\newblock \emph{Chinese Chemical Letters}, 21\penalty0 (3):\penalty0 369--372,
+  2010.
+\newblock ISSN 10018417.
+\newblock \doi{10.1016/j.cclet.2009.11.002}.
+
+\bibitem[Escol{\'{a}}stico et~al.(2011)Escol{\'{a}}stico, Sol{\'{i}}s, and
+  Serra]{Escolastico2011}
+Sonia Escol{\'{a}}stico, Cecilia Sol{\'{i}}s, and Jos{\'{e}}~M. Serra.
+\newblock {Hydrogen separation and stability study of ceramic membranes based
+  on the system Nd5LnWO12}.
+\newblock \emph{International Journal of Hydrogen Energy}, 36\penalty0
+  (18):\penalty0 11946--11954, 2011.
+\newblock ISSN 03603199.
+\newblock \doi{10.1016/j.ijhydene.2011.06.026}.
+
+\bibitem[Escol{\'{a}}stico et~al.(2013)Escol{\'{a}}stico, Sol{\'{i}}s, Scherb,
+  Schumacher, and Serra]{Escolastico2013}
+Sonia Escol{\'{a}}stico, Cecilia Sol{\'{i}}s, Tobias Scherb, Gerhard
+  Schumacher, and Jose~M. Serra.
+\newblock {Hydrogen separation in La5.5WO11.25-$\delta$ membranes}.
+\newblock \emph{Journal of Membrane Science}, 444:\penalty0 276--284, 2013.
+\newblock ISSN 03767388.
+\newblock \doi{10.1016/j.memsci.2013.05.005}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.memsci.2013.05.005}.
+
+\bibitem[Escol{\'{a}}stico et~al.(2009)Escol{\'{a}}stico, Vert, and
+  Serra]{Escolastico2009}
+Sonia Escol{\'{a}}stico, Vicente~B. Vert, and Jos{\'{e}}~M. Serra.
+\newblock {Preparation and characterization of nanocrystalline mixed
+  proton-electronic conducting materials based on the system Ln6WO12}.
+\newblock \emph{Chemistry of Materials}, 21\penalty0 (14):\penalty0 3079--3089,
+  2009.
+\newblock ISSN 08974756.
+\newblock \doi{10.1021/cm900067k}.
+
+\bibitem[Escolastico et~al.(2013)Escolastico, Seeger, Roitsch, Ivanova,
+  Meulenberg, and Serra]{Escolastico2013a}
+Sonia Escolastico, Janka Seeger, Stefan Roitsch, Mariya Ivanova, Wilhelm~A.
+  Meulenberg, and Jos{\'{e}}~M. Serra.
+\newblock {Enhanced H2 separation through mixed proton-electron conducting
+  membranes based on La5.5W0.8M0.2O 11.25-$\delta$}.
+\newblock \emph{ChemSusChem}, 6\penalty0 (8):\penalty0 1523--1532, 2013.
+\newblock ISSN 18645631.
+\newblock \doi{10.1002/cssc.201300091}.
+
+\bibitem[Escol{\'{a}}stico et~al.(2012)Escol{\'{a}}stico, Sol{\'{i}}s, and
+  Serra]{Escolastico2012}
+Sonia Escol{\'{a}}stico, Cecilia Sol{\'{i}}s, and Jos{\'{e}}~M. Serra.
+\newblock {Study of hydrogen permeation in (La 5/6Nd 1/6) 5.5WO 12-$\delta$
+  membranes}.
+\newblock \emph{Solid State Ionics}, 216:\penalty0 31--35, 2012.
+\newblock ISSN 01672738.
+\newblock \doi{10.1016/j.ssi.2011.11.004}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.ssi.2011.11.004}.
+
+\bibitem[V{\o}llestad et~al.(2014)V{\o}llestad, Vigen, Magras{\'{o}}, and
+  Haugsrud]{Vollestad2014}
+Einar V{\o}llestad, Camilla~K. Vigen, Anna Magras{\'{o}}, and Reidar Haugsrud.
+\newblock {Hydrogen permeation characteristics of La27Mo1.5W3.5O55.5}.
+\newblock \emph{Journal of Membrane Science}, 461:\penalty0 81--88, 2014.
+\newblock ISSN 18733123.
+\newblock \doi{10.1016/j.memsci.2014.03.011}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.memsci.2014.03.011}.
+
+\bibitem[Escol{\'{a}}stico et~al.(2015)Escol{\'{a}}stico, Somacescu, and
+  Serra]{Escolastico2015}
+Sonia Escol{\'{a}}stico, Simona Somacescu, and Jos{\'{e}}~M. Serra.
+\newblock {Tailoring mixed ionic–electronic conduction in H 2 permeable
+  membranes based on the system Nd 5.5 W 1−x Mo x O 11.25−$\delta$}.
+\newblock \emph{J. Mater. Chem. A}, 3\penalty0 (2):\penalty0 719--731, 2015.
+\newblock ISSN 2050-7488.
+\newblock \doi{10.1039/C4TA03699A}.
+\newblock URL \url{http://xlink.rsc.org/?DOI=C4TA03699A}.
+
+\bibitem[Zhu et~al.(2014)Zhu, Sun, Dong, Wang, Shi, Zhang, and Liu]{Zhu2014}
+Zhiwen Zhu, Wenping Sun, Yingchao Dong, Zhongtao Wang, Zhen Shi, Qingping
+  Zhang, and Wei Liu.
+\newblock {Evaluation of hydrogen permeation properties of
+  Ni–Ba(Zr0.7Pr0.1Y0.2)O3−$\delta$ cermet membranes}.
+\newblock \emph{International Journal of Hydrogen Energy}, 39\penalty0
+  (22):\penalty0 11683--11689, 2014.
+\newblock ISSN 03603199.
+\newblock \doi{10.1016/j.ijhydene.2014.05.163}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S0360319914015754}.
+
+\bibitem[Zhu et~al.(2011)Zhu, Sun, Yan, Liu, and Liu]{Zhu2011}
+Zhiwen Zhu, Wenping Sun, Litao Yan, Weifeng Liu, and Wei Liu.
+\newblock {Synthesis and hydrogen permeation of
+  Ni–Ba(Zr0.1Ce0.7Y0.2)O3−$\delta$ metal–ceramic asymmetric membranes}.
+\newblock \emph{International Journal of Hydrogen Energy}, 36\penalty0
+  (10):\penalty0 6337--6342, 2011.
+\newblock ISSN 03603199.
+\newblock \doi{10.1016/j.ijhydene.2011.02.029}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S0360319911003466}.
+
+\bibitem[Polfus et~al.(2015)Polfus, Xing, Fontaine, Denonville, Henriksen, and
+  Bredesen]{Polfus2015}
+Jonathan~M Polfus, Wen Xing, Marie-Laure Fontaine, Christelle Denonville,
+  Partow~P Henriksen, and Rune Bredesen.
+\newblock {Hydrogen separation membranes based on dense ceramic composites in
+  the La27W5O55.5-LaCrO3 system}.
+\newblock \emph{Journal of Membrane Science}, 479:\penalty0 39--45, 2015.
+\newblock ISSN 03767388.
+\newblock \doi{10.1016/j.memsci.2015.01.027}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.memsci.2015.01.027}.
+
+\bibitem[Escol{\'{a}}stico et~al.(2014)Escol{\'{a}}stico, Sol{\'{i}}s,
+  Kj{\o}lseth, and Serra]{Escolastico2014}
+S.~Escol{\'{a}}stico, C.~Sol{\'{i}}s, C.~Kj{\o}lseth, and J.~M. Serra.
+\newblock {Outstanding hydrogen permeation through CO
+  {\textless}sub{\textgreater}2{\textless}/sub{\textgreater} -stable dual-phase
+  ceramic membranes}.
+\newblock \emph{Energy Environ. Sci.}, 7\penalty0 (11):\penalty0 3736--3746,
+  2014.
+\newblock ISSN 1754-5692.
+\newblock \doi{10.1039/C4EE02066A}.
+\newblock URL \url{http://xlink.rsc.org/?DOI=C4EE02066A}.
+
+\bibitem[Zhu et~al.(2015)Zhu, Sun, Wang, Cao, Dong, and Liu]{Zhu2015}
+Zhiwen Zhu, Wenping Sun, Zhongtao Wang, Jiafeng Cao, Yingchao Dong, and Wei
+  Liu.
+\newblock {A high stability Ni-Lainf0.5/infCeinf0.5/infOinf2-$\delta$/inf
+  asymmetrical metal-ceramic membrane for hydrogen separation and generation}.
+\newblock \emph{Journal of Power Sources}, 281:\penalty0 417--424, 2015.
+\newblock ISSN 03787753.
+\newblock \doi{10.1016/j.jpowsour.2015.02.005}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.jpowsour.2015.02.005}.
+
+\bibitem[Fang et~al.(2010)Fang, Bi, Yan, and Sun]{Fang2010}
+Shumin Fang, Lei Bi, Litao Yan, and Wenping Sun.
+\newblock {CO2 Resistant Hydrogen Permeation Membranes Based on Doped Ceria and
+  Nickel}.
+\newblock \emph{Journal of Physical Chemistry C}, pages 10986--10991, 2010.
+\newblock ISSN 1932-7447.
+\newblock \doi{10.1021/jp102271v}.
+\newblock URL \url{http://pubs.acs.org/doi/abs/10.1021/jp102271v}.
+
+\bibitem[Yan et~al.(2010)Yan, Sun, Bi, Fang, Tao, and Liu]{Yan2010}
+Litao Yan, Wenping Sun, Lei Bi, Shumin Fang, Zetian Tao, and Wei Liu.
+\newblock {Effect of Sm-doping on the hydrogen permeation of Ni-La2Ce2O7 mixed
+  protonic-electronic conductor}.
+\newblock \emph{International Journal of Hydrogen Energy}, 35\penalty0
+  (10):\penalty0 4508--4511, 2010.
+\newblock ISSN 03603199.
+\newblock \doi{10.1016/j.ijhydene.2010.02.134}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.ijhydene.2010.02.134}.
+
+\bibitem[Kniep and Lin(2010)]{Kniep2010}
+Jay Kniep and Y.~S. Lin.
+\newblock {Effect of zirconium doping on hydrogen permeation through strontium
+  cerate membranes}.
+\newblock \emph{Industrial and Engineering Chemistry Research}, 49\penalty0
+  (6):\penalty0 2768--2774, 2010.
+\newblock ISSN 08885885.
+\newblock \doi{10.1021/ie9015182}.
+
+\bibitem[keun Oh et~al.(2009)keun Oh, Yoon, and Wachsman]{O2009}
+Tak keun Oh, Heesung Yoon, and E.~D. Wachsman.
+\newblock {Effect of Eu dopant concentration in SrCe1 - xEuxO3 - ?? on
+  ambipolar conductivity}.
+\newblock \emph{Solid State Ionics}, 180\penalty0 (23-25):\penalty0 1233--1239,
+  2009.
+\newblock ISSN 01672738.
+\newblock \doi{10.1016/j.ssi.2009.07.001}.
+
+\bibitem[Liu et~al.(2013)Liu, Ruiz, Zhang, Santra, Ren, Scheffler, and
+  Tkatchenko]{Liu2013}
+Wei Liu, Victor~G. Ruiz, Guo~Xu Zhang, Biswajit Santra, Xinguo Ren, Matthias
+  Scheffler, and Alexandre Tkatchenko.
+\newblock {Structure and energetics of benzene adsorbed on transition-metal
+  surfaces: Density-functional theory with van der Waals interactions including
+  collective substrate response}.
+\newblock \emph{New Journal of Physics}, 15\penalty0 (111), 2013.
+\newblock ISSN 13672630.
+\newblock \doi{10.1088/1367-2630/15/5/053046}.
+
+\bibitem[Song et~al.(2013)Song, Li, Tan, and Li]{Song2013}
+Jian Song, Liping Li, Xiaoyao Tan, and K.~Li.
+\newblock {BaCe0.85Tb0.05Co0.1O3-?? perovskite hollow fibre membranes for
+  hydrogen/oxygen permeation}.
+\newblock \emph{International Journal of Hydrogen Energy}, 38\penalty0
+  (19):\penalty0 7904--7912, 2013.
+\newblock ISSN 03603199.
+\newblock \doi{10.1016/j.ijhydene.2013.04.104}.
+
+\bibitem[Fang et~al.(2014{\natexlab{a}})Fang, Brinkman, and Chen]{Fang2014}
+Shumin Fang, Kyle Brinkman, and Fanglin Chen.
+\newblock {Unprecedented CO
+  {\textless}sub{\textgreater}2{\textless}/sub{\textgreater} -Promoted Hydrogen
+  Permeation in Ni-BaZr
+  {\textless}sub{\textgreater}0.1{\textless}/sub{\textgreater} Ce
+  {\textless}sub{\textgreater}0.7{\textless}/sub{\textgreater} Y
+  {\textless}sub{\textgreater}0.1{\textless}/sub{\textgreater} Yb
+  {\textless}sub{\textgreater}0.1{\textless}/sub{\textgreater} O
+  {\textless}sub{\textgreater}3−$\delta${\textless}/sub{\textgreater}
+  Membrane}.
+\newblock \emph{ACS Applied Materials {\&} Interfaces}, 6\penalty0
+  (1):\penalty0 725--730, 2014{\natexlab{a}}.
+\newblock ISSN 1944-8244.
+\newblock \doi{10.1021/am405169d}.
+\newblock URL \url{http://pubs.acs.org/doi/abs/10.1021/am405169d}.
+
+\bibitem[Fang et~al.(2014{\natexlab{b}})Fang, Brinkman, and Chen]{Fang2014a}
+Shumin Fang, Kyle~S. Brinkman, and Fanglin Chen.
+\newblock {Hydrogen permeability and chemical stability of
+  Ni-BaZr0.1Ce0.7Y0.1Yb0.1O3-$\delta$ membrane in concentrated H2O and CO2}.
+\newblock \emph{Journal of Membrane Science}, 467:\penalty0 85--92,
+  2014{\natexlab{b}}.
+\newblock ISSN 18733123.
+\newblock \doi{10.1016/j.memsci.2014.05.008}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.memsci.2014.05.008}.
+
+\bibitem[Tan et~al.(2014)Tan, Tan, Yang, Meng, Zhang, and Liu]{Tan2014}
+Xihan Tan, Xiaoyao Tan, Naitao Yang, Bo~Meng, Kun Zhang, and Shaomin Liu.
+\newblock {High performance BaCe0.8Y0.2O3-A (BCY) hollow fibre membranes for
+  hydrogen permeation}.
+\newblock \emph{Ceramics International}, 40\penalty0 (2):\penalty0 3131--3138,
+  2014.
+\newblock ISSN 02728842.
+\newblock \doi{10.1016/j.ceramint.2013.09.132}.
+
+\bibitem[Gil et~al.(2013)Gil, Gurauskis, Kj{\o}lseth, Wiik, and
+  Einarsrud]{Gil2013}
+Vanesa Gil, Jonas Gurauskis, Christian Kj{\o}lseth, Kjell Wiik, and Mari-Ann
+  Einarsrud.
+\newblock {Hydrogen permeation in asymmetric La28 − xW4 + xO54 + 3x/2
+  membranes}.
+\newblock \emph{International Journal of Hydrogen Energy}, 38\penalty0
+  (7):\penalty0 3087--3091, 2013.
+\newblock ISSN 03603199.
+\newblock \doi{10.1016/j.ijhydene.2012.12.105}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S0360319912028406}.
+
+\bibitem[Vigen and Haugsrud(2014)]{Vigen2014}
+Camilla~K. Vigen and Reidar Haugsrud.
+\newblock {Hydrogen flux in La0.87Sr0.13CrO3-$\delta$}.
+\newblock \emph{Journal of Membrane Science}, 468:\penalty0 317--323, 2014.
+\newblock ISSN 18733123.
+\newblock \doi{10.1016/j.memsci.2014.06.012}.
+
+\bibitem[Song et~al.(2015{\natexlab{a}})Song, Meng, Tan, and Liu]{Song2015a}
+Jian Song, Bo~Meng, Xiaoyao Tan, and Shaomin Liu.
+\newblock {Surface-modified proton conducting perovskite hollow fibre membranes
+  by Pd-coating for enhanced hydrogen permeation}.
+\newblock \emph{International Journal of Hydrogen Energy}, 40\penalty0
+  (18):\penalty0 6118--6127, 2015{\natexlab{a}}.
+\newblock ISSN 03603199.
+\newblock \doi{10.1016/j.ijhydene.2015.03.057}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.ijhydene.2015.03.057}.
+
+\bibitem[Song et~al.(2015{\natexlab{b}})Song, Kang, Tan, Meng, and
+  Liu]{Song2015}
+Jian Song, Jian Kang, Xiaoyao Tan, Bo~Meng, and Shaomin Liu.
+\newblock {Proton conducting perovskite hollow fibre membranes with surface
+  catalytic modification for enhanced hydrogen separation}.
+\newblock \emph{Journal of the European Ceramic Society}, 36\penalty0
+  (7):\penalty0 1669--1677, 2015{\natexlab{b}}.
+\newblock ISSN 1873619X.
+\newblock \doi{10.1016/j.jeurceramsoc.2016.01.006}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.jeurceramsoc.2016.01.006}.
 
 \end{thebibliography}

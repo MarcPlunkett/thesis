@@ -7,45 +7,47 @@ Warning--empty booktitle in Alaswad2016
 Warning--empty institution in InternationalEnergyAgencyIEA2015
 Warning--empty year in Bossard
 Warning--empty year in Bossard
-You've used 30 entries,
+Warning--empty publisher in RoaF.ThoenP.M.GadeS.K.WayJ.G.DeVossS.andAlptekin2009
+Warning--empty journal in Saleh1969
+You've used 116 entries,
             2481 wiz_defined-function locations,
-            821 strings with 12709 characters,
-and the built_in function-call counts, 13340 in all, are:
-= -- 1199
-> -- 710
-< -- 19
-+ -- 269
-- -- 209
-* -- 1114
-:= -- 2186
-add.period$ -- 146
-call.type$ -- 30
-change.case$ -- 61
-chr.to.int$ -- 30
-cite$ -- 34
-duplicate$ -- 613
-empty$ -- 1134
-format.name$ -- 253
-if$ -- 2817
-int.to.chr$ -- 1
-int.to.str$ -- 31
-missing$ -- 28
-newline$ -- 209
-num.names$ -- 100
-pop$ -- 203
+            1486 strings with 34068 characters,
+and the built_in function-call counts, 52964 in all, are:
+= -- 4766
+> -- 2968
+< -- 44
++ -- 1119
+- -- 881
+* -- 4666
+:= -- 8685
+add.period$ -- 555
+call.type$ -- 116
+change.case$ -- 233
+chr.to.int$ -- 110
+cite$ -- 122
+duplicate$ -- 2283
+empty$ -- 4390
+format.name$ -- 1033
+if$ -- 11063
+int.to.chr$ -- 7
+int.to.str$ -- 117
+missing$ -- 110
+newline$ -- 788
+num.names$ -- 360
+pop$ -- 696
 preamble$ -- 1
-purify$ -- 30
+purify$ -- 116
 quote$ -- 0
-skip$ -- 353
+skip$ -- 1294
 stack$ -- 0
-substring$ -- 638
-swap$ -- 93
-text.length$ -- 4
+substring$ -- 2928
+swap$ -- 325
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 210
-warning$ -- 4
-while$ -- 112
+type$ -- 812
+warning$ -- 6
+while$ -- 450
 width$ -- 0
-write$ -- 499
-(There were 4 warnings)
+write$ -- 1911
+(There were 6 warnings)
