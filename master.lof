@@ -1,0 +1,34 @@
+\gdef \the@ipfilectr {@-1}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Schematic presentation of the thesis structure\relax }}{15}% 
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-3}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematic of a PEMFC cell \cite {Dharmalingam2019}\relax }}{18}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Classification of MEA materials \cite {Mehta2003}\relax }}{19}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Schematic of a PEMFC stack \cite {Li2019}\relax }}{19}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Simplified block diagram of a typical modern SMR plant. WGS is a water gas shift reactor. CO\textsubscript {2} concentrations are in mol.\%. \cite {Muradov2015}\relax }}{20}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Illustration of the five membrane separation mechanisms (i) Poiseuille Flow/Knudsen diffusion, (ii) Molecular Sieving, (iii) Surface diffusion (iV) Capillary condensation (V) Solution diffusion (Vi) Facilitated transport\relax }}{30}% 
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-4}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic representation of the fabrication process of SZ hollow fibre.\relax }}{74}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematic representation of the sequential baths for sensitisation/activation process.\relax }}{75}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Example of ELP procedure when manufacturing a PdCu membrane on YSZ substrate\relax }}{76}% 
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-5}
+\addvspace {10\p@ }
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-6}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces SEM images of fabricated membranes (a) PdCu (fcc) (Sputtering) (b) PdAg (ELP) (c)PdAu (ELP) (d) PdCuZr (Sputtering) (e) PdAgAu (ELP) (f) PdCuAg (ELP) (g) PdCu (bcc) (Sputtering) (h) typical cross section\relax }}{88}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Permeability data for pure hydrogen, non-sulphur, and sulphur permeation tests\relax }}{93}% 
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-7}
+\addvspace {10\p@ }
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-8}
+\addvspace {10\p@ }
+\gdef \the@ipfilectr {}
