@@ -413,12 +413,9 @@ and chemical resistance which are more difficult to quantify.
 		\hline
 		\textbf{Material} & \textbf{Separation mechanism} & \textbf{Mechanical stability} & \textbf{Chemical Stability} & \textbf{Operating temperature} & \textbf{Selectivity} \\ \hline
 		Polymer (Dense) & Solution diffusion, Facilitated transport &  Susceptible to Compaction \cite{Volkov2014} and Swelling \cite{Gugliuzza2015}
-        & Low chemical stability, Degrades under H\textsubscript{2}S, HCl, CO\textsubscript{2}, SO\textsubscript{x} \cite{Farrauto2003} & A & A \\
-		Polymer (Porous) & Knudsen diffusion, Molecular sieving, Surface diffusion, Capillary condensation, Poiseuille flow  & Susceptible to Compaction \cite{Volkov2014} and Swelling \cite{Gugliuzza2015} & Low chemical stability, Degrades under H\textsubscript{2}S, HCl, CO\textsubscript{2}, SO\textsubscript{x} \cite{Farrauto2003}
-        & <100\textsuperscript{O}C & 2.5 9 –960 \cite{Polotskaya2005}
-        (H\textsubscript{2}/N\textsubscript{2} selectivity)         \\
-		Nano-porous & Knudsen diffusion, Poiseuille flow, Capillary condensation, Surface diffusion, Molecular sieving & Brittle & Good\cite{NathanW.Ockwig2007a} & Ambient -500\textdegree C & 2.4 \cite{Lee2007} -  1000 \textbf{ref for this}
-        (H\textsubscript{2}/N\textsubscript{2} selectivity)
+        & Low chemical stability, Degrades under H\textsubscript{2}S, HCl, CO\textsubscript{2}, SO\textsubscript{x} \cite{Farrauto2003} & $<100$\textsuperscript{O}C & 2.5 \cite{Nagai1995} – 960 \cite{Polotskaya2005} \\
+		
+		Nano-porous & Knudsen diffusion, Poiseuille flow, Capillary condensation, Surface diffusion, Molecular sieving & Brittle & Good\cite{NathanW.Ockwig2007a} & Ambient -500\textdegree C & 2.4 \cite{Lee2007} -  1000 \cite{NathanW.Ockwig2007a} (H\textsubscript{2}/N\textsubscript{2} selectivity)
         \\
         Dense Metal & Solution Diffusion & Phase transition \cite{Gao2004}
         Dependant on support \cite{Gao2004}
@@ -472,11 +469,8 @@ impurities simply leaving the sample during the enrichment run, or only achievin
 Take the example of enriching a sample containing 0.2 \textmu mol/mol of CO by 100 in order to analyse its 
 composition on 
 a GC-MS. If the sample is a standard 10L cylinder containing 100 bar a H\textsubscript{2}/CO selectivity of 
-\textasciitilde 4950000 is required to simply prevent all of the CO leaving the enrichment device, which is 
-effectively the 
-same as the selectivity’s seen in dense metal membranes. However, for the same sample containing 0.3 \textmu mol/mol 
-of 
-Helium a H\textsubscript{2}/He selectivity of 330 is the minimum required which is more feasible. However, both these values 
+\textasciitilde 4950000 is required to simply prevent all of the CO leaving the enrichment device, which is effectively the same as the selectivity’s seen in dense metal membranes. However, for the same sample containing 0.3 \textmu mol/mol 
+of Helium a H\textsubscript{2}/He selectivity of 330 is the minimum required which is more feasible. However, both these values 
 are the exact values required by the standard, in reality they would be much lower. The highest reported 
 selectivity of a non-infinitely selective membrane was Liquid crystalline polyester which had a 
 H\textsubscript{2}/N\textsubscript{2} 
@@ -490,16 +484,7 @@ enrichment material due to their ability to enrich every impurity in hydrogen, w
 selective membranes may be applied to analysis of individual impurities, it is unlikely such a scenario 
 would occur in reality which makes them a non-ideal solution. 
 
-The common thread with all the micro-porous materials discussed here is that they are 
-currently difficult and expensive to synthesise on a large scale, particularly in membrane 
-form. Due to the separation mechanism of micro-porous materials they are not suitable for use 
-in hydrogen impurity enrichment as their selectivity will not produce a viable enrichment 
-medium. However, due to their high surface areas and ability to be modified to promote 
-integration with specific gas species, they may find use in sensor applications for detecting 
-the ISO-14687 impurities. There is a wealth of work on the use of many of these materials as 
-chemical sensors however much of this work has been performed using the gases in non-hydrogen 
-matrix gases and therefore much work is required before their true potential in this area can 
-be realised. 
+The common thread with all the micro-porous materials discussed here is that they are currently difficult and expensive to synthesise on a large scale, particularly in membrane form. Due to the separation mechanism of micro-porous materials they are not suitable for use in hydrogen impurity enrichment as their selectivity will not produce a viable enrichment medium. However, due to their high surface areas and ability to be modified to promote integration with specific gas species, they may find use in sensor applications for detecting the ISO-14687 impurities. There is a wealth of work on the use of many of these materials as chemical sensors however much of this work has been performed using the gases in non-hydrogen matrix gases and therefore much work is required before their true potential in this area can be realised. 
 
 Polymer membranes have a similar issue to micro porous materials in that their selectivity 
 is too low to be effective at enriching impurities in hydrogen samples. The mechanical 
@@ -727,7 +712,7 @@ Therefore this section will only concern itself with membranes which show permas
 %temperatures which can limit their lifespan. \textbf{APPENDIX TABLE} shows a direct comparison 
 %of a sample of literature reporting the performance of polymer membranes.
 
-\subsubsection{Dense metallic}
+\subsubsection{Dense metallic}\label{pdreview}
 Metallic membranes are comprised of dense metal or alloy sheets which allow the permeation 
 of hydrogen through its constituent electrons and protons. While this is the same separation 
 mechanism seen in dense polymer membranes the hydrogen selectivity is typically a lot higher 
@@ -842,7 +827,7 @@ reported with certain alloy compositions.
 Both binary and ternary alloys of palladium have been reported and is a mature topic in 
 literature. By far the three most popular alloying compounds with palladium are silver, 
 copper and gold. The current literature landscape of palladium alloy membranes are summarised 
-in \textbf{BIG METAL TABLE} and for the purpose of this review studies which looked at the impurity resistance, which 
+in Table \ref{pdtable} and for the purpose of this review studies which looked at the impurity resistance, which 
 is currently the most pressing issue in the field, were focused on. 
 
 Silver is the most popular dopant for palladium membranes and forms a stable alloy with 
@@ -979,7 +964,8 @@ reactivity with impurities. \cite{Tarditi2014}
 \eject \pdfpagewidth=16.5in \pdfpageheight=11.7in
 
     \begin{longtable}{@{\extracolsep{\fill}}ccccccccccccc@{}}
-    \caption{Review of palladium alloys and their interactions with impurities}\\
+    \caption{Review of palladium alloys and their interactions with impurities}\label{pdtable}
+    \\
     \toprule
     \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Membrane\\composition\end{tabular}} & \multirow{2}{*}{Support} & \multicolumn{5}{c}{Susceptability to poisoning compounds}                                                                                                                   & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Pressure\\(bar)\end{tabular}} & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Permeability\\ $mol m^{-1} s^{-1} pa^{-\frac{1}{2}}$\end{tabular}} & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Temperature\\ \textdegree C\end{tabular}} & \multirow{2}{*}{Fabrication technique} & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Membrane\\ thickness (\textmu m)\end{tabular}} & \multirow{2}{*}{Ref} \\ \cmidrule(lr){3-7} 
                                           &                          & \begin{tabular}[c]{@{}c@{}}Compound\\concentration\end{tabular}                                                                    & Exposure time & \begin{tabular}[c]{@{}c@{}}Percentage\\flux drop\end{tabular} & Flux Recovery & Initial flux &                                &                                        &                                        &                                        &                                                                                    &                      \\  \midrule 
@@ -1196,7 +1182,7 @@ reactivity with impurities. \cite{Tarditi2014}
 
 \eject \pdfpagewidth=8.3in \pdfpageheight=11.7in
 
-\subsubsection*{Non-palladium}
+\subsubsection*{Non-palladium}\label{nonpdreview}
 Due to the high cost of palladium there is a particular interest to use alternative materials which still give the high selectivity intrinsic to dense metallic membranes, while reducing the cost, for example, by switching to a cheaper, non-platinum group metal. Non-palladium alloy membranes in the form of amorphous, or crystalline structures generally attract the most research interest.
 
 Crystalline non-palladium membranes are generally based on Group IV based alloys and follow a similar philosophy to the previously discussed palladium membranes. Group IV metals are alloyed with other metals in order to improve their physical properties while maintaining the bcc structure essential for the material to transport hydrogen. Crystalline metals typically have the same advantages and disadvantages as palladium membranes. Recent research activity has focused mainly on studying how the size of the grain boundary affects the permeability of such a membrane, an area which has been mostly neglected in palladium research. \cite{NathanW.Ockwig2007a} This is likely due to the fact that many of these alloys are manufactured through cold work where the grain size can be more easily tailored than in the traditional electroless and sputtering methods used to manufacture palladium membranes. A key aspect of crystalline alloy research is the effect of nano-crystalline structures. Most research in this area has revolved around the addition of small amounts of elements to alloys based on either Zr or Hf to tailor these nano-crystalline structures and study their effects on permeability. Similarly to palladium alloys, dopants are generally chosen based on their effectiveness at suppressing hydride formation, with Zr, Mo, Ru and Rh being popular choices. \cite{Kong2011, DosSantos1998, Yukawa2002, Yukawa2002a, Yukawa2003} Alloying in this context would also likely be useful in reducing the membranes interaction with impurities through surface contamination. However this has not been touched upon much in research outside of palladium. The largest drawback to this technology is that crystalline alloys often do not show the catalytic activity necessary for dissociation of hydrogen. This requires an additional coating of palladium to be applied to the surface in order for the material to be viable for hydrogen separation. Interestingly when this was done with some commonly used industrial alloys \cite{Xu1994} it was found that they showed reasonable hydrogen permeability which further highlights the importance of catalytic dissociation of hydrogen. Crystalline membranes are also mechanically weak and still susceptible to hydrogen embrittlement through hydride formation in a similar manner to palladium membranes. \cite{NathanW.Ockwig2007a}
@@ -1213,6 +1199,8 @@ Judging from the current research landscape on non-palladium membranes, the tech
 
     \begin{longtable}{@{\extracolsep{\fill}}C{1.7in} C{1.7in} C{1.7in} C{1.7in} C{1.7in} C{1.7in} C{1.7in} C{1.7in}@{}}
         \caption{Hydrogen permeable non-palladium metallic membranes}
+        \label{nonpdtable}
+
         \\
     \toprule
     \begin{tabular}[c]{@{}c@{}}Membrane\\composition\end{tabular} & Structure & Catalytic coating & Feed pressure & \begin{tabular}[c]{@{}c@{}}Permeability\\ mol m2 m s\end{tabular} & \begin{tabular}[c]{@{}c@{}}temperature\\ OC\end{tabular} & \begin{tabular}[c]{@{}c@{}}Membrane thickness\\ (um)\end{tabular} & Ref \\ \midrule
@@ -1784,7 +1772,7 @@ standing structures, which usually feature high wall thicknesses in order to ach
 required mechanical strength to withstand use in a process. As a result of this the flux 
 seen through these membranes is typically low due to the high transport resistance of the 
 membrane. Self-supported membranes are also typically expensive due to the large amount of 
-materials required. [66]
+materials required. \cite{NathanW.Ockwig2007a}
 
 A more efficient method is to use a support structure to allow a thinner membrane layer to 
 be deposited, while achieving the mechanical strength required by use of another, cheaper 
@@ -1811,15 +1799,56 @@ it will lead to a difference in the expansion rate which eventually leads to mem
 \item Mechanical Stability
 \item Chemical stability
 \end{itemize}
-The thickness of the deposited membrane is largely a function of the morphological properties 
-of the support 
-Of the materials available for use as a support; ceramics, porous stainless steel, and porous 
-glass have been the most widely used. 
+Of the materials available for use as a support; ceramics, porous stainless steel, and porous glass have been the most widely studied. 
+
+\subsubsection*{Glass}
+Porous glass are types of amorphous solids which include pores in the nanometre to micrometre range. They are commonly created either by metastable phase separation of borosilicate glasses, through sol-gel synthesis, or simply by sintering glass powder. Porous glass supports have the advantage they that have high thermal stability, and a narrow pore size distribution between 4-5 nm [69, 70], allowing membranes of ~8-10 nm minimum thickness to be deposited. They are however extremely brittle and are highly susceptible to degradation under acidic, alkaline, or under metallic solutions which limits their use in a number of common membrane synthesis methods.  [71]
+
+\subsubsection*{Porous Stainless Steel (PSS)}
+Porous stainless steel is widely available in a large number of geometries and mainly see commercial use in a number of filtering applications. A membrane layer can be deposited on top of PSS in order to gain such properties as the high mechanical strength of PSS. PSS also features a similar CTE to palladium which limits the likelihood of membrane failure due to difference in expansion rate.  They are however an expensive option, with 70\% of the cost in such systems being attributed to the PSS support.
+
+The main problem with using PSS supports is that since both the support material, and the membrane materials are metals, at temperatures above 275OC intermetallic diffusion will occur. This is when molecules from the stainless steel support diffuse into the membrane layer and vice versa. The result is a drastic decrease in permeability, and potential compromise of membrane integrity due to the lattice structure of the membrane being changed. A common method for mitigating this effect is to modify the surface of the PSS support with an intermediate layer that is not susceptible to intermetallic diffusion. There are a number of materials that can meet this purtpose including Alumina [16,32], TiN [38], ZrO2 [33], Ni[14], W/WO3 [39,40], and Yttria-Stabilised Zirconia (YSZ) [12,41]. It is also possible to create an oxide layer on the surface of the PSS support by heating the material to 800C which achievges the same result. While these methods are effective at mitigating the effects of intermetallic diffusion; they instead introduce a different problem where, in particular with some ceramic intermetallic diffusion layers, there is a difference in CTE between the material and support. Many of the intermetallic diffusion materials can also be made into supports on their own, at a much lower cost than PSS so it also opens the question of if these materials can be made into satisfactory supports on their own, why bother adding them to costly PSS supports.
+
+\subsubsection*{Ceramic}
+
+\subsubsection{Membrane deposition methods}
+There are various methods which can be used to deposit dense metal membranes onto the surface of a support can be carried through a wide number of chemical processes. From our reviews performed in sections \ref{pdreview} and \ref{nonpdreview} the most commonly used methods for deposition of dense metal membranes are PVD (e.g. magnetron sputterring) and ELP. Other methods including such as chemical vapour deposition (CVD) [56, 57, 60, 74, 75], atmospheric plasma [67] and spray pyrolisis method (SPM) [51, 59] exist, however have been overlooked due to the inconsistency in final material, unreliability of the method, or cost. Additionally methods used to manufacture self-supporting membranes will not be discussed.
+
+\subsubsection*{Chemical vapour deposition (CVD)}
+CVD involves the thermal composition of one or more metal complexes with a high volatility and subsequent deposition through nucleation and on a surface. Commonly used precursor materials are metal carbonyls or organometallic compoints. The method is known for it's ability to reliably deposit thin dense membrane layers typically ($<$2 µm). The mthod is held back by it's high material costs and the expensive operating conditions reaquired.[56, 61]
+
+\subsubsection*{Physical vapour deposition (PVD)}
+
+PVD is a coating method in which a solid material, usually a pure metal, is vaporized by a high energy source (e.g. an electron beam) in a vacuum system. The generated atoms migrate in all directions and condensate when contacting with a substrate, which is at a lower temperature, to form a metallic film of up to 50 µm in thickness. The main advantages of this technology include the precise control of composition and simplicity. However, PVD involves high capital and operating costs mainly associated with the vacuum system and the vaporization of metals [56, 61].
+
+Magnetron sputtering is a variation of physical vapour deposition whereby a solid material provided as a ‘sputter target’ is vaporized by an energy source in a vacuum system. The resulting atoms migrate in all directions where they will eventually condense on the desired surface through controlled cooling. Magnetron sputtering refers to the utilization of magnetrons during sputtering, which confine the charged metal particles close to the surface of the target. Magnetron sputtering has the advantage that in theory any conductive material could be deposited. Surpassing the abilities of electroless plating which is only able to deposit certain metals. 
+
+
+\subsubsection*{Electroplating deposition (EPD)}
+EDP is a simple coating process in which a thin layer is deposited on the substrate by the reduction of metal ions. An electrical potential promotes the transport of the ions through the plating bath to the support that acts as a cathode. The electrochemical process is simple and only involves simple and low-cost equipment. However, the support must be conductive. The thickness of the membrane is normally controlled by the electroplating time and the composition of the plating solution [56, 61].
+
+\subsubsection*{Electroless Plating (ELP)}
+ELP is an autocatalytic technique in which a conductive or a non-conductive surface is coated with a metallic film by the reduction of metal salt complexes (e.g. ammine complexes) induced by a reducing agent (e.g. hydrazine) [56, 60, 61]. The preparation of the membrane involves two steps: surface pre-treatment, i.e. the sensitisation and the activation of the support, and plating of a Pd layer. In the surface activation, Pd seeds are deposited onto the hollow fibre surface, acting as a catalyst in the plating step and, as a result, fastening the formation of the membrane [56]. Furthermore, the activation of the support also contributes to the formation of a homogeneous and uniform separating layer. ELP is suitable for the deposition of membranes on non-metallic supports with complicated shapes, ensuring the formation of a uniform and dense membrane with good adhesion to the support. This process involves low capital and utility costs [56, 60]. However, the precise control over the thickness of the membrane still presents a challenge, as the kinetics of the reaction are strongly dependent on factors such as temperature and pressure [61]. Despite this, the extensive advantages of EPL qualify it as one of the best options for coating thin Pd-based membranes onto non-metallic supports, i.e. ceramic materials.
+
+Pre-treatment Surface activation is essential for non-conductive supports, e.g. Al2O3 hollow fibres, as it increases the chemical activity to initiate the oxidation of the reducing agent. Otherwise, the deposition of the palladium metal would be inefficient [56]. The pre-treatment involves two steps, i.e. the sensitisation and the activation of the support. In sensitisation, the support is immersed in an acidic solution of Sn2+ salt, which are adsorbed in a hydrolytic form on the substrate. The Sn2+ ions are then oxidised and replaced by Pd0 seeds during the activation step (equation 2.4) [76]. Between the two baths, the substrate is cleaned by de-ionized water.
+
+The catalytic function of the Pd0 seeds can be greatly affected by the presence of residual Sn4+ and Sn2+ ions, which can occupy the nuclei active centres. As a result, an additional cleaning step using an alkaline or acidic solution is needed.
+
+The electroless plating solution is composed of a metallic salt (e.g. palladium-ammine), which is the palladium source, a complexion agent (e.g. Na2EDTA.2H2O), which stabilizes the metallic ions in the solution, and a stabilization agent (NH4OH), which regulates the pH of the bath. The reduction of the metallic salt on the catalytic surface of the support (equation 2.6) is induced by a reducing agent (e.g. hydrazine) that is oxidized into nitrogen and water to release electrons (equation 2.5).
+
+As the reaction proceeds, additional palladium nuclei are generated and, as a result, the reaction rate increases rapidly until a continuous palladium layer is formed. The reduction of surface area available for reaction, caused by the deposition and proximity of the palladium nuclei, lowers the reaction rate and the process has to be carefully controlled to ensure the formation of an even and homogeneous layer of palladium with the desired thickness [76]. After the ELP procedure, the membrane is thermally treated at 450 ºC for 2 hours
 
 
 \section{Density functional theory for screening of membrane alloy compositions}
 
+Density functional theory (DFT) is a computational modelling method used to investigate the electronic structure of condensed phases and is the most popular and successful method available in condensed-matter physics, computational physics, and computational chemistry. This method gives an approximate solution to the Schrödinger equation of a many-body system, calculating approximate functionals, i.e., functions of a function of the spatially dependent electron density. DFT-based methods can be quite useful to accelerate the discovery and optimization of materials when a large number of elements and compositions are required to be screened. For Pd-based membranes, DFT calculations can be used for any atom configuration of periodic table elements, obtaining ground state electronic values that are used to predict solution-diffusion mechanism in the metals. Most of the research in DFT material screening for Pd-based dense metallic membranes has been conducted by the group of David S. Sholl (271, 272). This group suggested five principles that should be taken into account in any application for material screening, as written in (273): (i) Theoretical predictions must be made for multiple materials on time scales shorter than the same materials can be assessed experimentally; (ii) Theoretical predictions should require minimal input from experimental data; (iii) Theoretical predictions must be made about the quantities relevant to end-use applications, i.e., macroscopic proper- ties; (iv) Theoretical predictions need to have sufficient quantitative accuracy that confident judgments can be made separating promising and unpromising materials; and (v) The assumptions and caveats associated with theoretical methods should be clearly stated to allow judgments to be made about the potential impact of these factors on ‘real world’ performance of materials. Kamakoti and Sholl developed a method to calculate solubility, diffusivity and permeability of hydrogen in PdCu alloys without any experimental data input (158, 274, 275). Since then, similar methods have been used in first principle calculations for PdAg and PdAu (170, 276, 277) and also amorphous metals (273). Besides hydrogen permeability, these methods have also been used to calculate the effect of H2S on Pd- and Pd-based alloys (23, 41, 220, 233, 278), the surface segregation effects of the alloys (48, 49, 54, 233) and surface resistance to hydrogen transport (279). One of the most important challenges to overcome in order to achieve a good description of permeation properties on crystalline alloys is the frequent substitutional disorder of the metal atoms. Cluster expansion (CE) methods, that use interstitial site binding and transition-state energies libraries, have been used to develop a lattice model for bulk properties to overcome this issue. CE methods have been used to calculate hydrogen permeabilities of Pd96M4 alloys, whereM=Ag,Au,Pt,Rh,Cu, and Ni (280). Later studies extended the CE calculations to fcc Pd96M4 alloys with transition metals that form solid solutions with Pd at 600K (209). Pd-based intermetallic alloys have discrete and ordered compositions, that can potentially improve the resistance to poisoning due to the enhanced thermodynamic stabilities compared to the disordered solid solutions, have also been screened using DFT methodologies (281). Although binary alloy permeability predictions using DFT are already well defined, ternary alloy studies are still being developed. For now, they are focused on PdCu-based ternary alloys, as mentioned previously in this review, to use binary PdCu sulfur resistance combined with another element that can improve the hydrogen permeability. The initial articles studied small additions (4 at\%) of several transition metals to the binary alloy (239, 240). Later studies examined hydrogen permeability for a broad range of tern- ary compositions of PdCuAg (242) and PdCuAu (248). With the knowledge acquired in the study of binary alloys, theoretical predictions for hydrogen permeability in ternary alloys have proved to be a powerful tool for membrane material screening and might be the tool that moves Pd- based membrane research to a new level.
+
 \section{Conclusion}
+This chapter provided a review of a number of membrane materials designed to separate hydrogen from multicomponent mixtures. An extensive summary has been provided on the separation performance and stability of these materials with an emphasis on the complications related to transitioning the use of these materials from laboratory and  R\&D efforts, to industrially relevant processes. 
+
+The key observation is that while there is a large research focus on new membrane materials, there is a lack of research looking into the engineering of these membranes into functional systems and products. Out of the hundreds of materials being researched for gas separation, commercially only four-eight different polymers are being used, with some niche applications using palladium membranes. Research focus should shift towards focusing on repeatability, scale up, and creating engineered systems where new membrane materials can be used in order to make progress in bringing these new materials to market. 
+
+Currently polymer membranes hold a large monopoly on industrial gas separation processes which take use membranes. For other membranes to get a foothold they should focus on processes where polymers are fundamentally useless due to the harsh process conditions. 
 
 
 \bibliographystyle{unsrtnat}

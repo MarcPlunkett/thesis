@@ -9,45 +9,45 @@ Warning--empty year in Bossard
 Warning--empty year in Bossard
 Warning--empty publisher in RoaF.ThoenP.M.GadeS.K.WayJ.G.DeVossS.andAlptekin2009
 Warning--empty journal in Saleh1969
-You've used 116 entries,
+You've used 117 entries,
             2481 wiz_defined-function locations,
-            1486 strings with 34068 characters,
-and the built_in function-call counts, 52964 in all, are:
-= -- 4766
-> -- 2968
+            1492 strings with 34235 characters,
+and the built_in function-call counts, 53322 in all, are:
+= -- 4794
+> -- 2989
 < -- 44
-+ -- 1119
-- -- 881
-* -- 4666
-:= -- 8685
-add.period$ -- 555
-call.type$ -- 116
-change.case$ -- 233
-chr.to.int$ -- 110
-cite$ -- 122
-duplicate$ -- 2283
-empty$ -- 4390
-format.name$ -- 1033
-if$ -- 11063
++ -- 1127
+- -- 887
+* -- 4695
+:= -- 8745
+add.period$ -- 558
+call.type$ -- 117
+change.case$ -- 235
+chr.to.int$ -- 111
+cite$ -- 123
+duplicate$ -- 2302
+empty$ -- 4423
+format.name$ -- 1040
+if$ -- 11138
 int.to.chr$ -- 7
-int.to.str$ -- 117
-missing$ -- 110
-newline$ -- 788
-num.names$ -- 360
-pop$ -- 696
+int.to.str$ -- 118
+missing$ -- 111
+newline$ -- 793
+num.names$ -- 363
+pop$ -- 703
 preamble$ -- 1
-purify$ -- 116
+purify$ -- 117
 quote$ -- 0
-skip$ -- 1294
+skip$ -- 1304
 stack$ -- 0
-substring$ -- 2928
-swap$ -- 325
+substring$ -- 2939
+swap$ -- 327
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 812
+type$ -- 819
 warning$ -- 6
-while$ -- 450
+while$ -- 453
 width$ -- 0
-write$ -- 1911
+write$ -- 1924
 (There were 6 warnings)
