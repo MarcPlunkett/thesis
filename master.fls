@@ -249,6 +249,9 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/euler/eurm10.
 INPUT /Users/marc/Thesis/figures/septype.png
 INPUT /Users/marc/Thesis/figures/septype.png
 INPUT /Users/marc/Thesis/figures/septype.png
+INPUT /Users/marc/Thesis/figures/elpmetals.png
+INPUT /Users/marc/Thesis/figures/elpmetals.png
+INPUT /Users/marc/Thesis/figures/elpmetals.png
 INPUT /Users/marc/Thesis/Chapter2/ch2.bbl
 INPUT /Users/marc/Thesis/Chapter2/ch2.bbl
 OUTPUT /Users/marc/Thesis/Experimental/ch1.aux

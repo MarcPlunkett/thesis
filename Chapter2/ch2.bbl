@@ -1,4 +1,4 @@
-\begin{thebibliography}{117}
+\begin{thebibliography}{135}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -507,12 +507,14 @@ Xuezhong He and May~Britt H{\"{a}}gg.
 \newblock \doi{10.1016/j.cej.2012.10.051}.
 \newblock URL \url{http://dx.doi.org/10.1016/j.cej.2012.10.051}.
 
-\bibitem[Peters et~al.(2015)Peters, Stange, and Bredesen]{Peters2015}
+\bibitem[Peters et~al.(2015{\natexlab{a}})Peters, Stange, and
+  Bredesen]{Peters2015}
 T~A Peters, M~Stange, and R~Bredesen.
 \newblock {Fabrication of palladium-based membranes by magnetron sputtering}.
 \newblock In A~Doukelis, K~Panopoulos, A~Koumanakos, and E~Kakaras, editors,
   \emph{Palladium Membrane Technology for Hydrogen Production, Carbon Capture
-  and Other Application}, pages 25--41. Woodhead Publishing, 2015.
+  and Other Application}, pages 25--41. Woodhead Publishing,
+  2015{\natexlab{a}}.
 \newblock \doi{10.1533/9781782422419.1.25}.
 
 \bibitem[Tarditi et~al.(2014{\natexlab{a}})Tarditi, Imhoff, and
@@ -1064,5 +1066,176 @@ Jian Song, Jian Kang, Xiaoyao Tan, Bo~Meng, and Shaomin Liu.
 \newblock ISSN 1873619X.
 \newblock \doi{10.1016/j.jeurceramsoc.2016.01.006}.
 \newblock URL \url{http://dx.doi.org/10.1016/j.jeurceramsoc.2016.01.006}.
+
+\bibitem[Mardilovich et~al.(2002)Mardilovich, Engwall, and Ma]{Mardilovich2002}
+Ivan~P. Mardilovich, Erik Engwall, and Yi~Hua Ma.
+\newblock {Dependence of hydrogen flux on the pore size and plating surface
+  topology of asymmetric Pd-porous stainless steel membranes}.
+\newblock \emph{Desalination}, 144\penalty0 (1-3):\penalty0 85--89, 2002.
+\newblock ISSN 00119164.
+\newblock \doi{10.1016/S0011-9164(02)00293-X}.
+
+\bibitem[Schlünder et~al.(2006)Schlünder, Yang, and
+  Seidel-Morgenstern]{SCHLUNDER2006113}
+E.-U. Schlünder, J.~Yang, and A.~Seidel-Morgenstern.
+\newblock Competitive diffusion and adsorption in vycor glass membranes—a
+  lumped parameter approach.
+\newblock \emph{Catalysis Today}, 118\penalty0 (1):\penalty0 113 -- 120, 2006.
+\newblock ISSN 0920-5861.
+\newblock \doi{https://doi.org/10.1016/j.cattod.2005.11.094}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0920586106003488}.
+\newblock Catalysis in Membrane Reactors.
+
+\bibitem[Uemiya et~al.(1991)Uemiya, Sato, Ando, Kude, Matsuda, and
+  Kikuchi]{UEMIYA1991303}
+Shigeyuki Uemiya, Noboru Sato, Hiroshi Ando, Yukinori Kude, Takeshi Matsuda,
+  and Eiichi Kikuchi.
+\newblock Separation of hydrogen through palladium thin film supported on a
+  porous glass tube.
+\newblock \emph{Journal of Membrane Science}, 56\penalty0 (3):\penalty0 303 --
+  313, 1991.
+\newblock ISSN 0376-7388.
+\newblock \doi{https://doi.org/10.1016/S0376-7388(00)83040-9}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0376738800830409}.
+
+\bibitem[Mukherjee et~al.(2007)Mukherjee, Hatalis, and
+  Kothare]{MUKHERJEE2007107}
+S.~Mukherjee, M.K. Hatalis, and M.V. Kothare.
+\newblock Water gas shift reaction in a glass microreactor.
+\newblock \emph{Catalysis Today}, 120\penalty0 (1):\penalty0 107 -- 120, 2007.
+\newblock ISSN 0920-5861.
+\newblock \doi{https://doi.org/10.1016/j.cattod.2006.07.007}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S092058610600438X}.
+\newblock The Novel Compact Catalytic Reactor.
+
+\bibitem[Hayashi et~al.(2005)Hayashi, Saitou, Maruyama, Inaba, Kawamura, and
+  Mori]{Hayashi2005}
+Hideko Hayashi, Tetsuya Saitou, Naotaka Maruyama, Hideaki Inaba, Katsuyuki
+  Kawamura, and Masashi Mori.
+\newblock {Thermal expansion coefficient of yttria stabilized zirconia for
+  various yttria contents}.
+\newblock \emph{Solid State Ionics}, 176\penalty0 (5-6):\penalty0 613--619,
+  2005.
+\newblock ISSN 01672738.
+\newblock \doi{10.1016/j.ssi.2004.08.021}.
+
+\bibitem[Yun and {Ted Oyama}(2011)]{Yun2011a}
+Samhun Yun and S~{Ted Oyama}.
+\newblock {Correlations in palladium membranes for hydrogen separation: A
+  review}.
+\newblock \emph{Journal of Membrane Science}, 375\penalty0 (1-2):\penalty0
+  28--45, 2011.
+\newblock \doi{10.1016/j.memsci.2011.03.057}.
+
+\bibitem[Wang et~al.(2006)Wang, Thomas, Zhang, Pan, Yang, and Xiong]{Wang2006a}
+W~P Wang, S~Thomas, X~L Zhang, X~L Pan, W~S Yang, and G~X Xiong.
+\newblock {H2/N2 gaseous mixture separation in dense Pd/$\alpha$-Al2O3 hollow
+  fiber membranes: Experimental and simulation studies}.
+\newblock \emph{Separation and Purification Technology}, 52\penalty0
+  (1):\penalty0 177--185, 2006.
+\newblock \doi{10.1016/j.seppur.2006.04.007}.
+
+\bibitem[David and Kopac(2011)]{David2011a}
+E~David and J~Kopac.
+\newblock {Devlopment of palladium/ceramic membranes for hydrogen separation}.
+\newblock \emph{International Journal of Hydrogen Energy}, 36\penalty0
+  (7):\penalty0 4498--4506, 2011.
+\newblock \doi{10.1016/j.ijhydene.2010.12.032}.
+
+\bibitem[Huang and Dittmeyer(2007)]{HUANG2007160}
+Yan Huang and Roland Dittmeyer.
+\newblock Preparation of thin palladium membranes on a porous support with
+  rough surface.
+\newblock \emph{Journal of Membrane Science}, 302\penalty0 (1):\penalty0 160 --
+  170, 2007.
+\newblock ISSN 0376-7388.
+\newblock \doi{https://doi.org/10.1016/j.memsci.2007.06.040}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0376738807004358}.
+
+\bibitem[Li et~al.(1993)Li, Maeda, Kusakabe, Morooka, Anzai, and
+  Akiyama]{LI1993247}
+Zhong~Yan Li, Hideaki Maeda, Katsuki Kusakabe, Shigeharu Morooka, Hiroshi
+  Anzai, and Shigeo Akiyama.
+\newblock Preparation of palladium-silver alloy membranes for hydrogen
+  separation by the spray pyrolysis method.
+\newblock \emph{Journal of Membrane Science}, 78\penalty0 (3):\penalty0 247 --
+  254, 1993.
+\newblock ISSN 0376-7388.
+\newblock \doi{https://doi.org/10.1016/0376-7388(93)80004-H}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/037673889380004H}.
+
+\bibitem[Basile et~al.(2008)Basile, Gallucci, and Tosti]{Basile2008}
+Angelo Basile, Fausto Gallucci, and Silvano Tosti.
+\newblock {Synthesis, Characterization, and Applications of Palladium
+  Membranes}.
+\newblock 13:\penalty0 255--323, 2008.
+\newblock \doi{10.1016/s0927-5193(07)13008-4}.
+
+\bibitem[Peters et~al.(2015{\natexlab{b}})Peters, Stange, and
+  Bredesen]{Peters2015a}
+T~A Peters, M~Stange, and R~Bredesen.
+\newblock {Fabrication of palladium-based membranes by magnetron sputtering}.
+\newblock In A~Doukelis, K~Panopoulos, A~Koumanakos, and E~Kakaras, editors,
+  \emph{Palladium Membrane Technology for Hydrogen Production, Carbon Capture
+  and Other Application}, pages 25--41. Woodhead Publishing,
+  2015{\natexlab{b}}.
+\newblock \doi{10.1533/9781782422419.1.25}.
+
+\bibitem[Xomeritakis and Lin(1997)]{Xomeritakis1997}
+George Xomeritakis and Y.~S. Lin.
+\newblock {Fabrication of thin metallic membranes by MOCVD and sputtering}.
+\newblock \emph{Journal of Membrane Science}, 133\penalty0 (2):\penalty0
+  217--230, 1997.
+\newblock ISSN 03767388.
+\newblock \doi{10.1016/S0376-7388(97)00084-7}.
+
+\bibitem[McCool et~al.(1999)McCool, Xomeritakis, and Lin]{McCool1999}
+B.~McCool, G.~Xomeritakis, and Y.~S. Lin.
+\newblock {Composition control and hydrogen permeation characteristics of
+  sputter deposited palladium-silver membranes}.
+\newblock \emph{Journal of Membrane Science}, 161\penalty0 (1-2):\penalty0
+  67--76, 1999.
+\newblock ISSN 03767388.
+\newblock \doi{10.1016/S0376-7388(99)00087-3}.
+
+\bibitem[Keurentjes et~al.(2004)Keurentjes, Gielens, Tong, van Rijn, and
+  Vorstman]{Keurentjes2004}
+Jos T.~F. Keurentjes, Frank~C. Gielens, H.~D. Tong, C.~J.~M. van Rijn, and
+  Marius a.~G. Vorstman.
+\newblock {High-Flux Palladium Membranes Based on Microsystem Technology}.
+\newblock \emph{Industrial {\&} Engineering Chemistry Research}, 43\penalty0
+  (16):\penalty0 4768--4772, 2004.
+\newblock ISSN 0888-5885.
+\newblock \doi{10.1021/ie0341202}.
+\newblock URL \url{http://pubs.acs.org/doi/abs/10.1021/ie0341202}.
+
+\bibitem[Bryden and Ying(1995)]{Bryden1995}
+Kenneth~J. Bryden and Jackie~Y. Ying.
+\newblock {Nanostructured palladium membrane synthesis by magnetron
+  sputtering}.
+\newblock \emph{Materials Science and Engineering A}, 204\penalty0
+  (1-2):\penalty0 140--145, 1995.
+\newblock ISSN 09215093.
+\newblock \doi{10.1016/0921-5093(95)09950-6}.
+
+\bibitem[den Exter(2015)]{Exter2015}
+M~J den Exter.
+\newblock {The use of electroless plating as a deposition technology in the
+  fabrication of palladium-based membranes}.
+\newblock In A~Doukelis, K~Panopoulos, A~Koumanakos, and E~Kakaras, editors,
+  \emph{Palladium Membrane Technology for Hydrogen Production, Carbon Capture
+  and Other Application}, pages 43--67. Woodhead Publishing, 2015.
+\newblock \doi{10.1533/9781782422419.1.43}.
+
+\bibitem[Kikuchi and Uemiya(1991)]{Kikuchi1991}
+E~Kikuchi and S~Uemiya.
+\newblock {Preparation of supported thin palladium-silver alloy membranes and
+  their characteristics for hydrogen separation}.
+\newblock \emph{Gas Separation and Purification}, 5, 1991.
 
 \end{thebibliography}
