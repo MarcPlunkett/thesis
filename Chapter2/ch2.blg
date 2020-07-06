@@ -5,50 +5,56 @@ The style file: unsrtnat.bst
 Database file #1: library.bib
 Warning--empty booktitle in Alaswad2016
 Warning--empty institution in InternationalEnergyAgencyIEA2015
+Warning--empty journal in hydrogencouncil_2020
+Warning--empty journal in departmentforbusinessenergyindustrialstrategy_2020
+Warning--empty journal in argonnenationallab_2017
 Warning--empty year in Bossard
 Warning--empty year in Bossard
 Warning--empty publisher in RoaF.ThoenP.M.GadeS.K.WayJ.G.DeVossS.andAlptekin2009
 Warning--empty journal in Saleh1969
 Warning--empty journal in Basile2008
-You've used 135 entries,
+Warning--empty author and editor in doi:10.1002/9780470447710.ch2
+Warning--empty author and editor in doi:10.1002/9780470447710.ch4
+Warning--empty author and editor in dftbook1
+You've used 159 entries,
             2481 wiz_defined-function locations,
-            1627 strings with 38385 characters,
-and the built_in function-call counts, 61657 in all, are:
-= -- 5559
-> -- 3429
-< -- 53
-+ -- 1292
-- -- 1015
-* -- 5431
-:= -- 10096
-add.period$ -- 650
-call.type$ -- 135
-change.case$ -- 271
-chr.to.int$ -- 128
-cite$ -- 142
-duplicate$ -- 2665
-empty$ -- 5126
-format.name$ -- 1198
-if$ -- 12906
-int.to.chr$ -- 8
-int.to.str$ -- 136
-missing$ -- 129
-newline$ -- 919
-num.names$ -- 421
-pop$ -- 805
+            1814 strings with 44329 characters,
+and the built_in function-call counts, 71524 in all, are:
+= -- 6479
+> -- 3812
+< -- 69
++ -- 1452
+- -- 1125
+* -- 6273
+:= -- 11641
+add.period$ -- 774
+call.type$ -- 159
+change.case$ -- 316
+chr.to.int$ -- 150
+cite$ -- 175
+duplicate$ -- 3148
+empty$ -- 6045
+format.name$ -- 1339
+if$ -- 15053
+int.to.chr$ -- 10
+int.to.str$ -- 160
+missing$ -- 153
+newline$ -- 1091
+num.names$ -- 484
+pop$ -- 954
 preamble$ -- 1
-purify$ -- 135
+purify$ -- 159
 quote$ -- 0
-skip$ -- 1511
+skip$ -- 1775
 stack$ -- 0
-substring$ -- 3402
-swap$ -- 378
-text.length$ -- 11
+substring$ -- 3908
+swap$ -- 456
+text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 945
-warning$ -- 7
-while$ -- 522
+type$ -- 1104
+warning$ -- 13
+while$ -- 588
 width$ -- 0
-write$ -- 2231
-(There were 7 warnings)
+write$ -- 2641
+(There were 13 warnings)

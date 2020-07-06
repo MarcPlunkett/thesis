@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.27)  30 JUN 2020 22:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.27)  6 JUL 2020 12:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -957,7 +957,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 5.
 
-Overfull \hbox (7.76727pt too wide) in paragraph at lines 19--19
+Overfull \hbox (7.76727pt too wide) in paragraph at lines 22--22
  [][] []\OT1/lmr/m/n/12 Schematic rep-re-sen-ta-tion of the se-quen-tial baths for sen-si-ti-sa-tion/activation 
  []
 
@@ -968,7 +968,7 @@ Overfull \hbox (7.76727pt too wide) in paragraph at lines 19--19
  [5
 
 ] (/Users/marc/Thesis/master.lot
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 31.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 32.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
@@ -1050,7 +1050,7 @@ File: figures/smrprocess.jpg Graphic file (type jpg)
 <use figures/smrprocess.jpg>
 Package pdftex.def Info: figures/smrprocess.jpg  used on input line 56.
 (pdftex.def)             Requested size: 311.46375pt x 152.21431pt.
- [20 </Users/marc/Thesis/figures/smrprocess.jpg>] [21]
+ [20 </Users/marc/Thesis/figures/smrprocess.jpg>] [21] [22]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 135.
@@ -1065,7 +1065,7 @@ LaTeX Font Info:    Font shape `OML/lmr/m/n' in size <12> not available
 Overfull \vbox (14.49998pt too high) detected at line 158
  []
 
-[22] [23] [24] [25] [26] [27] [28]
+[23] [24] [25] [26] [27] [28]
 Overfull \hbox (4.13824pt too wide) in paragraph at lines 296--303
 []\OT1/lmr/m/n/12 A de-vice sim-i-lar to the HIED is the Hy-dro-gen Elim-i-na-tion Mass Spec-trom-e-ter (HEMS)
  []
@@ -1074,298 +1074,351 @@ Overfull \hbox (4.13824pt too wide) in paragraph at lines 296--303
 LaTeX Font Info:    Try loading font information for U+eur on input line 352.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/ueur.fd
 File: ueur.fd 2013/01/14 v3.01 Euler Roman
-)
-<figures/septype.png, id=122, 452.4102pt x 250.536pt>
+) [30]
+<figures/septype.png, id=126, 452.4102pt x 250.536pt>
 File: figures/septype.png Graphic file (type png)
 <use figures/septype.png>
 Package pdftex.def Info: figures/septype.png  used on input line 357.
 (pdftex.def)             Requested size: 448.13095pt x 248.16519pt.
- [30] [31 </Users/marc/Thesis/figures/septype.png>] [32] [33] [34] [35] [36] [37] [38] [39] [40]
-Overfull \vbox (1.41635pt too high) detected at line 781
+ [31 </Users/marc/Thesis/figures/septype.png>] [32] [33] [34] [35] [36]
+<figures/alphabeta.png, id=149, 452.69125pt x 527.9725pt>
+File: figures/alphabeta.png Graphic file (type png)
+<use figures/alphabeta.png>
+Package pdftex.def Info: figures/alphabeta.png  used on input line 609.
+(pdftex.def)             Requested size: 448.13095pt x 522.65411pt.
+ [37] [38 </Users/marc/Thesis/figures/alphabeta.png>] [39] [40] [41] [42]
+Overfull \vbox (1.41635pt too high) detected at line 788
  []
 
 
-Overfull \hbox (639.80054pt too wide) in alignment at lines 777--815
+Overfull \hbox (639.80054pt too wide) in alignment at lines 784--822
  [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (639.80054pt too wide) in alignment at lines 815--854
+Overfull \hbox (639.80054pt too wide) in alignment at lines 822--861
  [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[41]
-Overfull \hbox (639.80054pt too wide) in alignment at lines 854--896
+[43]
+Overfull \hbox (639.80054pt too wide) in alignment at lines 861--903
  [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[42]
-Overfull \hbox (639.80054pt too wide) in alignment at lines 896--937
+[44]
+Overfull \hbox (639.80054pt too wide) in alignment at lines 903--944
  [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (639.80054pt too wide) in alignment at lines 937--978
+Overfull \hbox (639.80054pt too wide) in alignment at lines 944--985
  [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[43] [44]
-Overfull \hbox (639.80054pt too wide) in alignment at lines 978--992
+[45] [46]
+Overfull \hbox (639.80054pt too wide) in alignment at lines 985--999
  [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[45] [46] [47]
-Overfull \hbox (618.73917pt too wide) in alignment at lines 1011--1087
+[47] [48] [49]
+Overfull \hbox (618.73917pt too wide) in alignment at lines 1018--1094
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (618.73917pt too wide) in alignment at lines 1087--1155
+Overfull \hbox (618.73917pt too wide) in alignment at lines 1094--1162
  [] [] [] [] [] [] [] [] 
  []
 
-[48] [49] [50] [51]
-Overfull \hbox (3.23286pt too wide) in paragraph at lines 1233--1233
+[50] [51] [52] [53]
+Overfull \hbox (3.23286pt too wide) in paragraph at lines 1240--1240
  []|\OT1/lmr/m/n/12 Ref| 
  []
 
 
-Overfull \hbox (4.05159pt too wide) in paragraph at lines 1244--1245
+Overfull \hbox (4.05159pt too wide) in paragraph at lines 1251--1252
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (1.02682pt too wide) in paragraph at lines 1247--1248
+Overfull \hbox (1.02682pt too wide) in paragraph at lines 1254--1255
  []|\OT1/lmr/m/n/12 Lanthanide 
  []
 
 
-Overfull \hbox (4.05159pt too wide) in paragraph at lines 1254--1255
+Overfull \hbox (4.05159pt too wide) in paragraph at lines 1261--1262
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (1.02682pt too wide) in paragraph at lines 1257--1258
+Overfull \hbox (1.02682pt too wide) in paragraph at lines 1264--1265
  []|\OT1/lmr/m/n/12 Lanthanide 
  []
 
 
-Overfull \hbox (4.05159pt too wide) in paragraph at lines 1264--1265
+Overfull \hbox (4.05159pt too wide) in paragraph at lines 1271--1272
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (1.02682pt too wide) in paragraph at lines 1267--1268
+Overfull \hbox (1.02682pt too wide) in paragraph at lines 1274--1275
  []|\OT1/lmr/m/n/12 Lanthanide 
  []
 
 
-Overfull \hbox (4.05159pt too wide) in paragraph at lines 1274--1275
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1281--1282
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (1.02682pt too wide) in paragraph at lines 1277--1278
+Overfull \hbox (1.02682pt too wide) in paragraph at lines 1284--1285
  []|\OT1/lmr/m/n/12 Lanthanide 
  []
 
 
-Overfull \hbox (4.05159pt too wide) in paragraph at lines 1284--1285
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1291--1292
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (1.02682pt too wide) in paragraph at lines 1287--1288
+Overfull \hbox (1.02682pt too wide) in paragraph at lines 1294--1295
  []|\OT1/lmr/m/n/12 Lanthanide 
  []
 
 
-Overfull \hbox (4.05159pt too wide) in paragraph at lines 1294--1295
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1301--1302
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (1.02682pt too wide) in paragraph at lines 1297--1298
+Overfull \hbox (1.02682pt too wide) in paragraph at lines 1304--1305
  []|\OT1/lmr/m/n/12 Lanthanide 
  []
 
 
-Overfull \hbox (4.05159pt too wide) in paragraph at lines 1304--1305
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1311--1312
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (1.02682pt too wide) in paragraph at lines 1307--1308
+Overfull \hbox (1.02682pt too wide) in paragraph at lines 1314--1315
  []|\OT1/lmr/m/n/12 Lanthanide 
  []
 
 
-Overfull \hbox (4.05159pt too wide) in paragraph at lines 1314--1315
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1321--1322
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (1.02682pt too wide) in paragraph at lines 1317--1318
+Overfull \hbox (1.02682pt too wide) in paragraph at lines 1324--1325
  []|\OT1/lmr/m/n/12 Lanthanide 
  []
 
 
-Overfull \hbox (4.05159pt too wide) in paragraph at lines 1324--1325
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1331--1332
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (9.92657pt too wide) in paragraph at lines 1334--1335
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1341--1342
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (9.92657pt too wide) in paragraph at lines 1344--1345
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1351--1352
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (9.92657pt too wide) in paragraph at lines 1354--1355
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1361--1362
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (9.92657pt too wide) in paragraph at lines 1364--1365
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1371--1372
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (9.92657pt too wide) in paragraph at lines 1374--1375
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1381--1382
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (9.92657pt too wide) in paragraph at lines 1384--1385
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1391--1392
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (9.92657pt too wide) in paragraph at lines 1394--1395
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1401--1402
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (9.92657pt too wide) in paragraph at lines 1404--1405
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1411--1412
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (4.05159pt too wide) in paragraph at lines 1414--1415
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1421--1422
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (601.79997pt too wide) in alignment at lines 1228--1416
+Overfull \hbox (601.79997pt too wide) in alignment at lines 1235--1423
  [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (9.92657pt too wide) in paragraph at lines 1424--1425
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1431--1432
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (9.92657pt too wide) in paragraph at lines 1434--1435
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1441--1442
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (9.92657pt too wide) in paragraph at lines 1444--1445
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1451--1452
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (3.39859pt too wide) in paragraph at lines 1454--1455
+Overfull \hbox (3.39859pt too wide) in paragraph at lines 1461--1462
  []|\OT1/lmr/m/n/12 234 
  []
 
 
-Overfull \hbox (9.92657pt too wide) in paragraph at lines 1464--1465
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1471--1472
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (9.92657pt too wide) in paragraph at lines 1474--1475
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1481--1482
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (9.92657pt too wide) in paragraph at lines 1484--1485
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1491--1492
  []|\OT1/lmr/m/n/12 [[], 
  []
 
 
-Overfull \hbox (6.66258pt too wide) in paragraph at lines 1484--1485
+Overfull \hbox (6.66258pt too wide) in paragraph at lines 1491--1492
  []\OT1/lmr/m/n/12 ] 
  []
 
 
-Overfull \hbox (9.92657pt too wide) in paragraph at lines 1494--1495
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1501--1502
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (2.00645pt too wide) in paragraph at lines 1497--1498
+Overfull \hbox (2.00645pt too wide) in paragraph at lines 1504--1505
  []|\OT1/lmr/m/n/12 Lanthanum 
  []
 
 
-Overfull \hbox (9.92657pt too wide) in paragraph at lines 1504--1505
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1511--1512
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (2.00645pt too wide) in paragraph at lines 1507--1508
+Overfull \hbox (2.00645pt too wide) in paragraph at lines 1514--1515
  []|\OT1/lmr/m/n/12 Lanthanum 
  []
 
 
-Overfull \hbox (9.92657pt too wide) in paragraph at lines 1514--1515
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1521--1522
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (9.92657pt too wide) in paragraph at lines 1524--1525
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1531--1532
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (9.92657pt too wide) in paragraph at lines 1534--1535
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1541--1542
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (9.92657pt too wide) in paragraph at lines 1544--1545
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1551--1552
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (9.92657pt too wide) in paragraph at lines 1554--1555
+Overfull \hbox (9.92657pt too wide) in paragraph at lines 1561--1562
  []|\OT1/lmr/m/n/12 [[]] 
  []
 
 
-Overfull \hbox (601.79997pt too wide) in alignment at lines 1416--1558
+Overfull \hbox (601.79997pt too wide) in alignment at lines 1423--1565
  [] [] [] [] [] [] [] [] [] 
  []
 
-[52] [53] [54] [55] [56] [57]
-<figures/elpmetals.png, id=216, 452.69125pt x 229.85875pt>
+[54] [55] [56] [57] [58] [59]
+<figures/elpmetals.png, id=224, 452.69125pt x 229.85875pt>
 File: figures/elpmetals.png Graphic file (type png)
 <use figures/elpmetals.png>
-Package pdftex.def Info: figures/elpmetals.png  used on input line 1659.
+Package pdftex.def Info: figures/elpmetals.png  used on input line 1666.
 (pdftex.def)             Requested size: 452.69014pt x 229.85817pt.
 
-Overfull \hbox (4.55919pt too wide) in paragraph at lines 1659--1660
+Overfull \hbox (4.55919pt too wide) in paragraph at lines 1666--1667
  [][] 
  []
 
-[58] [59 </Users/marc/Thesis/figures/elpmetals.png>] [60] (/Users/marc/Thesis/Chapter2/ch2.bbl [61]
+[60] [61 </Users/marc/Thesis/figures/elpmetals.png>] [62]
+<figures/convergereal.png, id=236, 456.70625pt x 341.275pt>
+File: figures/convergereal.png Graphic file (type png)
+<use figures/convergereal.png>
+Package pdftex.def Info: figures/convergereal.png  used on input line 1702.
+(pdftex.def)             Requested size: 448.13095pt x 334.87943pt.
+ [63 </Users/marc/Thesis/figures/convergereal.png>]
+<figures/fccsites.png, id=241, 510.90875pt x 337.26pt>
+File: figures/fccsites.png Graphic file (type png)
+<use figures/fccsites.png>
+Package pdftex.def Info: figures/fccsites.png  used on input line 1720.
+(pdftex.def)             Requested size: 448.13095pt x 295.81708pt.
+ [64] [65 </Users/marc/Thesis/figures/fccsites.png>] [66] [67] [68]
+Overfull \hbox (282.42395pt too wide) in alignment at lines 1762--1766
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (282.42395pt too wide) in alignment at lines 1766--1768
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (282.42395pt too wide) in alignment at lines 1768--1770
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (282.42395pt too wide) in alignment at lines 1770--1772
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (282.42395pt too wide) in alignment at lines 1772--1811
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (282.42395pt too wide) in alignment at lines 1811--1851
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (282.42395pt too wide) in alignment at lines 1851--1859
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+[69] [70] (/Users/marc/Thesis/Chapter2/ch2.bbl [71]
 Underfull \hbox (badness 1430) in paragraph at lines 10--19
 \OT1/lmr/m/n/12 Chap-ter 1.7 - Mem-branes for Mi-cro-bial Fuel Cells.  In S Venkata Mo-
  []
@@ -1385,65 +1438,85 @@ Underfull \hbox (badness 2088) in paragraph at lines 10--19
 \OT1/lmr/m/n/12 El-se-vier, 2019.  ISBN 978-0-444-64052-9.  doi: $https : / / doi . org / 10 . 1016 /
  []
 
-[62
+[72
 
-] [63] [64]
-Underfull \hbox (badness 10000) in paragraph at lines 271--277
+]
+Underfull \hbox (badness 10000) in paragraph at lines 136--142
+[]\OT1/lmr/m/n/12 Energy & In-dus-trial Strat-egy De-part-ment for Busi-ness.  Prices
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--142
+\OT1/lmr/m/n/12 of fu-els pur-chased by non-domestic con-sumers in the united king-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--142
+\OT1/lmr/m/n/12 dom ex-clud-ing/including ccl (qep 3.4.1 and 3.4.2).  Mar 2020.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--142
+\OT1/lmr/m/n/12 URL $\OT1/lmtt/m/n/12 https : / / www . gov . uk / government / statistical-[]data-[]sets /
+ []
+
+[73] [74]
+Underfull \hbox (badness 10000) in paragraph at lines 309--315
 \OT1/lmtt/m/n/12 hl = en{\ & }lr = {\ & }id = gCQjw-[]cyulAC{\ & }oi = fnd{\ & }pg = PA1{\ & }dq = Dense +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--277
+Underfull \hbox (badness 10000) in paragraph at lines 309--315
 \OT1/lmtt/m/n/12 Ceramic + Membranes + for + Hydrogen + Separation{\ & }ots = e-[]3oiNW5EW{\ & }sig =
  []
 
-[65] [66] [67] [68]
-Underfull \hbox (badness 2486) in paragraph at lines 648--658
+[75] [76] [77] [78] [79]
+Underfull \hbox (badness 2486) in paragraph at lines 686--696
 []\OT1/lmr/m/n/12 Hiroshi Yukawa, Daisuke Ya-mashita, Shigeyuki Ito, Masahiko Mori-naga,
  []
 
 
-Underfull \hbox (badness 3977) in paragraph at lines 648--658
+Underfull \hbox (badness 3977) in paragraph at lines 686--696
 \OT1/lmr/m/n/12 and Shu Ya-m-aguchi.  Al-loy-ing ef-fects on the phase sta-bil-ity of hy-
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 648--658
+Underfull \hbox (badness 2005) in paragraph at lines 686--696
 \OT1/lmr/m/n/12 drides formed in vana-dium al-loys.  \OT1/lmr/m/it/12 Ma-te-ri-als Trans-ac-tions\OT1/lmr/m/n/12 , 43(11):2757--
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 648--658
+Underfull \hbox (badness 1681) in paragraph at lines 686--696
 \OT1/lmr/m/n/12 2762, 2002.  ISSN 1345-9678.  doi: $10 . 2320 / matertrans . 43 . 2757$.  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 648--658
+Underfull \hbox (badness 10000) in paragraph at lines 686--696
 \OT1/lmtt/m/n/12 http : / / www . jim . or . jp / journal / e / pdf3 / 43 / 11 / 2757 . pdf{\ % }5Cnpapers2 :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 648--658
+Underfull \hbox (badness 10000) in paragraph at lines 686--696
 \OT1/lmtt/m/n/12 / / publication / uuid / 3C0A7ADC-[]9BA8-[]471E-[]9CF3-[]40C116284411{\ % }5Cnhttp :
  []
 
-[69] [70] [71] [72]
-Underfull \hbox (badness 2401) in paragraph at lines 994--1009
+[80] [81] [82] [83]
+Underfull \hbox (badness 2401) in paragraph at lines 1032--1047
 []\OT1/lmr/m/n/12 Shumin Fang, Kyle Brinkman, and Fan-glin Chen.  Un-prece-dented CO
  []
 
-[73] [74] [75])) [76]
+[84] [85] [86] [87] [88])) [89]
 \openout2 = `Experimental/ch1.aux'.
 
  (/Users/marc/Thesis/Experimental/ch1.tex
 Chapter 3.
-[77
+[90
 
 
 
 
 ]
-<figures/hollowfibresintering.png, id=281, 842.14626pt x 1346.02875pt>
+<figures/hollowfibresintering.png, id=329, 842.14626pt x 1346.02875pt>
 File: figures/hollowfibresintering.png Graphic file (type png)
 <use figures/hollowfibresintering.png>
 Package pdftex.def Info: figures/hollowfibresintering.png  used on input line 18.
@@ -1456,13 +1529,13 @@ LaTeX Warning: Float too large for page by 105.26726pt on input line 21.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 35.
 
-<figures/pretreatment.png, id=282, 1621.05624pt x 867.24pt>
+<figures/pretreatment.png, id=330, 1621.05624pt x 867.24pt>
 File: figures/pretreatment.png Graphic file (type png)
 <use figures/pretreatment.png>
 Package pdftex.def Info: figures/pretreatment.png  used on input line 65.
 (pdftex.def)             Requested size: 448.13095pt x 239.74226pt.
-[78] [79 </Users/marc/Thesis/figures/hollowfibresintering.png>] [80 </Users/marc/Thesis/figures/pretreatment.png>]
-<figures/ELpprocedure.png, id=295, 2155.05125pt x 462.72874pt>
+[91] [92 </Users/marc/Thesis/figures/hollowfibresintering.png>] [93 </Users/marc/Thesis/figures/pretreatment.png>]
+<figures/ELpprocedure.png, id=342, 2155.05125pt x 462.72874pt>
 File: figures/ELpprocedure.png Graphic file (type png)
 <use figures/ELpprocedure.png>
 Package pdftex.def Info: figures/ELpprocedure.png  used on input line 81.
@@ -1472,7 +1545,7 @@ Package pdftex.def Info: figures/ELpprocedure.png  used on input line 81.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 89.
 
-[81 </Users/marc/Thesis/figures/ELpprocedure.png>]
+[94 </Users/marc/Thesis/figures/ELpprocedure.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 114.
@@ -1481,14 +1554,14 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 130.
 
-[82] [83] (/Users/marc/Thesis/Experimental/ch1.bbl [84])) [85
+[95] [96] (/Users/marc/Thesis/Experimental/ch1.bbl [97])) [98
 
 ]
 \openout2 = `Chapter3/ch3.aux'.
 
  (/Users/marc/Thesis/Chapter3/ch3.tex
 Chapter 4.
-[86
+[99
 
 
 
@@ -1496,30 +1569,30 @@ Chapter 4.
 ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 24.
+               Default added (so using `tbp') on input line 23.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 49.
+               Default added (so using `tbp') on input line 48.
 
-(/Users/marc/Thesis/Chapter3/ch3.bbl [87] [88]
+(/Users/marc/Thesis/Chapter3/ch3.bbl [100] [101]
 
 Package natbib Warning: Empty `thebibliography' environment on input line 8.
 
-)) [89
+)) [102
 
 ]
 \openout2 = `Chapter4/ch4.aux'.
 
  (/Users/marc/Thesis/Chapter4/ch4.tex
 Chapter 5.
-[90
+[103
 
 
 
 
-] [91]
-<figures/Semxsect.png, id=332, 2810.5pt x 4474.7175pt>
+] [104]
+<figures/Semxsect.png, id=380, 2810.5pt x 4474.7175pt>
 File: figures/Semxsect.png Graphic file (type png)
 <use figures/Semxsect.png>
 Package pdftex.def Info: figures/Semxsect.png  used on input line 24.
@@ -1529,7 +1602,7 @@ Package pdftex.def Info: figures/Semxsect.png  used on input line 24.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 31.
 
-[92] [93 </Users/marc/Thesis/figures/Semxsect.png>] [94]
+[105] [106 </Users/marc/Thesis/figures/Semxsect.png>] [107]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 59.
@@ -1538,25 +1611,25 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 81.
 
-[95]
+[108]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 109.
 
-[96]
-<figures/permeabilitychart.png, id=350, 1482.53876pt x 707.64375pt>
+[109]
+<figures/permeabilitychart.png, id=398, 1482.53876pt x 707.64375pt>
 File: figures/permeabilitychart.png Graphic file (type png)
 <use figures/permeabilitychart.png>
 Package pdftex.def Info: figures/permeabilitychart.png  used on input line 136.
 (pdftex.def)             Requested size: 448.13095pt x 213.89282pt.
- [97] (/Users/marc/Thesis/Chapter4/ch4.bbl [98 </Users/marc/Thesis/figures/permeabilitychart.png>] [99
+ [110] (/Users/marc/Thesis/Chapter4/ch4.bbl [111 </Users/marc/Thesis/figures/permeabilitychart.png>] [112
 
-])) [100]
+])) [113]
 \openout2 = `Chapter5/ch5.aux'.
 
  (/Users/marc/Thesis/Chapter5/ch5.tex
 Chapter 6.
-) [101
+) [114
 
 
 
@@ -1566,7 +1639,7 @@ Chapter 6.
 
  (/Users/marc/Thesis/Chapter6/ch6.tex
 Chapter 7.
-) [102
+) [115
 
 
 
@@ -1577,18 +1650,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8336 strings out of 492609
- 134899 string characters out of 6129048
- 264018 words of memory out of 5000000
- 11969 multiletter control sequences out of 15000+600000
+ 8429 strings out of 492609
+ 137244 string characters out of 6129048
+ 265402 words of memory out of 5000000
+ 12059 multiletter control sequences out of 15000+600000
  54579 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,19n,100p,4295b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,19n,100p,2448b,586s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /Users/marc/Thesis/master.pdf (103 pages, 9419618 bytes).
+Output written on /Users/marc/Thesis/master.pdf (116 pages, 9590731 bytes).
 PDF statistics:
- 430 PDF objects out of 1000 (max. 8388607)
- 283 compressed objects within 3 object streams
+ 479 PDF objects out of 1000 (max. 8388607)
+ 312 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

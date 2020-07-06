@@ -11,21 +11,24 @@
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Schematic of a PEMFC stack \cite {Li2019}\relax }}{19}% 
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Simplified block diagram of a typical modern SMR plant. WGS is a water gas shift reactor. CO\textsubscript {2} concentrations are in mol.\%. \cite {Muradov2015}\relax }}{20}% 
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Illustration of the five membrane separation mechanisms (i) Poiseuille Flow/Knudsen diffusion, (ii) Molecular Sieving, (iii) Surface diffusion (iV) Capillary condensation (V) Solution diffusion (Vi) Facilitated transport\relax }}{31}% 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Metals which can be deposited using electro less plating \cite {Exter2015}\relax }}{59}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Palladium-Hydrogen phase diagram adapted from \cite {Li2008b}\relax }}{38}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Metals which can be deposited using electro less plating \cite {Exter2015}\relax }}{61}% 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Total energies (per atom) for bulk Cu calculated as a function of M for calculations using MxMxM kpoints \cite {doi:10.1002/9780470447710.ch4}\relax }}{63}% 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Top view of the high-symmetry adsorption sites fcc, hcp, bridge, and top \cite {Zeng2009}\relax }}{65}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic representation of the fabrication process of SZ hollow fibre.\relax }}{79}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematic representation of the sequential baths for sensitisation/activation process.\relax }}{80}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Example of ELP procedure when manufacturing a PdCu membrane on YSZ substrate\relax }}{81}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic representation of the fabrication process of SZ hollow fibre.\relax }}{92}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematic representation of the sequential baths for sensitisation/activation process.\relax }}{93}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Example of ELP procedure when manufacturing a PdCu membrane on YSZ substrate\relax }}{94}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
 \addvspace {10\p@ }
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces SEM images of fabricated membranes (a) PdCu (fcc) (Sputtering) (b) PdAg (ELP) (c)PdAu (ELP) (d) PdCuZr (Sputtering) (e) PdAgAu (ELP) (f) PdCuAg (ELP) (g) PdCu (bcc) (Sputtering) (h) typical cross section\relax }}{93}% 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Permeability data for pure hydrogen, non-sulphur, and sulphur permeation tests\relax }}{98}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces SEM images of fabricated membranes (a) PdCu (fcc) (Sputtering) (b) PdAg (ELP) (c)PdAu (ELP) (d) PdCuZr (Sputtering) (e) PdAgAu (ELP) (f) PdCuAg (ELP) (g) PdCu (bcc) (Sputtering) (h) typical cross section\relax }}{106}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Permeability data for pure hydrogen, non-sulphur, and sulphur permeation tests\relax }}{111}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
 \addvspace {10\p@ }

@@ -83,7 +83,7 @@ combination of CoMo and ZnO catalysts in series at 450-550\textdegree C to remov
 This step is essential to ensure sulphur is not present and to ensure catalyst 
 poisoning does not occur at any point in the process. 
 
-The cost of producting hydrogen through SMR varies but averages at around £2 per kg of hydrogen and therefore costs around £2000 per tonne of hydrogen produced. 
+The cost of producting hydrogen through SMR varies but averages at around £2 per kg of hydrogen and therefore costs around £2000 per tonne of hydrogen produced. \cite{hydrogencouncil_2020}
 
 \paragraph{Hydrocarbon decomposition} is a process by which hydrocarbon molecules are converted into solid carbon and hydrogen. \cite{Ahmed2009} This reaction is typically operated either thermally or by creating a plasma. A metallic catalyst such as nickel or iron is required. The reaction is shown in equation \ref{eq:4} \cite{Muradov2008} 
 
@@ -96,7 +96,7 @@ An advantage of this process is that the only feedstock is the hydrocarbon, so p
 \subsection{Hydrogen from water}
 
 \paragraph{Electrolysis} uses an electric current to split water into hydrogen and oxygen using separate anode and cathode chambers isolated using an ion exchange membrane. The anode and cathode reactions are shown in equations \ref{electrolysis1} and \ref{electrolysis2}. The main competitive advantage of electrolysis is that reactors are modular and highly scalable, allowing hydrogen to be produced in a distributed manner. \cite{Acar2014} The main input to the process is electricity and if this electricity is produced using renewable sources then the process can be considered carbon neutral. However if a non-renewable source of energy is used the net carbon produced per mole of hydrogen would be higher than that produced by SMR. \cite{Koroneos2004}
-Electrolysis is incentivised by the increasing price of natural gas and the decreasing price of electricity, which some predict will result in electrolysis becoming more economically feasible than SMR in the future. \cite{Acar2014} Currently most commercial electrolysers operate at effieicnies of around 80\% and therefore requires around 55000 kWh per tonne of hydrogen produced. The average price of industrial electricity in the UK in 2020 is around £0.13 per kWh and therefore the average price of hydrogen produced through electrolysis is around £7150 per tonne. 
+Electrolysis is incentivised by the increasing price of natural gas and the decreasing price of electricity, which some predict will result in electrolysis becoming more economically feasible than SMR in the future. \cite{Acar2014} Currently most commercial electrolysers operate at effieicnies of around 80\% and therefore requires around 55000 kWh per tonne of hydrogen produced. The average price of industrial electricity in the UK in 2020 is around £0.13 per kWh \cite{departmentforbusinessenergyindustrialstrategy_2020} and therefore the average price of hydrogen produced through electrolysis is around £7150 per tonne. \cite{hydrogencouncil_2020}
 
 
 \begin{equation}\label{electrolysis1}
@@ -128,7 +128,7 @@ The chloro alkali process is an electrolysis process which involves the electrol
     Overall:\: 2NaCl \rightarrow Cl_2 + 2Na^+ + 2e^-
 \end{equation}
 
-It is estimated that around 0.4 million tonnes of hydrogen per year and this could potentially contribute to annual demand. The process is extremely energy intensive however, requiring 2500 kWh per tonne of NaOH produced or 99200 kWh per tonne of H\textsubscript{2} produced. Therefore it is unlikely that this process will be used to solely produce hydrogen. As with many waste gases, producers often reuse the gas to power parts of their process, typically through consumption. It may also be the case that producers would rather find more efficient methods for performing this rather than 
+It is estimated that around 0.4 million tonnes of hydrogen per year and this could potentially contribute to annual demand. \cite{argonnenationallab_2017} The process is extremely energy intensive however, requiring 2500 kWh per tonne of NaOH produced or 99200 kWh per tonne of H\textsubscript{2} produced. \cite{doi:10.1021/ed057pA270.1} Therefore it is unlikely that this process will be used to solely produce hydrogen. As with many waste gases, producers often reuse the gas to power parts of their process, typically through consumption. It may also be the case that producers would rather find more efficient methods for performing this rather than selling their hydrogen on the open market. A recent example of this is in 2019 when a chloro alkali plant in Jordan reused their waste hydrogen in a fuel cell situated on site to power their process. \cite{doi:10.1177/0144598719839767}
 
 \section{Hydrogen impurities in the supply chain}
 The method used to manufacture hydrogen will affect which potential impurities can be present in the final product. While steps are taken in both electrolysis and SMR to ensure a pure product is produced, there is still the chance of impurities reaching the customers fuel cell. This section will explore how ISO 14687-2 impurities can enter the supply chain, and their effect on the operation of a PEMFC. A summary is shown in table \ref{impuritytbl}
@@ -172,14 +172,14 @@ There are three potential pathways for water to contaminate hydrogen through ele
 \end{itemize}
 Modern electrolysers are fitted with a drier, which is the main barrier for water vapour exiting the process with hydrogen. \cite{Bacquart2018} In the event of drier failure, most systems are fit with a dew point analyser that will trip, shutting off production until the issue can be fixed. \cite{Bacquart2018}
 
-Water can also contaminate produced hydrogen in the chloro alkali process since, similar to electrolysis, it is present in the process. Typically the process contains a drier which ensures that a dew point of -20 \textdegree is maintained which should prevent any water in the exit stream.  
+Water can also contaminate produced hydrogen in the chloro alkali process since, similar to electrolysis, it is present in the process. Typically the process contains a drier which ensures that a dew point of -20\textdegree C is maintained which should prevent any water in the exit stream.  
 
 Water generally does not affect the function of a fuel cell, however; it provides a transport mechanism for water-soluble contaminants such as K\textsuperscript{+} and Na\textsuperscript{+} \cite{InternationalStandardISO14687-2:20122012} to pass through the electrolyte and have a negative long-term effect on the conductivity of the cathode side of the membrane. In addition, water may increase the risk of ice formation within vehicle fuel storage and hydrogen dispensing systems under certain conditions. 
 
 \subsection*{Total hydrocarbon content}
 The presence of hydrocarbons are most likely to result from the SMR process. Hydrocarbons are not expected to be present at all in electrolysis or chloro alkali however could potentially contaminate the system if hydrocarbons are present in any components such as compressors. Similar to water contamination through SMR, the most likely reason for hydrocarbon contamination is due to malfunction of the PSA system used to purify the product hydrogen. 
 
-A PSA system designed to deliver hydrogen with a CO concentration <0.2 \textmu mol/mol should be sufficient to reduce the amount fraction of hydrocarbons to below the 5 \textmu mol/mol required by ISO 14687. \cite{Bacquart2018}
+A PSA system designed to deliver hydrogen with a CO concentration $<$0.2 \textmu mol/mol should be sufficient to reduce the amount fraction of hydrocarbons to below the 5 \textmu mol/mol required by ISO 14687. \cite{Bacquart2018}
 
 Different hydrocarbons have different effects on fuel cell performance. Generally aromatic hydrocarbons adsorb more strongly on the catalyst surface than other hydrocarbons, inhibiting access to hydrogen.\cite{InternationalStandardISO14687-2:20122012} Methane (CH\textsubscript{4}) is generally considered an inert constituent and it's main effect on fuel cell performance is  diluting the hydrogen fuel stream. \cite{InternationalStandardISO14687-2:20122012}
 
@@ -217,7 +217,7 @@ Carbon monoxide (CO) is a severe catalyst poison that adversely effects fuel cel
 
 \subsection*{Total sulfur compounds}
 Sulphur contamination is most likely to come from hydrogen produced from hydrocarbon sources. 
-Since the SMR process also uses catalysts that are susceptible to poisoning from sulphur compounds all plants are fit with a desulphurisation unit upstream from the main process. \cite{Muradov2015} This is designed to reduce the concentration of sulphurous compounds to <50 nmol/mol. \cite{Bacquart2018}
+Since the SMR process also uses catalysts that are susceptible to poisoning from sulphur compounds all plants are fit with a desulphurisation unit upstream from the main process. \cite{Muradov2015} This is designed to reduce the concentration of sulphurous compounds to $<$50 nmol/mol. \cite{Bacquart2018}
 
 Should the desulphurisation unit fail the catalysts used in both reforming steps will be deactivated, preventing the process from operating and will likely result in shut down of the plant. PSA also acts as a final barrier, since H\textsubscript{2}S will adsorb onto the molecular sieves more strongly than CO. \cite{Bacquart2018}
 
@@ -238,7 +238,7 @@ Ammonia (NH\textsubscript{3}) causes some irreversible fuel cell performance deg
 \subsection*{Total halogenated compounds} 
 Halogenated compounds can contaminate hydrogen by entering either SMR or electrolysis through the process input, or leaking into the process at other points where they are used. Potential sources include chlor-alkali production processes, refrigerants used in processing, and cleaning agents. \cite{Bacquart2018}
 
-In the chlor-alkali process, the presence of chlorine and hydrochloric acid in hydrogen gas could be likely since they are main feedstocks in the process. Both HCl and Cl\textsubscript{2} are highly soluble in water and are likely to leave the process in solution. Cl\textsubscript{2} and H\textsubscript{2} are also contained separatley from each other and not expected to cross contaminate. Cross contamination could occur in the event that there is not enough liquid water in the system. This would likely be detected as the system would quickly fill with hydrogen gas which is continuously monitored due to risk of explosion, shutting down the system and preventing contaminated hydrogen leaving. Therefore it is unlikely that Cl2 will be present in the produced hydrogen. 
+In the chlor-alkali process, the presence of chlorine and hydrochloric acid in hydrogen gas could be likely since they are main feedstocks in the process. Both HCl and Cl\textsubscript{2} are highly soluble in water and are likely to leave the process in solution. Cl\textsubscript{2} and H\textsubscript{2} are also contained separatley from each other and not expected to cross contaminate. Cross contamination could occur in the event that there is not enough liquid water in the system. This would likely be detected as the system would quickly fill with hydrogen gas which is continuously monitored due to risk of explosion, shutting down the system and preventing contaminated hydrogen leaving. Therefore it is unlikely that Cl\textsubscript{ } will be present in the produced hydrogen. 
 Halogenated compounds cause irreversible performance degradation similar to sulphur, reacting with the platinum electrocatalysts to form platinum-halides such as PtCl\textsubscript{4}. \cite{Dona2009} However the concentrations required to cause this damage has not been well documented in literature.
 
 \subsection*{Other impurities}
@@ -596,7 +596,7 @@ hydrogen embrittlement can occur due to the aforementioned phase transition betw
 interstitial hydrogen within palladium ($\alpha$ phase) and palladium hydride ($\beta$ phase). 
 The $\beta$ phase (0.4025 nm) has a lattice parameter bigger than the $\alpha$ phase 
 (0.389nm). \cite{Flanagan1991}  The formation of this $\alpha$ - $\beta$ phase will cause the membrane to distort, 
-become brittle, and eventually results in membrane failure when a leak occurs. \cite{Li2008b} 
+become brittle, and eventually results in membrane failure when a leak occurs. \cite{Li2008b} The behaviour of hydrogen embrittlement is shown in figure \ref{alphabeta}
 Aside from this pure palladium has poor chemical stability, it can be poisoned by a 
 number of impurities which are commonly found in hydrogen. Some of these impurities 
 simply inhibit permeation of hydrogen but do not have a permanent interaction and thus 
@@ -605,13 +605,20 @@ H\textsubscript{2}S and CH\textsubscript{4} are known to interact with the membr
 damage the membrane through the formation of compounds with palladium, breaking the 
 crystalline lattice resulting in membrane failure.  
 
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{figures/alphabeta.png}
+    \caption{Palladium-Hydrogen phase diagram adapted from \cite{Li2008b}}
+    \label{alphabeta}
+  \end{figure}
+
+
 From the impurities listed in ISO 14687-2 CO, H\textsubscript{2}O, Hydrocarbons and sulphur 
 containing compounds are known to have a physisorption interaction with palladium. 
 Physisorption based poisoning occurs by the impurity inducing a competitive adsorption 
 with hydrogen, blocking active sites for hydrogen dissociation, and hence reducing the 
 active area available for hydrogen permeation.\cite{Gao2004} The ultimate effect of this is a temporary 
 flux reduction which has no long lasting damage on the membrane. Compounds such as 
-H\textsubscript{2}S, and CH\textsubscript{4} have a more extreme effect on the membrane as 
+H\textsubscript{2}S have a more extreme effect on the membrane as 
 adsorption leads to a reaction between palladium and the metal permanently changing the 
 membrane composition and structure. The most commonly studied interaction is the interaction 
 between palladium and H\textsubscript{2}S to form palladium sulphide. Palladium sulphide, while still
@@ -1014,7 +1021,7 @@ Judging from the current research landscape on non-palladium membranes, the tech
 
         \\
     \toprule
-    \begin{tabular}[c]{@{}c@{}}Membrane\\composition\end{tabular} & Structure & Catalytic coating & Feed pressure & \begin{tabular}[c]{@{}c@{}}Permeability\\ mol m2 m s\end{tabular} & \begin{tabular}[c]{@{}c@{}}temperature\\ OC\end{tabular} & \begin{tabular}[c]{@{}c@{}}Membrane thickness\\ (um)\end{tabular} & Ref \\ \midrule
+    \begin{tabular}[c]{@{}c@{}}Membrane\\composition\end{tabular} & Structure & Catalytic coating & Feed pressure & \begin{tabular}[c]{@{}c@{}}Permeability\\ mol m\textsuperscript{2} m s\end{tabular} & \begin{tabular}[c]{@{}c@{}}Temperature\\ \textdegree C\end{tabular} & \begin{tabular}[c]{@{}c@{}}Membrane thickness\\ (\textmu m)\end{tabular} & Ref \\ \midrule
     $(Ni_{0.6}Nb_{0.4})_{70}Zr_{30}$                                                         & Amorphous &          Pd         & 7            & 1.8$\times 10^{-8}$                                      & 400                                                      & 40                                                               & \cite{YM2001} \\
 
     $(Ni_{0.6}Nb_{0.4})_{60}Zr_{40}$ &	Amorphous &	Pd	& 7 &	6$\times10^{-9}$  &	400 &	40	& \cite{YM2001}
@@ -1230,7 +1237,7 @@ to bringing this technology to market.
         \label{ceramtable}
     \\
     \toprule
-    Material & Class    & Feed & Temperature \textdegree C & Flux   & \begin{tabular}[c]{@{}c@{}}Thickness\\ (um)\end{tabular} & Stability & Notes & Ref \\ \midrule
+    Material & Class    & Feed & Temperature \textdegree C & Flux   & \begin{tabular}[c]{@{}c@{}}Thickness\\ (\textmu m)\end{tabular} & Stability & Notes & Ref \\ \midrule
 
 
     $SrCe_{0.75}Zr_{0.2}Tm_{0.05}O_{3-\alpha}$
@@ -1623,7 +1630,7 @@ Ceramic supports generally consist of porous ceramics manufactured through sinte
 
 While the materials and processes for manufacturing ceramic supports are cheaper, the overall manufacturing process requires more steps which increases the overall time required. The resulting membranes are also extremely brittle and can easily be damaged during handing. 
 
-Al2O3 has traditionally been the ceramic support of choice for palladium membranes however in recent years YSZ has become more popular. This is due to the increased mechanical stability of YSZ \cite{Hayashi2005}, and the fact that at higher temperatures aluminium can intrude into the active layer from the support through a mechanism similar to intermetallic diffusion.\cite{Atsonios2015} Using ceramic supports solves the problem of intermetallic diffusion with the drawback of increasing the likelihood of delamination occurring due to different CTE values. Ceramic supports also have the advantage of being much cheaper to manufacture the metallic supports. \cite{Atsonios2015}
+Al\textsubscript{2}O\textsubscript{3} has traditionally been the ceramic support of choice for palladium membranes however in recent years YSZ has become more popular. This is due to the increased mechanical stability of YSZ \cite{Hayashi2005}, and the fact that at higher temperatures aluminium can intrude into the active layer from the support through a mechanism similar to intermetallic diffusion.\cite{Atsonios2015} Using ceramic supports solves the problem of intermetallic diffusion with the drawback of increasing the likelihood of delamination occurring due to different CTE values. Ceramic supports also have the advantage of being much cheaper to manufacture the metallic supports. \cite{Atsonios2015}
 
 \subsubsection{Membrane deposition methods}
 There are various methods which can be used to deposit dense metal membranes onto the surface of a support can be carried through a wide number of chemical processes. From our reviews performed in sections \ref{pdreview} and \ref{nonpdreview} the most commonly used methods for deposition of dense metal membranes are PVD (e.g. magnetron sputterring) and ELP. Other methods including such as chemical vapour deposition (CVD) \cite{Yun2011a, Wang2006a, David2011a}, electroplating deposition, atmospheric plasma \cite{HUANG2007160} and spray pyrolisis \cite{LI1993247} exist, however they have been omitted due to the inconsistency in final material, unreliability of the method, or cost. Additionally methods used to manufacture self-supporting membranes will not be discussed.
@@ -1667,15 +1674,198 @@ Sequential plating involves plating layers on top of each other and forming thge
 
 \section{Density functional theory for screening of membrane alloy compositions}
 
-Density functional theory (DFT) is a computational modelling method used to investigate the electronic structure of condensed phases and is the most popular and successful method available in condensed-matter physics, computational physics, and computational chemistry. This method gives an approximate solution to the Schrödinger equation of a many-body system, calculating approximate functionals, i.e., functions of a function of the spatially dependent electron density. DFT-based methods can be quite useful to accelerate the discovery and optimization of materials when a large number of elements and compositions are required to be screened. For Pd-based membranes, DFT calculations can be used for any atom configuration of periodic table elements, obtaining ground state electronic values that are used to predict solution-diffusion mechanism in the metals. Most of the research in DFT material screening for Pd-based dense metallic membranes has been conducted by the group of David S. Sholl (271, 272). This group suggested five principles that should be taken into account in any application for material screening, as written in (273): (i) Theoretical predictions must be made for multiple materials on time scales shorter than the same materials can be assessed experimentally; (ii) Theoretical predictions should require minimal input from experimental data; (iii) Theoretical predictions must be made about the quantities relevant to end-use applications, i.e., macroscopic proper- ties; (iv) Theoretical predictions need to have sufficient quantitative accuracy that confident judgments can be made separating promising and unpromising materials; and (v) The assumptions and caveats associated with theoretical methods should be clearly stated to allow judgments to be made about the potential impact of these factors on ‘real world’ performance of materials. Kamakoti and Sholl developed a method to calculate solubility, diffusivity and permeability of hydrogen in PdCu alloys without any experimental data input (158, 274, 275). Since then, similar methods have been used in first principle calculations for PdAg and PdAu (170, 276, 277) and also amorphous metals (273). Besides hydrogen permeability, these methods have also been used to calculate the effect of H2S on Pd- and Pd-based alloys (23, 41, 220, 233, 278), the surface segregation effects of the alloys (48, 49, 54, 233) and surface resistance to hydrogen transport (279). One of the most important challenges to overcome in order to achieve a good description of permeation properties on crystalline alloys is the frequent substitutional disorder of the metal atoms. Cluster expansion (CE) methods, that use interstitial site binding and transition-state energies libraries, have been used to develop a lattice model for bulk properties to overcome this issue. CE methods have been used to calculate hydrogen permeabilities of Pd96M4 alloys, whereM=Ag,Au,Pt,Rh,Cu, and Ni (280). Later studies extended the CE calculations to fcc Pd96M4 alloys with transition metals that form solid solutions with Pd at 600K (209). Pd-based intermetallic alloys have discrete and ordered compositions, that can potentially improve the resistance to poisoning due to the enhanced thermodynamic stabilities compared to the disordered solid solutions, have also been screened using DFT methodologies (281). Although binary alloy permeability predictions using DFT are already well defined, ternary alloy studies are still being developed. For now, they are focused on PdCu-based ternary alloys, as mentioned previously in this review, to use binary PdCu sulfur resistance combined with another element that can improve the hydrogen permeability. The initial articles studied small additions (4 at\%) of several transition metals to the binary alloy (239, 240). Later studies examined hydrogen permeability for a broad range of tern- ary compositions of PdCuAg (242) and PdCuAu (248). With the knowledge acquired in the study of binary alloys, theoretical predictions for hydrogen permeability in ternary alloys have proved to be a powerful tool for membrane material screening and might be the tool that moves Pd- based membrane research to a new level.
+Density functional theory (DFT) is a computationa quantum mechanical modelling method which is used to investigate the electronic structure of many body systems, in particular that of atoms, molecules and condensed phases. The method operates by providing an approximate solution to the Schrödinger equation of many body systems. This allows for prediction and calculation of material behaviour based purely on quantum mechanics, eliminating the need for fundamental material properties or experimental data. DFT techniques evaluate the electronic structure of a system by assuming a potential is acting on each of the systems electrons. 
+
+DFT-based methods prove to be useful in applications where a large number of elements and compositions must be investigated to optimize the desired material. For our application DFT calculations can be theoretically used to investigate, and quickly screen the suitability of any atomic configuration in the periodic table in combination with any of the ISO 14687-2 impurities. Much of the work in DFT screening of palladium membranes has been performed by the group of David S. Scholl who have suggested 5 criteria to ensure the application of DFT to the field of palladium membranes are performed in an optimal manner.\cite{SHOLL2007462}, \cite{doi:10.1021/ar500018b} These five criteria are:
+
+\begin{enumerate}
+    \item The timescale and/or cost for predictions made using DFT should be shorter than it would take to perform the same tests experimentally
+    \item There should be minimal input from experimental data
+    \item Predictions must be made on propreties relevant to the end-use application
+    \item Quantitative data should be suffieicnt to make confident judgements on whether a material is promising or unpromising
+    \item The drawbacks and assumptions associated with DFT should be clearly stated to allow judgement on the predictions impact on real-world situations
+\end{enumerate}
+
+This section will provide a a brief overview into DFT. This will include the key concepts required to perform DFT, different assumptions which can be made along with their advantages and disadvantages, and how these relate to our chosen application, screening of metal alloy membranes. Previous work relating to the use of DFT to predict the performance of palladium alloy membranes will be discussed and finally we will tie our planned work back to Scholl's criteria.
+
+\subsection{Key concepts}
+\subsubsection{Simulating crystalline structures}
+DFT is focused on applying calculations to arrangements of atoms that are periodic in space. DFT calculations achieve this by defining the shape of the 'cell' which will be repeated periodically in space. \cite{doi:10.1002/9780470447710.ch2}
+
+In crystalline solids, which this thesis will focus on, the atoms are arranged in a periodic fashion which repeats after a certain length. In order to explain the crystal structure in this manner a concept called 'reciprocal space' or 'k space' is used. Using this concept planes can be defined as having coordinates within a crystal lattice. These coordinates are referred to as k-points and allow for the structure of a system to be calculated and therefore solved to it's lowest energy state. \cite{doi:10.1002/9780470447710.ch2}
+
+The most effective and widespread solution was developed by Monkhorst and Pack which is implemented into most DFT packages, allowing users to simply define the number of k-points in each direction of reciprocal space. Frequently the same number of k-points are used in each direction. \cite{doi:10.1002/9780470447710.ch4}
+
+The number of k-points used is important to the accuracy of the performed calculation, however higher k-points involve a larger number of calculations across the supercell in reciprocal space and therefore will result in higher calculation times for the whole system. \cite{doi:10.1002/9780470447710.ch4} Convergence is often used to find the optimal number of k-points. This concept is visualised in figure \ref{converge}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{figures/convergereal.png}
+    \caption{Total energies (per atom) for bulk Cu calculated as a function of M for calculations using MxMxM kpoints \cite{doi:10.1002/9780470447710.ch4}}
+    \label{converge}
+  \end{figure}
+
+At lower numbers of k-points the total energy of the system is dependent on the number of k-points used. This value eventually converges and at M$>$8 k-points becomes completely independent of the nukmber of k-points used. This should be kept in mind when optimising the output values for any simulated system. K-points can be thought of as sampling points within a defined supercell. \cite{doi:10.1002/9780470447710.ch2}
+
+Defining the supercell which will be repeated in periodic space is a simple process and involves defining the volume for the supercell, along with the number, and position of the atoms residing within. 
+
+Metals are a special case in DFT and require the use of special algorithms to ensure that the energy state of a metallic system can be calculated without a high number of k-values. The two best methods for doing this are the tetrahedron method, or smearing. The tetrahedron method involves defining a tertahedron using a discrete set of k-points. This tertahedron fills the reciprocal space and can be integrated to form at all points in the k space and evaluated. \cite{doi:10.1002/9780470447710.ch2}
+
+Smearing involves forcing the function to be continuously integrated to replace any step functions with a smoother function. Ideally the result of the calculation should be a result which can be extrapolated to the limit where smearing is eliminated. \cite{doi:10.1002/9780470447710.ch2}
+
+When simulating a membrane often a slab geometry is used in order to avoid 'edge effects' where simulation results are skewed because of unique surface boundaries resulting from being at the edge of a supercell. The geometry of such a model is achieved through the generation of a box containing a multilayer atomic slab representing the membrane material with a vaccum layer in the remaining volume. From literature palladium membranes are normally in the fcc material phase \cite{Alique_2018} (with the exception being Pd\textsubscript{40}Cu\textsubscript{60} which is in the bcc phase). It is common to represent this using 3-5 atomic layers of palladium. To create alloys random atoms can be substituted for other elements to achieve the desired alloy composition. 
+
+In order to determine the adsorption energy of impurities on a palladium membrane using DFT both the slab being used to represent the membrane surface, and the individual gas molecule must first be simulated in order to determine their individual ground energy states. Then the gas molecule must be adsorbed onto the surface of the membrane. In a crystalline structure there are often multiple sites which are avaliable for gas adsorption. In an fcc structure such as Pd there are 4 main sites which can be considered, shown in figure \ref{fccsites} \cite{Zeng2009}. Once the site is chosen the simulation is iterated, slightly changing the distances between molecules until the mininum ground state is found and therefore the ground energy level of the system composed of the palladium membrane, and the adsorbed impurity. The adsorption energy, $E_{i_{ads}}$, for the adsorption of a gaseous impurity on the surface is calculated equation \ref{adseqn}. Where $E_{slab + i}$ is the total energy of the relaxed gas-surface system where i is the simulated gas, $E_slab$ and $E_i$ are the total energy of relaxed bare surface and gas molecule respectively. Since a system will always tend towards it's lowest energy state, if the total energy of the $E_{i,ads}$ is lower than the sum of it's component energies, it indicates an affinity for the target impurity to adsorb onto the surface of the membrane.
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{figures/fccsites.png}
+    \caption{Top view of the high-symmetry adsorption sites fcc, hcp, bridge, and top \cite{Zeng2009}}
+    \label{fccsites}
+  \end{figure}
+
+\begin{equation} \label{adseqn}
+    E_{i,ads} = E_{slab} + E_i - E_{slab + i}
+\end{equation}
+
+\subsubsection{Approximations}
+The ultimate goal of DFT is to calculate the ground-state energy of the defined system. This was shown by Kohn, Holberg and Sham who discovered that this could be found by finding a self-consistent solution to a set of single particle equations, as an exchange correlation. A major complication to this however is that a gaurenteed exchange correlation function simply does not exist, therefore they must be approximated. Two common methods for approximating exchange correlations are local density approximation (LDA) and generalized gradient approximation (GGA)
+
+\paragraph{LDA} is where the energy of the system is assumed to depend on the electron density. LDA is able to predict the energy of a structure to within 1-2\% of the experimental value. Unfortunately the method fails when looking to predict magnetic properties of materials and the band gaps calculated generally tend to overshoot the bond strengths. \cite{dftbook1}
+
+\paragraph{GGA} is an improvement over LDA and takes into account the gradient of electron density as well ad the average electron density. This adds an extra layer of computational complexity. it allows for strucural properties to be predicted to within 1\% of the experimental values and the total energy to be calculated to 1 kJ/mol. \cite{dftbook1} This is also claimed in literature \cite{Olsen2003}.
+
+This thesis will mainly focus on the solid state chemistry in the bulk of the material. For this reason GGA functionals have been chosen as they been shown in numerous publications to perform well. 
+
+\subsubsection{Pseudopotentials}
+A pseudopotential is a method used to replace the electron density of a chosen set of core electrons in an atom with a smoothed density chosen to match the physical and mathematical properties of the ionic core of the atom. \cite{dftbook1} The use of a pseudopotential is extremely important in reducing computational burden by reducing the number of planes calculated within the atom. This is commonly referred to as the 'frozen core' assumption whereby only the behaviour of the outer most electrons are calculated, and the inner electrons, whose behaviour has previously been calculated, is considered fixed. \cite{dftbook1}
+
+The main differentiating feature between different tyupes of pseudopotentials is the mininum energy cutoff for each atom in an equation. The mioninum energy cutoff value refers to the number of plane wave functions which will be used to represent the system, a higher cutoff value means that more plane wave functions are used to represent the bahviour of electrons. The most commonly used pseudopotentials are ultrasoft pseudopotentials which feature a relatively low energy cutoff, making them extremely computationally efficient. A disadvantage of using an ultrasoft pseudopotential is that they require the use of empirical values in defining the properties of the core. However a review of various types of pseudopotentials found that there is virtually no difference in results regardless of what pseudopotential is used and this only becomes a factor whern more complex phenomena such as magnetic properties have to be considered. \cite{dftbook1}
+
+Calculations that do not use a pseudopotential are called 'all electron' calculations. However their use is limited due to increased computational burden.  \cite{dftbook1}
+
+\subsection{Use cases, and limitations}
+
+Most work revolving around the use of DFT to predict the adsorption strength of impurities on palladium and palladium alloy surfaces has focused on catalysis of chemical reactions. As a result there are a limited number of papers focusing on quantifying the interaction between these key hydrogen impurities and membranes. Papers which use DFT to predict the behaviour of hydrogen impurities on the surface of palladium membranes are shown in table \ref{DFTREV} . The most relevant study performed by Ozdogan et al \cite{ozdogan2010}  studied the effect of H\textsubscript{2} and H\textsubscript{2}S adsorption energies when small additions of Cu and Nb were added to the membrane composition. The results indicated that while the addition of Cu and Nb hindered hydrogen adsorption, they had a large effect on the adsorption ennergy of H\textsubscript{2}S, concluding that Nb has a higher affinity for H\textsubscript{2}S compared to Pd and a lower addinity for Cu. The results were correlated with experimental results and found to be within 1\% error which is consistent with results found from using GGA. 
+
+Another useful study from Herron et al \cite{HERRON20121670} studied the adsorption of a variety of atomic species (H, O, N, S, and C), molecular species (N\textsubscript{2}, HCN, CO, NO, and NH\textsubscript{3}), and molecular fragments (CN, NH\textsubscript{2}, NH, CH\textsubscript{3}, CH\textsubscript{2}, CH, HNO, NOH, and OH) on the face of Pd(111) to quantify it's effectivness at catalysing a variety of industrial reactions. Depsite it's target application not being membranes, the results are still relevant to our desired study since a number of the molecular species and molecular fragments tested can be expected to be found in hydrogen. As well as quantifying the binding enmergies of all these molecules, the potential energies also indicated that the only reaction thermochemically preferable is the decomposition of NO. Which gives further evidence that reactions such as water gas shift occuring during catalysis are of no concern. 
+
+Outside of these the technique has seen use in predicting the stability of palladium and palladium alloy membranes. A number of studies have successfully combined data from density functional theory to calculate the solubility, diffusivity and permeability of PdCu (\cite{Kamakoti569}, \cite{KAMAKOTI2003145}, \cite{Kamiko2005}), PdAg(\cite{Sonwane2006}, \cite{doi:10.1021/jp064507t}, \cite{doi:10.1063/1.3656739}), PdAu(\cite{Sonwane2006}, \cite{doi:10.1021/jp064507t}, \cite{doi:10.1063/1.3656739}), and ternary alloy (\cite{Kamakoti2006}, \cite{SEMIDEYFLECHA2010384},\cite{LING2011189} membranes. In particular the study by Morreale et al showed that DFT can be used predict experimental data, although to a limited degree as experimental results were approximately 7 times greater than simulated results. \cite{Morreale2007}. The greatest challenge when attempting to describe the permeation of hydrogen through metallic membranes is frequent disordering of atoms during the simulation runtime, throwing off results. Other methods such as cluster expansion have been employed in order to overcome this. 
+
+The fundamental limitation of using DFT to accurately predict the behaviour of materials is that ultimately such calculation usually calculate, at a maxinum, interactions between 10-30 of atoms at a time. This is in no way similar to a physical system where the number of atoms is likely to be in the millions.\cite{dftbook1}It must be understood that DFT calculations draw results from extremely small numbers of atoms, and while relevant to phsycal systems, are likely to result in some errors because of this. \cite{dftbook1}
+
+DFT is also known to be inaccurate in describing systems where weak van der walls attractions exist between molecules and atoms. \cite{dftbook1} This is due to the fact that such attractions are a result of temporary fluctuations in electron density. In order to describe the effect of these interactions on a quantum mechanic level it is necessary to use high level wave function based methods which DFT is unable to accuratly predict. This explains why research only focuses on predicting one molecule on a surface at a time, while multiple molecules could theoretically be placed in a simulation, due to the lack of intermolecular forces being taken into account such results are likely to be innacurate. \cite{dftbook1}
+
+Despite these drawbacks DFT analysis is a useful tool for screening of potential palladium alloy membrane. The technique is capable of speeding up material development by eliminating options that are unlikelym to work, cutting down on trial and error. Due to inacuracies in the technique however it is unlikely that it will ever become a standalone technique in membrane research and it's findings should always be backed up by experimental data.
+
+
+\eject \pdfpagewidth=11.7in \pdfpageheight=11.7in
+
+    \begin{longtable}{@{\extracolsep{\fill}}C{1in} cc C{1.1in} cc C{1.2in} C{1.2in} c@{}}    
+        \caption{Review of DFT studies for adsorption of ISO 14687-2 impurites and hydrogen on palladium membrane surfaces}\label{DFTREV}
+        \\
+    \toprule
+    Simulated material & Structure & Approximation & Exchange function & K-points & Adsorbed species     & Adsorption site        & Binding energy (eV) & ref\\ \midrule  \endfirsthead 
+    
+    \midrule  \endhead
+
+    \bottomrule \endfoot
+
+    \bottomrule \endlastfoot
+    Pd      &    4x4x4 unit cell    & GGA     & PW91                            & 5x5x1      & H\textsubscript{2} &  hcp  & - 0.5485 & \cite{ozdogan2010}         \\
+
+    Pd      &    4x4x4 unit cell    & GGA     & PW91                            & 5x5x1      & H\textsubscript{2} &  fcc  & - 0.5927 & \cite{ozdogan2010}         \\
+
+
+    Pd      &    4x4x4 unit cell    & GGA     & PW91                            & 5x5x1      & H\textsubscript{2}S &  bridge-fcc-top (H-H-S)  & - 0.7 & \cite{ozdogan2010}         \\
+
+    Pd      &    4x4x4 unit cell    & GGA     & PW91                            & 5x5x1      & H\textsubscript{2}S &  bridge-bridge-top (H-H-S)  & - 0.707 & \cite{ozdogan2010}         \\
+
+    Pd      &    4x4x4 unit cell    & GGA     & PW91                            & 5x5x1      & H\textsubscript{2}S &  bridge-hcp-top (H-H-S)  & - 0.707 & \cite{ozdogan2010}         \\
+
+    Pd      &    4x4x4 unit cell    & GGA     & PW91                            & 5x5x1      & H\textsubscript{2}S &  fcc-hcp-top (H-H-S)  & - 0.692 & \cite{ozdogan2010}         \\
+
+    PdNb\textsubscript{1.6}      &    4x4x4 unit cell    & GGA     & PW91                            & 5x5x1      & H\textsubscript{2} &  hcp  & -0.4259 & \cite{ozdogan2010}         \\
+
+    PdNb\textsubscript{1.6}      &    4x4x4 unit cell    & GGA     & PW91                            & 5x5x1      & H\textsubscript{2} &  fcc  & -0.4740 & \cite{ozdogan2010}         \\
+
+     PdNb\textsubscript{1.6}      &    4x4x4 unit cell    & GGA     & PW91                            & 5x5x1      & H\textsubscript{2}S &  bridge-fcc-top (H-H-S)  & - 0.803 & \cite{ozdogan2010}         \\
+
+     PdNb\textsubscript{1.6}      &    4x4x4 unit cell    & GGA     & PW91                            & 5x5x1      & H\textsubscript{2}S &  bridge-bridge-top (H-H-S)  & - 0.704 & \cite{ozdogan2010}         \\
+
+     PdNb\textsubscript{1.6}      &    4x4x4 unit cell    & GGA     & PW91                            & 5x5x1      & H\textsubscript{2}S &  bridge-hcp-top (H-H-S)  & - 0.735 & \cite{ozdogan2010}         \\
+
+     PdNb\textsubscript{1.6}      &    4x4x4 unit cell    & GGA     & PW91                            & 5x5x1      & H\textsubscript{2}S &  fcc-hcp-top (H-H-S)  & - 0.682 & \cite{ozdogan2010}         \\
+
+     PdNb\textsubscript{1.6}      &    4x4x4 unit cell    & GGA     & PW91                            & 5x5x1      & H\textsubscript{2}S &  hcp-bridge-top (H-H-S)  & - 0.602 & \cite{ozdogan2010}         \\
+
+    PdCu\textsubscript{1.6}      &    4x4x4 unit cell    & GGA     & PW91                            & 5x5x1      & H\textsubscript{2} &  hcp  & -0.4946 & \cite{ozdogan2010}         \\
+
+    PdCu\textsubscript{1.6}      &    4x4x4 unit cell    & GGA     & PW91                            & 5x5x1      & H\textsubscript{2} &  fcc  & -0.5357 & \cite{ozdogan2010}         \\
+
+    PdNb\textsubscript{1.6}      &    4x4x4 unit cell    & GGA     & PW91                            & 5x5x1      & H\textsubscript{2}S &  bridge-fcc-top (H-H-S)  & - 0.429 & \cite{ozdogan2010}         \\
+
+    PdNb\textsubscript{1.6}      &    4x4x4 unit cell    & GGA     & PW91                            & 5x5x1      & H\textsubscript{2}S &  bridge-hcp-top (H-H-S)  & - 0.431 & \cite{ozdogan2010}         \\
+
+    Pd      &    2x2x4 unit cell    & GGA     & PW91                            & 3x3x1      & N\textsubscript{2} &  top  & - 0.23 & \cite{HERRON20121670}         \\
+    Pd      &    2x2x4 unit cell    & GGA     & PW91                            & 3x3x1      & N\textsubscript{2} &  fcc  & - 0.02 & \cite{HERRON20121670}         \\
+    Pd      &    2x2x4 unit cell    & GGA     & PW91                            & 3x3x1      & N\textsubscript{2} &  bridge  & - 0.07 & \cite{HERRON20121670}         \\
+
+    Pd      &    2x2x4 unit cell    & GGA     & PW91                            & 3x3x1      & NH\textsubscript{3} &  top  & - 0.62 & \cite{HERRON20121670}         \\
+
+    Pd      &    2x2x4 unit cell    & GGA     & PW91                            & 3x3x1      & NH\textsubscript{2} &  top  & -1.63 & \cite{HERRON20121670}         \\
+
+    Pd      &    2x2x4 unit cell    & GGA     & PW91                            & 3x3x1      & NH\textsubscript{2} &  bridge  & -2.15 & \cite{HERRON20121670}         \\
+
+    Pd      &    2x2x4 unit cell    & GGA     & PW91                            & 3x3x1      & NH &  fcc  & -3.45 & \cite{HERRON20121670}         \\
+
+    Pd      &    2x2x4 unit cell    & GGA     & PW91                            & 3x3x1      & NH &  hcp  & -3.30 & \cite{HERRON20121670}         \\
+
+    Pd      &    2x2x4 unit cell    & GGA     & PW91                            & 3x3x1      & CO &  top  & -1.29 & \cite{HERRON20121670}         \\
+
+    Pd      &    2x2x4 unit cell    & GGA     & PW91                            & 3x3x1      & CO &  fcc  & -1.95 & \cite{HERRON20121670}         \\
+
+    Pd      &    2x2x4 unit cell    & GGA     & PW91                            & 3x3x1      & CO &  hcp  & -1.96 & \cite{HERRON20121670}         \\
+
+    Pd      &    2x2x4 unit cell    & GGA     & PW91                            & 3x3x1      & CO &  bridge  & -1.77 & \cite{HERRON20121670}         \\    
+    
+    Pd      &    2x2x4 unit cell    & GGA     & PW91                            & 3x3x1      & CH\textsubscript{3} &  top  & -1.67 & \cite{HERRON20121670}         \\
+
+    Pd      &    2x2x4 unit cell    & GGA     & PW91                            & 3x3x1      & CH\textsubscript{2} &  bridge  & -3.56 & \cite{HERRON20121670}         \\
+
+    Pd      &    2x2x4 unit cell    & GGA     & PW91                            & 3x3x1      & CH &  fcc  & -5.91 & \cite{HERRON20121670}         \\
+
+    Pd      &    2x2x4 unit cell    & GGA     & PW91                            & 3x3x1      & CH &  hcp  & -5.89 & \cite{HERRON20121670}         \\
+
+    Pd      &    2x2x4 unit cell    & GGA     & PW91                            & 3x3x1      & CH &  hcp  & -5.89 & \cite{HERRON20121670}         \\
+
+    Pd      &    2x2x3 unit cell    & GGA     & PW91                            & 3x3x1      & H\textsubscript{2} &  top  & -0.07 & \cite{Olsen2003}         \\
+
+    Pd      &    2x2x3 unit cell    & GGA     & PW91                            & 3x3x1      & H\textsubscript{2} &  bridge  & -0.37 & \cite{Olsen2003}         \\
+
+    Pd      &    2x2x3 unit cell    & GGA     & PW91                            & 3x3x1      & H\textsubscript{2} &  fcc  & -0.49 & \cite{Olsen2003}         \\
+
+    Pd      &    2x2x3 unit cell    & GGA     & PW91                            & 3x3x1      & H\textsubscript{2} &  hcp  & -0.45 & \cite{Olsen2003}         \\
+
+    PdAg\textsubscript{25}      &    2x2x3 unit cell    & GGA     & PW91                            & 3x3x1      & H\textsubscript{2} &  top  & 0.84 & \cite{Olsen2003}         \\
+    
+    PdAg\textsubscript{25}      &    2x2x3 unit cell    & GGA     & PW91                            & 3x3x1      & H\textsubscript{2} &  bridge  & -0.27 & \cite{Olsen2003}         \\
+
+    PdAg\textsubscript{25}      &    2x2x3 unit cell    & GGA     & PW91                            & 3x3x1      & H\textsubscript{2} &  fcc  & -0.22 & \cite{Olsen2003}         \\
+
+    PdAg\textsubscript{25}      &    2x2x3 unit cell    & GGA     & PW91                            & 3x3x1      & H\textsubscript{2} &  hcp  & -0.22 & \cite{Olsen2003}         \\
+
+
+
+
+    \end{longtable}
+    \eject \pdfpagewidth=8.3in \pdfpageheight=11.7in
+
 
 \section{Conclusion}
-This chapter provided a review of a number of membrane materials designed to separate hydrogen from multicomponent mixtures. An extensive summary has been provided on the separation performance and stability of these materials with an emphasis on the complications related to transitioning the use of these materials from laboratory and  R\&D efforts, to industrially relevant processes. 
+This chapter provided a review of the hydrogen process, from how hydrogen is produced and it's relationship to the impurites which can end up in the supply chain. The effect of these impurities on the operation of a fuel cell electric vehicle was discussed and the liklihood of these impurities reaching a consumers fuel cell. 
 
-The key observation is that while there is a large research focus on new membrane materials, there is a lack of research looking into the engineering of these membranes into functional systems and products. Out of the hundreds of materials being researched for gas separation, commercially only four-eight different polymers are being used, with some niche applications using palladium membranes. Research focus should shift towards focusing on repeatability, scale up, and creating engineered systems where new membrane materials can be used in order to make progress in bringing these new materials to market. 
+Different methods for enriching hydrogen was discussed with one of the most promising methods identified being hydrogen impurity enrichment using a dense metal membrane. From here a number of membrane materials designed to separate hydrogen from multicomponent mixtures. An extensive summary has been provided on the separation performance and stability of these materials with an emphasis on the complications related to transitioning the use of these materials from laboratory and  R\&D efforts, to industrially relevant processes. The key observation is that while there is a large research focus on new membrane materials, there is a lack of research looking into the engineering of these membranes into functional systems and products. Out of the hundreds of materials being researched for gas separation, commercially only four-eight different polymers are being used, with some niche applications using palladium membranes. Research focus should shift towards focusing on repeatability, scale up, and creating engineered systems where new membrane materials can be used in order to make progress in bringing these new materials to market. Out of the membrane materials reviewed palladium based alloys were the most appropriate to be used for hydrogen impurity enrichment and focus in this thesis will be to find a suitable composition for measuring ISO 14687-2 impurities while minimising interaction with reactants. 
 
-Currently polymer membranes hold a large monopoly on industrial gas separation processes which take use membranes. For other membranes to get a foothold they should focus on processes where polymers are fundamentally useless due to the harsh process conditions. 
-
+DFT based theories were discuessed and identified as a method to save time money and cost when attemtping to optimise the palladium alloy composition. There is a gap in research on using this technique for palladium alloys specifically targeting ISO 14687-2 impurities. While limited literature exists since many papers adress the use of palladium surfaces as catalysts the research is useful for creating a starting base. Palladium alloy membranes can be screened for materials which exhibit the lowest reactivity with ISO 14687-2 impuruties, and once identified, they can be manufactured and tested. It is important to note however that there are a number of innacuracies involved in the technique and should only be used as a rough guide. 
 
 \bibliographystyle{unsrtnat}
 

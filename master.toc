@@ -20,79 +20,86 @@
 \contentsline {section}{\numberline {2.4}Hydrogen impurity enrichment}{28}% 
 \contentsline {subsection}{\numberline {2.4.1}Other enrichment methods}{29}% 
 \contentsline {subsubsection}{Sorbent tubes}{29}% 
-\contentsline {subsubsection}{Cryo-focusing}{29}% 
+\contentsline {subsubsection}{Cryo-focusing}{30}% 
 \contentsline {section}{\numberline {2.5}Review of hydrogen selective membranes}{30}% 
-\contentsline {subsection}{\numberline {2.5.1}Criteria for a hydrogen impurity enrichment material}{33}% 
+\contentsline {subsection}{\numberline {2.5.1}Criteria for a hydrogen impurity enrichment material}{34}% 
 \contentsline {subsubsection}{Dense metallic}{35}% 
-\contentsline {subsubsection}{Dense Ceramic}{50}% 
-\contentsline {subsubsection}{Viable membrane materials and outlook}{54}% 
-\contentsline {subsection}{\numberline {2.5.2}Membrane manufacture}{54}% 
-\contentsline {subsubsection}{Support selection}{54}% 
-\contentsline {subsubsection}{Membrane deposition methods}{56}% 
-\contentsline {section}{\numberline {2.6}Density functional theory for screening of membrane alloy compositions}{59}% 
-\contentsline {section}{\numberline {2.7}Conclusion}{61}% 
+\contentsline {subsubsection}{Dense Ceramic}{52}% 
+\contentsline {subsubsection}{Viable membrane materials and outlook}{56}% 
+\contentsline {subsection}{\numberline {2.5.2}Membrane manufacture}{56}% 
+\contentsline {subsubsection}{Support selection}{56}% 
+\contentsline {subsubsection}{Membrane deposition methods}{58}% 
+\contentsline {section}{\numberline {2.6}Density functional theory for screening of membrane alloy compositions}{61}% 
+\contentsline {subsection}{\numberline {2.6.1}Key concepts}{62}% 
+\contentsline {subsubsection}{Simulating crystalline structures}{62}% 
+\contentsline {subsubsection}{Approximations}{65}% 
+\contentsline {paragraph}{LDA}{65}% 
+\contentsline {paragraph}{GGA}{66}% 
+\contentsline {subsubsection}{Pseudopotentials}{66}% 
+\contentsline {subsection}{\numberline {2.6.2}Use cases, and limitations}{66}% 
+\contentsline {section}{\numberline {2.7}Conclusion}{71}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
-\contentsline {chapter}{\numberline {3}Experimental methods}{77}% 
-\contentsline {section}{\numberline {3.1}Simulations}{77}% 
-\contentsline {section}{\numberline {3.2}Membrane manufacture}{77}% 
-\contentsline {subsection}{\numberline {3.2.1}Materials used}{77}% 
-\contentsline {subsection}{\numberline {3.2.2}Support fabritcation}{77}% 
-\contentsline {subsection}{\numberline {3.2.3}Membrane deposition}{78}% 
-\contentsline {subsubsection}{Electoless Plating}{78}% 
-\contentsline {subsubsection}{Magnetron Sputtering}{81}% 
-\contentsline {subsection}{\numberline {3.2.4}Materials testing}{82}% 
-\contentsline {section}{\numberline {3.3}Membrane testing}{82}% 
-\contentsline {subsection}{\numberline {3.3.1}Preparation of gas standards}{82}% 
-\contentsline {subsection}{\numberline {3.3.2}Membrane testing rig}{84}% 
-\contentsline {section}{\numberline {3.4}Hydrogen impurity enrichment}{84}% 
-\contentsline {subsection}{\numberline {3.4.1}Device design}{84}% 
+\contentsline {chapter}{\numberline {3}Experimental methods}{90}% 
+\contentsline {section}{\numberline {3.1}Simulations}{90}% 
+\contentsline {section}{\numberline {3.2}Membrane manufacture}{90}% 
+\contentsline {subsection}{\numberline {3.2.1}Materials used}{90}% 
+\contentsline {subsection}{\numberline {3.2.2}Support fabritcation}{90}% 
+\contentsline {subsection}{\numberline {3.2.3}Membrane deposition}{91}% 
+\contentsline {subsubsection}{Electoless Plating}{91}% 
+\contentsline {subsubsection}{Magnetron Sputtering}{94}% 
+\contentsline {subsection}{\numberline {3.2.4}Materials testing}{95}% 
+\contentsline {section}{\numberline {3.3}Membrane testing}{95}% 
+\contentsline {subsection}{\numberline {3.3.1}Preparation of gas standards}{95}% 
+\contentsline {subsection}{\numberline {3.3.2}Membrane testing rig}{97}% 
+\contentsline {section}{\numberline {3.4}Hydrogen impurity enrichment}{97}% 
+\contentsline {subsection}{\numberline {3.4.1}Device design}{97}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
-\contentsline {chapter}{\numberline {4}Density functional theory as a screening method for dense metal membranes}{86}% 
-\contentsline {section}{\numberline {4.1}Abstract}{86}% 
-\contentsline {section}{\numberline {4.2}Introduction}{86}% 
-\contentsline {section}{\numberline {4.3}Results and discussion}{87}% 
-\contentsline {subsection}{\numberline {4.3.1}Stability of palladium alloy compositions}{88}% 
-\contentsline {subsection}{\numberline {4.3.2}Hydrogen and Impurity adsorption on palladium alloy membranes}{88}% 
-\contentsline {subsubsection}{Hydrogen}{88}% 
-\contentsline {subsubsection}{Helium, Nitrogen and Argon}{88}% 
-\contentsline {subsubsection}{Carbon Monoxide}{88}% 
-\contentsline {subsubsection}{Carbon Dioxide}{88}% 
-\contentsline {subsubsection}{Ammonia}{88}% 
-\contentsline {subsubsection}{Oxygen}{88}% 
-\contentsline {subsubsection}{Water}{88}% 
-\contentsline {subsubsection}{Methane}{88}% 
-\contentsline {subsubsection}{Formaldehyde}{88}% 
-\contentsline {subsubsection}{Formic Acid}{88}% 
-\contentsline {subsubsection}{Hydrogen sulphide}{88}% 
-\contentsline {section}{\numberline {4.4}Conclusion}{88}% 
+\contentsline {chapter}{\numberline {4}Density functional theory as a screening method for dense metal membranes}{99}% 
+\contentsline {section}{\numberline {4.1}Abstract}{99}% 
+\contentsline {section}{\numberline {4.2}Introduction}{99}% 
+\contentsline {section}{\numberline {4.3}Results and discussion}{100}% 
+\contentsline {subsection}{\numberline {4.3.1}Stability of palladium alloy compositions}{101}% 
+\contentsline {subsection}{\numberline {4.3.2}Hydrogen and Impurity adsorption on palladium alloy membranes}{101}% 
+\contentsline {subsubsection}{Hydrogen}{101}% 
+\contentsline {subsubsection}{Helium, Nitrogen and Argon}{101}% 
+\contentsline {subsubsection}{Carbon Monoxide}{101}% 
+\contentsline {subsubsection}{Carbon Dioxide}{101}% 
+\contentsline {subsubsection}{Ammonia}{101}% 
+\contentsline {subsubsection}{Oxygen}{101}% 
+\contentsline {subsubsection}{Water}{101}% 
+\contentsline {subsubsection}{Methane}{101}% 
+\contentsline {subsubsection}{Formaldehyde}{101}% 
+\contentsline {subsubsection}{Formic Acid}{101}% 
+\contentsline {subsubsection}{Hydrogen sulphide}{101}% 
+\contentsline {section}{\numberline {4.4}Conclusion}{101}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
-\contentsline {chapter}{\numberline {5}Impurity resistance of dense metal membranes under hydrogen impurities}{90}% 
-\contentsline {section}{\numberline {5.1}Abstract}{90}% 
-\contentsline {section}{\numberline {5.2}Introduction}{90}% 
-\contentsline {section}{\numberline {5.3}Results and Discussion}{92}% 
-\contentsline {subsection}{\numberline {5.3.1}Membrane characterisation}{92}% 
-\contentsline {subsection}{\numberline {5.3.2}Hydrogen permeation}{94}% 
-\contentsline {subsection}{\numberline {5.3.3}Impurity reactivity}{95}% 
-\contentsline {subsubsection}{Binary alloys}{96}% 
-\contentsline {subsubsection}{Ternary alloys}{96}% 
-\contentsline {subsubsection}{Segregation behaviour}{97}% 
-\contentsline {section}{\numberline {5.4}Conclusion}{98}% 
+\contentsline {chapter}{\numberline {5}Impurity resistance of dense metal membranes under hydrogen impurities}{103}% 
+\contentsline {section}{\numberline {5.1}Abstract}{103}% 
+\contentsline {section}{\numberline {5.2}Introduction}{103}% 
+\contentsline {section}{\numberline {5.3}Results and Discussion}{105}% 
+\contentsline {subsection}{\numberline {5.3.1}Membrane characterisation}{105}% 
+\contentsline {subsection}{\numberline {5.3.2}Hydrogen permeation}{107}% 
+\contentsline {subsection}{\numberline {5.3.3}Impurity reactivity}{108}% 
+\contentsline {subsubsection}{Binary alloys}{109}% 
+\contentsline {subsubsection}{Ternary alloys}{109}% 
+\contentsline {subsubsection}{Segregation behaviour}{110}% 
+\contentsline {section}{\numberline {5.4}Conclusion}{111}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
-\contentsline {chapter}{\numberline {6}A hydrogen impurity measurement device for measuring ISO 14687 impurities}{101}% 
-\contentsline {section}{\numberline {6.1}Abstract}{101}% 
-\contentsline {section}{\numberline {6.2}Introduction}{101}% 
-\contentsline {section}{\numberline {6.3}Results and discussion}{101}% 
-\contentsline {section}{\numberline {6.4}Conclusion}{101}% 
+\contentsline {chapter}{\numberline {6}A hydrogen impurity measurement device for measuring ISO 14687 impurities}{114}% 
+\contentsline {section}{\numberline {6.1}Abstract}{114}% 
+\contentsline {section}{\numberline {6.2}Introduction}{114}% 
+\contentsline {section}{\numberline {6.3}Results and discussion}{114}% 
+\contentsline {section}{\numberline {6.4}Conclusion}{114}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
-\contentsline {chapter}{\numberline {7}Conclusion and future work}{102}% 
-\contentsline {section}{\numberline {7.1}Impurity enrichment devices}{102}% 
-\contentsline {subsection}{\numberline {7.1.1}Further research}{102}% 
-\contentsline {subsection}{\numberline {7.1.2}Additional use cases}{102}% 
-\contentsline {subsection}{\numberline {7.1.3}Commercialisation}{102}% 
-\contentsline {section}{\numberline {7.2}Closing remarks}{102}% 
+\contentsline {chapter}{\numberline {7}Conclusion and future work}{115}% 
+\contentsline {section}{\numberline {7.1}Impurity enrichment devices}{115}% 
+\contentsline {subsection}{\numberline {7.1.1}Further research}{115}% 
+\contentsline {subsection}{\numberline {7.1.2}Additional use cases}{115}% 
+\contentsline {subsection}{\numberline {7.1.3}Commercialisation}{115}% 
+\contentsline {section}{\numberline {7.2}Closing remarks}{115}% 
 \gdef \the@ipfilectr {}
