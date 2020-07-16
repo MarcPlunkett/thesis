@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.27)  16 JUL 2020 19:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.27)  16 JUL 2020 23:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1024,17 +1024,11 @@ Package xr Info: IMPORTING LABELS FROM Chapter2/ch2.aux on input line 31.
 LaTeX Warning: Label `lit-cathode' multiply defined.
 
 Package xr Info: IMPORTING LABELS FROM Experimental/ch1.aux on input line 32.
-
-LaTeX Warning: Label `exp-eq:1' multiply defined.
-
 (/Users/marc/Thesis/master.aux (/Users/marc/Thesis/acronyms.aux) (/Users/marc/Thesis/Chapter1/ch1.aux) (/Users/marc/Thesis/Chapter2/ch2.aux
 
 LaTeX Warning: Label `cathode' multiply defined.
 
 ) (/Users/marc/Thesis/Experimental/ch1.aux
-
-LaTeX Warning: Label `eq:1' multiply defined.
-
 
 LaTeX Warning: Label `eq:1' multiply defined.
 
@@ -1750,24 +1744,24 @@ Package pdftex.def Info: /Users/marc/Thesis/Experimental/kpoints.jpg  used on in
 ] [91 </Users/marc/Thesis/Experimental/kpoints.jpg>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 44.
+               Default added (so using `tbp') on input line 42.
 
 [92] [93]
 <figures/pretreatment.png, id=339, 1621.05624pt x 867.24pt>
 File: figures/pretreatment.png Graphic file (type png)
 <use figures/pretreatment.png>
-Package pdftex.def Info: figures/pretreatment.png  used on input line 74.
+Package pdftex.def Info: figures/pretreatment.png  used on input line 72.
 (pdftex.def)             Requested size: 448.13095pt x 239.74226pt.
  [94 </Users/marc/Thesis/figures/pretreatment.png>]
 <figures/ELpprocedure.png, id=344, 2155.05125pt x 462.72874pt>
 File: figures/ELpprocedure.png Graphic file (type png)
 <use figures/ELpprocedure.png>
-Package pdftex.def Info: figures/ELpprocedure.png  used on input line 90.
+Package pdftex.def Info: figures/ELpprocedure.png  used on input line 88.
 (pdftex.def)             Requested size: 448.13095pt x 96.21565pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 98.
+               Default added (so using `tbp') on input line 96.
 
 [95 </Users/marc/Thesis/figures/ELpprocedure.png>]
 
@@ -1779,23 +1773,29 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 139.
 
 [96] [97]
-</Users/marc/Thesis/Experimental/perm_rig.png, id=356, 452.69125pt x 132.495pt>
+</Users/marc/Thesis/Experimental/perm_rig.png, id=356, decode=[0.2 0.5], 8270.9pt x 6073.69125pt>
 File: /Users/marc/Thesis/Experimental/perm_rig.png Graphic file (type png)
 <use /Users/marc/Thesis/Experimental/perm_rig.png>
 Package pdftex.def Info: /Users/marc/Thesis/Experimental/perm_rig.png  used on input line 168.
-(pdftex.def)             Requested size: 635.5pt x 185.99916pt.
- [98
+(pdftex.def)             Requested size: 571.82857pt x 419.91925pt.
 
- </Users/marc/Thesis/Experimental/perm_rig.png>] (/Users/marc/Thesis/Experimental/ch1.bbl [99
 
-])) [100
+LaTeX Warning: Float too large for page by 10.78828pt on input line 171.
 
-]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[98 </Users/marc/Thesis/Experimental/perm_rig.png>] [99
+
+
+] (/Users/marc/Thesis/Experimental/ch1.bbl [100] [101
+
+])) [102]
 \openout2 = `Chapter3/ch3.aux'.
 
  (/Users/marc/Thesis/Chapter3/ch3.tex
 Chapter 4.
-[101
+[103
 
 
 
@@ -1809,24 +1809,24 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 40.
 
-(/Users/marc/Thesis/Chapter3/ch3.bbl [102] [103]
+(/Users/marc/Thesis/Chapter3/ch3.bbl [104] [105]
 
 Package natbib Warning: Empty `thebibliography' environment on input line 8.
 
-)) [104
+)) [106
 
 ]
 \openout2 = `Chapter4/ch4.aux'.
 
  (/Users/marc/Thesis/Chapter4/ch4.tex
 Chapter 5.
-[105
+[107
 
 
 
 
-] [106]
-<figures/Semxsect.png, id=387, 2810.5pt x 4474.7175pt>
+] [108]
+<figures/Semxsect.png, id=394, 2810.5pt x 4474.7175pt>
 File: figures/Semxsect.png Graphic file (type png)
 <use figures/Semxsect.png>
 Package pdftex.def Info: figures/Semxsect.png  used on input line 24.
@@ -1836,7 +1836,7 @@ Package pdftex.def Info: figures/Semxsect.png  used on input line 24.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 31.
 
-[107] [108 </Users/marc/Thesis/figures/Semxsect.png>] [109]
+[109] [110 </Users/marc/Thesis/figures/Semxsect.png>] [111]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 59.
@@ -1845,25 +1845,25 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 81.
 
-[110]
+[112]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 109.
 
-[111]
-<figures/permeabilitychart.png, id=405, 1482.53876pt x 707.64375pt>
+[113]
+<figures/permeabilitychart.png, id=411, 1482.53876pt x 707.64375pt>
 File: figures/permeabilitychart.png Graphic file (type png)
 <use figures/permeabilitychart.png>
 Package pdftex.def Info: figures/permeabilitychart.png  used on input line 136.
 (pdftex.def)             Requested size: 448.13095pt x 213.89282pt.
- [112] (/Users/marc/Thesis/Chapter4/ch4.bbl [113 </Users/marc/Thesis/figures/permeabilitychart.png>] [114
+ [114] (/Users/marc/Thesis/Chapter4/ch4.bbl [115 </Users/marc/Thesis/figures/permeabilitychart.png>] [116
 
-])) [115]
+])) [117]
 \openout2 = `Chapter5/ch5.aux'.
 
  (/Users/marc/Thesis/Chapter5/ch5.tex
 Chapter 6.
-) [116
+) [118
 
 
 
@@ -1873,7 +1873,7 @@ Chapter 6.
 
  (/Users/marc/Thesis/Chapter6/ch6.tex
 Chapter 7.
-) [117
+) [119
 
 
 
@@ -1884,18 +1884,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 20920 strings out of 492609
- 405511 string characters out of 6129048
- 481033 words of memory out of 5000000
- 24496 multiletter control sequences out of 15000+600000
+ 20945 strings out of 492609
+ 406102 string characters out of 6129048
+ 482347 words of memory out of 5000000
+ 24521 multiletter control sequences out of 15000+600000
  601922 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,19n,100p,2448b,747s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /Users/marc/Thesis/master.pdf (118 pages, 9648647 bytes).
+Output written on /Users/marc/Thesis/master.pdf (120 pages, 10261829 bytes).
 PDF statistics:
- 486 PDF objects out of 1000 (max. 8388607)
- 316 compressed objects within 4 object streams
+ 492 PDF objects out of 1000 (max. 8388607)
+ 320 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

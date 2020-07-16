@@ -1,9 +1,76 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Giannozzi et~al.(2009)Giannozzi, Baroni, Bonini, Calandra, Car,
+  Cavazzoni, Ceresoli, Chiarotti, Cococcioni, Dabo, {Dal Corso}, de~Gironcoli,
+  Fabris, Fratesi, Gebauer, Gerstmann, Gougoussis, Kokalj, Lazzeri,
+  Martin-Samos, Marzari, Mauri, Mazzarello, Paolini, Pasquarello, Paulatto,
+  Sbraccia, Scandolo, Sclauzero, Seitsonen, Smogunov, Umari, and
+  Wentzcovitch]{QE-2009}
+Paolo Giannozzi, Stefano Baroni, Nicola Bonini, Matteo Calandra, Roberto Car,
+  Carlo Cavazzoni, Davide Ceresoli, Guido~L Chiarotti, Matteo Cococcioni,
+  Ismaila Dabo, Andrea {Dal Corso}, Stefano de~Gironcoli, Stefano Fabris, Guido
+  Fratesi, Ralph Gebauer, Uwe Gerstmann, Christos Gougoussis, Anton Kokalj,
+  Michele Lazzeri, Layla Martin-Samos, Nicola Marzari, Francesco Mauri,
+  Riccardo Mazzarello, Stefano Paolini, Alfredo Pasquarello, Lorenzo Paulatto,
+  Carlo Sbraccia, Sandro Scandolo, Gabriele Sclauzero, Ari~P Seitsonen,
+  Alexander Smogunov, Paolo Umari, and Renata~M Wentzcovitch.
+\newblock Quantum espresso: a modular and open-source software project for
+  quantum simulations of materials.
+\newblock \emph{Journal of Physics: Condensed Matter}, 21\penalty0
+  (39):\penalty0 395502 (19pp), 2009.
+\newblock URL \url{http://www.quantum-espresso.org}.
+
+\bibitem[Giannozzi et~al.(2017)Giannozzi, Andreussi, Brumme, Bunau, Nardelli,
+  Calandra, Car, Cavazzoni, Ceresoli, Cococcioni, Colonna, Carnimeo, Corso,
+  de~Gironcoli, Delugas, Jr, Ferretti, Floris, Fratesi, Fugallo, Gebauer,
+  Gerstmann, Giustino, Gorni, Jia, Kawamura, Ko, Kokalj, Küçükbenli,
+  Lazzeri, Marsili, Marzari, Mauri, Nguyen, Nguyen, de-la Roza, Paulatto,
+  Poncé, Rocca, Sabatini, Santra, Schlipf, Seitsonen, Smogunov, Timrov,
+  Thonhauser, Umari, Vast, Wu, and Baroni]{QE-2017}
+P~Giannozzi, O~Andreussi, T~Brumme, O~Bunau, M~Buongiorno Nardelli, M~Calandra,
+  R~Car, C~Cavazzoni, D~Ceresoli, M~Cococcioni, N~Colonna, I~Carnimeo, A~Dal
+  Corso, S~de~Gironcoli, P~Delugas, R~A~DiStasio Jr, A~Ferretti, A~Floris,
+  G~Fratesi, G~Fugallo, R~Gebauer, U~Gerstmann, F~Giustino, T~Gorni, J~Jia,
+  M~Kawamura, H-Y Ko, A~Kokalj, E~Küçükbenli, M~Lazzeri, M~Marsili,
+  N~Marzari, F~Mauri, N~L Nguyen, H-V Nguyen, A~Otero de-la Roza, L~Paulatto,
+  S~Poncé, D~Rocca, R~Sabatini, B~Santra, M~Schlipf, A~P Seitsonen,
+  A~Smogunov, I~Timrov, T~Thonhauser, P~Umari, N~Vast, X~Wu, and S~Baroni.
+\newblock Advanced capabilities for materials modelling with quantum espresso.
+\newblock \emph{Journal of Physics: Condensed Matter}, 29\penalty0
+  (46):\penalty0 465901, 2017.
+\newblock URL \url{http://stacks.iop.org/0953-8984/29/i=46/a=465901}.
+
+\bibitem[Giannozzi et~al.(2020)Giannozzi, Baseggio, Bonfà, Brunato, Car,
+  Carnimeo, Cavazzoni, de~Gironcoli, Delugas, Ferrari~Ruffino, Ferretti,
+  Marzari, Timrov, Urru, and Baroni]{doi:10.1063/5.0005082}
+Paolo Giannozzi, Oscar Baseggio, Pietro Bonfà, Davide Brunato, Roberto Car,
+  Ivan Carnimeo, Carlo Cavazzoni, Stefano de~Gironcoli, Pietro Delugas,
+  Fabrizio Ferrari~Ruffino, Andrea Ferretti, Nicola Marzari, Iurii Timrov,
+  Andrea Urru, and Stefano Baroni.
+\newblock Quantum espresso toward the exascale.
+\newblock \emph{The Journal of Chemical Physics}, 152\penalty0 (15):\penalty0
+  154105, 2020.
+\newblock \doi{10.1063/5.0005082}.
+\newblock URL \url{https://doi.org/10.1063/5.0005082}.
+
+\bibitem[Davey(1925)]{PhysRev.25.753}
+Wheeler~P. Davey.
+\newblock Precision measurements of the lattice constants of twelve common
+  metals.
+\newblock \emph{Phys. Rev.}, 25:\penalty0 753--761, Jun 1925.
+\newblock \doi{10.1103/PhysRev.25.753}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRev.25.753}.
+
+\bibitem[Synopsys()]{synopsys}
+Inc Synopsys.
+\newblock Quantumatk.
+\newblock \emph{Atomic-Scale Modeling for Semiconductor \& Materials Research}.
+\newblock URL \url{https://www.synopsys.com/silicon/quantumatk.html}.
 
 \bibitem[{Gouveia Gil} et~al.(2015){Gouveia Gil}, Reis, Chadwick, Wu, and
   Li]{GouveiaGil2015}
@@ -17,5 +84,36 @@ Ana {Gouveia Gil}, Miria Hespanhol~M Reis, David Chadwick, Zhentao Wu, and
 \newblock \doi{https://doi.org/10.1016/j.ijhydene.2015.01.021}.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S0360319915000580}.
+
+\bibitem[Braun et~al.(2014)Braun, Tarditi, Miller, and Cornaglia]{Braun2014}
+Fernando Braun, Ana~M Tarditi, James~B Miller, and Laura~M Cornaglia.
+\newblock {Pd-based binary and ternary alloy membranes: Morphological and
+  perm-selective characterization in the presence of H2S}.
+\newblock \emph{Journal of Membrane Science}, 450:\penalty0 299--307, 2014.
+\newblock \doi{10.1016/j.memsci.2013.09.026}.
+
+\bibitem[Pomerantz and {Yi Hua}(2009)]{Pomerantz2009}
+Natalie Pomerantz and Ma~{Yi Hua}.
+\newblock {Effect of H 2S on the performance and long-term stability of Pd/Cu
+  membranes}.
+\newblock \emph{Industrial and Engineering Chemistry Research}, 48\penalty0
+  (8):\penalty0 4030--4039, 2009.
+\newblock ISSN 08885885.
+\newblock \doi{10.1021/ie801947a}.
+
+\bibitem[Adawiyah et~al.(2016)Adawiyah, Azlina, Fadil, Aisha, and
+  Hanim]{adawiyah_azlina_fadil_aisha_hanim_2016}
+M.a.~Rabiatul Adawiyah, O.~Saliza Azlina, Nor~Akmal Fadil, Siti~Rabiatull
+  Aisha, and M.a~Azmah Hanim.
+\newblock Electroless and immersion plating process towards structures and imc
+  formation.
+\newblock \emph{International Journal of Engineering and Technology},
+  8\penalty0 (6):\penalty0 2558–2570, 2016.
+\newblock \doi{10.21817/ijet/2016/v8i6/160806210}.
+
+\bibitem[{Nathan W. Ockwig}(2007)]{NathanW.Ockwig2007}
+Tina M~Nenoff {Nathan W. Ockwig}.
+\newblock {Membranes for Hydrogen Separation}.
+\newblock \emph{Chemical Reviews}, 107:\penalty0 4078--4110, 2007.
 
 \end{thebibliography}

@@ -23,15 +23,15 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Simulated total energy values of ISO 14687-2 impurities\relax }}{102}% 
-\contentsline {table}{\numberline {4.2}{\ignorespaces Simulated total energy values of alloy slabs\relax }}{103}% 
+\contentsline {table}{\numberline {4.1}{\ignorespaces Simulated total energy values of ISO 14687-2 impurities\relax }}{104}% 
+\contentsline {table}{\numberline {4.2}{\ignorespaces Simulated total energy values of alloy slabs\relax }}{105}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Membrane compositions analysed by EDS and their thickness measured using FIB-SEM\relax }}{107}% 
-\contentsline {table}{\numberline {5.2}{\ignorespaces Pure hydrogen permeability of studied alloy membranes under pure hydrogen at 300\textdegree C and 1 bar pressure differential\relax }}{110}% 
-\contentsline {table}{\numberline {5.3}{\ignorespaces Permeability results for all membranes under both impurity conditions\relax }}{110}% 
-\contentsline {table}{\numberline {5.4}{\ignorespaces XPS composition analysis of the palladium alloy membrane surfaces after impurity tests\relax }}{112}% 
+\contentsline {table}{\numberline {5.1}{\ignorespaces Membrane compositions analysed by EDS and their thickness measured using FIB-SEM\relax }}{109}% 
+\contentsline {table}{\numberline {5.2}{\ignorespaces Pure hydrogen permeability of studied alloy membranes under pure hydrogen at 300\textdegree C and 1 bar pressure differential\relax }}{112}% 
+\contentsline {table}{\numberline {5.3}{\ignorespaces Permeability results for all membranes under both impurity conditions\relax }}{112}% 
+\contentsline {table}{\numberline {5.4}{\ignorespaces XPS composition analysis of the palladium alloy membrane surfaces after impurity tests\relax }}{114}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
 \addvspace {10\p@ }

@@ -37,7 +37,6 @@ with plt.style.context(['science']):
     fig.suptitle('Total energy for MxMxM k-points', fontsize=10)
     ax.autoscale(tight=False)
     fig.show()
-    # fig.savefig('figures/fig1.pdf')
     fig.savefig('kpoints.jpg', dpi=300)
 
 
