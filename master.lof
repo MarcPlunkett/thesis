@@ -18,17 +18,18 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic representation of the fabrication process of SZ hollow fibre.\relax }}{92}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematic representation of the sequential baths for sensitisation/activation process.\relax }}{93}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Example of ELP procedure when manufacturing a PdCu membrane on YSZ substrate\relax }}{94}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Total energy as a function of $M\times M\times M$ k-points across a Pd(111) fcc slab\relax }}{91}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematic representation of the sequential baths for sensitisation/activation process.\relax }}{94}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Example of ELP procedure when manufacturing a PdCu membrane on YSZ substrate\relax }}{95}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Experimental set up used during hydrogen permeation and enrichment experiments, TC: Temperature controller, PI: Pressure indicator, V: Valve, TV: Three-way valve, FI: Flow indicator.\relax }}{98}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
 \addvspace {10\p@ }
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces SEM images of fabricated membranes (a) PdCu (fcc) (Sputtering) (b) PdAg (ELP) (c)PdAu (ELP) (d) PdCuZr (Sputtering) (e) PdAgAu (ELP) (f) PdCuAg (ELP) (g) PdCu (bcc) (Sputtering) (h) typical cross section\relax }}{106}% 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Permeability data for pure hydrogen, non-sulphur, and sulphur permeation tests\relax }}{111}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces SEM images of fabricated membranes (a) PdCu (fcc) (Sputtering) (b) PdAg (ELP) (c)PdAu (ELP) (d) PdCuZr (Sputtering) (e) PdAgAu (ELP) (f) PdCuAg (ELP) (g) PdCu (bcc) (Sputtering) (h) typical cross section\relax }}{108}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Permeability data for pure hydrogen, non-sulphur, and sulphur permeation tests\relax }}{113}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
 \addvspace {10\p@ }

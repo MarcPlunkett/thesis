@@ -1,11 +1,31 @@
 \chapter{Experimental methods}
 
-\section{Simulations}
-Density functional theory calculations were performed using the Quantum Espresso (QE) ab initio simulation package using the generalized gradient approximation with the PW91 functional to describe electron-correlation effects. Ion-electron interactions were described using ultra-soft pseudopotentials. A plane-wave expansion with a cut-off of 233.73 eV was used in all calculations. Geometry relaxations were performed with a conjugate gradient method until the forces on all unconstrained atoms were less than 0.03 eV/A. A Monkhorst Pack mesh with 4x4x4 k-points was used for all calculations.
+\section{Density functional theory} \label{DFTparams}
+All DFT calculations were performed using the Quantum Espresso (QE) ab initio simulation package using the generalized gradient approximation with the PW91 functional to describe electron-correlation effects. Ion-electron interactions were described using ultra-soft pseudopotentials. A plane-wave expansion with a cut-off energy of 233.73 eV was used in all calculations. Geometry relaxations were performed with a conjugate gradient method until the forces on all unconstrained atoms were less than 0.03 eV/A. A Monkhorst Pack mesh with 5x5x5 k-points was used for all calculations as this was determined to be adequate for achieveing convergence from literature and backed up by initial testing on a Pd system as shown in figure \ref{kpoints}.
 
-The supercell used contained 20 metal atoms and one gaseous molecule located on one of four available sites on the metal lattice. It was assumed that all palladium systems adopt the substitutional; random fcc structure. Metal atoms were randomly distributed among the fcc lattice in the supercell. All atoms were allowed to relax during the calculation, with the volume of the super cell fixed at the optimised volume of the super cell without adsorbed molecules. 
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth, height=0.45\textheight,keepaspectratio]{/Users/marc/Thesis/Experimental/kpoints.jpg}
+  \caption{Total energy as a function of $M\times M\times M$ k-points across a Pd(111) fcc slab}
+  \label{kpoints}
+\end{figure}
 
-Geometry optimization was performed to get the lattice constant and total energy of each alloy prior to adsorption of gaseous molecules. Python with scikit learn, pandas, numpy packages were used for scripting, data collection and analysis.
+Python with scikit learn, pandas, numpy, and matplotlib packages were used for scripting, data collection and analysis. Sample files can be found in Appendix 3. 
+
+\subsection{ISO 14687-2 Impurities and Hydrogen} \label{gassim}
+ISO 14687-2 impurities were simulated using the above parameters and their structure relaxed until convergence was achieved. The resulting structure was then cross checked using bond lengths from literature to ensure the resulting molecule was an accurate representation. 
+
+\subsection{Palladium and Palladium alloy slab models}\label{slabsim}
+The structure of bulk palladium was first created using a lattice parameter of 3.859 as reported by D. Wheeler [ref]. Initially the pure palladium slab model used to represent the periodic supercell was created using this palladium primative unit cell cleaved using the miller indices $(h,k,l) = (111)$ which is adequate in describing the surface of a palladium membrane. A $2\times 2$ slab was created in order to ensure minimal in-plane interactions between neighbouring molecules adsorbed onto the surface in the periodic simulations. The slab was extended to 5 atom thickness which is adequate to describe the surface of Pd(111) and a 20\si{\angstrom} vaccum layer was placed on top. The resulting supercell consisted of 20 atoms. 
+
+When creating palladium alloy systems it was assumed that alloys adopt a substitutional, random fcc structure. Metal atoms were randomly distributed among the fcc lattice in the supercell. All atoms were allowed to relax during the calculation, with the volume of the super cell fixed. 
+
+Quantum ATK Virtual NanoLab Builder was used to generate these structures and export to QE input files. Each metal composition was simulated with three random distributions of substituted metal. For each alloy, geometry optimization was performed to get the lattice constant and total energy of each alloy prior to adsorption of gaseous molecules.
+
+\subsubsection{Adsorption energy}
+In order to find the adsorption energy of each ISO 14687-2 impurity on the membrane surfaces the molecules simulated in section \ref{gassim} were inserted into the vaccum region of the slab models generated in section \ref{slabsim}. (111) fcc surfaces have 4 avaliable sites for adsorption shown in figure \ref{lit-fccsites} A separate system was created for adsorption of each impurity onto each of these sites. Initially the adsorbed molecule was simulated using a ridgid constraint to prevent any changes to the impurities molecular structure, and a low cutoff energy in order to get a quick starting point for the basis of the full simulation. Final goemetry relaxation was then performed from this using the parameters described in section \ref{DFTparams}
+
+The adsorption energy, $E_{i_{ads}}$, for the adsorption of a gaseous impurity on the surface is then calculated using equation \ref{lit-adseqn} where $i$ is the target ISO 14687-2 impurity or hydrogen molecule.
 
 \section{Membrane manufacture}
 
@@ -13,24 +33,13 @@ Geometry optimization was performed to get the lattice constant and total energy
 \subsection{Support fabritcation}
 The YSZ 3\% hollow fibre substrates with a desired micro-structure were fabricated by a fingering induced phase-inversion process, followed by high temperature sintering. A uniform ceramic suspension, with 60 wt.\% solid loading YSZ 3\% powder (1μm, VWR), was prepared by ball milling. After degassing, the ceramic suspension was transferred into 200 mL stainless steel syringes and extruded through a tube-in-orifice spinneret (outer diameter 3 mm, inner diameter 1.2 mm) into a coagulation bath with no air gap. An extrusion rate of 7 and 5 mL min\textsuperscript{-1} was adopted for ceramic suspension and bore fluid (15 wt.\% 1,4- dioxane in n-hexane) respectively. The formed precursor fibres were kept in deionized water for a minimum of 12 h, in order to remove the excess solvent. After being gently washed with deionized water, the precursor fibres were dried at room temperature and sintered at 1400\textdegree C in a tubular furnace (Elite, Model TSH 17/75/450).
 
-
-\begin{figure}
-    \includegraphics[width=\linewidth]{figures/hollowfibresintering.png}
-    \caption{Schematic representation of the fabrication process of SZ hollow fibre.}
-    \label{sintering}
-  \end{figure}
-  
 \subsection{Membrane deposition}
 \subsubsection{Electoless Plating}
-Palladium silver, copper, gold, and ternary alloy compositions (expect for PdCuZr) were deposited onto the surface of the porous YSZ substrate through electroless plating. The process was performed in two steps; the first involves ‘activating’ the surface of the material intended for deposition by seeding the surface with particles of a metal with a 
-higher electro positivity than the metal intended to be plated. Palladium was used due to its high electro positivity compared to other metals commonly plated through electroless deposition. This activation step is required for non-conductive supports such as ceramics and glass but is usually not required for conductive supports depending on the specific support material and intended plating layer. The ‘activation’ step is followed by the ‘plating’ step where a solution containing a metallic salt complexing agent, and stabilising agent is reduced through the use of a reducing agent, causing solid metal to be displaced from the 
-solution, and due to the catalytic activity of the seeds placed in the prior step, forming a dense metal layer on the intended surface. 
-
-Electroless plating results in a strongly adhered, dense metallic layer which can be deposited easily on a large range of morphologies.
+Palladium silver, copper, gold, and ternary alloy compositions (expect for PdCuZr) were deposited onto the surface of the porous YSZ substrate through electroless plating. The process was performed in the two step activation-plating process discussed in section \ref{lit-ELPREV}. Palladium was used due to its high electro positivity compared to other metals commonly plated through electroless deposition. 
 
 Prior to deposition, the outer surface of the fibre was cleaned by sequential washings with a 1:1 mixture of ethanol and water for 10 min in an ultrasonic bath, and were then dried overnight at 120\textdegree C.
 
-Preceding electroless plating, the substrates were coated at one end with a gas tight glaze and sintered at 900\textdegree C for 1 hour. Prior to deposition, the outer surface of the fibre was cleaned by sequential washings with a 1:1 mixture of ethanol and water for 10 min in an ultrasonic bath, and were then dried overnight at 120 °C.
+Preceding electroless plating, the substrates were coated at one end with a gas tight glaze and sintered at 900\textdegree C for 1 hour. The outer surface of the fibres were cleaned by sequential washings with a 1:1 mixture of ethanol and water for 10 min in an ultrasonic bath, and were then dried overnight at 120 \textdegree C.
 
 \begin{table}[]
     \centering
@@ -108,8 +117,8 @@ The surface composition of the membrane was further characterised using X-ray Ph
 Prior to the H\textsubscript{2} permeation tests, the integrity of the hollow fibre membranes was evaluated by testing the gas-tightness of the membrane under N\textsubscript{2} atmosphere, up to 10 bar and room temperature and using a gas-tightness apparatus developed in house. \cite{GouveiaGil2015}
 
 \section{Membrane testing}
-\subsection{Preparation of gas standards}
-Gas standards of hydrogen were prepared gravimetrically in 10 litre cylinders (BOC, UK) in accordance with ISO 6142-1 from pure hydrogen (Air Products, UK), nitrogen (Air Products), carbon monoxide (Scott Speciality Gases, UK), methane (CK Gases, UK) and krypton (BOC, UK). Any impurities that were detected in these pure gases were quantified and these values were then incorporated into the final determination of the gas mixture compositions and uncertainties. For the purpose of this paper the gas standards that were used to perform the permeation tests will be referred to as gas mixtures, and the gas standards that were used to calibrate the analytical instruments will be referred to as calibration gas standards. Before use, the gas mixtures were verified against traceable primary reference materials using Gas Chromatography with either a pulsed helium discharge ionisation detector (PDHID) for samples not containing sulphur, and sulphur chemiluminescence detector (SCD) for sulphur containing samples. The compisitions of the non-sulphur, and sulphur contining gas standards created for the purposes of this thesis are shown in tables \ref{nonsulf} and \ref{sulf}
+\subsection{Preparation of gas standards} \label{gasprep}
+Gas standards of hydrogen were prepared gravimetrically in 10 litre cylinders (BOC, UK) in accordance with ISO 6142-1 from pure hydrogen (Air Products, UK), nitrogen (Air Products), carbon monoxide (Scott Speciality Gases, UK), methane (CK Gases, UK) and krypton (BOC, UK). Any impurities that were detected in these pure gases were quantified and these values were then incorporated into the final determination of the gas mixture compositions and uncertainties. For the purpose of this thesis the gas standards that were used to perform the permeation tests will be referred to as gas mixtures, and the gas standards that were used to calibrate the analytical instruments will be referred to as calibration gas standards. Before use, the gas mixtures were verified against traceable primary reference materials using Gas Chromatography with either a pulsed helium discharge ionisation detector (PDHID) for samples not containing sulphur, and sulphur chemiluminescence detector (SCD) for sulphur containing samples. The compisitions of the non-sulphur, and sulphur contining gas standards created for the purposes of this thesis are shown in tables \ref{nonsulf} and \ref{sulf}
 
 \begin{table}[]
     \centering
@@ -135,27 +144,47 @@ Gas standards of hydrogen were prepared gravimetrically in 10 litre cylinders (B
         \toprule
         Impurity & \begin{tabular}[c]{@{}c@{}}Concentration \\ (umol/mol)\end{tabular} \\ \midrule
         Kr       & 1.1                                                                 \\
-        H2S      & 0.41                                                                \\
+        H\textsubscript{2}S      & 0.41                                                                \\
         OCS      & 0.42                                                                \\
-        CS2      & 0.362                                                               \\
+        CS\textsubscript{2}      & 0.362                                                               \\
         t-BuSH   & 0.391                                                               \\
         THT      & 0.409                                                               \\
-        H2       & Balance                                                             \\ \bottomrule
+        H\textsubscript{2}       & Balance                                                             \\ \bottomrule
         \end{tabular}
         \end{table}
 
 \subsection{Membrane testing rig}
-After the membranes were ensured to be gas tight, hydrogen permeation measurements were performed using the experimental apparatus shown in Figure 1. The palladium alloy composite hollow fibre membranes were sealed on to a stainless steel ¼” NPT fitting. The membrane was then placed in a Sulfinert®-treated sample vessel (Thames Restek, UK) with nominal volume of 300 cm\textsuperscript{3}. The vessel was then heated using heavy insulated heating tape (OMEGA STH051-020). The heating was controlled using the temperature of the membrane using a PID temperature controller (OMRON). The feed was supplied from a cylinder either containing BIP+ hydrogen (Air Products) for pure hydrogen permeability tests or one of two gravimetrically prepared gas mixtures for impurity testing shown in tables \ref{nonsulf} and \ref{sulf}. Prior to introducing gas to the membrane the system was evacuated down to 1 x 10\textsuperscript{-6} mbar.
+After the membranes were ensured to be gas tight, hydrogen permeation measurements were performed using the experimental apparatus shown in Figure 1. The palladium alloy composite hollow fibre membranes were sealed on to a stainless steel ¼” NPT fitting. The membrane was then placed in a Sulfinert®-treated sample vessel (Thames Restek, UK) with nominal volume of 300 cm\textsuperscript{3}. The vessel was then heated using heavy insulated heating tape (OMEGA STH051-020). The heating was controlled using the temperature of the membrane using a PID temperature controller (OMRON). The feed was supplied from a cylinder either containing BIP+ hydrogen (Air Products) for pure hydrogen permeability tests or one of two gravimetrically prepared gas mixtures for impurity testing shown in tables \ref{nonsulf} and \ref{sulf}. Prior to introducing gas to the membrane the system was evacuated down to 1 x 10\textsuperscript{-6} mbar. The set-up is shown in figure \ref{testrig}.
 
-The flux and permeability of the membrane were automatically calculated using software developed in house. Each membrane sample was made using the same batch of substrate and cut to the same length prior to deposition. The permeability (P)  of a dense metal membrane is given by Eqn (1) and is a function of the hydrogen flux through the membrane (J), the concentration and pressure gradient across the membrane ($P^{0.5}_{ret}-P^{0.5}_{perm}$), and the thickness of the metallic membrane (l). 
+The flux and permeability of the membrane were automatically calculated using software developed in house. Each membrane sample was made using the same batch of substrate and cut to the same length prior to testing. The permeability (P)  of a dense metal membrane is given by Eqn \label{eq:1} and is a function of the hydrogen flux through the membrane (J), the concentration and pressure gradient across the membrane ($P^{0.5}_{ret}-P^{0.5}_{perm}$), and the thickness of the metallic membrane (l). 
 
 \begin{equation} \label{eq:1}
     P = \frac{J l}{P^{0.5}_{ret}-P^{0.5}_{perm}}
 \end{equation}
 
+\begin{landscape}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\linewidth, keepaspectratio]{/Users/marc/Thesis/Experimental/perm_rig.png}
+  \caption{Experimental set up used during hydrogen permeation and enrichment experiments, TC: Temperature controller, PI: Pressure indicator, V: Valve, TV: Three-way valve,  FI: Flow indicator.}
+  \label{testrig}
+\end{figure}
+
+\end{landscape}
 
 \section{Hydrogen impurity enrichment}
-\subsection{Device design}
+A hydrogen impurity enrichment device was designed and tested, more details on this will be discussed in chapter 6. This section will describe the methodology and testing procedure for the hydrogen impurity enrichment device. 
+
+Hydrogen impurity enrichment tests were performed on synthetic samples created using the procedure described in section \ref{gasprep} and using a sample taken from a hydrogen refuelling station. Regardless of source all samples were tested using a PDHID in order to calculate it's oxygen level for safety reasons. Since only hydrogen can leave the HIED in normal testing conditions, if not checked the concentration of oxygen could rise above a safe level and create an explosive mixture. For the purpose of these tests the enrichment factor was capped at a value that would ensure the oxygen level in the mixture would not surpass 1\%. 
+
+The enrichment factor was calculated using both non-ideal gas law (equation \ref{lit-eq:1}), and tracer enrichment (equation \ref{lit-eq:2}) methods. This was to ensure any leaks in the device could be detected using non-ideal gas law method, while having a low uncertainty on the final value from the tracer enrichment method. Gas composition testing was performed using the same GC procedures discuessed in section \ref{gasprep}
+\subsection{Krypton spiking}
+In order to perform enrichment using the tracer enrichment method a certain quantity of inert gas, not normally present within a hydrogen sample, must be included in the gas. Krypton was used in this study. For synthetic samples this can be added using loop addition along with other impurities using the procedure in section \ref{gasprep}. When taking a sample directly from a hydrogen refuelling station, as would have to be done in real sampling, this approach is not effective as the tracer gas cannot be added to an already pressurised container. The krypton must first be added to the evacuated sampling vessel through loop addition.
+
+Since sampling from a hydrogen refuelling station is dependent on a number of variables, it is difficult to determine the final pressure of the sample. Therefore, a fixed quantity of krypton gas 
+\subsection{Performing enrichment}
+
+
 
 
 \renewcommand{\bibname}{References}
