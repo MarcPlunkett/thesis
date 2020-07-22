@@ -16,10 +16,11 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Compositions used for preparation of palladium based membranes on YSZ substrate through electroless plating and immersion plating\relax }}{93}% 
-\contentsline {table}{\numberline {3.2}{\ignorespaces Conditions used during magnetron sputtering of palladium membranes on YSZ tubular substrate\relax }}{95}% 
-\contentsline {table}{\numberline {3.3}{\ignorespaces Gas mixture composition of the non-sulphur sample used during impurity tests\relax }}{96}% 
-\contentsline {table}{\numberline {3.4}{\ignorespaces Gas mixture composition of the sulphur sample used during impurity tests\relax }}{97}% 
+\contentsline {table}{\numberline {3.1}{\ignorespaces Compositions used for activation of YSZ substrate prior to palladium deposition\relax }}{93}% 
+\contentsline {table}{\numberline {3.2}{\ignorespaces Compositions used for preparation of palladium based membranes on YSZ substrate through electroless plating and immersion plating\relax }}{93}% 
+\contentsline {table}{\numberline {3.3}{\ignorespaces Conditions used during magnetron sputtering of palladium membranes on YSZ tubular substrate\relax }}{95}% 
+\contentsline {table}{\numberline {3.4}{\ignorespaces Gas mixture composition of the non-sulphur sample used during impurity tests\relax }}{96}% 
+\contentsline {table}{\numberline {3.5}{\ignorespaces Gas mixture composition of the sulphur sample used during impurity tests\relax }}{97}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
 \addvspace {10\p@ }
