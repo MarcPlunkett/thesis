@@ -6,23 +6,28 @@ from scipy.interpolate import make_interp_spline, BSpline
 from random import random
 
 df = pd.read_csv(
-    '/Users/MarcPlunkett/thesis/Chapter3/data/Hydrogen_adsorption.csv')
+    '/Users/marc/Thesis/Chapter3/data/Hydrogen_adsorption.csv')
 
 df
 
-data = [2812.672200403207,
- -1558.900711592671,
- -5553.824989750957,
- -6454.519539066461,
- -6654.586,
- -6654.636371363977,
- -6654.592336277526,
- -6654.592254632649,
- -6654.586233523928,
- -6654.595330804439]
+df['adsry'] = df['Adsorption energy(kJ)'] /(2.179872*10**(-21))
 
-spl = make_interp_spline(x, data, k=3)  # type: BSpline
-power_smooth = spl(x_new)
+isPd = df['Metal'] == 'Pd'
+isPdAu10 = df['Metal'] == 'PdAu10'
+isPdAg23 = df['Metal'] == 'PdAg23'
+
+
+PD = df[isPd]
+PDAu10 = df[isPdAu10]
+PdAg23 = df[isPdAg23]
+
+
+PD
+
+PDAu10
+
+# spl = make_interp_spline(x, data, k=3)  # type: BSpline
+# power_smooth = spl(x_new)
 
 
 
@@ -30,14 +35,40 @@ plt.style.use('science')
 
 
 with plt.style.context(['science']):
-    fig, ax = plt.subplots()
-    ax.plot(x_new, power_smooth, color='black')
-    ax.set(xlabel='K-Points')
-    ax.set(ylabel='Total energy (Ry)')
-    fig.suptitle('Total energy for MxMxM k-points', fontsize=10)
+    fig, ax = plt.subplots(figsize=(8,3))
+    ax.plot(PD['Site'], PD['adsry'], label='Pd')
+    ax.plot(PDAu10['Site'], PDAu10['adsry'], label='PdAu10')
+    ax.plot(PdAg23['Site'], PdAg23['adsry'], label='PdAg23')
+    ax.set(xlabel="Adsorption site")
+    ax.set(ylabel="Adsorption energy(kJ)")
+    fig.suptitle('Hydrogen adsorption', fontsize=10)
     ax.autoscale(tight=False)
+    plt.legend()
     fig.show()
-    fig.savefig('kpoints.jpg', dpi=300)
+    # fig.savefig('kpoints.jpg', dpi=300)
+
+
+
+with plt.style.context(['science']):
+    fig, ax = plt.subplots(3, sharex=True, figsize=(8, 11))
+    ax[0].plot(PD['Site'], PD['adsry'], color='black')
+    ax[0].set_title('Pd')
+    ax[0].autoscale(tight=False)
+
+    ax[1].set_title('PdAu10')
+    ax[1].plot(PDAu10['Site'], PDAu10['adsry'], color='black')
+    ax[1].autoscale(tight=False)
+
+    ax[2].set_title('PdAg23')
+    ax[2].plot(PdAg23['Site'], PdAg23['adsry'], color='black')
+    ax[2].autoscale(tight=False)
+
+    fig.suptitle('Hydrogen Adsorption', fontsize=10)
+
+    plt.xlabel("Adsorption site")
+    plt.ylabel("Adsorption energy(kJ)")
+    fig.show()
+    # fig.savefig('kpoints.jpg', dpi=300)
 
 
 # df = pd.read_csv(
