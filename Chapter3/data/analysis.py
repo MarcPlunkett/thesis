@@ -32,6 +32,13 @@ PdAu20 = df[isPdAu20]
 PdZr10 = df[isPdZr10]
 PdZr20 = df[isPdZr20]
 Pd70Au20Ag10 = df[isPd70Au20Ag10]
+Pd70Au20Cu10 = df[ df['Metal'] == 'Pd70Au20Cu10']
+Pd70Au20Zr10 = df[ df['Metal'] == 'Pd70Au20Zr10']
+Pd70Cu20Ag10 = df[ df['Metal'] == 'Pd70Cu20Ag10']
+Pd70Au20Zr10 = df[ df['Metal'] == 'Pd70Au20Zr10']
+Pd70Cu20Zr10 = df[ df['Metal'] == 'Pd70Cu20Zr10']
+Pd70Zr20Ag10 = df[ df['Metal'] == 'Pd70Zr20Ag10']
+
 
 
 
@@ -57,17 +64,38 @@ with plt.style.context(['science']):
     ax.plot(Pd60Cu40['Site'], Pd60Cu40['adsry'], label='Pd60Cu40', linewidth=2)
     ax.plot(PdZr10['Site'], PdZr10['adsry'], label='PdZr10', linewidth=2)
     ax.plot(PdZr20['Site'], PdZr20['adsry'], label='PdZr20', linewidth=2)
-    ax.plot(Pd70Au20Ag10['Site'], Pd70Au20Ag10['adsry'], label='Pd70Au20Ag10', linewidth=2)
-
 
     ax.set(xlabel="Adsorption site")
     ax.set(ylabel="Adsorption energy (Ry)")
-    fig.suptitle('Hydrogen adsorption', fontsize=10)
+    fig.suptitle('Hydrogen adsorption (Binary)', fontsize=10)
     ax.autoscale(tight=False)
     plt.legend(bbox_to_anchor=(1, 1),
     bbox_transform=plt.gcf().transFigure)
     fig.show()
     fig.savefig('h2.jpg', dpi=300)
+
+with plt.style.context(['science']):
+    fig, ax = plt.subplots(figsize=(8,3))
+    ax.plot(PD['Site'], PD['adsry'], label='Pd', linewidth=2)
+    
+    ax.plot(Pd70Au20Ag10['Site'], Pd70Au20Ag10['adsry'], label='Pd70Au20Ag10', linewidth=2)
+    ax.plot(Pd70Au20Cu10['Site'], Pd70Au20Cu10['adsry'], label='Pd70Au20Cu10', linewidth=2)
+    ax.plot(Pd70Au20Zr10['Site'], Pd70Au20Zr10['adsry'], label='Pd70Au20Zr10', linewidth=2)
+    ax.plot(Pd70Cu20Ag10['Site'], Pd70Cu20Ag10['adsry'], label='Pd70Cu20Ag10', linewidth=2)
+    ax.plot(Pd70Au20Zr10['Site'], Pd70Au20Zr10['adsry'], label='Pd70Au20Zr10', linewidth=2)
+    ax.plot(Pd70Cu20Zr10['Site'], Pd70Cu20Zr10['adsry'], label='Pd70Cu20Zr10', linewidth=2)
+    ax.plot(Pd70Zr20Ag10['Site'], Pd70Zr20Ag10['adsry'], label='Pd70Zr20Ag10', linewidth=2)
+
+    ax.set(xlabel="Adsorption site")
+    ax.set(ylabel="Adsorption energy (Ry)")
+    fig.suptitle('Hydrogen adsorption (Ternary)', fontsize=10)
+    ax.autoscale(tight=False)
+    plt.legend(bbox_to_anchor=(1, 1),
+    bbox_transform=plt.gcf().transFigure)
+    fig.show()
+    fig.savefig('h2.jpg', dpi=300)
+
+
 
 # DN34
 # B543
