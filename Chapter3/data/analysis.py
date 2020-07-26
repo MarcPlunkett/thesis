@@ -257,7 +257,7 @@ def H2S_graphs():
         plt.legend(bbox_to_anchor=(1, 1),
         bbox_transform=plt.gcf().transFigure)
         fig.show()
-        fig.savefig('CO_1.jpg', dpi=300)
+        fig.savefig('h2s_1.jpg', dpi=300)
 
     with plt.style.context(['science']):
         fig, ax = plt.subplots(figsize=(8,8))
@@ -278,7 +278,7 @@ def H2S_graphs():
         plt.legend(bbox_to_anchor=(1, 1),
         bbox_transform=plt.gcf().transFigure)
         fig.show()
-        fig.savefig('CO_2.jpg', dpi=300)
+        fig.savefig('h2s_2.jpg', dpi=300)
 
 H2S_graphs()
 

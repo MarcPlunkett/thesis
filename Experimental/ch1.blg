@@ -5,45 +5,45 @@ The style file: unsrtnat.bst
 Database file #1: library.bib
 Warning--empty year in synopsys
 Warning--empty year in synopsys
-You've used 10 entries,
+You've used 11 entries,
             2481 wiz_defined-function locations,
-            645 strings with 8365 characters,
-and the built_in function-call counts, 6561 in all, are:
-= -- 382
-> -- 726
-< -- 4
-+ -- 254
-- -- 234
-* -- 724
-:= -- 1224
-add.period$ -- 44
-call.type$ -- 10
-change.case$ -- 20
-chr.to.int$ -- 10
-cite$ -- 12
-duplicate$ -- 189
-empty$ -- 382
-format.name$ -- 246
-if$ -- 1240
+            650 strings with 8611 characters,
+and the built_in function-call counts, 6804 in all, are:
+= -- 401
+> -- 733
+< -- 5
++ -- 258
+- -- 236
+* -- 733
+:= -- 1260
+add.period$ -- 46
+call.type$ -- 11
+change.case$ -- 22
+chr.to.int$ -- 11
+cite$ -- 13
+duplicate$ -- 203
+empty$ -- 412
+format.name$ -- 249
+if$ -- 1294
 int.to.chr$ -- 1
-int.to.str$ -- 11
+int.to.str$ -- 12
 missing$ -- 10
-newline$ -- 72
-num.names$ -- 30
-pop$ -- 61
+newline$ -- 76
+num.names$ -- 33
+pop$ -- 74
 preamble$ -- 1
-purify$ -- 10
+purify$ -- 11
 quote$ -- 0
-skip$ -- 103
+skip$ -- 115
 stack$ -- 0
-substring$ -- 271
-swap$ -- 21
+substring$ -- 273
+swap$ -- 23
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 70
+type$ -- 77
 warning$ -- 2
-while$ -- 34
+while$ -- 36
 width$ -- 0
-write$ -- 163
+write$ -- 173
 (There were 2 warnings)
