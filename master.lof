@@ -2,34 +2,39 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Schematic presentation of the thesis structure\relax }}{15}% 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Schematic presentation of the thesis structure\relax }}{16}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematic of a PEMFC cell \cite {Dharmalingam2019}\relax }}{18}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Classification of MEA materials \cite {Mehta2003}\relax }}{19}% 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Schematic of a PEMFC stack \cite {Li2019}\relax }}{19}% 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Simplified block diagram of a typical modern SMR plant. WGS is a water gas shift reactor. CO\textsubscript {2} concentrations are in mol.\%. \cite {Muradov2015}\relax }}{20}% 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Illustration of the five membrane separation mechanisms (i) Poiseuille Flow/Knudsen diffusion, (ii) Molecular Sieving, (iii) Surface diffusion (iV) Capillary condensation (V) Solution diffusion (Vi) Facilitated transport\relax }}{31}% 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Palladium-Hydrogen phase diagram adapted from \cite {Li2008b}\relax }}{38}% 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Metals which can be deposited using electro less plating \cite {Exter2015}\relax }}{61}% 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Total energies (per atom) for bulk Cu calculated as a function of M for calculations using MxMxM kpoints \cite {doi:10.1002/9780470447710.ch4}\relax }}{63}% 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Top view of the high-symmetry adsorption sites fcc, hcp, bridge, and top \cite {Zeng2009}\relax }}{65}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematic of a PEMFC cell \cite {Dharmalingam2019}\relax }}{19}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Classification of MEA materials \cite {Mehta2003}\relax }}{20}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Schematic of a PEMFC stack \cite {Li2019}\relax }}{20}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Simplified block diagram of a typical modern SMR plant. WGS is a water gas shift reactor. CO\textsubscript {2} concentrations are in mol.\%. \cite {Muradov2015}\relax }}{21}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Illustration of the five membrane separation mechanisms (i) Poiseuille Flow/Knudsen diffusion, (ii) Molecular Sieving, (iii) Surface diffusion (iV) Capillary condensation (V) Solution diffusion (Vi) Facilitated transport\relax }}{32}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Palladium-Hydrogen phase diagram adapted from \cite {Li2008b}\relax }}{39}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Metals which can be deposited using electro less plating \cite {Exter2015}\relax }}{62}% 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Total energies (per atom) for bulk Cu calculated as a function of M for calculations using MxMxM kpoints \cite {doi:10.1002/9780470447710.ch4}\relax }}{64}% 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Top view of the high-symmetry adsorption sites fcc, hcp, bridge, and top \cite {Zeng2009}\relax }}{66}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Total energy as a function of $M\times M\times M$ k-points across a Pd(111) fcc slab\relax }}{91}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematic representation of the sequential baths for sensitisation/activation process.\relax }}{94}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Example of ELP procedure when manufacturing a PdCu membrane on YSZ substrate\relax }}{95}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Experimental set up used during hydrogen permeation and enrichment experiments, TC: Temperature controller, PI: Pressure indicator, V: Valve, TV: Three-way valve, FI: Flow indicator.\relax }}{98}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Total energy as a function of $M\times M\times M$ k-points across a Pd(111) fcc slab\relax }}{92}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematic representation of the sequential baths for sensitisation/activation process.\relax }}{95}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Example of ELP procedure when manufacturing a PdCu membrane on YSZ substrate\relax }}{96}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Experimental set up used during hydrogen permeation and enrichment experiments, TC: Temperature controller, PI: Pressure indicator, V: Valve, TV: Three-way valve, FI: Flow indicator.\relax }}{99}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Average adsorption energy of H\textsubscript {2} on the surface of palladium and palladium alloy slabs\relax }}{107}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Average adsorption energy of CO\textsubscript {2} on the surface of palladium and palladium alloy slabs\relax }}{109}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Average adsorption energy of Ar on the surface of palladium and palladium alloy slabs\relax }}{110}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Average adsorption energy of CO on the surface of palladium and palladium alloy slabs\relax }}{112}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Average adsorption energy of H\textsubscript {2}S on the surface of palladium and palladium alloy slabs\relax }}{114}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces SEM images of fabricated membranes (a) PdCu (fcc) (Sputtering) (b) PdAg (ELP) (c)PdAu (ELP) (d) PdCuZr (Sputtering) (e) PdAgAu (ELP) (f) PdCuAg (ELP) (g) PdCu (bcc) (Sputtering) (h) typical cross section\relax }}{110}% 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Permeability data for pure hydrogen, non-sulphur, and sulphur permeation tests\relax }}{115}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces SEM images of fabricated membranes (a) PdCu (fcc) (Sputtering) (b) PdAg (ELP) (c)PdAu (ELP) (d) PdCuZr (Sputtering) (e) PdAgAu (ELP) (f) PdCuAg (ELP) (g) PdCu (bcc) (Sputtering) (h) typical cross section\relax }}{120}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Permeability data for pure hydrogen, non-sulphur, and sulphur permeation tests\relax }}{125}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
 \addvspace {10\p@ }
