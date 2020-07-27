@@ -423,6 +423,164 @@ def Ar_graphs():
 
 Ar_graphs()
 
+def He_graphs():
+
+    df = pd.read_csv(
+        '/Users/marc/Thesis/Chapter3/data/He_adsorption.csv')
+
+    df
+
+    df['adsry'] = df['Adsorption energy(kJ)'] /(2.179872*10**(-21))
+
+    isPd = df['Metal'] == 'Pd'
+    isPdAu10 = df['Metal'] == 'PdAu10'
+    isPdAg23 = df['Metal'] == 'PdAg23'
+    isPd80Cu20 = df['Metal'] == 'Pd80Cu20'
+    isPd60Cu40 = df['Metal'] == 'Pd60Cu40'
+    isPdAu20 = df['Metal'] == 'PdAu20'
+    isPdZr10 = df['Metal'] == 'PdZr10'
+    isPdZr20 = df['Metal'] == 'PdZr20'
+    isPd70Au20Ag10 = df['Metal'] == 'Pd70Au20Ag10'
+
+
+    PD = df[isPd]
+    PDAu10 = df[isPdAu10]
+    PdAg23 = df[isPdAg23]
+    Pd80Cu20 = df[isPd80Cu20]
+    Pd60Cu40 = df[isPd60Cu40]
+    PdAu20 = df[isPdAu20]
+    PdZr10 = df[isPdZr10]
+    PdZr20 = df[isPdZr20]
+    Pd70Au20Ag10 = df[isPd70Au20Ag10]
+    Pd70Au20Cu10 = df[ df['Metal'] == 'Pd70Au20Cu10']
+    Pd70Au20Zr10 = df[ df['Metal'] == 'Pd70Au20Zr10']
+    Pd70Cu20Ag10 = df[ df['Metal'] == 'Pd70Cu20Ag10']
+    Pd70Au20Zr10 = df[ df['Metal'] == 'Pd70Au20Zr10']
+    Pd70Cu20Zr10 = df[ df['Metal'] == 'Pd70Cu20Zr10']
+    Pd70Zr20Ag10 = df[ df['Metal'] == 'Pd70Zr20Ag10']
+
+
+    PD
+
+    PDAu10
+
+    # spl = make_interp_spline(x, data, k=3)  # type: BSpline
+    # power_smooth = spl(x_new)
+
+
+
+    plt.style.use('science')
+
+
+    with plt.style.context(['science']):
+        fig, ax = plt.subplots(figsize=(11,8))
+        ax.bar('Pd', PD['adsry'].mean(),width=1, label='Pd', linewidth=2)
+        ax.bar('PdAu$_{10}$', PDAu10['adsry'].mean(),width=1, label='PdAu$_{10}$', linewidth=1)
+        ax.bar('PdAu$_{20}$', PdAu20['adsry'].mean(),width=1, label='PdAu$_{20}$', linewidth=2)
+        ax.bar('PdAg$_{23}$', PdAg23['adsry'].mean(),width=1, label='PdAg$_{23}$', linewidth=2)
+        ax.bar('Pd$_{80}$Cu$_{20}$', Pd80Cu20['adsry'].mean(),width=1, label='Pd$_{80}$Cu$_{20}$', linewidth=2)
+        ax.bar('Pd$_{60}$Cu$_{40}$', Pd60Cu40['adsry'].mean(),width=1, label='Pd$_{60}$Cu$_{40}$', linewidth=2)
+        ax.bar('PdZr$_{10}$', PdZr10['adsry'].mean(),width=1, label='PdZr$_{10}$', linewidth=2)
+        ax.bar('PdZr$_{20}$', PdZr20['adsry'].mean(),width=1, label='PdZr$_{20}$', linewidth=2)
+        ax.bar('Pd$_{70}$Au$_{20}$Ag$_{10}$', Pd70Au20Ag10['adsry'].mean(),width=1, label='Pd$_{70}$Au$_{20}$Ag$_{10}$', linewidth=2)
+        ax.bar('Pd$_{70}$Au$_{20}$Cu$_{10}$', Pd70Au20Cu10['adsry'].mean(),width=1, label='Pd$_{70}$Au$_{20}$Cu$_{10}$', linewidth=2)
+        ax.bar('Pd$_{70}$Au$_{20}$Zr$_{10}$', Pd70Au20Zr10['adsry'].mean(),width=1, label='Pd$_{70}$Au$_{20}$Zr$_{10}$', linewidth=2)
+        ax.bar('Pd$_{70}$Cu$_{20}$Ag$_{10}$', Pd70Cu20Ag10['adsry'].mean(),width=1, label='Pd$_{70}$Cu$_{20}$Ag$_{10}$', linewidth=2)
+        ax.bar('Pd$_{70}$Au$_{20}$Zr$_{10}$', Pd70Au20Zr10['adsry'].mean(),width=1, label='Pd$_{70}$Au$_{20}$Zr$_{10}$', linewidth=2)
+        ax.bar('Pd$_{70}$Cu$_{20}$Zr$_{10}$', Pd70Cu20Zr10['adsry'].mean(),width=1, label='Pd$_{70}$Cu$_{20}$Zr$_{10}$', linewidth=2)
+        ax.bar('Pd$_{70}$Zr$_{20}$Ag$_{10}$', Pd70Zr20Ag10['adsry'].mean(),width=1, label='Pd$_{70}$Zr$_{20}$Ag$_{10}$', linewidth=2)
+
+
+        ax.set(xlabel="Simulated metal")
+        ax.set(ylabel="Adsorption energy (Ry)")
+        ax.axes.xaxis.set_visible(False)
+        fig.suptitle('He adsorption', fontsize=14)
+        ax.autoscale(tight=False)
+        plt.legend()
+        fig.show()
+        fig.savefig('HEads.jpg', dpi=300)
+
+He_graphs()
+
+def N2_graphs():
+
+    df = pd.read_csv(
+        '/Users/marc/Thesis/Chapter3/data/N2_adsorption.csv')
+
+    df
+
+    df['adsry'] = df['Adsorption energy(kJ)'] /(2.179872*10**(-21))
+
+    isPd = df['Metal'] == 'Pd'
+    isPdAu10 = df['Metal'] == 'PdAu10'
+    isPdAg23 = df['Metal'] == 'PdAg23'
+    isPd80Cu20 = df['Metal'] == 'Pd80Cu20'
+    isPd60Cu40 = df['Metal'] == 'Pd60Cu40'
+    isPdAu20 = df['Metal'] == 'PdAu20'
+    isPdZr10 = df['Metal'] == 'PdZr10'
+    isPdZr20 = df['Metal'] == 'PdZr20'
+    isPd70Au20Ag10 = df['Metal'] == 'Pd70Au20Ag10'
+
+
+    PD = df[isPd]
+    PDAu10 = df[isPdAu10]
+    PdAg23 = df[isPdAg23]
+    Pd80Cu20 = df[isPd80Cu20]
+    Pd60Cu40 = df[isPd60Cu40]
+    PdAu20 = df[isPdAu20]
+    PdZr10 = df[isPdZr10]
+    PdZr20 = df[isPdZr20]
+    Pd70Au20Ag10 = df[isPd70Au20Ag10]
+    Pd70Au20Cu10 = df[ df['Metal'] == 'Pd70Au20Cu10']
+    Pd70Au20Zr10 = df[ df['Metal'] == 'Pd70Au20Zr10']
+    Pd70Cu20Ag10 = df[ df['Metal'] == 'Pd70Cu20Ag10']
+    Pd70Au20Zr10 = df[ df['Metal'] == 'Pd70Au20Zr10']
+    Pd70Cu20Zr10 = df[ df['Metal'] == 'Pd70Cu20Zr10']
+    Pd70Zr20Ag10 = df[ df['Metal'] == 'Pd70Zr20Ag10']
+
+
+    PD
+
+    PDAu10
+
+    # spl = make_interp_spline(x, data, k=3)  # type: BSpline
+    # power_smooth = spl(x_new)
+
+
+
+    plt.style.use('science')
+
+
+    with plt.style.context(['science']):
+        fig, ax = plt.subplots(figsize=(11,8))
+        ax.bar('Pd', PD['adsry'].mean(),width=1, label='Pd', linewidth=2)
+        ax.bar('PdAu$_{10}$', PDAu10['adsry'].mean(),width=1, label='PdAu$_{10}$', linewidth=1)
+        ax.bar('PdAu$_{20}$', PdAu20['adsry'].mean(),width=1, label='PdAu$_{20}$', linewidth=2)
+        ax.bar('PdAg$_{23}$', PdAg23['adsry'].mean(),width=1, label='PdAg$_{23}$', linewidth=2)
+        ax.bar('Pd$_{80}$Cu$_{20}$', Pd80Cu20['adsry'].mean(),width=1, label='Pd$_{80}$Cu$_{20}$', linewidth=2)
+        ax.bar('Pd$_{60}$Cu$_{40}$', Pd60Cu40['adsry'].mean(),width=1, label='Pd$_{60}$Cu$_{40}$', linewidth=2)
+        ax.bar('PdZr$_{10}$', PdZr10['adsry'].mean(),width=1, label='PdZr$_{10}$', linewidth=2)
+        ax.bar('PdZr$_{20}$', PdZr20['adsry'].mean(),width=1, label='PdZr$_{20}$', linewidth=2)
+        ax.bar('Pd$_{70}$Au$_{20}$Ag$_{10}$', Pd70Au20Ag10['adsry'].mean(),width=1, label='Pd$_{70}$Au$_{20}$Ag$_{10}$', linewidth=2)
+        ax.bar('Pd$_{70}$Au$_{20}$Cu$_{10}$', Pd70Au20Cu10['adsry'].mean(),width=1, label='Pd$_{70}$Au$_{20}$Cu$_{10}$', linewidth=2)
+        ax.bar('Pd$_{70}$Au$_{20}$Zr$_{10}$', Pd70Au20Zr10['adsry'].mean(),width=1, label='Pd$_{70}$Au$_{20}$Zr$_{10}$', linewidth=2)
+        ax.bar('Pd$_{70}$Cu$_{20}$Ag$_{10}$', Pd70Cu20Ag10['adsry'].mean(),width=1, label='Pd$_{70}$Cu$_{20}$Ag$_{10}$', linewidth=2)
+        ax.bar('Pd$_{70}$Au$_{20}$Zr$_{10}$', Pd70Au20Zr10['adsry'].mean(),width=1, label='Pd$_{70}$Au$_{20}$Zr$_{10}$', linewidth=2)
+        ax.bar('Pd$_{70}$Cu$_{20}$Zr$_{10}$', Pd70Cu20Zr10['adsry'].mean(),width=1, label='Pd$_{70}$Cu$_{20}$Zr$_{10}$', linewidth=2)
+        ax.bar('Pd$_{70}$Zr$_{20}$Ag$_{10}$', Pd70Zr20Ag10['adsry'].mean(),width=1, label='Pd$_{70}$Zr$_{20}$Ag$_{10}$', linewidth=2)
+
+
+        ax.set(xlabel="Simulated metal")
+        ax.set(ylabel="Adsorption energy (Ry)")
+        ax.axes.xaxis.set_visible(False)
+        fig.suptitle('N2 adsorption', fontsize=14)
+        ax.autoscale(tight=False)
+        plt.legend()
+        fig.show()
+        fig.savefig('N2ads.jpg', dpi=300)
+
+N2_graphs()
+
 # def He_graphs():
 
 #     df = pd.read_csv(
