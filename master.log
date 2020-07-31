@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.27)  29 JUL 2020 23:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.27)  31 JUL 2020 01:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1826,173 +1826,113 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 91.
 
 [109]
-</Users/marc/Thesis/Chapter3/data/h2ads.jpg, id=398, 890.3664pt x 505.4082pt>
+</Users/marc/Thesis/Chapter3/data/h2ads.jpg, id=398, 890.3664pt x 501.5538pt>
 File: /Users/marc/Thesis/Chapter3/data/h2ads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/h2ads.jpg>
-Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/h2ads.jpg  used on input line 111.
-(pdftex.def)             Requested size: 571.97913pt x 324.67862pt.
- [110 </Users/marc/Thesis/Chapter3/data/h2ads.jpg>] [111
-
-
-]
-</Users/marc/Thesis/Chapter3/data/HEads.jpg, id=405, 645.8529pt x 506.8536pt>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/h2ads.jpg  used on input line 108.
+(pdftex.def)             Requested size: 571.97913pt x 322.20253pt.
+ [110 </Users/marc/Thesis/Chapter3/data/h2ads.jpg>]
+</Users/marc/Thesis/Chapter3/data/HEads.jpg, id=402, 645.8529pt x 506.8536pt>
 File: /Users/marc/Thesis/Chapter3/data/HEads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/HEads.jpg>
-Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/HEads.jpg  used on input line 122.
-(pdftex.def)             Requested size: 571.03285pt x 448.13617pt.
-
-
-LaTeX Warning: Float too large for page by 24.5052pt on input line 125.
-
-[112 </Users/marc/Thesis/Chapter3/data/HEads.jpg>]
-</Users/marc/Thesis/Chapter3/data/N2ads.jpg, id=409, 660.7887pt x 506.8536pt>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/HEads.jpg  used on input line 119.
+(pdftex.def)             Requested size: 403.31511pt x 316.51202pt.
+</Users/marc/Thesis/Chapter3/data/N2ads.jpg, id=403, 660.7887pt x 506.8536pt>
 File: /Users/marc/Thesis/Chapter3/data/N2ads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/N2ads.jpg>
-Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/N2ads.jpg  used on input line 132.
-(pdftex.def)             Requested size: 571.97768pt x 438.73169pt.
-
-
-LaTeX Warning: Float too large for page by 15.10072pt on input line 135.
-
-[113 </Users/marc/Thesis/Chapter3/data/N2ads.jpg>]
-</Users/marc/Thesis/Chapter3/data/CO2ads.jpg, id=413, 655.7298pt x 506.8536pt>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/N2ads.jpg  used on input line 127.
+(pdftex.def)             Requested size: 403.31511pt x 309.35812pt.
+</Users/marc/Thesis/Chapter3/data/CO2ads.jpg, id=404, 655.7298pt x 506.8536pt>
 File: /Users/marc/Thesis/Chapter3/data/CO2ads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/CO2ads.jpg>
-Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/CO2ads.jpg  used on input line 143.
-(pdftex.def)             Requested size: 571.98117pt x 442.11916pt.
-
-
-LaTeX Warning: Float too large for page by 18.48819pt on input line 146.
-
-[114 </Users/marc/Thesis/Chapter3/data/CO2ads.jpg>]
-</Users/marc/Thesis/Chapter3/data/ARads.jpg, id=418, 655.7298pt x 506.8536pt>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/CO2ads.jpg  used on input line 134.
+(pdftex.def)             Requested size: 403.31511pt x 311.74791pt.
+</Users/marc/Thesis/Chapter3/data/ARads.jpg, id=405, 655.7298pt x 506.8536pt>
 File: /Users/marc/Thesis/Chapter3/data/ARads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/ARads.jpg>
-Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/ARads.jpg  used on input line 153.
-(pdftex.def)             Requested size: 571.98117pt x 442.11916pt.
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/ARads.jpg  used on input line 141.
+(pdftex.def)             Requested size: 403.31511pt x 311.74791pt.
+ [111
 
 
-LaTeX Warning: Float too large for page by 18.48819pt on input line 156.
-
-[115 </Users/marc/Thesis/Chapter3/data/ARads.jpg>] [116
-
-
-
-
-
-
-
-
-]
-</Users/marc/Thesis/Chapter3/data/COads.jpg, id=425, 661.2705pt x 501.5538pt>
+] [112 </Users/marc/Thesis/Chapter3/data/HEads.jpg>] [113 </Users/marc/Thesis/Chapter3/data/N2ads.jpg>] [114 </Users/marc/Thesis/Chapter3/data/CO2ads.jpg>] [115 </Users/marc/Thesis/Chapter3/data/ARads.jpg>]
+</Users/marc/Thesis/Chapter3/data/COSites.jpg, id=422, 386.1627pt x 341.3553pt>
+File: /Users/marc/Thesis/Chapter3/data/COSites.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter3/data/COSites.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/COSites.jpg  used on input line 159.
+(pdftex.def)             Requested size: 386.16176pt x 341.35445pt.
+ [116 </Users/marc/Thesis/Chapter3/data/COSites.jpg>]
+</Users/marc/Thesis/Chapter3/data/COads.jpg, id=426, 885.3075pt x 501.5538pt>
 File: /Users/marc/Thesis/Chapter3/data/COads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/COads.jpg>
-Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/COads.jpg  used on input line 164.
-(pdftex.def)             Requested size: 571.96085pt x 433.81512pt.
-
-
-LaTeX Warning: Float too large for page by 10.18416pt on input line 167.
-
-[117 </Users/marc/Thesis/Chapter3/data/COads.jpg>] [118
-
-
-]
-</Users/marc/Thesis/Chapter3/data/NH3ads.jpg, id=432, 658.6206pt x 506.8536pt>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/COads.jpg  used on input line 168.
+(pdftex.def)             Requested size: 571.97131pt x 324.03926pt.
+ [117 </Users/marc/Thesis/Chapter3/data/COads.jpg>]
+</Users/marc/Thesis/Chapter3/data/NH3ads.jpg, id=430, 882.6576pt x 506.8536pt>
 File: /Users/marc/Thesis/Chapter3/data/NH3ads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/NH3ads.jpg>
-Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/NH3ads.jpg  used on input line 174.
-(pdftex.def)             Requested size: 571.99033pt x 440.18567pt.
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/NH3ads.jpg  used on input line 179.
+(pdftex.def)             Requested size: 403.3203pt x 231.60095pt.
+ [118
 
 
-LaTeX Warning: Float too large for page by 16.5547pt on input line 177.
-
-[119 </Users/marc/Thesis/Chapter3/data/NH3ads.jpg>] [120
-
-
-]
-</Users/marc/Thesis/Chapter3/data/O2ads.jpg, id=440, 653.5617pt x 501.5538pt>
+ </Users/marc/Thesis/Chapter3/data/NH3ads.jpg>] [119]
+</Users/marc/Thesis/Chapter3/data/O2ads.jpg, id=437, 877.5987pt x 501.5538pt>
 File: /Users/marc/Thesis/Chapter3/data/O2ads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/O2ads.jpg>
-Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/O2ads.jpg  used on input line 185.
-(pdftex.def)             Requested size: 571.99472pt x 438.958pt.
-
-
-LaTeX Warning: Float too large for page by 15.32703pt on input line 188.
-
-[121 </Users/marc/Thesis/Chapter3/data/O2ads.jpg>] [122
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/O2ads.jpg  used on input line 189.
+(pdftex.def)             Requested size: 571.95898pt x 326.87856pt.
+ [120 </Users/marc/Thesis/Chapter3/data/O2ads.jpg>] [121
 
 
 ]
-</Users/marc/Thesis/Chapter3/data/H2Oads.jpg, id=447, 653.5617pt x 501.5538pt>
+</Users/marc/Thesis/Chapter3/data/H2Oads.jpg, id=445, 877.5987pt x 501.5538pt>
 File: /Users/marc/Thesis/Chapter3/data/H2Oads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/H2Oads.jpg>
-Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/H2Oads.jpg  used on input line 197.
-(pdftex.def)             Requested size: 571.99472pt x 438.958pt.
-
-
-LaTeX Warning: Float too large for page by 15.32703pt on input line 200.
-
-[123 </Users/marc/Thesis/Chapter3/data/H2Oads.jpg>] [124
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/H2Oads.jpg  used on input line 201.
+(pdftex.def)             Requested size: 571.95898pt x 326.87856pt.
+ [122 </Users/marc/Thesis/Chapter3/data/H2Oads.jpg>] [123
 
 
 ]
-</Users/marc/Thesis/Chapter3/data/FAads.jpg, id=454, 658.6206pt x 501.5538pt>
-File: /Users/marc/Thesis/Chapter3/data/FAads.jpg Graphic file (type jpg)
-<use /Users/marc/Thesis/Chapter3/data/FAads.jpg>
-Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/FAads.jpg  used on input line 207.
-(pdftex.def)             Requested size: 571.99033pt x 435.58298pt.
-
-
-LaTeX Warning: Float too large for page by 11.95201pt on input line 210.
-
-[125 </Users/marc/Thesis/Chapter3/data/FAads.jpg>] [126
+</Users/marc/Thesis/Chapter3/data/CH4ads.jpg, id=452, 877.5987pt x 501.5538pt>
+File: /Users/marc/Thesis/Chapter3/data/CH4ads.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter3/data/CH4ads.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/CH4ads.jpg  used on input line 211.
+(pdftex.def)             Requested size: 571.95898pt x 326.87856pt.
+ [124 </Users/marc/Thesis/Chapter3/data/CH4ads.jpg>] [125
 
 
 ]
-</Users/marc/Thesis/Chapter3/data/Formaldehydeads.jpg, id=462, 653.5617pt x 501.5538pt>
+</Users/marc/Thesis/Chapter3/data/Formaldehydeads.jpg, id=459, 877.5987pt x 501.5538pt>
 File: /Users/marc/Thesis/Chapter3/data/Formaldehydeads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/Formaldehydeads.jpg>
-Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/Formaldehydeads.jpg  used on input line 217.
-(pdftex.def)             Requested size: 571.99472pt x 438.958pt.
-
-
-LaTeX Warning: Float too large for page by 15.32703pt on input line 220.
-
-[127 </Users/marc/Thesis/Chapter3/data/Formaldehydeads.jpg>] [128
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/Formaldehydeads.jpg  used on input line 221.
+(pdftex.def)             Requested size: 571.95898pt x 326.87856pt.
+ [126 </Users/marc/Thesis/Chapter3/data/Formaldehydeads.jpg>] [127
 
 
 ]
+</Users/marc/Thesis/Chapter3/data/FAads.jpg, id=467, 882.6576pt x 501.5538pt>
 File: /Users/marc/Thesis/Chapter3/data/FAads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/FAads.jpg>
-Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/FAads.jpg  used on input line 229.
-(pdftex.def)             Requested size: 571.99033pt x 435.58298pt.
-
-
-LaTeX Warning: Float too large for page by 11.95201pt on input line 232.
-
-[129] [130
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/FAads.jpg  used on input line 233.
+(pdftex.def)             Requested size: 571.95628pt x 325.00356pt.
+ [128 </Users/marc/Thesis/Chapter3/data/FAads.jpg>] [129
 
 
 ]
-</Users/marc/Thesis/Chapter3/data/H2Sads.jpg, id=475, 666.3294pt x 501.5538pt>
+</Users/marc/Thesis/Chapter3/data/H2Sads.jpg, id=474, 885.3075pt x 501.5538pt>
 File: /Users/marc/Thesis/Chapter3/data/H2Sads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/H2Sads.jpg>
-Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/H2Sads.jpg  used on input line 240.
-(pdftex.def)             Requested size: 571.95438pt x 430.51663pt.
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/H2Sads.jpg  used on input line 244.
+(pdftex.def)             Requested size: 571.97131pt x 324.03926pt.
+ [130 </Users/marc/Thesis/Chapter3/data/H2Sads.jpg>] (/Users/marc/Thesis/Chapter3/ch3.bbl [131
 
 
-LaTeX Warning: Float too large for page by 6.88567pt on input line 243.
+] [132
 
-[131 </Users/marc/Thesis/Chapter3/data/H2Sads.jpg>] (/Users/marc/Thesis/Chapter3/ch3.bbl [132
-
-
-]
-
-Package natbib Warning: Empty `thebibliography' environment on input line 8.
-
-)) [133
-
-]
+])) [133]
 \openout2 = `Chapter4/ch4.aux'.
 
  (/Users/marc/Thesis/Chapter4/ch4.tex
@@ -2003,7 +1943,7 @@ Chapter 5.
 
 
 ] [135]
-<figures/Semxsect.png, id=492, 2810.5pt x 4474.7175pt>
+<figures/Semxsect.png, id=494, 2810.5pt x 4474.7175pt>
 File: figures/Semxsect.png Graphic file (type png)
 <use figures/Semxsect.png>
 Package pdftex.def Info: figures/Semxsect.png  used on input line 24.
@@ -2028,7 +1968,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 109.
 
 [140]
-<figures/permeabilitychart.png, id=510, 1482.53876pt x 707.64375pt>
+<figures/permeabilitychart.png, id=512, 1482.53876pt x 707.64375pt>
 File: figures/permeabilitychart.png Graphic file (type png)
 <use figures/permeabilitychart.png>
 Package pdftex.def Info: figures/permeabilitychart.png  used on input line 136.
@@ -2061,18 +2001,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21031 strings out of 492609
- 409040 string characters out of 6129048
- 482611 words of memory out of 5000000
- 24593 multiletter control sequences out of 15000+600000
+ 21069 strings out of 492609
+ 410243 string characters out of 6129048
+ 483290 words of memory out of 5000000
+ 24629 multiletter control sequences out of 15000+600000
  601922 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,19n,100p,2448b,747s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /Users/marc/Thesis/master.pdf (147 pages, 14268680 bytes).
+Output written on /Users/marc/Thesis/master.pdf (147 pages, 17441765 bytes).
 PDF statistics:
- 592 PDF objects out of 1000 (max. 8388607)
+ 594 PDF objects out of 1000 (max. 8388607)
  380 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
