@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{16}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -12,6 +12,82 @@ G.~T. Kasun~Kalhara Gunasooriya and Mark Saeys.
 \newblock \emph{ACS Catalysis}, 8\penalty0 (11):\penalty0 10225--10233, 2018.
 \newblock \doi{10.1021/acscatal.8b02371}.
 \newblock URL \url{https://doi.org/10.1021/acscatal.8b02371}.
+
+\bibitem[Xu et~al.(2016)Xu, Kim, Li, Grace, {Jim Lim}, and Boyd]{Xu2016a}
+Nong Xu, Sung~Su Kim, Anwu Li, John~R Grace, C~{Jim Lim}, and Tony Boyd.
+\newblock {Investigation of the influence of tar-containing syngas from biomass
+  gasification on dense Pd and Pd–Ru membranes}.
+\newblock \emph{Powder Technology}, 290:\penalty0 132--140, 2016.
+\newblock \doi{10.1016/j.powtec.2015.08.037}.
+
+\bibitem[Qin and Jiang(2012)]{Qin2012}
+Lin Qin and Chao Jiang.
+\newblock {First-principles based modeling of hydrogen permeation through Pd-Cu
+  alloys}.
+\newblock \emph{International Journal of Hydrogen Energy}, 37\penalty0
+  (17):\penalty0 12760--12764, 2012.
+\newblock ISSN 03603199.
+\newblock \doi{10.1016/j.ijhydene.2012.06.029}.
+
+\bibitem[Oda et~al.(1996)Oda, Ogasawara, and Ito]{doi:10.1021/la950167j}
+Ichiro Oda, Hirohito Ogasawara, and Masatoki Ito.
+\newblock Carbon monoxide adsorption on copper and silver electrodes during
+  carbon dioxide electroreduction studied by infrared reflection absorption
+  spectroscopy and surface-enhanced raman spectroscopy.
+\newblock \emph{Langmuir}, 12\penalty0 (4):\penalty0 1094--1097, 1996.
+\newblock \doi{10.1021/la950167j}.
+\newblock URL \url{https://doi.org/10.1021/la950167j}.
+
+\bibitem[Shaikhutdinov et~al.(2003)Shaikhutdinov, Meyer, Naschitzki, Baumer,
+  and Freund]{shaikhutdinov_meyer_naschitzki_baumer_freund_2003}
+Sh.k. Shaikhutdinov, R.~Meyer, M.~Naschitzki, M.~Baumer, and H.-J. Freund.
+\newblock Size and support effects for co adsorption on gold model catalysts.
+\newblock \emph{Catalysis Letters}, 86\penalty0 (4):\penalty0 211–219, Mar
+  2003.
+\newblock \doi{10.1023/a:1022616102162}.
+
+\bibitem[ROUHI(2004)]{doi:10.1021/cen-v082n016.p036}
+A.~MAUREEN ROUHI.
+\newblock Organozirconium chemistry arrives.
+\newblock \emph{Chemical \& Engineering News Archive}, 82\penalty0
+  (16):\penalty0 36--39, 2004.
+\newblock \doi{10.1021/cen-v082n016.p036}.
+\newblock URL \url{https://doi.org/10.1021/cen-v082n016.p036}.
+
+\bibitem[Malpass(2010)]{doi:10.1002/9780470504437.ch1}
+Dennis~B. Malpass.
+\newblock \emph{Commercially Available Metal Alkyls and Their Use in Polyolefin
+  Catalysts}, chapter~1, pages 1--28.
+\newblock 2010.
+\newblock ISBN 9780470504437.
+\newblock \doi{10.1002/9780470504437.ch1}.
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/9780470504437.ch1}.
+
+\bibitem[She et~al.(2014)She, Emerson, Magdefrau, Opalka, Thibaud-Erkey, and
+  Vanderspurt]{She2014}
+Ying She, Sean~C Emerson, Neal~J Magdefrau, Susanne~M Opalka, Catherine
+  Thibaud-Erkey, and Thomas~H Vanderspurt.
+\newblock {Hydrogen permeability of sulfur tolerant Pd–Cu alloy membranes}.
+\newblock \emph{Journal of Membrane Science}, 452:\penalty0 203--211, 2014.
+\newblock \doi{10.1016/j.memsci.2013.09.025}.
+
+\bibitem[Yeo et~al.(2013)Yeo, Han, and Lee]{C3CP44367A}
+Sang~Chul Yeo, Sang~Soo Han, and Hyuck~Mo Lee.
+\newblock Adsorption{,} dissociation{,} penetration{,} and diffusion of n2 on
+  and in bcc fe: first-principles calculations.
+\newblock \emph{Phys. Chem. Chem. Phys.}, 15:\penalty0 5186--5192, 2013.
+\newblock \doi{10.1039/C3CP44367A}.
+\newblock URL \url{http://dx.doi.org/10.1039/C3CP44367A}.
+
+\bibitem[Lundin et~al.(2016)Lundin, Yamaguchi, Wolden, Oyama, and
+  Way]{Lundin2016}
+Sean-Thomas~B Lundin, Taichiro Yamaguchi, Colin~A Wolden, S~Ted Oyama, and
+  J~Douglas Way.
+\newblock {The role (or lack thereof) of nitrogen or ammonia adsorption-induced
+  hydrogen flux inhibition on palladium membrane performance}.
+\newblock \emph{Journal of Membrane Science}, 514:\penalty0 65--72, 2016.
+\newblock \doi{10.1016/j.memsci.2016.04.048}.
 
 \bibitem[Herron et~al.(2012)Herron, Tonelli, and Mavrikakis]{HERRON20121670}
 Jeffrey~A. Herron, Scott Tonelli, and Manos Mavrikakis.
@@ -31,80 +107,43 @@ Hui Li, Hengyong Xu, and Wenzhao Li.
   44--49, 2008.
 \newblock \doi{10.1016/j.memsci.2008.06.053}.
 
-\bibitem[Lundin et~al.(2016)Lundin, Yamaguchi, Wolden, Oyama, and
-  Way]{Lundin2016}
-Sean-Thomas~B Lundin, Taichiro Yamaguchi, Colin~A Wolden, S~Ted Oyama, and
-  J~Douglas Way.
-\newblock {The role (or lack thereof) of nitrogen or ammonia adsorption-induced
-  hydrogen flux inhibition on palladium membrane performance}.
-\newblock \emph{Journal of Membrane Science}, 514:\penalty0 65--72, 2016.
-\newblock \doi{10.1016/j.memsci.2016.04.048}.
+\bibitem[Roques et~al.(2009)Roques, Veilly, and Simoni]{Roques2009}
+Jerome Roques, Edouard Veilly, and Eric Simoni.
+\newblock Periodic density functional theory investigation of the uranyl ion
+  sorption on three mineral surfaces: A comparative study.
+\newblock \emph{International journal of molecular sciences}, 10:\penalty0
+  2633--61, 07 2009.
+\newblock \doi{10.3390/ijms10062633}.
 
-\bibitem[Malpass(2010)]{doi:10.1002/9780470504437.ch1}
-Dennis~B. Malpass.
-\newblock \emph{Commercially Available Metal Alkyls and Their Use in Polyolefin
-  Catalysts}, chapter~1, pages 1--28.
-\newblock 2010.
-\newblock ISBN 9780470504437.
-\newblock \doi{10.1002/9780470504437.ch1}.
+\bibitem[Meng et~al.(2004)Meng, Wang, and Gao]{PhysRevB.69.195404}
+Sheng Meng, E.~G. Wang, and Shiwu Gao.
+\newblock Water adsorption on metal surfaces: A general picture from density
+  functional theory studies.
+\newblock \emph{Phys. Rev. B}, 69:\penalty0 195404, May 2004.
+\newblock \doi{10.1103/PhysRevB.69.195404}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevB.69.195404}.
+
+\bibitem[Chen and Selloni(2012)]{doi:10.1021/jz300994e}
+Jia Chen and Annabella Selloni.
+\newblock Water adsorption and oxidation at the co3o4 (110) surface.
+\newblock \emph{The Journal of Physical Chemistry Letters}, 3\penalty0
+  (19):\penalty0 2808--2814, 2012.
+\newblock \doi{10.1021/jz300994e}.
+\newblock URL \url{https://doi.org/10.1021/jz300994e}.
+
+\bibitem[Bacquart et~al.(2020)Bacquart, Moore, Hart, Morris, Aarhaug, Kjos,
+  Aupretre, Colas, Haloua, Gozlan, and Murugan]{BACQUART20205565}
+Thomas Bacquart, Niamh Moore, Nick Hart, Abigail Morris, Thor~A. Aarhaug, Ole
+  Kjos, Fabien Aupretre, Thibault Colas, Frederique Haloua, Bruno Gozlan, and
+  Arul Murugan.
+\newblock Hydrogen quality sampling at the hydrogen refuelling station –
+  lessons learnt on sampling at the production and at the nozzle.
+\newblock \emph{International Journal of Hydrogen Energy}, 45\penalty0
+  (8):\penalty0 5565 -- 5576, 2020.
+\newblock ISSN 0360-3199.
+\newblock \doi{https://doi.org/10.1016/j.ijhydene.2019.10.178}.
 \newblock URL
-  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/9780470504437.ch1}.
-
-\bibitem[Oda et~al.(1996)Oda, Ogasawara, and Ito]{doi:10.1021/la950167j}
-Ichiro Oda, Hirohito Ogasawara, and Masatoki Ito.
-\newblock Carbon monoxide adsorption on copper and silver electrodes during
-  carbon dioxide electroreduction studied by infrared reflection absorption
-  spectroscopy and surface-enhanced raman spectroscopy.
-\newblock \emph{Langmuir}, 12\penalty0 (4):\penalty0 1094--1097, 1996.
-\newblock \doi{10.1021/la950167j}.
-\newblock URL \url{https://doi.org/10.1021/la950167j}.
-
-\bibitem[Qin and Jiang(2012)]{Qin2012}
-Lin Qin and Chao Jiang.
-\newblock {First-principles based modeling of hydrogen permeation through Pd-Cu
-  alloys}.
-\newblock \emph{International Journal of Hydrogen Energy}, 37\penalty0
-  (17):\penalty0 12760--12764, 2012.
-\newblock ISSN 03603199.
-\newblock \doi{10.1016/j.ijhydene.2012.06.029}.
-
-\bibitem[ROUHI(2004)]{doi:10.1021/cen-v082n016.p036}
-A.~MAUREEN ROUHI.
-\newblock Organozirconium chemistry arrives.
-\newblock \emph{Chemical \& Engineering News Archive}, 82\penalty0
-  (16):\penalty0 36--39, 2004.
-\newblock \doi{10.1021/cen-v082n016.p036}.
-\newblock URL \url{https://doi.org/10.1021/cen-v082n016.p036}.
-
-\bibitem[Shaikhutdinov et~al.(2003)Shaikhutdinov, Meyer, Naschitzki, Baumer,
-  and Freund]{shaikhutdinov_meyer_naschitzki_baumer_freund_2003}
-Sh.k. Shaikhutdinov, R.~Meyer, M.~Naschitzki, M.~Baumer, and H.-J. Freund.
-\newblock Size and support effects for co adsorption on gold model catalysts.
-\newblock \emph{Catalysis Letters}, 86\penalty0 (4):\penalty0 211–219, Mar
-  2003.
-\newblock \doi{10.1023/a:1022616102162}.
-
-\bibitem[She et~al.(2014)She, Emerson, Magdefrau, Opalka, Thibaud-Erkey, and
-  Vanderspurt]{She2014}
-Ying She, Sean~C Emerson, Neal~J Magdefrau, Susanne~M Opalka, Catherine
-  Thibaud-Erkey, and Thomas~H Vanderspurt.
-\newblock {Hydrogen permeability of sulfur tolerant Pd–Cu alloy membranes}.
-\newblock \emph{Journal of Membrane Science}, 452:\penalty0 203--211, 2014.
-\newblock \doi{10.1016/j.memsci.2013.09.025}.
-
-\bibitem[Xu et~al.(2016)Xu, Kim, Li, Grace, {Jim Lim}, and Boyd]{Xu2016a}
-Nong Xu, Sung~Su Kim, Anwu Li, John~R Grace, C~{Jim Lim}, and Tony Boyd.
-\newblock {Investigation of the influence of tar-containing syngas from biomass
-  gasification on dense Pd and Pd–Ru membranes}.
-\newblock \emph{Powder Technology}, 290:\penalty0 132--140, 2016.
-\newblock \doi{10.1016/j.powtec.2015.08.037}.
-
-\bibitem[Yeo et~al.(2013)Yeo, Han, and Lee]{C3CP44367A}
-Sang~Chul Yeo, Sang~Soo Han, and Hyuck~Mo Lee.
-\newblock Adsorption{,} dissociation{,} penetration{,} and diffusion of n2 on
-  and in bcc fe: first-principles calculations.
-\newblock \emph{Phys. Chem. Chem. Phys.}, 15:\penalty0 5186--5192, 2013.
-\newblock \doi{10.1039/C3CP44367A}.
-\newblock URL \url{http://dx.doi.org/10.1039/C3CP44367A}.
+  \url{http://www.sciencedirect.com/science/article/pii/S0360319919340510}.
+\newblock 22nd World Hydrogen Energy Conference.
 
 \end{thebibliography}

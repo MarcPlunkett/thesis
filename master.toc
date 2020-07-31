@@ -70,39 +70,37 @@
 \contentsline {subsubsection}{Helium, Nitrogen, Carbon Dioxide and Argon}{111}% 
 \contentsline {subsubsection}{Carbon Monoxide}{111}% 
 \contentsline {subsubsection}{Ammonia}{118}% 
-\contentsline {subsubsection}{Oxygen}{118}% 
-\contentsline {subsubsection}{Water}{121}% 
-\contentsline {subsubsection}{Methane}{123}% 
-\contentsline {subsubsection}{Formaldehyde}{125}% 
-\contentsline {subsubsection}{Formic Acid}{127}% 
-\contentsline {subsubsection}{Hydrogen sulphide}{129}% 
-\contentsline {section}{\numberline {4.4}Conclusion}{131}% 
+\contentsline {subsubsection}{Oxygen and Water}{118}% 
+\contentsline {subsubsection}{Methane}{122}% 
+\contentsline {subsubsection}{Formaldehyde and Formic acid}{124}% 
+\contentsline {subsubsection}{Hydrogen sulphide}{127}% 
+\contentsline {section}{\numberline {4.4}Conclusion}{129}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
-\contentsline {chapter}{\numberline {5}Impurity resistance of dense metal membranes under hydrogen impurities}{134}% 
-\contentsline {section}{\numberline {5.1}Abstract}{134}% 
-\contentsline {section}{\numberline {5.2}Introduction}{134}% 
-\contentsline {section}{\numberline {5.3}Results and Discussion}{136}% 
-\contentsline {subsection}{\numberline {5.3.1}Membrane characterisation}{136}% 
-\contentsline {subsection}{\numberline {5.3.2}Hydrogen permeation}{138}% 
-\contentsline {subsection}{\numberline {5.3.3}Impurity reactivity}{139}% 
-\contentsline {subsubsection}{Binary alloys}{140}% 
-\contentsline {subsubsection}{Ternary alloys}{140}% 
-\contentsline {subsubsection}{Segregation behaviour}{141}% 
-\contentsline {section}{\numberline {5.4}Conclusion}{142}% 
+\contentsline {chapter}{\numberline {5}Impurity resistance of dense metal membranes under hydrogen impurities}{132}% 
+\contentsline {section}{\numberline {5.1}Abstract}{132}% 
+\contentsline {section}{\numberline {5.2}Introduction}{132}% 
+\contentsline {section}{\numberline {5.3}Results and Discussion}{134}% 
+\contentsline {subsection}{\numberline {5.3.1}Membrane characterisation}{134}% 
+\contentsline {subsection}{\numberline {5.3.2}Hydrogen permeation}{136}% 
+\contentsline {subsection}{\numberline {5.3.3}Impurity reactivity}{137}% 
+\contentsline {subsubsection}{Binary alloys}{138}% 
+\contentsline {subsubsection}{Ternary alloys}{138}% 
+\contentsline {subsubsection}{Segregation behaviour}{139}% 
+\contentsline {section}{\numberline {5.4}Conclusion}{140}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
-\contentsline {chapter}{\numberline {6}A hydrogen impurity measurement device for measuring ISO 14687 impurities}{145}% 
-\contentsline {section}{\numberline {6.1}Abstract}{145}% 
-\contentsline {section}{\numberline {6.2}Introduction}{145}% 
-\contentsline {section}{\numberline {6.3}Results and discussion}{145}% 
-\contentsline {section}{\numberline {6.4}Conclusion}{145}% 
+\contentsline {chapter}{\numberline {6}A hydrogen impurity measurement device for measuring ISO 14687 impurities}{143}% 
+\contentsline {section}{\numberline {6.1}Abstract}{143}% 
+\contentsline {section}{\numberline {6.2}Introduction}{143}% 
+\contentsline {section}{\numberline {6.3}Results and discussion}{143}% 
+\contentsline {section}{\numberline {6.4}Conclusion}{143}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
-\contentsline {chapter}{\numberline {7}Conclusion and future work}{146}% 
-\contentsline {section}{\numberline {7.1}Impurity enrichment devices}{146}% 
-\contentsline {subsection}{\numberline {7.1.1}Further research}{146}% 
-\contentsline {subsection}{\numberline {7.1.2}Additional use cases}{146}% 
-\contentsline {subsection}{\numberline {7.1.3}Commercialisation}{146}% 
-\contentsline {section}{\numberline {7.2}Closing remarks}{146}% 
+\contentsline {chapter}{\numberline {7}Conclusion and future work}{144}% 
+\contentsline {section}{\numberline {7.1}Impurity enrichment devices}{144}% 
+\contentsline {subsection}{\numberline {7.1.1}Further research}{144}% 
+\contentsline {subsection}{\numberline {7.1.2}Additional use cases}{144}% 
+\contentsline {subsection}{\numberline {7.1.3}Commercialisation}{144}% 
+\contentsline {section}{\numberline {7.2}Closing remarks}{144}% 
 \gdef \the@ipfilectr {}

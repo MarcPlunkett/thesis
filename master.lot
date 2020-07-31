@@ -30,10 +30,10 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Membrane compositions analysed by EDS and their thickness measured using FIB-SEM\relax }}{136}% 
-\contentsline {table}{\numberline {5.2}{\ignorespaces Pure hydrogen permeability of studied alloy membranes under pure hydrogen at 300\textdegree C and 1 bar pressure differential\relax }}{139}% 
-\contentsline {table}{\numberline {5.3}{\ignorespaces Permeability results for all membranes under both impurity conditions\relax }}{139}% 
-\contentsline {table}{\numberline {5.4}{\ignorespaces XPS composition analysis of the palladium alloy membrane surfaces after impurity tests\relax }}{141}% 
+\contentsline {table}{\numberline {5.1}{\ignorespaces Membrane compositions analysed by EDS and their thickness measured using FIB-SEM\relax }}{134}% 
+\contentsline {table}{\numberline {5.2}{\ignorespaces Pure hydrogen permeability of studied alloy membranes under pure hydrogen at 300\textdegree C and 1 bar pressure differential\relax }}{137}% 
+\contentsline {table}{\numberline {5.3}{\ignorespaces Permeability results for all membranes under both impurity conditions\relax }}{137}% 
+\contentsline {table}{\numberline {5.4}{\ignorespaces XPS composition analysis of the palladium alloy membrane surfaces after impurity tests\relax }}{139}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
 \addvspace {10\p@ }
