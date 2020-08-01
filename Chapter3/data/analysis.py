@@ -29,7 +29,7 @@ def site_graph():
         
 
         ax.set(xlabel="Adsorption site")
-        ax.set(ylabel="Adsorption energy (Ry)")
+        ax.set(ylabel="Adsorption energy (eV)")
         fig.suptitle('Hydrogen adsorption sites on Pd', fontsize=14)
         ax.autoscale(tight=False)
         fig.show()
@@ -130,7 +130,7 @@ def H2_graphs():
         ax.bar('Pd$_{70}$Zr$_{20}$Ag$_{10}$', Pd70Zr20Ag10['adsry'].mean(),yerr=Pd70Zr20Ag10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Zr$_{20}$Ag$_{10}$',color='0.3', edgecolor='black', hatch='+')
         
         ax.set(xlabel="Simulated metal")
-        ax.set(ylabel="Adsorption energy (Ry)")
+        ax.set(ylabel="Adsorption energy (eV)")
         ax.axes.xaxis.set_visible(False)
         fig.suptitle('Hydrogen adsorption', fontsize=24)
         ax.autoscale(tight=False)
@@ -344,21 +344,35 @@ def H2S_graphs():
 
     plt.style.use('science')
 
+    with plt.style.context(['science']):
+        fig, ax = plt.subplots(figsize=(6,5))
+        ax.plot(PD['Site'], PD['adsry'], label='H$_{2}$S', color='black', marker='D', linestyle='dashed' )
+        ax.plot(h2PD['Site'], h2PD['adsry'], label='H', color='black', marker='D' )
+
+        ax.set(xlabel="Adsorption site")
+        ax.set(ylabel="Adsorption energy (eV)")
+        fig.suptitle('H$_2$S adsorption sites on Pd compared to H', fontsize=14)
+        ax.autoscale(tight=False)
+        plt.legend()
+
+        fig.show()
+
+        fig.savefig('H2SSites.jpg', dpi=300)
 
     with plt.style.context(['science']):
         fig, ax = plt.subplots(figsize=(15,8))
         ax.bar('Pd', PD['adsry'].mean(),yerr=PDAu10['adsry'].sem(), width=1, label='Pd', color='white', edgecolor='black',)
         ax.bar('PdAu$_{10}$', PDAu10['adsry'].mean(),yerr=PDAu10['adsry'].sem(),width=1,zorder=1, label='PdAu$_{10}$', color='0.8', edgecolor='black')
-        ax.bar('PdAu$_{20}$', PdAu20['adsry'].mean(),yerr=PdAu20['adsry'].sem(),width=1,zorder=1, label='PdAu$_{20}$',color='0.6', edgecolor='black')
+        ax.bar('PdAu$_{20}$', -PdAu20['adsry'].mean(),yerr=PdAu20['adsry'].sem(),width=1,zorder=1, label='PdAu$_{20}$',color='0.6', edgecolor='black')
         ax.bar('PdAg$_{23}$', PdAg23['adsry'].mean(),yerr=PdAg23['adsry'].sem(),width=1,zorder=1, label='PdAg$_{23}$',color='0.3', edgecolor='black')
         ax.bar('Pd$_{80}$Cu$_{20}$', Pd80Cu20['adsry'].mean(),yerr=Pd80Cu20['adsry'].sem(),width=1,zorder=1, label='Pd$_{80}$Cu$_{20}$',color='0.8', edgecolor='black', hatch='//')
         ax.bar('Pd$_{60}$Cu$_{40}$', Pd60Cu40['adsry'].mean(),yerr=Pd60Cu40['adsry'].sem(),width=1,zorder=1, label='Pd$_{60}$Cu$_{40}$', color='0.6', edgecolor='black', hatch='+')
         ax.bar('PdZr$_{10}$', PdZr10['adsry'].mean(),yerr=PdZr10['adsry'].sem(),width=1,zorder=1, label='PdZr$_{10}$',color='0.3', edgecolor='black', hatch='*')
         ax.bar('PdZr$_{20}$', PdZr20['adsry'].mean(),yerr=PdZr20['adsry'].sem(),width=1,zorder=1, label='PdZr$_{20}$',color='1', edgecolor='black', hatch='\\')
         ax.bar('Pd$_{70}$Au$_{20}$Ag$_{10}$', Pd70Au20Ag10['adsry'].mean(),yerr=Pd70Au20Ag10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Au$_{20}$Ag$_{10}$',color='0.8', edgecolor='black', hatch='+')
-        ax.bar('Pd$_{70}$Au$_{20}$Cu$_{10}$', Pd70Au20Cu10['adsry'].mean(),yerr=Pd70Au20Cu10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Au$_{20}$Cu$_{10}$',color='0.6', edgecolor='black', hatch='*')
+        ax.bar('Pd$_{70}$Au$_{20}$Cu$_{10}$', -Pd70Au20Cu10['adsry'].mean(),yerr=Pd70Au20Cu10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Au$_{20}$Cu$_{10}$',color='0.6', edgecolor='black', hatch='*')
         ax.bar('Pd$_{70}$Au$_{20}$Zr$_{10}$', -Pd70Au20Zr10['adsry'].mean(),yerr=Pd70Au20Zr10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Au$_{20}$Zr$_{10}$',color='0.3', edgecolor='black', hatch='//')
-        ax.bar('Pd$_{70}$Cu$_{20}$Ag$_{10}$', -Pd70Cu20Ag10['adsry'].mean(),yerr=Pd70Cu20Ag10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Cu$_{20}$Ag$_{10}$',color='0.8', edgecolor='black', hatch='\\')
+        ax.bar('Pd$_{70}$Cu$_{20}$Ag$_{10}$', Pd70Cu20Ag10['adsry'].mean(),yerr=Pd70Cu20Ag10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Cu$_{20}$Ag$_{10}$',color='0.8', edgecolor='black', hatch='\\')
         ax.bar('Pd$_{70}$Cu$_{20}$Zr$_{10}$', Pd70Cu20Zr10['adsry'].mean(),yerr=Pd70Cu20Zr10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Cu$_{20}$Zr$_{10}$',color='0.6', edgecolor='black', hatch='//')
         ax.bar('Pd$_{70}$Zr$_{20}$Ag$_{10}$', -Pd70Zr20Ag10['adsry'].mean(),yerr=Pd70Zr20Ag10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Zr$_{20}$Ag$_{10}$',color='0.3', edgecolor='black', hatch='+')
         
@@ -378,7 +392,7 @@ def H2S_graphs():
         ax.scatter('Pd$_{70}$Zr$_{20}$Ag$_{10}$', h2Pd70Zr20Ag10['adsry'].mean(),color='red', zorder=2, )
 
         ax.set(xlabel="Simulated metal")
-        ax.set(ylabel="Adsorption energy (Ry)")
+        ax.set(ylabel="Adsorption energy (eV)")
         ax.axes.xaxis.set_visible(False)
         fig.suptitle('H$_2$S adsorption', fontsize=24)
         ax.autoscale(tight=False)
@@ -456,7 +470,7 @@ def CO2_graphs():
         
 
         ax.set(xlabel="Simulated metal")
-        ax.set(ylabel="Adsorption energy (Ry)")
+        ax.set(ylabel="Adsorption energy (eV)")
         ax.axes.xaxis.set_visible(False)
         fig.suptitle('CO$_2$ adsorption', fontsize=24)
         ax.autoscale(tight=False)
@@ -534,7 +548,7 @@ def Ar_graphs():
         
 
         ax.set(xlabel="Simulated metal")
-        ax.set(ylabel="Adsorption energy (Ry)")
+        ax.set(ylabel="Adsorption energy (eV)")
         ax.axes.xaxis.set_visible(False)
         fig.suptitle('Ar adsorption', fontsize=24)
         ax.autoscale(tight=False)
@@ -612,7 +626,7 @@ def He_graphs():
         
 
         ax.set(xlabel="Simulated metal")
-        ax.set(ylabel="Adsorption energy (Ry)")
+        ax.set(ylabel="Adsorption energy (eV)")
         ax.axes.xaxis.set_visible(False)
         fig.suptitle('He adsorption', fontsize=24)
         ax.autoscale(tight=False)
@@ -690,7 +704,7 @@ def N2_graphs():
         
 
         ax.set(xlabel="Simulated metal")
-        ax.set(ylabel="Adsorption energy (Ry)")
+        ax.set(ylabel="Adsorption energy (eV)")
         ax.axes.xaxis.set_visible(False)
         fig.suptitle('N$_2$ adsorption', fontsize=24)
         ax.autoscale(tight=False)
@@ -790,7 +804,7 @@ def NH3_graphs():
         ax.bar('Pd$_{70}$Zr$_{20}$Ag$_{10}$', Pd70Zr20Ag10['adsry'].mean(),yerr=Pd70Zr20Ag10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Zr$_{20}$Ag$_{10}$',color='0.3', edgecolor='black', hatch='+')
         
         ax.set(xlabel="Simulated metal")
-        ax.set(ylabel="Adsorption energy (Ry)")
+        ax.set(ylabel="Adsorption energy (eV)")
         ax.axes.xaxis.set_visible(False)
         fig.suptitle('NH$_3$ adsorption', fontsize=24)
         ax.autoscale(tight=False)
@@ -881,7 +895,7 @@ def Formaldehyde_graphs():
         ax.bar('PdZr$_{20}$', PdZr20['adsry'].mean(),yerr=PdZr20['adsry'].sem(),width=1,zorder=1, label='PdZr$_{20}$',color='1', edgecolor='black', hatch='\\')
         ax.bar('Pd$_{70}$Au$_{20}$Ag$_{10}$', Pd70Au20Ag10['adsry'].mean(),yerr=Pd70Au20Ag10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Au$_{20}$Ag$_{10}$',color='0.8', edgecolor='black', hatch='+')
         ax.bar('Pd$_{70}$Au$_{20}$Cu$_{10}$', Pd70Au20Cu10['adsry'].mean(),yerr=Pd70Au20Cu10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Au$_{20}$Cu$_{10}$',color='0.6', edgecolor='black', hatch='*')
-        ax.bar('Pd$_{70}$Au$_{20}$Zr$_{10}$', -Pd70Au20Zr10['adsry'].mean(),yerr=Pd70Au20Zr10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Au$_{20}$Zr$_{10}$',color='0.3', edgecolor='black', hatch='//')
+        ax.bar('Pd$_{70}$Au$_{20}$Zr$_{10}$', Pd70Au20Zr10['adsry'].mean(),yerr=Pd70Au20Zr10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Au$_{20}$Zr$_{10}$',color='0.3', edgecolor='black', hatch='//')
         ax.bar('Pd$_{70}$Cu$_{20}$Ag$_{10}$', -Pd70Cu20Ag10['adsry'].mean(),yerr=Pd70Cu20Ag10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Cu$_{20}$Ag$_{10}$',color='0.8', edgecolor='black', hatch='\\')
         ax.bar('Pd$_{70}$Cu$_{20}$Zr$_{10}$', Pd70Cu20Zr10['adsry'].mean(),yerr=Pd70Cu20Zr10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Cu$_{20}$Zr$_{10}$',color='0.6', edgecolor='black', hatch='//')
         ax.bar('Pd$_{70}$Zr$_{20}$Ag$_{10}$', -Pd70Zr20Ag10['adsry'].mean(),yerr=Pd70Zr20Ag10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Zr$_{20}$Ag$_{10}$',color='0.3', edgecolor='black', hatch='+')
@@ -902,7 +916,7 @@ def Formaldehyde_graphs():
         ax.scatter('Pd$_{70}$Zr$_{20}$Ag$_{10}$', h2Pd70Zr20Ag10['adsry'].mean(),color='red', zorder=2, )
 
         ax.set(xlabel="Simulated metal")
-        ax.set(ylabel="Adsorption energy (Ry)")
+        ax.set(ylabel="Adsorption energy (eV)")
         ax.axes.xaxis.set_visible(False)
         fig.suptitle('Formaldehyde adsorption', fontsize=24)
         ax.autoscale(tight=False)
@@ -1016,7 +1030,7 @@ def O2_graphs():
 
 
         ax.set(xlabel="Simulated metal")
-        ax.set(ylabel="Adsorption energy (Ry)")
+        ax.set(ylabel="Adsorption energy (eV)")
         ax.axes.xaxis.set_visible(False)
         fig.suptitle('O$_2$ adsorption', fontsize=24)
         ax.autoscale(tight=False)
@@ -1101,18 +1115,18 @@ def FA_graphs():
         fig, ax = plt.subplots(figsize=(15,8))
         ax.bar('Pd', PD['adsry'].mean(),yerr=PDAu10['adsry'].sem(), width=1, label='Pd', color='white', edgecolor='black',)
         ax.bar('PdAu$_{10}$', PDAu10['adsry'].mean(),yerr=PDAu10['adsry'].sem(),width=1,zorder=1, label='PdAu$_{10}$', color='0.8', edgecolor='black')
-        ax.bar('PdAu$_{20}$', PdAu20['adsry'].mean(),yerr=PdAu20['adsry'].sem(),width=1,zorder=1, label='PdAu$_{20}$',color='0.6', edgecolor='black')
+        ax.bar('PdAu$_{20}$', -PdAu20['adsry'].mean(),yerr=PdAu20['adsry'].sem(),width=1,zorder=1, label='PdAu$_{20}$',color='0.6', edgecolor='black')
         ax.bar('PdAg$_{23}$', PdAg23['adsry'].mean(),yerr=PdAg23['adsry'].sem(),width=1,zorder=1, label='PdAg$_{23}$',color='0.3', edgecolor='black')
         ax.bar('Pd$_{80}$Cu$_{20}$', Pd80Cu20['adsry'].mean(),yerr=Pd80Cu20['adsry'].sem(),width=1,zorder=1, label='Pd$_{80}$Cu$_{20}$',color='0.8', edgecolor='black', hatch='//')
         ax.bar('Pd$_{60}$Cu$_{40}$', Pd60Cu40['adsry'].mean(),yerr=Pd60Cu40['adsry'].sem(),width=1,zorder=1, label='Pd$_{60}$Cu$_{40}$', color='0.6', edgecolor='black', hatch='+')
-        ax.bar('PdZr$_{10}$', PdZr10['adsry'].mean(),yerr=PdZr10['adsry'].sem(),width=1,zorder=1, label='PdZr$_{10}$',color='0.3', edgecolor='black', hatch='*')
+        ax.bar('PdZr$_{10}$', -PdZr10['adsry'].mean(),yerr=PdZr10['adsry'].sem(),width=1,zorder=1, label='PdZr$_{10}$',color='0.3', edgecolor='black', hatch='*')
         ax.bar('PdZr$_{20}$', PdZr20['adsry'].mean(),yerr=PdZr20['adsry'].sem(),width=1,zorder=1, label='PdZr$_{20}$',color='1', edgecolor='black', hatch='\\')
         ax.bar('Pd$_{70}$Au$_{20}$Ag$_{10}$', Pd70Au20Ag10['adsry'].mean(),yerr=Pd70Au20Ag10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Au$_{20}$Ag$_{10}$',color='0.8', edgecolor='black', hatch='+')
         ax.bar('Pd$_{70}$Au$_{20}$Cu$_{10}$', Pd70Au20Cu10['adsry'].mean(),yerr=Pd70Au20Cu10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Au$_{20}$Cu$_{10}$',color='0.6', edgecolor='black', hatch='*')
         ax.bar('Pd$_{70}$Au$_{20}$Zr$_{10}$', -Pd70Au20Zr10['adsry'].mean(),yerr=Pd70Au20Zr10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Au$_{20}$Zr$_{10}$',color='0.3', edgecolor='black', hatch='//')
-        ax.bar('Pd$_{70}$Cu$_{20}$Ag$_{10}$', -Pd70Cu20Ag10['adsry'].mean(),yerr=Pd70Cu20Ag10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Cu$_{20}$Ag$_{10}$',color='0.8', edgecolor='black', hatch='\\')
+        ax.bar('Pd$_{70}$Cu$_{20}$Ag$_{10}$', Pd70Cu20Ag10['adsry'].mean(),yerr=Pd70Cu20Ag10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Cu$_{20}$Ag$_{10}$',color='0.8', edgecolor='black', hatch='\\')
         ax.bar('Pd$_{70}$Cu$_{20}$Zr$_{10}$', Pd70Cu20Zr10['adsry'].mean(),yerr=Pd70Cu20Zr10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Cu$_{20}$Zr$_{10}$',color='0.6', edgecolor='black', hatch='//')
-        ax.bar('Pd$_{70}$Zr$_{20}$Ag$_{10}$', -Pd70Zr20Ag10['adsry'].mean(),yerr=Pd70Zr20Ag10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Zr$_{20}$Ag$_{10}$',color='0.3', edgecolor='black', hatch='+')
+        ax.bar('Pd$_{70}$Zr$_{20}$Ag$_{10}$', Pd70Zr20Ag10['adsry'].mean(),yerr=Pd70Zr20Ag10['adsry'].sem(),width=1,zorder=1, label='Pd$_{70}$Zr$_{20}$Ag$_{10}$',color='0.3', edgecolor='black', hatch='+')
         
         ax.scatter('Pd', h2PD['adsry'].mean(),color='red', zorder=2, label='Average H $E_{ads}$')
         ax.scatter('PdAu$_{10}$', h2PDAu10['adsry'].mean(),color='red', zorder=2)
@@ -1131,7 +1145,7 @@ def FA_graphs():
 
 
         ax.set(xlabel="Simulated metal")
-        ax.set(ylabel="Adsorption energy (Ry)")
+        ax.set(ylabel="Adsorption energy (eV)")
         ax.axes.xaxis.set_visible(False)
         fig.suptitle('Formic Acid adsorption', fontsize=24)
         ax.autoscale(tight=False)
@@ -1211,6 +1225,23 @@ def CH4_graphs():
 
 
     with plt.style.context(['science']):
+        fig, ax = plt.subplots(figsize=(6,5))
+        ax.plot(PD['Site'], PD['adsry'], label='CO', color='black', marker='D', linestyle='dashed' )
+        ax.plot(h2PD['Site'], h2PD['adsry'], label='H', color='black', marker='D' )
+
+        
+
+        ax.set(xlabel="Adsorption site")
+        ax.set(ylabel="Adsorption energy (eV)")
+        fig.suptitle('CH$_4$ adsorption sites on Pd compared to H', fontsize=14)
+        ax.autoscale(tight=False)
+        plt.legend()
+
+        fig.show()
+
+        fig.savefig('CH4Sites.jpg', dpi=300)
+
+    with plt.style.context(['science']):
         fig, ax = plt.subplots(figsize=(15,8))
         ax.bar('Pd', PD['adsry'].mean(),yerr=PDAu10['adsry'].sem(), width=1, label='Pd', color='white', edgecolor='black',)
         ax.bar('PdAu$_{10}$', PDAu10['adsry'].mean(),yerr=PDAu10['adsry'].sem(),width=1,zorder=1, label='PdAu$_{10}$', color='0.8', edgecolor='black')
@@ -1244,9 +1275,9 @@ def CH4_graphs():
 
 
         ax.set(xlabel="Simulated metal")
-        ax.set(ylabel="Adsorption energy (Ry)")
+        ax.set(ylabel="Adsorption energy (eV)")
         ax.axes.xaxis.set_visible(False)
-        fig.suptitle('CH4 adsorption', fontsize=24)
+        fig.suptitle('CH$_4$ adsorption', fontsize=24)
         ax.autoscale(tight=False)
         plt.legend()
         fig.show()

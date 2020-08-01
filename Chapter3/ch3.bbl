@@ -1,9 +1,33 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{26}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Shin et~al.(2018)Shin, Baek, Ro, Song, Lee, and Song]{SHIN2018102}
+Haebin Shin, Minsung Baek, Youngsoo Ro, Changyeol Song, Kwan-Young Lee, and
+  In~Kyu Song.
+\newblock Improvement of sulfur resistance of pd/ce–zr–al–o catalysts for
+  co oxidation.
+\newblock \emph{Applied Surface Science}, 429:\penalty0 102 -- 107, 2018.
+\newblock ISSN 0169-4332.
+\newblock \doi{https://doi.org/10.1016/j.apsusc.2017.05.198}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0169433217315519}.
+\newblock Materials Challenges in Alternative and Renewable Energy 2017(MCARE
+  2017).
+
+\bibitem[Marcus and Grimal(1990)]{MARCUS1990377}
+P.~Marcus and J.M. Grimal.
+\newblock The antagonistic roles of chromium and sulphur in the passivation of
+  nicrfe alloys studied by xps and radiochemical techniques.
+\newblock \emph{Corrosion Science}, 31:\penalty0 377 -- 382, 1990.
+\newblock ISSN 0010-938X.
+\newblock \doi{https://doi.org/10.1016/0010-938X(90)90134-Q}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/0010938X9090134Q}.
+\newblock Passivation of metals and semiconductors.
 
 \bibitem[Gunasooriya and Saeys(2018)]{doi:10.1021/acscatal.8b02371}
 G.~T. Kasun~Kalhara Gunasooriya and Mark Saeys.
@@ -145,5 +169,70 @@ Thomas Bacquart, Niamh Moore, Nick Hart, Abigail Morris, Thor~A. Aarhaug, Ole
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S0360319919340510}.
 \newblock 22nd World Hydrogen Energy Conference.
+
+\bibitem[Cui et~al.(2018)Cui, Zhang, Zhang, and
+  Ali~Mehmood]{doi:10.1021/acsomega.8b02578}
+Hao Cui, Xiaoxing Zhang, Jun Zhang, and Muhammad Ali~Mehmood.
+\newblock Interaction of co and ch4 adsorption with noble metal (rh, pd, and
+  pt)-decorated n3-cnts: A first-principles study.
+\newblock \emph{ACS Omega}, 3\penalty0 (12):\penalty0 16892--16898, 2018.
+\newblock \doi{10.1021/acsomega.8b02578}.
+\newblock URL \url{https://doi.org/10.1021/acsomega.8b02578}.
+
+\bibitem[Tsuji and Yoshizawa(2018)]{doi:10.1021/acs.jpcc.8b03184}
+Yuta Tsuji and Kazunari Yoshizawa.
+\newblock Adsorption and activation of methane on the (110) surface of
+  rutile-type metal dioxides.
+\newblock \emph{The Journal of Physical Chemistry C}, 122\penalty0
+  (27):\penalty0 15359--15381, 2018.
+\newblock \doi{10.1021/acs.jpcc.8b03184}.
+\newblock URL \url{https://doi.org/10.1021/acs.jpcc.8b03184}.
+
+\bibitem[{International Standard ISO 14687-2:
+  2012}(2012)]{InternationalStandardISO14687-2:20122012}
+{International Standard ISO 14687-2: 2012}.
+\newblock {Hydrogen Fuel - Product Specification}, 2012.
+
+\bibitem[Murugan and Brown(2015)]{Murugan2015}
+Arul Murugan and Andrew~S Brown.
+\newblock {Review of purity analysis methods for performing quality assurance
+  of fuel cell hydrogen}.
+\newblock \emph{International Journal of Hydrogen Energy}, 40\penalty0
+  (11):\penalty0 4219--4233, 2015.
+\newblock \doi{10.1016/j.ijhydene.2015.01.041}.
+
+\bibitem[Wang et~al.(2018)Wang, Fan, Sun, Han, and Niu]{C8RA04983A}
+Dandan Wang, Yingying Fan, Zhonghui Sun, Dongxue Han, and Li~Niu.
+\newblock A theoretical study of formaldehyde adsorption and decomposition on a
+  wc (0001) surface.
+\newblock \emph{RSC Adv.}, 8:\penalty0 32481--32489, 2018.
+\newblock \doi{10.1039/C8RA04983A}.
+\newblock URL \url{http://dx.doi.org/10.1039/C8RA04983A}.
+
+\bibitem[Nie et~al.(2016)Nie, Yu, Jaroniec, and Tao]{C6CY00062B}
+Longhui Nie, Jiaguo Yu, Mietek Jaroniec, and Franklin~Feng Tao.
+\newblock Room-temperature catalytic oxidation of formaldehyde on catalysts.
+\newblock \emph{Catal. Sci. Technol.}, 6:\penalty0 3649--3669, 2016.
+\newblock \doi{10.1039/C6CY00062B}.
+\newblock URL \url{http://dx.doi.org/10.1039/C6CY00062B}.
+
+\bibitem[Capon and Parsons(1973)]{CAPON1973239}
+Andrew Capon and Roger Parsons.
+\newblock The oxidation of formic acid on noble metal electrodes: Ii. a
+  comparison of the behaviour of pure electrodes.
+\newblock \emph{Journal of Electroanalytical Chemistry and Interfacial
+  Electrochemistry}, 44\penalty0 (2):\penalty0 239 -- 254, 1973.
+\newblock ISSN 0022-0728.
+\newblock \doi{https://doi.org/10.1016/S0022-0728(73)80250-5}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0022072873802505}.
+
+\bibitem[Morreale et~al.(2007)Morreale, Howard, Iyoha, Enick, Ling, and
+  Sholl]{Morreale2007}
+Bryan~D Morreale, Bret~H Howard, Osemwengie Iyoha, Robert~M Enick, Chen Ling,
+  and David~S Sholl.
+\newblock {Experimental and Computational Prediction of the Hydrogen Transport
+  Properties of Pd 4 S}.
+\newblock \emph{Ind. Eng. Chem. Res.}, 46:\penalty0 6313--6319, 2007.
 
 \end{thebibliography}

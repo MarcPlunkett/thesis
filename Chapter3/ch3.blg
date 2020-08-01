@@ -4,45 +4,45 @@ The top-level auxiliary file: ch3.aux
 The style file: unsrtnat.bst
 Database file #1: library.bib
 Warning--empty publisher in doi:10.1002/9780470504437.ch1
-You've used 16 entries,
+You've used 26 entries,
             2481 wiz_defined-function locations,
-            706 strings with 8936 characters,
-and the built_in function-call counts, 7378 in all, are:
-= -- 646
-> -- 398
-< -- 7
-+ -- 150
-- -- 118
-* -- 672
-:= -- 1212
-add.period$ -- 78
-call.type$ -- 16
-change.case$ -- 31
-chr.to.int$ -- 16
-cite$ -- 17
-duplicate$ -- 311
-empty$ -- 625
-format.name$ -- 140
-if$ -- 1549
+            794 strings with 11849 characters,
+and the built_in function-call counts, 11897 in all, are:
+= -- 1054
+> -- 630
+< -- 12
++ -- 238
+- -- 186
+* -- 1065
+:= -- 1944
+add.period$ -- 127
+call.type$ -- 26
+change.case$ -- 51
+chr.to.int$ -- 26
+cite$ -- 27
+duplicate$ -- 496
+empty$ -- 1016
+format.name$ -- 226
+if$ -- 2510
 int.to.chr$ -- 1
-int.to.str$ -- 17
-missing$ -- 17
-newline$ -- 118
-num.names$ -- 48
-pop$ -- 90
+int.to.str$ -- 27
+missing$ -- 26
+newline$ -- 187
+num.names$ -- 78
+pop$ -- 146
 preamble$ -- 1
-purify$ -- 16
+purify$ -- 26
 quote$ -- 0
-skip$ -- 170
+skip$ -- 280
 stack$ -- 0
-substring$ -- 433
-swap$ -- 41
+substring$ -- 722
+swap$ -- 61
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 109
+type$ -- 179
 warning$ -- 1
-while$ -- 54
+while$ -- 85
 width$ -- 0
-write$ -- 274
+write$ -- 441
 (There was 1 warning)
