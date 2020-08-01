@@ -62,45 +62,45 @@
 \gdef \the@ipfilectr {@-5}
 \contentsline {chapter}{\numberline {4}Density functional theory as a screening method for dense metal membranes}{105}% 
 \contentsline {section}{\numberline {4.1}Abstract}{105}% 
-\contentsline {section}{\numberline {4.2}Introduction}{105}% 
-\contentsline {section}{\numberline {4.3}Results and discussion}{106}% 
-\contentsline {subsection}{\numberline {4.3.1}Stability of palladium alloy compositions and ISO 14687-2 impurities}{106}% 
-\contentsline {subsection}{\numberline {4.3.2}Hydrogen and Impurity adsorption on palladium alloy membranes}{107}% 
-\contentsline {subsubsection}{Hydrogen}{107}% 
-\contentsline {subsubsection}{Helium, Nitrogen, Carbon Dioxide and Argon}{111}% 
-\contentsline {subsubsection}{Carbon Monoxide}{111}% 
-\contentsline {subsubsection}{Ammonia}{118}% 
-\contentsline {subsubsection}{Oxygen and Water}{118}% 
-\contentsline {subsubsection}{Methane}{122}% 
-\contentsline {subsubsection}{Formaldehyde and Formic acid}{125}% 
-\contentsline {subsubsection}{Hydrogen sulphide}{128}% 
-\contentsline {section}{\numberline {4.4}Conclusion}{130}% 
+\contentsline {section}{\numberline {4.2}Introduction}{106}% 
+\contentsline {section}{\numberline {4.3}Results and discussion}{107}% 
+\contentsline {subsection}{\numberline {4.3.1}Stability of palladium alloy compositions and ISO 14687-2 impurities}{107}% 
+\contentsline {subsection}{\numberline {4.3.2}Hydrogen and Impurity adsorption on palladium alloy membranes}{108}% 
+\contentsline {subsubsection}{Hydrogen}{108}% 
+\contentsline {subsubsection}{Helium, Nitrogen, Carbon Dioxide and Argon}{112}% 
+\contentsline {subsubsection}{Carbon Monoxide}{112}% 
+\contentsline {subsubsection}{Ammonia}{119}% 
+\contentsline {subsubsection}{Oxygen and Water}{119}% 
+\contentsline {subsubsection}{Methane}{123}% 
+\contentsline {subsubsection}{Formaldehyde and Formic acid}{126}% 
+\contentsline {subsubsection}{Hydrogen sulphide}{129}% 
+\contentsline {section}{\numberline {4.4}Conclusion}{131}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
-\contentsline {chapter}{\numberline {5}Impurity resistance of dense metal membranes under hydrogen impurities}{135}% 
-\contentsline {section}{\numberline {5.1}Abstract}{135}% 
-\contentsline {section}{\numberline {5.2}Introduction}{135}% 
-\contentsline {section}{\numberline {5.3}Results and Discussion}{137}% 
-\contentsline {subsection}{\numberline {5.3.1}Membrane characterisation}{137}% 
-\contentsline {subsection}{\numberline {5.3.2}Hydrogen permeation}{139}% 
-\contentsline {subsection}{\numberline {5.3.3}Impurity reactivity}{140}% 
-\contentsline {subsubsection}{Binary alloys}{141}% 
-\contentsline {subsubsection}{Ternary alloys}{141}% 
-\contentsline {subsubsection}{Segregation behaviour}{142}% 
-\contentsline {section}{\numberline {5.4}Conclusion}{143}% 
+\contentsline {chapter}{\numberline {5}Impurity resistance of dense metal membranes under hydrogen impurities}{136}% 
+\contentsline {section}{\numberline {5.1}Abstract}{136}% 
+\contentsline {section}{\numberline {5.2}Introduction}{136}% 
+\contentsline {section}{\numberline {5.3}Results and Discussion}{138}% 
+\contentsline {subsection}{\numberline {5.3.1}Membrane characterisation}{138}% 
+\contentsline {subsection}{\numberline {5.3.2}Hydrogen permeation}{140}% 
+\contentsline {subsection}{\numberline {5.3.3}Impurity reactivity}{141}% 
+\contentsline {subsubsection}{Binary alloys}{142}% 
+\contentsline {subsubsection}{Ternary alloys}{142}% 
+\contentsline {subsubsection}{Segregation behaviour}{143}% 
+\contentsline {section}{\numberline {5.4}Conclusion}{144}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
-\contentsline {chapter}{\numberline {6}A hydrogen impurity measurement device for measuring ISO 14687 impurities}{146}% 
-\contentsline {section}{\numberline {6.1}Abstract}{146}% 
-\contentsline {section}{\numberline {6.2}Introduction}{146}% 
-\contentsline {section}{\numberline {6.3}Results and discussion}{146}% 
-\contentsline {section}{\numberline {6.4}Conclusion}{146}% 
+\contentsline {chapter}{\numberline {6}A hydrogen impurity measurement device for measuring ISO 14687 impurities}{147}% 
+\contentsline {section}{\numberline {6.1}Abstract}{147}% 
+\contentsline {section}{\numberline {6.2}Introduction}{147}% 
+\contentsline {section}{\numberline {6.3}Results and discussion}{147}% 
+\contentsline {section}{\numberline {6.4}Conclusion}{147}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
-\contentsline {chapter}{\numberline {7}Conclusion and future work}{147}% 
-\contentsline {section}{\numberline {7.1}Impurity enrichment devices}{147}% 
-\contentsline {subsection}{\numberline {7.1.1}Further research}{147}% 
-\contentsline {subsection}{\numberline {7.1.2}Additional use cases}{147}% 
-\contentsline {subsection}{\numberline {7.1.3}Commercialisation}{147}% 
-\contentsline {section}{\numberline {7.2}Closing remarks}{147}% 
+\contentsline {chapter}{\numberline {7}Conclusion and future work}{148}% 
+\contentsline {section}{\numberline {7.1}Impurity enrichment devices}{148}% 
+\contentsline {subsection}{\numberline {7.1.1}Further research}{148}% 
+\contentsline {subsection}{\numberline {7.1.2}Additional use cases}{148}% 
+\contentsline {subsection}{\numberline {7.1.3}Commercialisation}{148}% 
+\contentsline {section}{\numberline {7.2}Closing remarks}{148}% 
 \gdef \the@ipfilectr {}
