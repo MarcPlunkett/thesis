@@ -1999,3 +1999,125 @@ LaTeX Warning: No positions in optional float specifier.
 <figures/permeabilitychart.png, id=527, 1482.53876pt x 707.64375pt>
 File: figures/permeabilitychart.png Graphic file (type png)
 <use figures/permeabilitychart.png>
+Package pdftex.def Info: figures/permeabilitychart.png  used on input line 137.
+(pdftex.def)             Requested size: 635.5pt x 303.34148pt.
+ [145 </Users/marc/Thesis/figures/permeabilitychart.png>] [146
+
+
+] (/Users/marc/Thesis/Chapter4/ch4.bbl [147] [148
+
+])) [149]
+\openout2 = `Chapter5/ch5.aux'.
+
+ (/Users/marc/Thesis/Chapter5/ch5.tex
+Chapter 6.
+[150
+
+
+
+
+] [151]
+</Users/marc/Thesis/Chapter5/1L.jpg, id=552, 375.804pt x 342.5598pt>
+File: /Users/marc/Thesis/Chapter5/1L.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter5/1L.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/1L.jpg  used on input line 32.
+(pdftex.def)             Requested size: 224.06548pt x 204.24637pt.
+</Users/marc/Thesis/Chapter5/10L.jpg, id=553, 375.804pt x 342.5598pt>
+File: /Users/marc/Thesis/Chapter5/10L.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter5/10L.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/10L.jpg  used on input line 33.
+(pdftex.def)             Requested size: 224.06548pt x 204.24637pt.
+</Users/marc/Thesis/Chapter5/50L.jpg, id=554, 375.804pt x 342.5598pt>
+File: /Users/marc/Thesis/Chapter5/50L.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter5/50L.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/50L.jpg  used on input line 34.
+(pdftex.def)             Requested size: 224.06548pt x 204.24637pt.
+
+
+LaTeX Warning: Float too large for page by 18.23909pt on input line 37.
+
+[152] [153 </Users/marc/Thesis/Chapter5/1L.jpg> </Users/marc/Thesis/Chapter5/10L.jpg> </Users/marc/Thesis/Chapter5/50L.jpg>] [154] [155]
+</Users/marc/Thesis/Chapter5/PID.pdf, id=567, 845.1575pt x 597.23125pt>
+File: /Users/marc/Thesis/Chapter5/PID.pdf Graphic file (type pdf)
+<use /Users/marc/Thesis/Chapter5/PID.pdf>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/PID.pdf  used on input line 65.
+(pdftex.def)             Requested size: 598.28638pt x 422.77939pt.
+ [156 </Users/marc/Thesis/Chapter5/PID.pdf>]
+</Users/marc/Thesis/figures/TU.png, id=589, 971.63pt x 421.575pt>
+File: /Users/marc/Thesis/figures/TU.png Graphic file (type png)
+<use /Users/marc/Thesis/figures/TU.png>
+Package pdftex.def Info: /Users/marc/Thesis/figures/TU.png  used on input line 77.
+(pdftex.def)             Requested size: 448.13095pt x 194.43503pt.
+ [157
+
+
+ </Users/marc/Thesis/figures/TU.png>]
+</Users/marc/Thesis/Chapter5/TC.jpg, id=594, 388.0899pt x 342.5598pt>
+File: /Users/marc/Thesis/Chapter5/TC.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter5/TC.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/TC.jpg  used on input line 97.
+(pdftex.def)             Requested size: 448.13095pt x 395.58197pt.
+ [158] [159 </Users/marc/Thesis/Chapter5/TC.jpg>]
+</Users/marc/Thesis/Chapter5/pseudocode.png, id=601, 5531.66624pt x 6073.69125pt>
+File: /Users/marc/Thesis/Chapter5/pseudocode.png Graphic file (type png)
+<use /Users/marc/Thesis/Chapter5/pseudocode.png>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/pseudocode.png  used on input line 117.
+(pdftex.def)             Requested size: 448.13095pt x 492.02191pt.
+ [160] [161 </Users/marc/Thesis/Chapter5/pseudocode.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 129.
+
+(/Users/marc/Thesis/Chapter5/ch5.bbl [162]
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+[]\OT1/lmr/m/n/12 Product cat-a-log.  URL $\OT1/lmtt/m/n/12 https : / / www . swagelok . com / en / toolbox /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--59
+[]\OT1/lmr/m/n/12 Sulfinert-treated sam-ple cylin-ders.  URL $\OT1/lmtt/m/n/12 https : / / www . restek . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--59
+\OT1/lmtt/m/n/12 Technical-[]Resources / Technical-[]Library / Petroleum-[]Petrochemical / petro _
+ []
+
+)) [163
+
+]
+\openout2 = `Chapter6/ch6.aux'.
+
+ (/Users/marc/Thesis/Chapter6/ch6.tex
+Chapter 7.
+
+Overfull \hbox (13.15826pt too wide) in paragraph at lines 11--11
+[]\OT1/lmr/bx/n/17.28 Other hy-dro-gen im-pu-rity mea-sure-ment chal-lenges 
+ []
+
+) [164
+
+
+
+
+] (/Users/marc/Thesis/master.aux (/Users/marc/Thesis/acronyms.aux) (/Users/marc/Thesis/Chapter1/ch1.aux) (/Users/marc/Thesis/Chapter2/ch2.aux) (/Users/marc/Thesis/Experimental/ch1.aux) (/Users/marc/Thesis/Chapter3/ch3.aux) (/Users/marc/Thesis/Chapter4/ch4.aux) (/Users/marc/Thesis/Chapter5/ch5.aux) (/Users/marc/Thesis/Chapter6/ch6.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 21759 strings out of 492609
+ 420380 string characters out of 6129048
+ 500255 words of memory out of 5000000
+ 25298 multiletter control sequences out of 15000+600000
+ 601922 words of font info for 69 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,20n,100p,2448b,747s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on /Users/marc/Thesis/master.pdf (165 pages, 20093521 bytes).
+PDF statistics:
+ 680 PDF objects out of 1000 (max. 8388607)
+ 432 compressed objects within 5 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+
