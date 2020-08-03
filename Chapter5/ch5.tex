@@ -105,18 +105,48 @@ The pressure controller (PC001, figure \ref{hiedpid}) is considered reliable, as
 The safety of the process was improved by adding a temperature shutoff to the enrichment vessel. There are three thermocouples (TE001, TE002 and TE003) on the enrichment vessel. TE003 is for controlling and monitoring the temperature of the membrane, while TE002 is for monitoring the temperature outside the vessell. TE003, which also measured the temperature outside the vessel, is connected to a temperature cut off, which is set 25\textdegree C above the setpoint temperature of the enrichment vessel. If the the recorded temperature outside of the enrichment vessel passes this threshold the heater will activate a trip, cutting off electricity until the device is checked by the operator. 
 
 \subsubsection*{User experience}
-The main improvement to user experience is the ability to easily control the temperature of the system. Previously the temperature controller was hardwired in, giving the user little control over the setpoint and temperature ramp of the device. With the new system these values can be controlled easily directly through the temperature controller, or using a microcontroller connected to the temperature controller, allowing for more options for the operator.
+The main improvement to user experience is the ability to easily control the temperature of the system. Previously the temperature controller was hardwired in, giving the user little control over the setpoint and temperature ramp of the device. With the new system these values can be controlled easily directly through the temperature controller, or using a microcontroller connected to the temperature controller, allowing more options for the operator.
 
-\subsection{Data processing}
-Data collection and processing was done manually and no automation was involved. The main improvement in the new system involved the use of a microcontroller to automatically log process variables. These values were stored for later processing by the user. A data analysis script was also prepared in order to 
+\subsection{Data processing}\label{dataproc}
+Data collection and processing was done manually and no automation was involved. The main improvement in the new system involved the use of a microcontroller to automatically log process variables. These values were stored for later processing by the user. A data analysis script was also prepared in order to estimate the time remaining for the experiment to reach the desired enrichment factor, and the current enrichment factor achieved. At the beginning of the experiment the user had the option of entering their desired enrichment factor. If entered this would be stored and the experiment would start. The system would then automatically log the initial pressures of the, hydrogen cylinder and enrichment vessel as $P_{1,a}$ and $P_{2,a}$, and the initial temperature of the enrichment vessel as $T_{1,a}$ and $T_{2,a}$ for the non ideal gas law enrichment factor (equation \ref{lit-eq:1}). The script would then continuously measure values for $P_{1,b}$, $P_{2,b}$, and $T_{2, b}$ and use them to calculate the current non-ideal gas law enrichment factor in real time. Note it was assumed the temperature of the sample cylinder ($T_{2,a}$) would remain constant at ambient temperature. This process is shown in pseudocode in figure \ref{pseudocode} and the user interface and GUI presented to the user can be found in the appendix. It should be noted that it was only possible to calculate the non-ideal gas law enrichment factor in real time as it is not possible to continuously monitor the concentration of the inert tracer molecule in the enrichment vessel. 
+
+It has already been concluded in section \ref{lit-enrichlit} that the tracer enrichment method is the best method for calculating the enrichment factor and therefore this method will still be used going forward. Calculating the non-ideal gas law enrichment factor in this manner however acts as a useful safety measure to ensure the user has a rough estimate of what gas is within the vessel at any given time. It is also useful to store this information to identify when leaks have occured as discussed in section \ref{lit-enrichlit}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth, keepaspectratio]{/Users/marc/Thesis/Chapter5/pseudocode.png}
+    \caption{Diagrammatic representation of the data processing algorithm used to provide real time enrichment factor}
+    \label{pseudocode}
+\end{figure}
 
 \section{Enrichment of hydrogen samples}
+Enrichment of the hydrogen samples was performed using the set up shown in figure \ref{hiedpid}. An initial test was performed using a commercial membrane supplied by REB using an inert mixture created using the procedure in section \ref{exp-gasprep} in order to calculate the uncertainty associated with the device. Both the commercial and PdCuZr membrane identified as the best performing membrane in chapter \ref{testingchapref} were tested using a synthetic gas mixture containing sulphur containing compounds, and krypton. Finally both the commercial membrane and PdCuZr membrane were tested using a sample taken from the hydrogen refuelling station using the procedure outlined in section \ref{sampletake}.
+
+In each case the system was purged 7 times with the hydrogen sample to ensure there was no air present in the system. Enrichment was performed at a temperature of 300\textdegree C and a final enrichment pressure of 5 bar. Enrichment factors were calculated using both the tracer enrichment method (equation \ref{lit-eq:2}) calculated at the end of the test, and non-ideal gas law method (\ref{lit-eq:2}) calculated using the data processing script described in section \ref{dataproc}.
+
+The gas mixtures used in the inert and sulphur tests are shown in table \ref{inert} and \ref{exp-sulf}. Prior to testing the HRS sample was tested to verify the concentration of krypton, and ensure there was no oxygen present in the system to pose as a hazard. Enrichment factors were capped at 50 to ensure any residual oxygen would not reach a high enough concentration to create an explosive environment.
+
+\begin{table}[]
+    \centering
+    \caption{Gas mixture composition of the inert sample used during enrichment tests}
+    \label{inert}
+    \begin{tabular}{@{}cc@{}}
+    \toprule
+    Impurity & \begin{tabular}[c]{@{}c@{}}Concentration \\ ($\mu$mol/mol)\end{tabular} \\ \midrule
+    N\textsubscript{2}       & 6.598                                                               \\
+    Kr       & 5.984                                                               \\
+    H\textsubscript{2}       & Balance                                                             \\ \bottomrule
+    \end{tabular}
+    \end{table}
 
 \subsection{Inert components}
+
+
 
 \subsection{Sulphur containing compounds}
 
 \subsection{HRS sample}
+\centerline{\textcolor{red}{\textbf{EXPERIMENT PLANNED 10/08/2020}}}
 
 \section{Conclusion}
 \bibliographystyle{unsrtnat}
