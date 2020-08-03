@@ -1,3 +1,99 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{11}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[dft(2009)]{dftbook1}
+\emph{What is Density Functional Theory?}, chapter~1, pages 1--33.
+\newblock John Wiley \& Sons, Ltd, 2009.
+\newblock ISBN 9780470447710.
+\newblock \doi{10.1002/9780470447710.ch1}.
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/9780470447710.ch1}.
+
+\bibitem[Morgan et~al.(2020)Morgan, Burt, and
+  Feldman]{morgan_burt_feldman_2020}
+Timothy~Prickett Morgan, Jeffrey Burt, and Michael Feldman.
+\newblock A new era in high performance computing, Jun 2020.
+\newblock URL
+  \url{https://www.nextplatform.com/2020/06/09/a-new-era-in-high-performance-computing/}.
+
+\bibitem[Sholl(2007)]{SHOLL2007462}
+David~S. Sholl.
+\newblock Using density functional theory to study hydrogen diffusion in
+  metals: A brief overview.
+\newblock \emph{Journal of Alloys and Compounds}, 446-447:\penalty0 462 -- 468,
+  2007.
+\newblock ISSN 0925-8388.
+\newblock \doi{https://doi.org/10.1016/j.jallcom.2006.10.136}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0925838806017439}.
+\newblock Proceedings of the International Symposium on Metal-Hydrogen Systems,
+  Fundamentals and Applications (MH2006).
+
+\bibitem[Khasawneh et~al.(2019)Khasawneh, Saidan, and
+  Al-Addous]{doi:10.1177/0144598719839767}
+Hussam Khasawneh, Motasem~N Saidan, and Mohammad Al-Addous.
+\newblock Utilization of hydrogen as clean energy resource in chlor-alkali
+  process.
+\newblock \emph{Energy Exploration \& Exploitation}, 37\penalty0 (3):\penalty0
+  1053--1072, 2019.
+\newblock \doi{10.1177/0144598719839767}.
+\newblock URL \url{https://doi.org/10.1177/0144598719839767}.
+
+\bibitem[Cox()]{cox}
+Ruth Cox.
+\newblock Waste/by-product hydrogen.
+\newblock URL
+  \url{https://www.energy.gov/sites/prod/files/2014/03/f12/waste_cox.pdf}.
+
+\bibitem[hyg()]{hygrid}
+Hydrogen recovery from natural gas.
+\newblock URL \url{https://www.hygrid-h2.eu/}.
+
+\bibitem[gia()]{giacomini}
+H2ydrogem, the hydrogen boiler by giacomini.
+\newblock URL
+  \url{https://www.giacomini.com/en/hydrogen-systems/h2ydrogem-hydrogen-boiler-giacomini}.
+
+\bibitem[Murugan and Brown(2015)]{Murugan2015}
+Arul Murugan and Andrew~S Brown.
+\newblock {Review of purity analysis methods for performing quality assurance
+  of fuel cell hydrogen}.
+\newblock \emph{International Journal of Hydrogen Energy}, 40\penalty0
+  (11):\penalty0 4219--4233, 2015.
+\newblock \doi{10.1016/j.ijhydene.2015.01.041}.
+
+\bibitem[Bacquart et~al.(2020)Bacquart, Moore, Hart, Morris, Aarhaug, Kjos,
+  Aupretre, Colas, Haloua, Gozlan, and Murugan]{BACQUART20205565}
+Thomas Bacquart, Niamh Moore, Nick Hart, Abigail Morris, Thor~A. Aarhaug, Ole
+  Kjos, Fabien Aupretre, Thibault Colas, Frederique Haloua, Bruno Gozlan, and
+  Arul Murugan.
+\newblock Hydrogen quality sampling at the hydrogen refuelling station –
+  lessons learnt on sampling at the production and at the nozzle.
+\newblock \emph{International Journal of Hydrogen Energy}, 45\penalty0
+  (8):\penalty0 5565 -- 5576, 2020.
+\newblock ISSN 0360-3199.
+\newblock \doi{https://doi.org/10.1016/j.ijhydene.2019.10.178}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0360319919340510}.
+\newblock 22nd World Hydrogen Energy Conference.
+
+\bibitem[Liu and Gavalas(2005)]{LIU2005103}
+Shaomin Liu and George~R. Gavalas.
+\newblock Oxygen selective ceramic hollow fiber membranes.
+\newblock \emph{Journal of Membrane Science}, 246\penalty0 (1):\penalty0 103 --
+  108, 2005.
+\newblock ISSN 0376-7388.
+\newblock \doi{https://doi.org/10.1016/j.memsci.2004.09.028}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0376738804006416}.
+
+\bibitem[mar()]{marketresearchfirm}
+Water testing \& analysis market.
+\newblock URL
+  \url{https://www.marketsandmarkets.com/Market-Reports/water-testing-analysis-market-152624587.html}.
 
 \end{thebibliography}

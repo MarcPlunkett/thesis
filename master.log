@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.27)  3 AUG 2020 03:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.27)  3 AUG 2020 19:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1031,19 +1031,21 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box63
 \@float@everytoks=\toks24
 \@floatcapt=\box64
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
 )
    defining Unicode char U+2005 (decimal 8197)
    defining Unicode char U+2606 (decimal 9734)
    defining Unicode char U+2212 (decimal 8722)
    defining Unicode char U+E5F8 (decimal 58872)
-Package xr Info: IMPORTING LABELS FROM Chapter2/ch2.aux on input line 34.
+Package xr Info: IMPORTING LABELS FROM Chapter2/ch2.aux on input line 35.
 
 
 LaTeX Warning: Label `lit-cathode' multiply defined.
 
-Package xr Info: IMPORTING LABELS FROM Experimental/ch1.aux on input line 35.
-Package xr Info: IMPORTING LABELS FROM Chapter3/ch3.aux on input line 36.
-Package xr Info: IMPORTING LABELS FROM Chapter4/ch4.aux on input line 37.
+Package xr Info: IMPORTING LABELS FROM Experimental/ch1.aux on input line 36.
+Package xr Info: IMPORTING LABELS FROM Chapter3/ch3.aux on input line 37.
+Package xr Info: IMPORTING LABELS FROM Chapter4/ch4.aux on input line 38.
 (/Users/marc/Thesis/master.aux (/Users/marc/Thesis/acronyms.aux) (/Users/marc/Thesis/Chapter1/ch1.aux) (/Users/marc/Thesis/Chapter2/ch2.aux
 
 LaTeX Warning: Label `cathode' multiply defined.
@@ -1056,34 +1058,41 @@ LaTeX Warning: Label `eq:1' multiply defined.
 
 LaTeX Warning: Label `fig:1' multiply defined.
 
-) (/Users/marc/Thesis/Chapter5/ch5.aux) (/Users/marc/Thesis/Chapter6/ch6.aux))
+) (/Users/marc/Thesis/Chapter5/ch5.aux
+
+LaTeX Warning: Label `proc-testingchapref' multiply defined.
+
+
+LaTeX Warning: Label `proc-testingchapref' multiply defined.
+
+) (/Users/marc/Thesis/Chapter6/ch6.aux))
 \openout1 = `master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 44.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 43.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 43.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 44.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 44.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 43.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 44.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
@@ -1139,57 +1148,57 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 43.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 44.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 43.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 44.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 43.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 44.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 43.
+(Font)              <12> on input line 44.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 43.
+(Font)              <8> on input line 44.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 43.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 43.
+(Font)              <6> on input line 44.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 44.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 43.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 44.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 48.
+(Font)              <14.4> on input line 49.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 48.
+(Font)              <10> on input line 49.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 48.
+(Font)              <7> on input line 49.
  [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
 
  []
 
 <figures/sig.png, id=8, 418.56375pt x 133.49875pt>
 File: figures/sig.png Graphic file (type png)
 <use figures/sig.png>
-Package pdftex.def Info: figures/sig.png  used on input line 56.
+Package pdftex.def Info: figures/sig.png  used on input line 57.
 (pdftex.def)             Requested size: 209.28136pt x 66.74919pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
  []
 
@@ -1197,51 +1206,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--60
 
  </Users/marc/Thesis/figures/sig.png>] [2
 
-] [3
+] [3] [4
 
-] [4
+] [5
 
-] (/Users/marc/Thesis/master.lof
+] [6] (/Users/marc/Thesis/master.lof
 Overfull \hbox (7.76727pt too wide) in paragraph at lines 22--22
  [][] []\OT1/lmr/m/n/12 Schematic rep-re-sen-ta-tion of the se-quen-tial baths for sen-si-ti-sa-tion/activation 
  []
 
-[5
+[7
 
-])
+] [8] [9])
 \tf@lof=\write3
 \openout3 = `master.lof'.
 
- [6] (/Users/marc/Thesis/master.lot
+ [10] (/Users/marc/Thesis/master.lot [11
+
+]
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 35.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [7
-
-])
+))
 \tf@lot=\write4
 \openout4 = `master.lot'.
 
- [8]
+ [12]
 \openout2 = `acronyms.aux'.
 
- (/Users/marc/Thesis/acronyms.tex [9
+ (/Users/marc/Thesis/acronyms.tex [13
 
 
 
-] [10]) [11] (/Users/marc/Thesis/master.toc [12
+] [14]) [15] (/Users/marc/Thesis/master.toc [16
 
 
-] [13])
+] [17] [18])
 \tf@toc=\write5
 \openout5 = `master.toc'.
 
- [14]
+ [19]
 \openout2 = `Chapter1/ch1.aux'.
 
  (/Users/marc/Thesis/Chapter1/ch1.tex
 Chapter 1.
-[15
+[20
 
 
 
@@ -1250,48 +1259,47 @@ Chapter 1.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 17.
 
-[16] [17]
-<figures/funnel.png, id=70, 4333.18875pt x 2366.8425pt>
+[21] [22] [23]
+<figures/funnel.png, id=90, 4333.18875pt x 2366.8425pt>
 File: figures/funnel.png Graphic file (type png)
 <use figures/funnel.png>
 Package pdftex.def Info: figures/funnel.png  used on input line 94.
 (pdftex.def)             Requested size: 448.13095pt x 244.75177pt.
- (/Users/marc/Thesis/Chapter1/ch1.bbl [18 </Users/marc/Thesis/figures/funnel.png>])) [19
+ [24] (/Users/marc/Thesis/Chapter1/ch1.bbl [25 </Users/marc/Thesis/figures/funnel.png>] [26
 
-]
+])) [27]
 \openout2 = `Chapter2/ch2.aux'.
 
  (/Users/marc/Thesis/Chapter2/ch2.tex
 Chapter 2.
-<figures/pemfccell.jpg, id=81, 214.89133pt x 205.93752pt>
+<figures/pemfccell.jpg, id=107, 214.89133pt x 205.93752pt>
 File: figures/pemfccell.jpg Graphic file (type jpg)
 <use figures/pemfccell.jpg>
 Package pdftex.def Info: figures/pemfccell.jpg  used on input line 11.
 (pdftex.def)             Requested size: 214.8908pt x 205.937pt.
-[20
+[28
 
 
 
 
-]
-<figures/MEA.png, id=85, 519.9425pt x 493.845pt>
+] [29 </Users/marc/Thesis/figures/pemfccell.jpg>]
+<figures/MEA.png, id=115, 519.9425pt x 493.845pt>
 File: figures/MEA.png Graphic file (type png)
 <use figures/MEA.png>
 Package pdftex.def Info: figures/MEA.png  used on input line 31.
 (pdftex.def)             Requested size: 363.95728pt x 345.68913pt.
- [21 </Users/marc/Thesis/figures/pemfccell.jpg>]
-<figures/PEMFCstack.png, id=90, 853.1875pt x 304.13625pt>
+<figures/PEMFCstack.png, id=116, 853.1875pt x 304.13625pt>
 File: figures/PEMFCstack.png Graphic file (type png)
 <use figures/PEMFCstack.png>
 Package pdftex.def Info: figures/PEMFCstack.png  used on input line 37.
 (pdftex.def)             Requested size: 426.59271pt x 152.06775pt.
- [22 </Users/marc/Thesis/figures/MEA.png> </Users/marc/Thesis/figures/PEMFCstack.png>]
-<figures/smrprocess.jpg, id=96, 311.46451pt x 152.21469pt>
+ [30 </Users/marc/Thesis/figures/MEA.png>] [31 </Users/marc/Thesis/figures/PEMFCstack.png>]
+<figures/smrprocess.jpg, id=126, 311.46451pt x 152.21469pt>
 File: figures/smrprocess.jpg Graphic file (type jpg)
 <use figures/smrprocess.jpg>
 Package pdftex.def Info: figures/smrprocess.jpg  used on input line 56.
 (pdftex.def)             Requested size: 311.46375pt x 152.21431pt.
- [23 </Users/marc/Thesis/figures/smrprocess.jpg>] [24] [25]
+ [32 </Users/marc/Thesis/figures/smrprocess.jpg>] [33] [34] [35]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 135.
@@ -1306,32 +1314,28 @@ LaTeX Font Info:    Font shape `OML/lmr/m/n' in size <12> not available
 Overfull \vbox (14.49998pt too high) detected at line 158
  []
 
-[26] [27] [28] [29] [30] [31]
+[36] [37] [38] [39] [40] [41] [42] [43] [44]
 Overfull \hbox (4.13824pt too wide) in paragraph at lines 296--303
 []\OT1/lmr/m/n/12 A de-vice sim-i-lar to the HIED is the Hy-dro-gen Elim-i-na-tion Mass Spec-trom-e-ter (HEMS)
  []
 
-[32]
+[45] [46]
 LaTeX Font Info:    Try loading font information for U+eur on input line 352.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/ueur.fd
 File: ueur.fd 2013/01/14 v3.01 Euler Roman
-) [33]
-<figures/septype.png, id=135, 452.4102pt x 250.536pt>
+) [47]
+<figures/septype.png, id=179, 452.4102pt x 250.536pt>
 File: figures/septype.png Graphic file (type png)
 <use figures/septype.png>
 Package pdftex.def Info: figures/septype.png  used on input line 357.
 (pdftex.def)             Requested size: 448.13095pt x 248.16519pt.
- [34 </Users/marc/Thesis/figures/septype.png>] [35] [36] [37] [38] [39]
-<figures/alphabeta.png, id=158, 452.69125pt x 527.9725pt>
+ [48 </Users/marc/Thesis/figures/septype.png>] [49] [50] [51] [52] [53] [54] [55] [56]
+<figures/alphabeta.png, id=213, 452.69125pt x 527.9725pt>
 File: figures/alphabeta.png Graphic file (type png)
 <use figures/alphabeta.png>
 Package pdftex.def Info: figures/alphabeta.png  used on input line 609.
 (pdftex.def)             Requested size: 448.13095pt x 522.65411pt.
- [40] [41 </Users/marc/Thesis/figures/alphabeta.png>] [42] [43] [44] [45]
-Overfull \vbox (1.41635pt too high) detected at line 788
- []
-
-
+ [57] [58 </Users/marc/Thesis/figures/alphabeta.png>] [59] [60] [61] [62] [63] [64]
 Overfull \hbox (639.80054pt too wide) in alignment at lines 784--822
  [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
@@ -1341,27 +1345,27 @@ Overfull \hbox (639.80054pt too wide) in alignment at lines 822--861
  [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[46]
+[65]
 Overfull \hbox (639.80054pt too wide) in alignment at lines 861--903
  [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[47]
+[66] [67]
 Overfull \hbox (639.80054pt too wide) in alignment at lines 903--944
  [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-
+[68]
 Overfull \hbox (639.80054pt too wide) in alignment at lines 944--985
  [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[48] [49]
+[69] [70]
 Overfull \hbox (639.80054pt too wide) in alignment at lines 985--999
  [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[50] [51] [52]
+[71] [72] [73] [74] [75] [76]
 Overfull \hbox (618.73917pt too wide) in alignment at lines 1018--1094
  [] [] [] [] [] [] [] [] 
  []
@@ -1371,7 +1375,7 @@ Overfull \hbox (618.73917pt too wide) in alignment at lines 1094--1162
  [] [] [] [] [] [] [] [] 
  []
 
-[53] [54] [55] [56]
+[77] [78] [79] [80] [81] [82]
 Overfull \hbox (3.23286pt too wide) in paragraph at lines 1240--1240
  []|\OT1/lmr/m/n/12 Ref| 
  []
@@ -1601,8 +1605,8 @@ Overfull \hbox (601.79997pt too wide) in alignment at lines 1423--1565
  [] [] [] [] [] [] [] [] [] 
  []
 
-[57] [58] [59] [60] [61] [62]
-<figures/elpmetals.png, id=234, 452.69125pt x 229.85875pt>
+[83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93]
+<figures/elpmetals.png, id=332, 452.69125pt x 229.85875pt>
 File: figures/elpmetals.png Graphic file (type png)
 <use figures/elpmetals.png>
 Package pdftex.def Info: figures/elpmetals.png  used on input line 1666.
@@ -1612,19 +1616,19 @@ Overfull \hbox (4.55919pt too wide) in paragraph at lines 1666--1667
  [][] 
  []
 
-[63] [64 </Users/marc/Thesis/figures/elpmetals.png>] [65]
-<figures/convergereal.png, id=245, 456.70625pt x 341.275pt>
+[94] [95 </Users/marc/Thesis/figures/elpmetals.png>] [96] [97]
+<figures/convergereal.png, id=347, 456.70625pt x 341.275pt>
 File: figures/convergereal.png Graphic file (type png)
 <use figures/convergereal.png>
 Package pdftex.def Info: figures/convergereal.png  used on input line 1702.
 (pdftex.def)             Requested size: 448.13095pt x 334.87943pt.
- [66 </Users/marc/Thesis/figures/convergereal.png>]
-<figures/fccsites.png, id=251, 510.90875pt x 337.26pt>
+ [98 </Users/marc/Thesis/figures/convergereal.png>] [99]
+<figures/fccsites.png, id=356, 510.90875pt x 337.26pt>
 File: figures/fccsites.png Graphic file (type png)
 <use figures/fccsites.png>
 Package pdftex.def Info: figures/fccsites.png  used on input line 1720.
 (pdftex.def)             Requested size: 448.13095pt x 295.81708pt.
- [67] [68 </Users/marc/Thesis/figures/fccsites.png>] [69] [70] [71]
+ [100 </Users/marc/Thesis/figures/fccsites.png>] [101] [102] [103] [104]
 Overfull \hbox (282.42395pt too wide) in alignment at lines 1762--1766
  [] [] [] [] [] [] [] [] [] 
  []
@@ -1654,12 +1658,12 @@ Overfull \hbox (282.42395pt too wide) in alignment at lines 1811--1851
  [] [] [] [] [] [] [] [] [] 
  []
 
-
+[105]
 Overfull \hbox (282.42395pt too wide) in alignment at lines 1851--1859
  [] [] [] [] [] [] [] [] [] 
  []
 
-[72] [73] (/Users/marc/Thesis/Chapter2/ch2.bbl [74]
+[106] [107] [108] (/Users/marc/Thesis/Chapter2/ch2.bbl [109]
 Underfull \hbox (badness 1430) in paragraph at lines 10--19
 \OT1/lmr/m/n/12 Chap-ter 1.7 - Mem-branes for Mi-cro-bial Fuel Cells.  In S Venkata Mo-
  []
@@ -1679,9 +1683,9 @@ Underfull \hbox (badness 2088) in paragraph at lines 10--19
 \OT1/lmr/m/n/12 El-se-vier, 2019.  ISBN 978-0-444-64052-9.  doi: $https : / / doi . org / 10 . 1016 /
  []
 
-[75
+[110
 
-]
+] [111]
 Underfull \hbox (badness 10000) in paragraph at lines 136--142
 []\OT1/lmr/m/n/12 Energy & In-dus-trial Strat-egy De-part-ment for Busi-ness.  Prices
  []
@@ -1701,7 +1705,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--142
 \OT1/lmr/m/n/12 URL $\OT1/lmtt/m/n/12 https : / / www . gov . uk / government / statistical-[]data-[]sets /
  []
 
-[76] [77]
+[112] [113] [114]
 Underfull \hbox (badness 10000) in paragraph at lines 309--315
 \OT1/lmtt/m/n/12 hl = en{\ & }lr = {\ & }id = gCQjw-[]cyulAC{\ & }oi = fnd{\ & }pg = PA1{\ & }dq = Dense +
  []
@@ -1711,7 +1715,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 309--315
 \OT1/lmtt/m/n/12 Ceramic + Membranes + for + Hydrogen + Separation{\ & }ots = e-[]3oiNW5EW{\ & }sig =
  []
 
-[78] [79] [80] [81] [82]
+[115] [116] [117] [118] [119] [120] [121]
 Underfull \hbox (badness 2486) in paragraph at lines 686--696
 []\OT1/lmr/m/n/12 Hiroshi Yukawa, Daisuke Ya-mashita, Shigeyuki Ito, Masahiko Mori-naga,
  []
@@ -1741,27 +1745,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 686--696
 \OT1/lmtt/m/n/12 / / publication / uuid / 3C0A7ADC-[]9BA8-[]471E-[]9CF3-[]40C116284411{\ % }5Cnhttp :
  []
 
-[83] [84] [85] [86]
+[122] [123] [124] [125] [126] [127]
 Underfull \hbox (badness 2401) in paragraph at lines 1032--1047
 []\OT1/lmr/m/n/12 Shumin Fang, Kyle Brinkman, and Fan-glin Chen.  Un-prece-dented CO
  []
 
-[87] [88] [89] [90] [91])) [92]
+[128] [129] [130] [131] [132] [133] [134] [135])) [136]
 \openout2 = `Experimental/ch1.aux'.
 
  (/Users/marc/Thesis/Experimental/ch1.tex
 Chapter 3.
-</Users/marc/Thesis/Experimental/kpoints.jpg, id=335, 248.3679pt x 197.538pt>
+</Users/marc/Thesis/Experimental/kpoints.jpg, id=475, 248.3679pt x 197.538pt>
 File: /Users/marc/Thesis/Experimental/kpoints.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Experimental/kpoints.jpg>
 Package pdftex.def Info: /Users/marc/Thesis/Experimental/kpoints.jpg  used on input line 8.
 (pdftex.def)             Requested size: 359.56711pt x 285.97966pt.
-[93
+[137
 
 
 
 
-] [94 </Users/marc/Thesis/Experimental/kpoints.jpg>]
+] [138 </Users/marc/Thesis/Experimental/kpoints.jpg>] [139] [140]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 42.
@@ -1770,24 +1774,23 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 56.
 
-[95] [96]
-<figures/pretreatment.png, id=349, 1621.05624pt x 867.24pt>
+<figures/pretreatment.png, id=489, 1621.05624pt x 867.24pt>
 File: figures/pretreatment.png Graphic file (type png)
 <use figures/pretreatment.png>
 Package pdftex.def Info: figures/pretreatment.png  used on input line 86.
 (pdftex.def)             Requested size: 448.13095pt x 239.74226pt.
- [97 </Users/marc/Thesis/figures/pretreatment.png>]
-<figures/ELpprocedure.png, id=354, 2155.05125pt x 462.72874pt>
+[141] [142 </Users/marc/Thesis/figures/pretreatment.png>]
+<figures/ELpprocedure.png, id=497, 2155.05125pt x 462.72874pt>
 File: figures/ELpprocedure.png Graphic file (type png)
 <use figures/ELpprocedure.png>
 Package pdftex.def Info: figures/ELpprocedure.png  used on input line 102.
 (pdftex.def)             Requested size: 448.13095pt x 96.21565pt.
-
+ [143 </Users/marc/Thesis/figures/ELpprocedure.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 110.
 
-[98 </Users/marc/Thesis/figures/ELpprocedure.png>]
+[144]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 137.
@@ -1796,8 +1799,8 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 153.
 
-[99] [100]
-</Users/marc/Thesis/Experimental/perm_rig.png, id=366, decode=[0.2 0.5], 8270.9pt x 6073.69125pt>
+[145] [146] [147]
+</Users/marc/Thesis/Experimental/perm_rig.png, id=515, decode=[0.2 0.5], 8270.9pt x 6073.69125pt>
 File: /Users/marc/Thesis/Experimental/perm_rig.png Graphic file (type png)
 <use /Users/marc/Thesis/Experimental/perm_rig.png>
 Package pdftex.def Info: /Users/marc/Thesis/Experimental/perm_rig.png  used on input line 182.
@@ -1809,166 +1812,166 @@ LaTeX Warning: Float too large for page by 10.78828pt on input line 185.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[101 </Users/marc/Thesis/Experimental/perm_rig.png>] [102
+[148 </Users/marc/Thesis/Experimental/perm_rig.png>] [149
 
 
-] (/Users/marc/Thesis/Experimental/ch1.bbl [103] [104
+] (/Users/marc/Thesis/Experimental/ch1.bbl [150] [151
 
-])) [105]
+] [152])) [153]
 \openout2 = `Chapter3/ch3.aux'.
 
  (/Users/marc/Thesis/Chapter3/ch3.tex
 Chapter 4.
-[106
+[154
 
 
 
 
-] [107] [108]
-</Users/marc/Thesis/Chapter3/data/PDSITES.jpg, id=394, 396.0396pt x 341.3553pt>
+] [155] [156] [157] [158]
+</Users/marc/Thesis/Chapter3/data/PDSITES.jpg, id=553, 396.0396pt x 341.3553pt>
 File: /Users/marc/Thesis/Chapter3/data/PDSITES.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/PDSITES.jpg>
 Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/PDSITES.jpg  used on input line 85.
 (pdftex.def)             Requested size: 396.03862pt x 341.35445pt.
- [109] [110 </Users/marc/Thesis/Chapter3/data/PDSITES.jpg>]
+ [159] [160 </Users/marc/Thesis/Chapter3/data/PDSITES.jpg>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 98.
 
-[111]
-</Users/marc/Thesis/Chapter3/data/h2ads.jpg, id=404, 890.3664pt x 501.5538pt>
+[161]
+</Users/marc/Thesis/Chapter3/data/h2ads.jpg, id=563, 890.3664pt x 501.5538pt>
 File: /Users/marc/Thesis/Chapter3/data/h2ads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/h2ads.jpg>
 Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/h2ads.jpg  used on input line 115.
 (pdftex.def)             Requested size: 571.97913pt x 322.20253pt.
- [112 </Users/marc/Thesis/Chapter3/data/h2ads.jpg>]
-</Users/marc/Thesis/Chapter3/data/HEads.jpg, id=408, 645.8529pt x 506.8536pt>
+ [162 </Users/marc/Thesis/Chapter3/data/h2ads.jpg>]
+</Users/marc/Thesis/Chapter3/data/HEads.jpg, id=568, 645.8529pt x 506.8536pt>
 File: /Users/marc/Thesis/Chapter3/data/HEads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/HEads.jpg>
 Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/HEads.jpg  used on input line 126.
 (pdftex.def)             Requested size: 403.31511pt x 316.51202pt.
-</Users/marc/Thesis/Chapter3/data/N2ads.jpg, id=409, 660.7887pt x 506.8536pt>
+</Users/marc/Thesis/Chapter3/data/N2ads.jpg, id=569, 660.7887pt x 506.8536pt>
 File: /Users/marc/Thesis/Chapter3/data/N2ads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/N2ads.jpg>
 Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/N2ads.jpg  used on input line 134.
 (pdftex.def)             Requested size: 403.31511pt x 309.35812pt.
-</Users/marc/Thesis/Chapter3/data/CO2ads.jpg, id=410, 655.7298pt x 506.8536pt>
+</Users/marc/Thesis/Chapter3/data/CO2ads.jpg, id=570, 655.7298pt x 506.8536pt>
 File: /Users/marc/Thesis/Chapter3/data/CO2ads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/CO2ads.jpg>
 Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/CO2ads.jpg  used on input line 141.
 (pdftex.def)             Requested size: 403.31511pt x 311.74791pt.
-</Users/marc/Thesis/Chapter3/data/ARads.jpg, id=411, 655.7298pt x 506.8536pt>
+</Users/marc/Thesis/Chapter3/data/ARads.jpg, id=571, 655.7298pt x 506.8536pt>
 File: /Users/marc/Thesis/Chapter3/data/ARads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/ARads.jpg>
 Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/ARads.jpg  used on input line 148.
 (pdftex.def)             Requested size: 403.31511pt x 311.74791pt.
- [113
+ [163
 
 
-] [114 </Users/marc/Thesis/Chapter3/data/HEads.jpg>] [115 </Users/marc/Thesis/Chapter3/data/N2ads.jpg>] [116 </Users/marc/Thesis/Chapter3/data/CO2ads.jpg>] [117 </Users/marc/Thesis/Chapter3/data/ARads.jpg>]
-</Users/marc/Thesis/Chapter3/data/COSites.jpg, id=428, 386.1627pt x 341.3553pt>
+] [164 </Users/marc/Thesis/Chapter3/data/HEads.jpg>] [165 </Users/marc/Thesis/Chapter3/data/N2ads.jpg>] [166 </Users/marc/Thesis/Chapter3/data/CO2ads.jpg>] [167 </Users/marc/Thesis/Chapter3/data/ARads.jpg>]
+</Users/marc/Thesis/Chapter3/data/COSites.jpg, id=587, 386.1627pt x 341.3553pt>
 File: /Users/marc/Thesis/Chapter3/data/COSites.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/COSites.jpg>
 Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/COSites.jpg  used on input line 166.
 (pdftex.def)             Requested size: 386.16176pt x 341.35445pt.
- [118 </Users/marc/Thesis/Chapter3/data/COSites.jpg>]
-</Users/marc/Thesis/Chapter3/data/COads.jpg, id=432, 885.3075pt x 501.5538pt>
+ [168] [169 </Users/marc/Thesis/Chapter3/data/COSites.jpg>]
+</Users/marc/Thesis/Chapter3/data/COads.jpg, id=595, 885.3075pt x 501.5538pt>
 File: /Users/marc/Thesis/Chapter3/data/COads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/COads.jpg>
 Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/COads.jpg  used on input line 175.
 (pdftex.def)             Requested size: 571.97131pt x 324.03926pt.
- [119 </Users/marc/Thesis/Chapter3/data/COads.jpg>]
-</Users/marc/Thesis/Chapter3/data/NH3ads.jpg, id=436, 882.6576pt x 506.8536pt>
+ [170 </Users/marc/Thesis/Chapter3/data/COads.jpg>]
+</Users/marc/Thesis/Chapter3/data/NH3ads.jpg, id=599, 882.6576pt x 506.8536pt>
 File: /Users/marc/Thesis/Chapter3/data/NH3ads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/NH3ads.jpg>
 Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/NH3ads.jpg  used on input line 186.
 (pdftex.def)             Requested size: 403.3203pt x 231.60095pt.
- [120
+ [171
 
 
- </Users/marc/Thesis/Chapter3/data/NH3ads.jpg>] [121]
-</Users/marc/Thesis/Chapter3/data/O2ads.jpg, id=444, 877.5987pt x 501.5538pt>
+ </Users/marc/Thesis/Chapter3/data/NH3ads.jpg>] [172] [173]
+</Users/marc/Thesis/Chapter3/data/O2ads.jpg, id=609, 877.5987pt x 501.5538pt>
 File: /Users/marc/Thesis/Chapter3/data/O2ads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/O2ads.jpg>
 Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/O2ads.jpg  used on input line 201.
 (pdftex.def)             Requested size: 571.95898pt x 326.87856pt.
- [122 </Users/marc/Thesis/Chapter3/data/O2ads.jpg>]
-</Users/marc/Thesis/Chapter3/data/H2Oads.jpg, id=448, 877.5987pt x 501.5538pt>
+ [174 </Users/marc/Thesis/Chapter3/data/O2ads.jpg>]
+</Users/marc/Thesis/Chapter3/data/H2Oads.jpg, id=614, 877.5987pt x 501.5538pt>
 File: /Users/marc/Thesis/Chapter3/data/H2Oads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/H2Oads.jpg>
 Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/H2Oads.jpg  used on input line 212.
 (pdftex.def)             Requested size: 571.95898pt x 326.87856pt.
- [123 </Users/marc/Thesis/Chapter3/data/H2Oads.jpg>]
-</Users/marc/Thesis/Chapter3/data/CH4Sites.jpg, id=452, 386.1627pt x 341.3553pt>
+ [175 </Users/marc/Thesis/Chapter3/data/H2Oads.jpg>] [176
+
+
+
+
+]
+</Users/marc/Thesis/Chapter3/data/CH4Sites.jpg, id=621, 386.1627pt x 341.3553pt>
 File: /Users/marc/Thesis/Chapter3/data/CH4Sites.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/CH4Sites.jpg>
 Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/CH4Sites.jpg  used on input line 235.
 (pdftex.def)             Requested size: 386.16176pt x 341.35445pt.
- [124
-
-
-
-
-] [125 </Users/marc/Thesis/Chapter3/data/CH4Sites.jpg>]
-</Users/marc/Thesis/Chapter3/data/CH4ads.jpg, id=459, 885.3075pt x 501.5538pt>
+ [177] [178 </Users/marc/Thesis/Chapter3/data/CH4Sites.jpg>]
+</Users/marc/Thesis/Chapter3/data/CH4ads.jpg, id=628, 885.3075pt x 501.5538pt>
 File: /Users/marc/Thesis/Chapter3/data/CH4ads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/CH4ads.jpg>
 Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/CH4ads.jpg  used on input line 243.
 (pdftex.def)             Requested size: 571.97131pt x 324.03926pt.
- [126 </Users/marc/Thesis/Chapter3/data/CH4ads.jpg>] [127
+ [179 </Users/marc/Thesis/Chapter3/data/CH4ads.jpg>] [180
 
 
 ]
-</Users/marc/Thesis/Chapter3/data/Formaldehydeads.jpg, id=467, 885.3075pt x 501.5538pt>
+</Users/marc/Thesis/Chapter3/data/Formaldehydeads.jpg, id=636, 885.3075pt x 501.5538pt>
 File: /Users/marc/Thesis/Chapter3/data/Formaldehydeads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/Formaldehydeads.jpg>
 Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/Formaldehydeads.jpg  used on input line 265.
 (pdftex.def)             Requested size: 571.97131pt x 324.03926pt.
- [128 </Users/marc/Thesis/Chapter3/data/Formaldehydeads.jpg>]
-</Users/marc/Thesis/Chapter3/data/FAads.jpg, id=471, 877.5987pt x 501.5538pt>
+ [181 </Users/marc/Thesis/Chapter3/data/Formaldehydeads.jpg>]
+</Users/marc/Thesis/Chapter3/data/FAads.jpg, id=640, 877.5987pt x 501.5538pt>
 File: /Users/marc/Thesis/Chapter3/data/FAads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/FAads.jpg>
 Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/FAads.jpg  used on input line 275.
 (pdftex.def)             Requested size: 571.95898pt x 326.87856pt.
- [129 </Users/marc/Thesis/Chapter3/data/FAads.jpg>]
-</Users/marc/Thesis/Chapter3/data/H2SSites.jpg, id=475, 386.1627pt x 341.3553pt>
+ [182 </Users/marc/Thesis/Chapter3/data/FAads.jpg>]
+</Users/marc/Thesis/Chapter3/data/H2SSites.jpg, id=644, 386.1627pt x 341.3553pt>
 File: /Users/marc/Thesis/Chapter3/data/H2SSites.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/H2SSites.jpg>
 Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/H2SSites.jpg  used on input line 290.
 (pdftex.def)             Requested size: 313.69029pt x 277.29318pt.
- [130
+ [183
 
 
 
 
- </Users/marc/Thesis/Chapter3/data/H2SSites.jpg>]
-</Users/marc/Thesis/Chapter3/data/H2Sads.jpg, id=479, 885.3075pt x 501.5538pt>
+] [184 </Users/marc/Thesis/Chapter3/data/H2SSites.jpg>]
+</Users/marc/Thesis/Chapter3/data/H2Sads.jpg, id=651, 885.3075pt x 501.5538pt>
 File: /Users/marc/Thesis/Chapter3/data/H2Sads.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter3/data/H2Sads.jpg>
 Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/H2Sads.jpg  used on input line 299.
 (pdftex.def)             Requested size: 571.97131pt x 324.03926pt.
- [131 </Users/marc/Thesis/Chapter3/data/H2Sads.jpg>]
+ [185 </Users/marc/Thesis/Chapter3/data/H2Sads.jpg>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 313.
 
-(/Users/marc/Thesis/Chapter3/ch3.bbl [132
+[186
 
 
-] [133
+] (/Users/marc/Thesis/Chapter3/ch3.bbl [187] [188
 
-] [134] [135])) [136]
+] [189] [190] [191] [192])) [193]
 \openout2 = `Chapter4/ch4.aux'.
 
  (/Users/marc/Thesis/Chapter4/ch4.tex
 Chapter 5.
-[137
+[194
 
 
 
 
-] [138]
-<figures/Semxsect.png, id=506, 2810.5pt x 4474.7175pt>
+] [195] [196]
+<figures/Semxsect.png, id=690, 2810.5pt x 4474.7175pt>
 File: figures/Semxsect.png Graphic file (type png)
 <use figures/Semxsect.png>
 Package pdftex.def Info: figures/Semxsect.png  used on input line 23.
@@ -1978,7 +1981,7 @@ Package pdftex.def Info: figures/Semxsect.png  used on input line 23.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 30.
 
-[139] [140 </Users/marc/Thesis/figures/Semxsect.png>]
+[197] [198 </Users/marc/Thesis/figures/Semxsect.png>] [199]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 58.
@@ -1987,93 +1990,133 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 80.
 
-[141] [142]
+[200] [201] [202]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 109.
 
-[143] [144
+[203] [204
 
 
-]
-<figures/permeabilitychart.png, id=527, 1482.53876pt x 707.64375pt>
+] [205]
+<figures/permeabilitychart.png, id=722, 1482.53876pt x 707.64375pt>
 File: figures/permeabilitychart.png Graphic file (type png)
 <use figures/permeabilitychart.png>
 Package pdftex.def Info: figures/permeabilitychart.png  used on input line 137.
 (pdftex.def)             Requested size: 635.5pt x 303.34148pt.
- [145 </Users/marc/Thesis/figures/permeabilitychart.png>] [146
+ [206 </Users/marc/Thesis/figures/permeabilitychart.png>] [207
 
 
-] (/Users/marc/Thesis/Chapter4/ch4.bbl [147] [148
+] [208] (/Users/marc/Thesis/Chapter4/ch4.bbl [209] [210
 
-])) [149]
+])) [211]
 \openout2 = `Chapter5/ch5.aux'.
 
  (/Users/marc/Thesis/Chapter5/ch5.tex
 Chapter 6.
-[150
+[212
 
 
 
 
-] [151]
-</Users/marc/Thesis/Chapter5/1L.jpg, id=552, 375.804pt x 342.5598pt>
+] [213] [214] [215]
+</Users/marc/Thesis/Chapter5/1L.jpg, id=755, 375.804pt x 342.5598pt>
 File: /Users/marc/Thesis/Chapter5/1L.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter5/1L.jpg>
-Package pdftex.def Info: /Users/marc/Thesis/Chapter5/1L.jpg  used on input line 32.
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/1L.jpg  used on input line 31.
 (pdftex.def)             Requested size: 224.06548pt x 204.24637pt.
-</Users/marc/Thesis/Chapter5/10L.jpg, id=553, 375.804pt x 342.5598pt>
+</Users/marc/Thesis/Chapter5/10L.jpg, id=756, 375.804pt x 342.5598pt>
 File: /Users/marc/Thesis/Chapter5/10L.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter5/10L.jpg>
-Package pdftex.def Info: /Users/marc/Thesis/Chapter5/10L.jpg  used on input line 33.
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/10L.jpg  used on input line 32.
 (pdftex.def)             Requested size: 224.06548pt x 204.24637pt.
-</Users/marc/Thesis/Chapter5/50L.jpg, id=554, 375.804pt x 342.5598pt>
+</Users/marc/Thesis/Chapter5/50L.jpg, id=757, 375.804pt x 342.5598pt>
 File: /Users/marc/Thesis/Chapter5/50L.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter5/50L.jpg>
-Package pdftex.def Info: /Users/marc/Thesis/Chapter5/50L.jpg  used on input line 34.
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/50L.jpg  used on input line 33.
 (pdftex.def)             Requested size: 224.06548pt x 204.24637pt.
 
 
-LaTeX Warning: Float too large for page by 18.23909pt on input line 37.
+LaTeX Warning: Float too large for page by 18.23909pt on input line 36.
 
-[152] [153 </Users/marc/Thesis/Chapter5/1L.jpg> </Users/marc/Thesis/Chapter5/10L.jpg> </Users/marc/Thesis/Chapter5/50L.jpg>] [154] [155]
-</Users/marc/Thesis/Chapter5/PID.pdf, id=567, 845.1575pt x 597.23125pt>
+[216] [217 </Users/marc/Thesis/Chapter5/1L.jpg> </Users/marc/Thesis/Chapter5/10L.jpg> </Users/marc/Thesis/Chapter5/50L.jpg>] [218] [219]
+</Users/marc/Thesis/Chapter5/PID.pdf, id=771, 845.1575pt x 597.23125pt>
 File: /Users/marc/Thesis/Chapter5/PID.pdf Graphic file (type pdf)
 <use /Users/marc/Thesis/Chapter5/PID.pdf>
-Package pdftex.def Info: /Users/marc/Thesis/Chapter5/PID.pdf  used on input line 65.
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/PID.pdf  used on input line 64.
 (pdftex.def)             Requested size: 598.28638pt x 422.77939pt.
- [156 </Users/marc/Thesis/Chapter5/PID.pdf>]
-</Users/marc/Thesis/figures/TU.png, id=589, 971.63pt x 421.575pt>
+ [220 </Users/marc/Thesis/Chapter5/PID.pdf>]
+</Users/marc/Thesis/figures/TU.png, id=792, 971.63pt x 421.575pt>
 File: /Users/marc/Thesis/figures/TU.png Graphic file (type png)
 <use /Users/marc/Thesis/figures/TU.png>
-Package pdftex.def Info: /Users/marc/Thesis/figures/TU.png  used on input line 77.
+Package pdftex.def Info: /Users/marc/Thesis/figures/TU.png  used on input line 76.
 (pdftex.def)             Requested size: 448.13095pt x 194.43503pt.
- [157
+ [221
 
 
- </Users/marc/Thesis/figures/TU.png>]
-</Users/marc/Thesis/Chapter5/TC.jpg, id=594, 388.0899pt x 342.5598pt>
+] [222 </Users/marc/Thesis/figures/TU.png>]
+</Users/marc/Thesis/Chapter5/TC.jpg, id=801, 388.0899pt x 342.5598pt>
 File: /Users/marc/Thesis/Chapter5/TC.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter5/TC.jpg>
-Package pdftex.def Info: /Users/marc/Thesis/Chapter5/TC.jpg  used on input line 97.
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/TC.jpg  used on input line 96.
 (pdftex.def)             Requested size: 448.13095pt x 395.58197pt.
- [158] [159 </Users/marc/Thesis/Chapter5/TC.jpg>]
-</Users/marc/Thesis/Chapter5/pseudocode.png, id=601, 5531.66624pt x 6073.69125pt>
+ [223 </Users/marc/Thesis/Chapter5/TC.jpg>] [224]
+</Users/marc/Thesis/Chapter5/pseudocode.png, id=808, 5531.66624pt x 6073.69125pt>
 File: /Users/marc/Thesis/Chapter5/pseudocode.png Graphic file (type png)
 <use /Users/marc/Thesis/Chapter5/pseudocode.png>
-Package pdftex.def Info: /Users/marc/Thesis/Chapter5/pseudocode.png  used on input line 117.
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/pseudocode.png  used on input line 116.
 (pdftex.def)             Requested size: 448.13095pt x 492.02191pt.
- [160] [161 </Users/marc/Thesis/Chapter5/pseudocode.png>]
+ [225] [226 </Users/marc/Thesis/Chapter5/pseudocode.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 129.
+               Default added (so using `tbp') on input line 128.
 
-(/Users/marc/Thesis/Chapter5/ch5.bbl [162]
+[227] [228]
+</Users/marc/Thesis/Chapter5/inertenrich.jpg, id=823, 649.7073pt x 527.8119pt>
+File: /Users/marc/Thesis/Chapter5/inertenrich.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter5/inertenrich.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/inertenrich.jpg  used on input line 149.
+(pdftex.def)             Requested size: 571.94612pt x 464.64505pt.
+
+
+LaTeX Warning: Float too large for page by 41.01408pt on input line 152.
+
+[229 </Users/marc/Thesis/Chapter5/inertenrich.jpg>]
+</Users/marc/Thesis/Chapter5/inertgc.jpg, id=827, 389.5353pt x 342.5598pt>
+File: /Users/marc/Thesis/Chapter5/inertgc.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter5/inertgc.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/inertgc.jpg  used on input line 161.
+(pdftex.def)             Requested size: 448.13095pt x 394.09227pt.
+ [230
+
+
+] [231 </Users/marc/Thesis/Chapter5/inertgc.jpg>]
+</Users/marc/Thesis/Chapter5/sulfcomgc.jpg, id=834, 622.9674pt x 342.5598pt>
+File: /Users/marc/Thesis/Chapter5/sulfcomgc.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter5/sulfcomgc.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/sulfcomgc.jpg  used on input line 173.
+(pdftex.def)             Requested size: 448.13095pt x 246.42854pt.
+ [232 </Users/marc/Thesis/Chapter5/sulfcomgc.jpg>] [233]
+</Users/marc/Thesis/Chapter5/sulfenrichni.jpg, id=841, 654.5253pt x 527.8119pt>
+File: /Users/marc/Thesis/Chapter5/sulfenrichni.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter5/sulfenrichni.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/sulfenrichni.jpg  used on input line 185.
+(pdftex.def)             Requested size: 571.94612pt x 461.23026pt.
+
+
+LaTeX Warning: Float too large for page by 37.59929pt on input line 188.
+
+[234 </Users/marc/Thesis/Chapter5/sulfenrichni.jpg>] (/Users/marc/Thesis/Chapter5/ch5.bbl [235
+
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 48--50
 []\OT1/lmr/m/n/12 Product cat-a-log.  URL $\OT1/lmtt/m/n/12 https : / / www . swagelok . com / en / toolbox /
  []
 
+[236
 
+]
 Underfull \hbox (badness 10000) in paragraph at lines 56--59
 []\OT1/lmr/m/n/12 Sulfinert-treated sam-ple cylin-ders.  URL $\OT1/lmtt/m/n/12 https : / / www . restek . com /
  []
@@ -2083,41 +2126,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--59
 \OT1/lmtt/m/n/12 Technical-[]Resources / Technical-[]Library / Petroleum-[]Petrochemical / petro _
  []
 
-)) [163
-
-]
+)) [237]
 \openout2 = `Chapter6/ch6.aux'.
 
  (/Users/marc/Thesis/Chapter6/ch6.tex
 Chapter 7.
+[238
 
-Overfull \hbox (13.15826pt too wide) in paragraph at lines 11--11
+
+
+
+]
+</Users/marc/Thesis/Chapter6/manuproc.png, id=858, 7427.75pt x 2925.93124pt>
+File: /Users/marc/Thesis/Chapter6/manuproc.png Graphic file (type png)
+<use /Users/marc/Thesis/Chapter6/manuproc.png>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter6/manuproc.png  used on input line 20.
+(pdftex.def)             Requested size: 448.13095pt x 176.48587pt.
+ [239] [240 </Users/marc/Thesis/Chapter6/manuproc.png>] [241]
+</Users/marc/Thesis/Chapter6/automation.png, id=870, 3865.44125pt x 4291.03125pt>
+File: /Users/marc/Thesis/Chapter6/automation.png Graphic file (type png)
+<use /Users/marc/Thesis/Chapter6/automation.png>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter6/automation.png  used on input line 43.
+(pdftex.def)             Requested size: 448.13095pt x 497.41951pt.
+ [242] [243 </Users/marc/Thesis/Chapter6/automation.png>]
+Overfull \hbox (13.15826pt too wide) in paragraph at lines 53--53
 []\OT1/lmr/bx/n/17.28 Other hy-dro-gen im-pu-rity mea-sure-ment chal-lenges 
  []
 
-) [164
+(/Users/marc/Thesis/Chapter6/ch6.bbl [244] [245
 
-
-
-
-] (/Users/marc/Thesis/master.aux (/Users/marc/Thesis/acronyms.aux) (/Users/marc/Thesis/Chapter1/ch1.aux) (/Users/marc/Thesis/Chapter2/ch2.aux) (/Users/marc/Thesis/Experimental/ch1.aux) (/Users/marc/Thesis/Chapter3/ch3.aux) (/Users/marc/Thesis/Chapter4/ch4.aux) (/Users/marc/Thesis/Chapter5/ch5.aux) (/Users/marc/Thesis/Chapter6/ch6.aux))
+])) [246] (/Users/marc/Thesis/master.aux (/Users/marc/Thesis/acronyms.aux) (/Users/marc/Thesis/Chapter1/ch1.aux) (/Users/marc/Thesis/Chapter2/ch2.aux) (/Users/marc/Thesis/Experimental/ch1.aux) (/Users/marc/Thesis/Chapter3/ch3.aux) (/Users/marc/Thesis/Chapter4/ch4.aux) (/Users/marc/Thesis/Chapter5/ch5.aux) (/Users/marc/Thesis/Chapter6/ch6.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21759 strings out of 492609
- 420380 string characters out of 6129048
- 500255 words of memory out of 5000000
- 25298 multiletter control sequences out of 15000+600000
+ 21855 strings out of 492609
+ 422813 string characters out of 6129048
+ 494163 words of memory out of 5000000
+ 25382 multiletter control sequences out of 15000+600000
  601922 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,20n,100p,2448b,747s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /Users/marc/Thesis/master.pdf (165 pages, 20093521 bytes).
+Output written on /Users/marc/Thesis/master.pdf (247 pages, 21743976 bytes).
 PDF statistics:
- 680 PDF objects out of 1000 (max. 8388607)
- 432 compressed objects within 5 object streams
+ 954 PDF objects out of 1000 (max. 8388607)
+ 614 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 236 words of extra memory for PDF output out of 10000 (max. 10000000)
 

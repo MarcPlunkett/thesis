@@ -1,10 +1,11 @@
 \chapter{A hydrogen impurity measurement device for measuring ISO 14687 impurities}
 
 \section*{Abstract}
-In this chapter a device capable of performing hydrogen impurity enrichment is designed and tested under a number of conditions using a commercial membrane compared against the best performing fabricated membranes in chapter \ref{proc-testingchapref}. 
+In this chapter a device capable of performing hydrogen impurity enrichment is designed and tested under a number of conditions using a commercial membrane compared against the best performing fabricated membranes in chapter 5. 
 Through the use of automation and optimisation of parameters the design of the enrichment device was improved to create a more efficient, safer, and user friendly device to meet the requirements of hydrogen impurty laboratories. PID temperature conrtol was implemented, allowing greater control of the heating rate and temperature within the enrichment device, preventing damage to the membrane which earlier designs were lacking. Temperature and pressure monitoring was also implemented and fed into a microcontroller which allows the operator to continuously monitor the process paraments, and calculated enrichment factor in real time. 
 
-The improved hydrogen impurity enrichment device was then tested by performing enrichment on a number of synthetic hydrogen samples created using the procedure outlined in section \ref{exp-gasprep}, and a hydrogen sample taken from a hydrogen refuelling station. The device was capable of enriching samples to 50 times. Theoretically higher enrichment factors were possible but these tests were limited for safety reasons. The commercial membrane took 7 days to perform this measurement and provided the final value to an uncertainty of 0.5\% using the tracer enrichment method which was deemed sufficient for a commercial device. 
+The improved hydrogen impurity enrichment device was then tested by performing enrichment on a number of synthetic hydrogen samples created using the procedure outlined in section \ref{exp-gasprep}, and a hydrogen sample taken from a hydrogen refuelling station. The device was capable of enriching samples to 50 times. Theoretically higher enrichment factors were possible but these tests were limited for safety reasons. The commercial membrane took 7 days to perform this measurement and provided the final value of within 2\% of the gravametrically calculated value using the tracer enrichment method which was deemed sufficient for a commercial device. The device was also tested using a sulphur containing sample which resulted in failure of all membranes. The PdCuZr membrane while identified as being a strong candidate for enriching sulphurous impurities, failed in all tests due to poor thermal stability of the support. The commercial membrane on the other hand reacted with the gases in the mixture and became completely inactive. \textcolor{red}{\textbf{HRS results pending}}
+
 
 \section{Introduction}
 Now that appropriate membrane compositions have been found, a number of improvements must be made to the hydrogen impurity enrichment device in order to make it suitable as a commercial process and product for measuerment of ISO 14687-2 impurities. All previous devices used were extremely manual and required close operator attention to ensure the experiment performed correctly. All enrichment factor calculations discussed in section \ref{exp-enrichproc} must also be calculated by hand, after the experiment has been performed, limiting the ability for the operator to plan the experiment in advance. In addition to this the krypton enrichment method which was identified as the best method for calculating the enrichment factor in section \ref{lit-enrichlit} but no procedure is in place to instruct operators on how to add this krypton to their sampling vessel. 
@@ -12,16 +13,14 @@ Now that appropriate membrane compositions have been found, a number of improvem
 This chapter will provide a method for taking krypton spiked samples from a hydrogen refuelling station, improve the hydrogen impurity enrichment device through automation to improve the usability of the device, while providing real time results for the user, and quantify how the enrichment device performs when tested using a real sample froma  hydrogenr refuelling station. 
 
 \section{Hydrogen sampling and krypton spiking}\label{sampletake}
-Hydrogen sampling was performed using the sampling procedure developed by Bacquart et al \cite{BACQUART20205565}. The H\textsubscript{2} Qualitizer designed by Linde Australia was used and is designed to operate in line when a hydrogen vehicle is being refuelled. The adaptor is effectivley a T piece inserted between the refuelling nozzle and the FCEV (Toyota Mirai). A pressure regulator is installed before the connection to the sampling cylinder and set at 18MPa in order to prevent overpressurisation of the vessel. A diagram of the procedure is shown in figure xxx
-
-figure xxx
+Hydrogen sampling was performed using the sampling procedure developed by Bacquart et al \cite{BACQUART20205565}. The H\textsubscript{2} Qualitizer designed by Linde Australia was used and is designed to operate in line when a hydrogen vehicle is being refuelled. The adaptor is effectivley a T piece inserted between the refuelling nozzle and the FCEV (Toyota Mirai). A pressure regulator is installed before the connection to the sampling cylinder and set at 18MPa in order to prevent overpressurisation of the vessel. 
 
 The H\textsubscript{2} Qualitizer pressure reducer is fixed and tightened onto the sampling cylinder valve using a DIN 477 N.1 connection . The high-pressure hose leading from the sample cylinder is then connected to the pressure reducer and sample taking connections using quick connect fittings.  The sample-taking adapter is then connected on to the FCEV receptacle. The system is then purged and is considered ready for sampling. 
  
 A number of safety measures are in place whenm performing this procedure. The sampling bottle is secured using a safety belt at the HRS location and at the suitable distance to perform the sampling. An earthing cable and anti-whip device needs to be connected to both the pressure regulator and sample taking adapter to ensure safe operation. Anti spark wrenches (bronze) were used when connecting all fittings.
 
 \subsection{Addition of krypton for tracer enrichment}
-Past studies using tracer enrichment have simply added the krypton required when making a gas mixture through loop addition,\cite{Murugan2014} allowing for a known quantity of krypton to be added prior to any test. While this is appropriate when making a mixture from scratch, it is unsuitable for sampling from a hydrogen refuelling station, as the low pressure krypton cannot be added to a sample already taken. While there are some studies that have suceeded in adding low pressure gas to a high pressure samply using cryoegnics,\cite{Podesta2017} these tests were on a small scale and were deemed unsuitable for hydrogen refuelling sampling. The only avaliable option for spiking of the hydrogen samples was to add a known quantity of krypton to the already empty vessel, and analyse the final concentration of krypton afterwords to use in the enrichment factor calculations. The disadvantage of this method is that it adds an extra, higher uncertainty associated with the GC used to measure the krypton concentration. There are three variable which will effect the final krypton concentration added to the cylinder to alloy for tracer enrichment; the sampling vessel volume, the sample fill pressure from the hydrogen refuelling station, and the mass of krypton added.  
+Past studies using tracer enrichment have simply added the krypton required when making a gas mixture through loop addition,\cite{Murugan2014} allowing for a known quantity of krypton to be added prior to any test. While this is appropriate when making a mixture from scratch, it is unsuitable for sampling from a hydrogen refuelling station, as the low pressure krypton cannot be added to a sample already taken. While there are some studies that have suceeded in adding low pressure gas to a high pressure sample using cryoegnics,\cite{Podesta2017} these tests were on a small scale and were deemed unsuitable for HRS sampling. The only avaliable option for spiking of the hydrogen samples was to add a known quantity of krypton to the already empty vessel, and analyse the final concentration of krypton afterwords to use in the enrichment factor calculations. The disadvantage of this method is that it adds an extra, higher uncertainty associated with the GC used to measure the krypton concentration. There are three variables which will effect the final krypton concentration added to the cylinder to alloy for tracer enrichment; the sampling vessel volume, the sample fill pressure from the hydrogen refuelling station, and the mass of krypton added.  
 
 It is standard for hydrogen samples to be taken using a 10L vessel, although in the future operators may wish to take larger samples using a 50L cylinder, or smaller samples using a 1L cylinder. Although theoretically any sample size could be taken, these are generally the standard sample sizes used for metrology purposes and will be the only ones considered. The fill pressure of the sample has previously found to be unpredicable since it relies on sampling in line with a FCEV. Because of this, the final fill pressure of the sample cylinder be proportional to the amount of fuel remaining in the car. Despite this samples are generally not taken above 10 MPa for safety reasons. 
 
@@ -57,7 +56,7 @@ The transportable unit contains the enrichment vessel, heating and temperature c
 \subsubsection*{Safety}
 It was decided that a nitrogen cylinder should be added to the system in order to ensure safety. Prior to evacuating the enrichment device the system should be purged 7 times with nitrogen  as this is adequate to reduce the concentration of gases remaining in the vessel, in particular the oxygen in air and any leftover hydrogen from previous tests, to a low enough level where it is not dangerous. \cite{BACQUART20205565} The enrichment device must be evacuated to a high vacuum before testing in order to ensure integrity of the results. Many commercially avaliable vacuum systems are not safe for use in explosive environments, therefore purging with nitrogen is a requirement before any procedures are to take place in the system. 
 
-There are two pressure relief valves on the system. PSV001 is the safety interlock in the stationary unit and is set at 103 bar bar ensuring that in the event a higher pressure cylinder is connected to the system, there are sufficient safety measures in place. PSV002 is the pressure relief valve for the transportable unit, although is only in operation when it is connected to the stationary unit. and is set to 25 bar in order to prevent overpressurisation of the membrane. This pressure relief valve is critical when operating the enrichment device as the pressure initially in the enrichment vessel is at ambient conditions. As the enrichment vessel heats to the desired operating temperature, this pressure will increase, and since the enrichment vessel operates in dead end mode it is the only way out the system. This will cause the pressure within the enrichment vessel to potentially increase above the temperature rating of the membrane, resulting in failure. The pressure within the enrichment vessel is set using pressure controller PC001, effectivley creating two safety interlocks for the enrichment vessel. In the event of a pressure relief valve being triggered the gas will be automatically purged from the system through the vent.
+There are two pressure relief valves on the system. PSV001 is the safety interlock in the stationary unit and is set at 103 bar bar ensuring that in the event a higher pressure cylinder is connected to the system, there are sufficient safety measures in place. PSV002 is the pressure relief valve for the transportable unit, although is only in operation when it is connected to the stationary unit. and is set to 25 bar in order to prevent overpressurisation of the membrane. This pressure relief valve is critical when operating the enrichment device as the pressure initially in the enrichment vessel is at ambient temperature. As the enrichment vessel heats to the desired operating temperature, this pressure will increase, and since the enrichment vessel operates in dead end mode it is the only way out the system. This will cause the pressure within the enrichment vessel to potentially increase above the temperature rating of the membrane, resulting in failure. The pressure within the enrichment vessel is set using pressure controller PC001, effectivley creating two safety interlocks for the enrichment vessel. In the event of a pressure relief valve being triggered the gas will be automatically purged from the system through the vent.
 
 \begin{landscape}
 \begin{figure}
@@ -120,11 +119,11 @@ It has already been concluded in section \ref{lit-enrichlit} that the tracer enr
 \end{figure}
 
 \section{Enrichment of hydrogen samples}
-Enrichment of the hydrogen samples was performed using the set up shown in figure \ref{hiedpid}. An initial test was performed using a commercial membrane supplied by REB using an inert mixture created using the procedure in section \ref{exp-gasprep} in order to calculate the uncertainty associated with the device. Both the commercial and PdCuZr membrane identified as the best performing membrane in chapter \ref{testingchapref} were tested using a synthetic gas mixture containing sulphur containing compounds, and krypton. Finally both the commercial membrane and PdCuZr membrane were tested using a sample taken from the hydrogen refuelling station using the procedure outlined in section \ref{sampletake}.
+Enrichment of the hydrogen samples was performed using the set up shown in figure \ref{hiedpid}. An initial test was performed using a commercial membrane supplied by REB using an inert mixture created using the procedure in section \ref{exp-gasprep} in order to calculate the uncertainty associated with the device. Both the commercial and PdCuZr membrane identified as the best performing membrane in chapter 5 were tested using a synthetic gas mixture containing sulphur containing compounds, and krypton. Finally both the commercial membrane and PdCuZr membrane were tested using a sample taken from the hydrogen refuelling station using the procedure outlined in section \ref{sampletake}.
 
 In each case the system was purged 7 times with the hydrogen sample to ensure there was no air present in the system. Enrichment was performed at a temperature of 300\textdegree C and a final enrichment pressure of 5 bar. Enrichment factors were calculated using both the tracer enrichment method (equation \ref{lit-eq:2}) calculated at the end of the test, and non-ideal gas law method (\ref{lit-eq:2}) calculated using the data processing script described in section \ref{dataproc}.
 
-The gas mixtures used in the inert and sulphur tests are shown in table \ref{inert} and \ref{exp-sulf}. Prior to testing the HRS sample was tested to verify the concentration of krypton, and ensure there was no oxygen present in the system to pose as a hazard. Enrichment factors were capped at 50 to ensure any residual oxygen would not reach a high enough concentration to create an explosive environment.
+The gas mixtures used in the inert and sulphur tests are shown in table \ref{inert} and \ref{exp-sulf}. Prior to testing the HRS sample was tested to verify the concentration of krypton, and ensure there was no oxygen present in the system to pose as a hazard. Enrichment factors were capped at 100 to ensure any residual oxygen would not reach a high enough concentration to create an explosive environment.
 
 \begin{table}[]
     \centering
@@ -139,15 +138,68 @@ The gas mixtures used in the inert and sulphur tests are shown in table \ref{ine
     \end{tabular}
     \end{table}
 
-\subsection{Inert components}
+\subsection{Inert components}\label{inertsec}
+The inert mixture in table \ref{inert} was enriched to a CEF value of 50. The enrichment period was performed over a 7 day period due to the low flux value achieved by the commercial membrane supplied. The $CEF_{NI}$ value was calculated using the algorithm decscibed in section \ref{dataproc} and can it's progress over the 7 day period shown in figure \ref{GCNI}. The $CEF_{NI}$ slightly overshot the desired value of 50, stabilising at a value of 54.33, and as can be seen varied widely over the course of the experiment due to signal noise and interference. The value is still useful for keeping track of the progress of the experiment. 
 
+The system was not operated continuously for 180 hours, and was switched off at night when monitoring was not possible. This is why the $CEF_{NI}$ value fluctuated over time. 
 
+\begin{landscape}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.9\linewidth, keepaspectratio]{/Users/marc/Thesis/Chapter5/inertenrich.jpg}
+        \caption{$CEF_{NI}$ over the 180 hour enrichment of the inert hydrogen sample shown in table \ref{inert}}
+        \label{GCNI}
+    \end{figure}
+\end{landscape}
+
+Once the enrichment was complete, the system was isolated and left to cool. The transportable unit was then disconnected and it's composition measured and compared with it's original composition. Results were compared to nitrogen samples containing 251 nmol/mol, 500.77 nmol/mol, 1064 nmol/mol, 1437.37 nmol/mol using a derived calibration curve to account for non-linearity of the detector. The GC-PDHID data is shown in figure \ref{GCinert}. This anslysis found that the enriched gas contained 306.92 \textmu mol/mol of krypton and 332.14 \textmu mol/mol of Nitrogen. Calculating the $CEF_T$ using the tracer enrichment method gave a value of 51.23. 
+
+The calculation using $CEF_{NI}$ gave an initial Nitrogen concentration of 6.11 \textmu mol/mol (-7\%)N\textsubscript{2}. The tracer enrichment method calculated a value of 6.48 \textmu mol/mol (-1.7\%) further showing that the tracer enrichment method provides a more accurate result. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth, keepaspectratio]{/Users/marc/Thesis/Chapter5/inertgc.jpg}
+    \caption{GC-PDHID data of the inert sample both before and after enrichment with N\textsubscript{2} peaks shown at Time=3.25, and Kr peaks shown at Time=3.92}
+    \label{GCinert}
+\end{figure}
 
 \subsection{Sulphur containing compounds}
+The sulphur containing samples were tested using the same set up as section \ref{inertsec}, with the commercial PdAgAu membrane, and the PdCuZr alloy manufactured in chapter \label{proc-testingchapref}. The $CEF_{NI}$ values calculated in line for the experiment are shown in figure \ref{GCSULF}.
+
+The commercial membrane saw the same dramatic drop in permeability as observed in chapter \ref{proc-testingchapref}. The experiment continued however it became clear that the permeability of the commercial membrane was dropping as the experiment went on, eventually becoming inactive to hydrogen permeability. The experiment was stopped. Upon analysis of the gas remaining within the enrichment vessel it was noted that the composition had significantly changed. This is shown in figure \ref{GCSULFCOMM}. The OCS, t-BuSH, THT and CS\textsubscript{2} in the gas mixture had reacted with the hydrogen to form H\textsubscript{2}S. While this would not effect the results of analysis much, sine the ISO 14687-2 standard does not give a maximum level of a specific sulphur containing compound, only the total concentration, OCS, THT, T-BuSH and CS\textsubscript{2} all contain carbon molecules. The result of this could be the formation of hydrocarbons, CO, or solid carbon on the surface of the membrane. In the case of carbon deposition, this would explain the complete deactivation of the membrane as discussed previously in section \ref{lit-pdreview}. In order to prevent this the exact reactions should be determined and process parameters further optimised to inhibit them from taking place. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth, keepaspectratio]{/Users/marc/Thesis/Chapter5/sulfcomgc.jpg}
+    \caption{GC-PDHID data of the sulphurous sample both before and after enrichment with commercial membrane}
+    \label{GCSULFCOMM}
+\end{figure}
+
+The PdCuZr membrane was tested twice, with both runs ending in failure due to delamination of the membrane after a number of temperature cycles. On the second attempt the heating ramp was lowered to 1 \textdegree C/min in order to put less thermal strain on the membrane. This resulted in the membrane lasting one extra temperature cycle, however made no lasting difference to the result. The reason for this is likely to be the combined force of the extra pressure in the enrichment vessel durting heating, and the multiple heating cooling cycles used over the course of the experiment causing the mismatch between the thermal expansion coefficient betwen the membrane and support to result in membrane failure. 
+
+Since all enrichment experiments failed for the sulphur sample a comparison of the enrichment factors in sulphur containing atmospheres cannot be performed. 
+
+\begin{landscape}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.9\linewidth, keepaspectratio]{/Users/marc/Thesis/Chapter5/sulfenrichni.jpg}
+        \caption{$CEF_{NI}$ over the 40 hour enrichment of the sulphurous hydrogen sample shown in table \ref{exp-sulf}}
+        \label{GCSULF}
+    \end{figure}
+\end{landscape}
+
 
 \subsection{HRS sample}
 \centerline{\textcolor{red}{\textbf{EXPERIMENT PLANNED 10/08/2020}}}
 
 \section{Conclusion}
+The enrichment device was successfully upgraded in order to improve it's reliability, safety, and the user interface for performing enrichment. This was done by changing the temperature controller to a PID control system which reduced the standard deviation of the temperature while at setpoint to 1.78\textdegree C. The safety and ergonomics of the device were improved by spliotting the device into two sections, the stationary unit, where majority of the piping, electronics, and safety interlocks are in place, and the transportable unit, which contained the enrichment vessel containing the membrane, and the gas to be analysed. 
+
+The new enrichment device was tested using 3 hydrogen samples, a sample containing only inert impurities in order to test the device functions as required, a sulphur containing sample to test how the PdCuZr membrane identified as the best membrane in chapter \label{proc-testingchapref}, and a sample taken from a hydrogen refuelling station. The inert sample was successsfully enriched to 50x and using the tracer enrichment method using krypton the initial concentration of nitrogen was calculated to within 2\% of it's original value. 
+
+The sulphur tests resulted in failure of all membranes used. For the commercial membrane this was due to high reactivity with the sulphur compounds which was also identified in chapter 5. For the PdCuZr membrane this was due to material instability and further work is required to manufacture the ceramic supported membrane to be ableto withstand temperature cycling. 
+
+\textcolor{red}{\textbf{HRS results pending}}
+
 \bibliographystyle{unsrtnat}
 \bibliography{library.bib}
