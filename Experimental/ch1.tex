@@ -1,37 +1,50 @@
 \chapter{Experimental methods}
+\section{Introduction}
 
-\section{Density functional theory} \label{DFTparams}
-All DFT calculations were performed using the Quantum Espresso (QE) \cite{QE-2009, QE-2017, doi:10.1063/5.0005082} ab initio simulation package using the generalized gradient approximation with the PW91 functional to describe electron-correlation effects. Ion-electron interactions were described using ultra-soft pseudopotentials. A plane-wave expansion with a cut-off energy of 233.73 eV was used in all calculations. Geometry relaxations were performed with a conjugate gradient method until the forces on all unconstrained atoms were less than 0.03 eV/A. A Monkhorst Pack mesh with 5x5x5 k-points was used for all calculations as this was determined to be adequate for achieveing convergence from literature in table \ref{lit-DFTREV} and backed up by initial testing on a Pd system as shown in figure \ref{kpoints}.
+\section{Preparation of gas standards} \label{gasprep}
+Gas standards of hydrogen were prepared gravimetrically in 10 litre cylinders (BOC, UK) in accordance with \cite{InternationalStandardISO6142-1:2015} from pure hydrogen (Air Products, UK), nitrogen (Air Products), carbon monoxide (Scott Speciality Gases, UK), methane (CK Gases, UK) and krypton (BOC, UK). Any impurities that were detected in these pure gases were quantified and these values were then incorporated into the final determination of the gas mixture compositions and uncertainties. 
 
-\begin{figure}
-  \centering
-  \includegraphics[width=\linewidth, height=0.45\textheight,keepaspectratio]{/Users/marc/Thesis/Experimental/kpoints.jpg}
-  \caption{Total energy as a function of $M\times M\times M$ k-points across a Pd(111) fcc slab}
-  \label{kpoints}
-\end{figure}
+For the purpose of this thesis the gas standards that were used to perform the permeation tests will be referred to as gas mixtures, and the gas standards that were used to calibrate the analytical instruments will be referred to as calibration gas standards. Before use, the gas mixtures were verified against traceable primary reference materials using Gas Chromatography with either a pulsed helium discharge ionisation detector (PDHID) for samples not containing sulphur [Reference for DN34], and sulphur chemiluminescence detector (SCD) for sulphur containing samples [Reference for B543]. The compisitions of the non-sulphur, and sulphur contining gas standards created for the purposes of this thesis are shown in tables \ref{nonsulf} and \ref{sulf}.
 
-Python with scikit learn, pandas, numpy, and matplotlib packages were used for scripting, data collection and analysis. Sample files can be found in Appendix 3. 
+\begin{table}[]
+    \centering
+    \caption{Gas mixture composition of the non-sulphur sample (Cylinder NG353R) used during impurity tests}
+    \label{nonsulf}
+    \begin{tabular}{@{}cc@{}}
+    \toprule
+    Impurity & \begin{tabular}[c]{@{}c@{}}Concentration \\ ($\mu$mol/mol)\end{tabular} \\ \midrule
+    O\textsubscript{2}       & 10.06 ± 0.241 \%                                                              \\
+    N\textsubscript{2}       & 10.04 ± 0.377 \%                                                               \\
+    CH\textsubscript{4}      & 10.01 ±0.096 \%                                                               \\
+    CO\textsubscript{2}      & 10 ± 0.082 \%                                                                 \\
+    CO       & 9.98 ±  0.085 \%                                                                \\
+    H\textsubscript{2}       & Balance                                                             \\ \bottomrule
+    \end{tabular}
+    \end{table}
 
-\subsection{ISO 14687-2 Impurities and Hydrogen} \label{gassim}
-ISO 14687-2 impurities were simulated using the above parameters and their structure relaxed until convergence was achieved. The resulting structure was then cross checked using bond lengths from literature to ensure the resulting molecule was an accurate representation. 
+    \begin{table}[]
+        \centering
+        \caption{Gas mixture composition of the sulphur sample (Cylinder 2380) used during impurity tests}
+        \label{sulf}
+        \begin{tabular}{@{}cc@{}}
+        \toprule
+        Impurity & \begin{tabular}[c]{@{}c@{}}Concentration \\ (umol/mol)\end{tabular} \\ \midrule
+        Kr       & 1.1 ± 1.056 \%                                                                \\
+        H\textsubscript{2}S      & 0.41 ± 0.346\%                                                                \\
+        OCS      & 0.42       ± 0.322 \%                                                               \\
+        CS\textsubscript{2}      & 0.362 ±  0.316 \%                                                              \\
+        t-BuSH   & 0.391 ± 0.315\%                                                               \\
+        THT      & 0.409  ± 0.319\%                                                             \\
+        H\textsubscript{2}       & Balance                                                             \\ \bottomrule
+        \end{tabular}
+        \end{table}
 
-\subsection{Palladium and Palladium alloy slab models}\label{slabsim}
-The structure of bulk palladium was first created using a lattice parameter of 3.859\si{\angstrom} as reported by D. Wheeler \cite{PhysRev.25.753}. Initially the pure palladium slab model used to represent the periodic supercell was created using this palladium primative unit cell cleaved using the miller indices $(h,k,l) = (111)$ which is adequate in describing the surface of a palladium membrane. A $2\times 2$ slab was created in order to ensure minimal in-plane interactions between neighbouring molecules adsorbed onto the surface in the periodic simulations. The slab was extended to 5 atom thickness which is adequate to describe the surface of Pd(111) and a 20\si{\angstrom} vaccum layer was placed on top. The resulting supercell consisted of 20 atoms. 
 
-When creating palladium alloy systems it was assumed that alloys adopt a substitutional, random fcc structure. Metal atoms were randomly distributed among the fcc lattice in the supercell. All atoms were allowed to relax during the calculation, with the volume of the super cell fixed. 
-
-Quantum ATK Virtual NanoLab Builder \cite{synopsys} was used to generate these structures and export to QE input files. Each metal composition was simulated with three random distributions of substituted metal. For each alloy, geometry optimization was performed to get the lattice constant and total energy of each alloy prior to adsorption of gaseous molecules.
-
-\subsubsection{Adsorption energy}
-In order to find the adsorption energy of each ISO 14687-2 impurity on the membrane surfaces the molecules simulated in section \ref{gassim} were inserted into the vaccum region of the slab models generated in section \ref{slabsim}. (111) fcc surfaces have 4 avaliable sites for adsorption shown in figure \ref{lit-fccsites} A separate system was created for adsorption of each impurity onto each of these sites. Initially the adsorbed molecule was simulated using a ridgid constraint to prevent any changes to the impurities molecular structure, and a low cutoff energy in order to get a quick starting point for the basis of the full simulation. Final goemetry relaxation was then performed from this using the parameters described in section \ref{DFTparams}
-
-The adsorption energy, $E_{i_{ads}}$, for the adsorption of a gaseous impurity on the surface is then calculated using equation \ref{lit-adseqn} where $i$ is the target ISO 14687-2 impurity or hydrogen molecule.
-
-\section{Membrane manufacture}
+\section{Membrane preparation}
 
 \subsection{Materials used}
-\subsection{Support fabritcation}\label{supportmake}
-The YSZ 3\% hollow fibre substrates with a sponge like microstructure were fabricated by a fingering induced phase-inversion process, followed by high temperature sintering. A uniform ceramic suspension, with 60 wt.\% solid loading YSZ 3\% powder (1μm, VWR), was prepared by ball milling. After degassing, the ceramic suspension was transferred into 200 mL stainless steel syringes and extruded through a tube-in-orifice spinneret (outer diameter 3 mm, inner diameter 1.2 mm) into a coagulation bath with no air gap. An extrusion rate of 7 and 5 mL min\textsuperscript{-1} was adopted for ceramic suspension and bore fluid (15 wt.\% 1,4- dioxane in n-hexane) respectively. The formed precursor fibres were kept in deionized water for a minimum of 12 h, in order to remove the excess solvent. After being gently washed with deionized water, the precursor fibres were dried at room temperature and sintered at 1400\textdegree C in a tubular furnace (Elite, Model TSH 17/75/450).
+\subsection{Support fabrication}\label{supportmake}
+The YSZ 3\% hollow fibre substrates with a sponge like microstructure were fabricated by an induced phase-inversion process, followed by high temperature sintering. A uniform ceramic suspension, with 60 wt.\% solid loading YSZ 3\% powder (1μm, VWR), was prepared by ball milling. After degassing, the ceramic suspension was transferred into 200 mL stainless steel syringes and extruded through a tube-in-orifice spinneret (outer diameter 3 mm, inner diameter 1.2 mm) into a coagulation bath with no air gap. An extrusion rate of 7 and 5 mL min\textsuperscript{-1} was adopted for ceramic suspension and bore fluid (15 wt.\% 1,4- dioxane in n-hexane) respectively. The formed precursor fibres were kept in deionized water for a minimum of 12 h, in order to remove the excess solvent. After being gently washed with deionized water, the precursor fibres were dried at room temperature and sintered at 1400\textdegree C in a tubular furnace (Elite, Model TSH 17/75/450).
 
 \subsection{Membrane deposition}
 \subsubsection{Electoless Plating}\label{elpproc}
@@ -128,44 +141,7 @@ The surface composition of the membrane was further characterised using X-ray Ph
 
 Prior to the H\textsubscript{2} permeation tests, the integrity of the hollow fibre membranes was evaluated by testing the gas-tightness of the membrane under N\textsubscript{2} atmosphere, up to 10 bar and room temperature and using a gas-tightness apparatus developed in house. \cite{GouveiaGil2015}
 
-\section{Membrane testing}
-\subsection{Preparation of gas standards} \label{gasprep}
-Gas standards of hydrogen were prepared gravimetrically in 10 litre cylinders (BOC, UK) in accordance with \cite{InternationalStandardISO6142-1:2015} from pure hydrogen (Air Products, UK), nitrogen (Air Products), carbon monoxide (Scott Speciality Gases, UK), methane (CK Gases, UK) and krypton (BOC, UK). Any impurities that were detected in these pure gases were quantified and these values were then incorporated into the final determination of the gas mixture compositions and uncertainties. 
-
-For the purpose of this thesis the gas standards that were used to perform the permeation tests will be referred to as gas mixtures, and the gas standards that were used to calibrate the analytical instruments will be referred to as calibration gas standards. Before use, the gas mixtures were verified against traceable primary reference materials using Gas Chromatography with either a pulsed helium discharge ionisation detector (PDHID) for samples not containing sulphur [Reference for DN34], and sulphur chemiluminescence detector (SCD) for sulphur containing samples [Reference for B543]. The compisitions of the non-sulphur, and sulphur contining gas standards created for the purposes of this thesis are shown in tables \ref{nonsulf} and \ref{sulf}.
-
-\begin{table}[]
-    \centering
-    \caption{Gas mixture composition of the non-sulphur sample used during impurity tests}
-    \label{nonsulf}
-    \begin{tabular}{@{}cc@{}}
-    \toprule
-    Impurity & \begin{tabular}[c]{@{}c@{}}Concentration \\ ($\mu$mol/mol)\end{tabular} \\ \midrule
-    O\textsubscript{2}       & 10.06                                                               \\
-    N\textsubscript{2}       & 10.04                                                               \\
-    CH\textsubscript{4}      & 10.01                                                               \\
-    CO\textsubscript{2}      & 10                                                                  \\
-    CO       & 9.98                                                                \\
-    H\textsubscript{2}       & Balance                                                             \\ \bottomrule
-    \end{tabular}
-    \end{table}
-
-    \begin{table}[]
-        \centering
-        \caption{Gas mixture composition of the sulphur sample used during impurity tests}
-        \label{sulf}
-        \begin{tabular}{@{}cc@{}}
-        \toprule
-        Impurity & \begin{tabular}[c]{@{}c@{}}Concentration \\ (umol/mol)\end{tabular} \\ \midrule
-        Kr       & 1.1                                                                 \\
-        H\textsubscript{2}S      & 0.41                                                                \\
-        OCS      & 0.42                                                                \\
-        CS\textsubscript{2}      & 0.362                                                               \\
-        t-BuSH   & 0.391                                                               \\
-        THT      & 0.409                                                               \\
-        H\textsubscript{2}       & Balance                                                             \\ \bottomrule
-        \end{tabular}
-        \end{table}
+\section{Membrane Characterization}
 
 \subsection{Membrane testing rig}
 After the membranes were ensured to be gas tight, hydrogen permeation measurements were performed using the experimental apparatus shown in Figure 1. The palladium alloy composite hollow fibre membranes were sealed on to a stainless steel ¼” NPT fitting. The membrane was then placed in a Sulfinert®-treated sample vessel (Thames Restek, UK) with nominal volume of 300 cm\textsuperscript{3}. The vessel was then heated using heavy insulated heating tape (OMEGA STH051-020). The heating was controlled using the temperature of the membrane using a PID temperature controller (OMRON). The feed was supplied from a cylinder either containing BIP+ hydrogen (Air Products) for pure hydrogen permeability tests or one of two gravimetrically prepared gas mixtures for impurity testing shown in tables \ref{nonsulf} and \ref{sulf}. Prior to introducing gas to the membrane the system was evacuated down to 1 x 10\textsuperscript{-6} mbar. The pressure on the retentate side of the membrane is controlled using a tamper proof pressure reducer. The set-up is shown in figure \ref{testrig}. After tests the system was vented and purged 7 times with N\textsubscript{2} to ensure an explosive atmosphere could not build up within the equipment.
@@ -199,6 +175,33 @@ Since sampling from a hydrogen refuelling station is dependent on a number of va
 
 \subsection{Performing enrichment}
 The protocol for performing hydrogen impurity enrichment is similar to hydrogen permeation tests. After evacuation the gas is introduced to a vessel containing the chosen palladium membrane composition at a set enrichment pressure and the vessel heated to 300\textdegree C to begin enrichment. The pressure of the enrichment vessel and sample cylinder were both monitored and their values used to calculate the enrichment factor in real time using equations \ref{lit-eq:1} and \ref{lit-eq:2}. Once the desired enrichment factor was achieved the heater was switched off and the enrichment vessel isolated. The enrichment vessel was then brought to the desired GC detector and it's composition tested against a gas standard as described in section \ref{gasprep}
+
+\section{Density functional theory} \label{DFTparams}
+All DFT calculations were performed using the Quantum Espresso (QE) \cite{QE-2009, QE-2017, doi:10.1063/5.0005082} ab initio simulation package using the generalized gradient approximation with the PW91 functional to describe electron-correlation effects. Ion-electron interactions were described using ultra-soft pseudopotentials. A plane-wave expansion with a cut-off energy of 233.73 eV was used in all calculations. Geometry relaxations were performed with a conjugate gradient method until the forces on all unconstrained atoms were less than 0.03 eV/A. A Monkhorst Pack mesh with 5x5x5 k-points was used for all calculations as this was determined to be adequate for achieveing convergence from literature in table \ref{lit-DFTREV} and backed up by initial testing on a Pd system as shown in figure \ref{kpoints}.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth, height=0.45\textheight,keepaspectratio]{/Users/marc/Thesis/Experimental/kpoints.jpg}
+  \caption{Total energy as a function of $M\times M\times M$ k-points across a Pd(111) fcc slab}
+  \label{kpoints}
+\end{figure}
+
+Python with scikit learn, pandas, numpy, and matplotlib packages were used for scripting, data collection and analysis. Sample files can be found in Appendix 3. 
+
+\subsection{ISO 14687 Impurities and Hydrogen} \label{gassim}
+ISO 14687 impurities were simulated using the above parameters and their structure relaxed until convergence was achieved. The resulting structure was then cross checked using bond lengths from literature to ensure the resulting molecule was an accurate representation. 
+
+\subsection{Palladium and Palladium alloy slab models}\label{slabsim}
+The structure of bulk palladium was first created using a lattice parameter of 3.859\si{\angstrom} as reported by D. Wheeler \cite{PhysRev.25.753}. Initially the pure palladium slab model used to represent the periodic supercell was created using this palladium primative unit cell cleaved using the miller indices $(h,k,l) = (111)$ which is adequate in describing the surface of a palladium membrane. A $2\times 2$ slab was created in order to ensure minimal in-plane interactions between neighbouring molecules adsorbed onto the surface in the periodic simulations. The slab was extended to 5 atom thickness which is adequate to describe the surface of Pd(111) and a 20\si{\angstrom} vaccum layer was placed on top. The resulting supercell consisted of 20 atoms. 
+
+When creating palladium alloy systems it was assumed that alloys adopt a substitutional, random fcc structure. Metal atoms were randomly distributed among the fcc lattice in the supercell. All atoms were allowed to relax during the calculation, with the volume of the super cell fixed. 
+
+Quantum ATK Virtual NanoLab Builder \cite{synopsys} was used to generate these structures and export to QE input files. Each metal composition was simulated with three random distributions of substituted metal. For each alloy, geometry optimization was performed to get the lattice constant and total energy of each alloy prior to adsorption of gaseous molecules.
+
+\subsubsection{Adsorption energy}
+In order to find the adsorption energy of each ISO 14687 impurity on the membrane surfaces the molecules simulated in section \ref{gassim} were inserted into the vacuum region of the slab models generated in section \ref{slabsim}. (111) fcc surfaces have 4 available sites for adsorption shown in figure \ref{lit-fccsites} A separate system was created for adsorption of each impurity onto each of these sites. Initially the adsorbed molecule was simulated using a ridgid constraint to prevent any changes to the impurities molecular structure, and a low cutoff energy in order to get a quick starting point for the basis of the full simulation. Final goemetry relaxation was then performed from this using the parameters described in section \ref{DFTparams}
+
+The adsorption energy, $E_{i_{ads}}$, for the adsorption of a gaseous impurity on the surface is then calculated using equation \ref{lit-adseqn} where $i$ is the target ISO 14687 impurity or hydrogen molecule.
 
 
 

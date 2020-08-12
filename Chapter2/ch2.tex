@@ -2,14 +2,18 @@
 \chapter{Literature review}
 
 \section{Fuel cell electric vehicles}
-A Fuel cell electric vehicle (FCEV) refers to a vehicle which uses a solid state electrochemical device to convert chemical energy into electrical energy for motor power. The most common fuel source for FCEV's is hydrogen, where energy is produced using oxygen from air and compressed hydrogen stored on board. 
+A Fuel Cell Electric Vehicle (FCEV) refers to a vehicle which uses a solid state electrochemical device to convert chemical energy into electrical energy for motor power. The most common fuel source for FCEV's is hydrogen, where energy is produced using oxygen from air and compressed hydrogen stored on board. 
 
-A fuel cell is made up from an electrolyte and two electrocatalysts at both the anode and cathode sides of the cell. The electrolyte separates the two electrodes and usually defines the type of fuel cell. At the anode side the fuel is oxidised as shown in equation \ref{pemfcanode}, creating a positively charged ion and an electron. The electrolyte is designed to only allow the passage of ions, and prevents the passage of electrons. The freed electron travels through a circuit, creating an electric current to provide power for it's desired use. The ions travel through the electrolyte to the cathode side of the fuel cell where they are reunited with the freed electrons, and oxygen to produce water as shown in equation \ref{pemfccathode}. The overall process for a hydrogen fuel cell is shown in equation \ref{pemfcall} and visualised in figure \ref{fig:pemfccell}
+A fuel cell is made up from an electrolyte and two electrocatalysts at both the anode and cathode sides of the cell. The electrolyte separates the two electrodes and usually defines the type of fuel cell. At the anode side the fuel is oxidised as shown in equation \ref{pemfcanode}, creating a positively charged ion and an electron. The electrolyte is designed to only allow the passage of ions, and prevents the passage of electrons. The freed electron travels through a circuit, creating an electric current to provide power for it's desired use. The ions travel through the electrolyte to the cathode side of the fuel cell where they are reunited with the freed electrons, and oxygen to produce water as shown in equation \ref{pemfccathode}. The overall process for a hydrogen fuel cell is shown in equation \ref{pemfcall} and visualised in figure \ref{fig:pemfccell}. 
+
+Fuel cells are typically categorised based on the material used as an electrolyte. This classification determines the electro chemical reactions which take place, the type of electrocatalysts, fuels which can be used, and operating conditions. Some examples are Solid Oxide Fuel Cells (SOFC) which uses a proton conducting metal oxide heated to a high temperature (500-1000\textdegree C), proton exchange membrane fuel cells (PEMFC) uses a proton conducting polymer membrane as an electrolyte material, typically nafion. And alkaline fuel cells which use a uses an aqueous solution of potassium hydroxide.  
+
+While a number of fuel cell technologies can use hydrogen as a fuel source, the most suitable for FCEV's, and in particular mass production of affordable vehicles, are proton exchange membrane fuel cells (PEMFC). This is due to their high power density, low start up time, and low operating temperatures. \cite{Alaswad2016}
 
 \begin{figure}[H]
     \centering
     \includegraphics{figures/pemfccell.jpg}
-    \caption{Schematic of a PEMFC cell \cite{Dharmalingam2019}}
+    \caption{Schematic of fuel cell \cite{Dharmalingam2019}}
     \label{fig:pemfccell}
 \end{figure}
 
@@ -23,9 +27,8 @@ A fuel cell is made up from an electrolyte and two electrocatalysts at both the 
     H_2 + \frac{1}{2} \rightarrow H_2O
 \end{equation}
 
-While a number of fuel cell technologies can use hydrogen as a fuel source, the most suitable for FCEV's, and in particular mass production of affordable vehicles, are proton exchange membrane fuel cells (PEMFC). This is due to their high power density, low start up time, and low operating temperatures. \cite{Alaswad2016}
 
-A PEMFC uses a proton conducting polymer membrane as an electrolyte material, typically nafion. A PEMFC cell consists of two metal bipolar plates which act to distribute the fuel and oxident within the cell, aid water management within the cell, separate individual cells in a fuel cell stack, and carry current away from the cell. \cite{Alaswad2016} A Membrane electrode assembly (MEA) which consists of the polymer membrane, two dispersed noble metal catalyst layers to enable the anode and cathode reactions, and two gas diffusion layers to ensure uniform access of fuel and oxident to the catalyst layer. Common materials for the MEA are shown in figure \ref{fig:MEA}\cite{Mehta2003}. The components are wedged between two rubber seals to ensure gas the cell is gas tight. Individual cells are combined in series to form a fuel cell stack which can provide the desired power as shown in \ref{fig:pemfcstack}
+ A PEMFC cell consists of two metal bipolar plates which act to distribute the fuel and oxident within the cell, aid water management within the cell, separate individual cells in a fuel cell stack, and carry current away from the cell. \cite{Alaswad2016} A Membrane electrode assembly (MEA) which consists of the polymer membrane, two dispersed noble metal catalyst layers to enable the anode and cathode reactions, and two gas diffusion layers to ensure uniform access of fuel and oxident to the catalyst layer. Common materials for the MEA are shown in figure \ref{fig:MEA}\cite{Mehta2003}. The components are wedged between two rubber seals to ensure the cell is gas tight. Individual cells are combined in series to form a fuel cell stack which can provide the desired power as shown in \ref{fig:pemfcstack}
 
 \begin{figure}[H]
     \includegraphics[scale=0.7]{figures/MEA.png}
@@ -54,7 +57,7 @@ Steam methane reforming occurs through a two-step chemical process. If another h
 \begin{figure}
     \centering
     \includegraphics{figures/smrprocess.jpg}
-    \caption{Simplified block diagram of a typical modern SMR plant. WGS is a water gas shift reactor. CO\textsubscript{2} concentrations are in mol.\%. \cite{Muradov2015}}
+    \caption{Simplified block diagram of a typical modern Steam Methane Reforming (SMR) and Water Gas Shift (WGS) plant. CO\textsubscript{2} concentrations are in mol.\%. \cite{Muradov2015}}
     \label{fig:smrprocess}
 \end{figure}
 
@@ -77,13 +80,15 @@ The final product will be a mixture of CO\textsubscript{2} and H\textsubscript{2
 
 A number of separation steps are used in order to prevent impurities from contaminating the 
 resulting gas mixture. The traditional separation step is pressure swing adsorption (PSA) which takes 
-advantage of adsorption of gaseous molecules onto a molecular sieve at high pressures. Hydrogen purities of \textasciitilde99.9\% are achievable using this method however the cost is high and typically contributes to around 
+advantage of adsorption of gaseous molecules onto a molecular sieve at high pressures. Hydrogen purities of around 99.9\% are achievable using this method however the cost is high and typically contributes to around 
 20-30\% of the total production cost. \cite{Muradov2015} The other main separation step is desulphurization which uses a 
 combination of CoMo and ZnO catalysts in series at 450-550\textdegree C to remove sulphur. \cite{Muradov2015}
 This step is essential to ensure sulphur is not present and to ensure catalyst 
 poisoning does not occur at any point in the process. 
 
 The cost of producting hydrogen through SMR varies but averages at around £2 per kg of hydrogen and therefore costs around £2000 per tonne of hydrogen produced. \cite{hydrogencouncil_2020}
+
+\paragraph{Autothermal Reforming (ATR)}
 
 \paragraph{Hydrocarbon decomposition} is a process by which hydrocarbon molecules are converted into solid carbon and hydrogen. \cite{Ahmed2009} This reaction is typically operated either thermally or by creating a plasma. A metallic catalyst such as nickel or iron is required. The reaction is shown in equation \ref{eq:4} \cite{Muradov2008} 
 
@@ -96,7 +101,7 @@ An advantage of this process is that the only feedstock is the hydrocarbon, so p
 \subsection{Hydrogen from water}
 
 \paragraph{Electrolysis} uses an electric current to split water into hydrogen and oxygen using separate anode and cathode chambers isolated using an ion exchange membrane. The anode and cathode reactions are shown in equations \ref{electrolysis1} and \ref{electrolysis2}. The main competitive advantage of electrolysis is that reactors are modular and highly scalable, allowing hydrogen to be produced in a distributed manner. \cite{Acar2014} The main input to the process is electricity and if this electricity is produced using renewable sources then the process can be considered carbon neutral. However if a non-renewable source of energy is used the net carbon produced per mole of hydrogen would be higher than that produced by SMR. \cite{Koroneos2004}
-Electrolysis is incentivised by the increasing price of natural gas and the decreasing price of electricity, which some predict will result in electrolysis becoming more economically feasible than SMR in the future. \cite{Acar2014} Currently most commercial electrolysers operate at effieicnies of around 80\% and therefore requires around 55000 kWh per tonne of hydrogen produced. The average price of industrial electricity in the UK in 2020 is around £0.13 per kWh \cite{departmentforbusinessenergyindustrialstrategy_2020} and therefore the average price of hydrogen produced through electrolysis is around £7150 per tonne. \cite{hydrogencouncil_2020}
+Electrolysis is incentivised by the increasing price of natural gas and the decreasing price of electricity, which some predict will result in electrolysis becoming more economically feasible than SMR in the future. \cite{Acar2014} Currently most commercial electrolysers operate at efficiencies of around 80\% and therefore requires around 55000 kWh per tonne of hydrogen produced. The average price of industrial electricity in the UK in 2020 is around £0.13 per kWh \cite{departmentforbusinessenergyindustrialstrategy_2020} and therefore the average price of hydrogen produced through electrolysis is around £7150 per tonne. \cite{hydrogencouncil_2020}
 
 
 \begin{equation}\label{electrolysis1}
@@ -131,9 +136,10 @@ The chloro alkali process is an electrolysis process which involves the electrol
 It is estimated that around 0.4 million tonnes of hydrogen per year and this could potentially contribute to annual demand. \cite{argonnenationallab_2017} The process is extremely energy intensive however, requiring 2500 kWh per tonne of NaOH produced or 99200 kWh per tonne of H\textsubscript{2} produced. \cite{doi:10.1021/ed057pA270.1} Therefore it is unlikely that this process will be used to solely produce hydrogen. As with many waste gases, producers often reuse the gas to power parts of their process, typically through consumption. It may also be the case that producers would rather find more efficient methods for performing this rather than selling their hydrogen on the open market. A recent example of this is in 2019 when a chloro alkali plant in Jordan reused their waste hydrogen in a fuel cell situated on site to power their process. \cite{doi:10.1177/0144598719839767}
 
 \section{Hydrogen impurities in the supply chain}
-The method used to manufacture hydrogen will affect which potential impurities can be present in the final product. While steps are taken in both electrolysis and SMR to ensure a pure product is produced, there is still the chance of impurities reaching the customers fuel cell. This section will explore how ISO 14687-2 impurities can enter the supply chain, and their effect on the operation of a PEMFC. A summary is shown in table \ref{impuritytbl}
-\begin{table}[]
-    \caption{Summary of ISO 14687-2 impurities in the supply chain and their effects on fuel cell operation adapted from \cite{Bacquart2018}}
+The method used to manufacture hydrogen will affect which potential impurities can be present in the final product. While steps are taken in both electrolysis and SMR to ensure a pure product is produced, there is still the chance of impurities reaching the customers fuel cell. This section will explore how impurities can enter the hydrogen supply chain, and their effect on the operation of a PEMFC. A summary is shown in table \ref{impuritytbl}
+
+\begin{table}[H]
+    \caption{Summary of impurities in the hydrogen supply chain and their effects on fuel cell operation adapted from \cite{Bacquart2018}}
     \resizebox{\textwidth}{!}{\begin{tabular}{@{}ccccc@{}}
     \toprule
     Impurity                               & Production sources & Contamination source                                                                                                                                                                     & Contamination barriers                                                                                                                                                            & Effect on fuel cell operation                                                                                                                                       \\ \midrule
@@ -170,7 +176,7 @@ There are three potential pathways for water to contaminate hydrogen through ele
     \item Hydrogen water saturated at 60\textdegree C
     \item Drier malfunction
 \end{itemize}
-Modern electrolysers are fitted with a drier, which is the main barrier for water vapour exiting the process with hydrogen. \cite{Bacquart2018} In the event of drier failure, most systems are fit with a dew point analyser that will trip, shutting off production until the issue can be fixed. \cite{Bacquart2018}
+Modern electrolysers are fitted with a drier, which is the main barrier for water vapour exiting the process with hydrogen. \cite{Bacquart2018} In the event of drier failure, most systems feature a dew point analyser that will trip, shutting off production until the issue can be fixed. \cite{Bacquart2018}
 
 Water can also contaminate produced hydrogen in the chloro alkali process since, similar to electrolysis, it is present in the process. Typically the process contains a drier which ensures that a dew point of -20\textdegree C is maintained which should prevent any water in the exit stream.  
 
@@ -181,21 +187,21 @@ The presence of hydrocarbons are most likely to result from the SMR process. Hyd
 
 A PSA system designed to deliver hydrogen with a CO concentration $<$0.2 \textmu mol/mol should be sufficient to reduce the amount fraction of hydrocarbons to below the 5 \textmu mol/mol required by ISO 14687. \cite{Bacquart2018}
 
-Different hydrocarbons have different effects on fuel cell performance. Generally aromatic hydrocarbons adsorb more strongly on the catalyst surface than other hydrocarbons, inhibiting access to hydrogen.\cite{InternationalStandardISO14687-2:20122012} Methane (CH\textsubscript{4}) is generally considered an inert constituent and it's main effect on fuel cell performance is  diluting the hydrogen fuel stream. \cite{InternationalStandardISO14687-2:20122012}
+Different hydrocarbons have different effects on fuel cell performance. Generally aromatic hydrocarbons adsorb more strongly on the catalyst surface than other hydrocarbons, inhibiting access to hydrogen.\cite{InternationalStandardISO14687-2:20122012} Methane (CH\textsubscript{4}) is generally considered an inert constituent and its main effect on fuel cell performance is diluting the hydrogen fuel stream. \cite{InternationalStandardISO14687-2:20122012}
 
 \subsection*{Oxygen}
 In SMR processes oxygen is not used as a raw material, nor is it stable during the process conditions, readily reacting with hydrogen to produce water. In addition to this the oxygen content of the feedstock to the PSA separation stage must be below a certain level for safety reasons. Therefore oxygen contamination from hydrogen produced from SMR is unlikely. 
 
-Oxygen is a main by-product of electrolysis, although is generated at the anode side of the electrolysis stack. Likely methods of contamination are through cross over through the PEM membrane. Due to the danger of high oxygen levels in hydrogen streams, most electrolysis systems are fit with an oxygen sensor that trips the system if the concentration of oxygen in the hydrogen stream surpasses 5 \textmu mol/mol. \cite{Bacquart2018}
+Oxygen is a main by-product of electrolysis, although is generated at the anode side of the electrolysis stack. Likely methods of contamination are through cross over through the PEM membrane. Due to the danger of high oxygen levels in hydrogen streams, most electrolysis systems have an oxygen sensor that trips the system if the concentration of oxygen in the hydrogen stream surpasses 5 \textmu mol/mol. \cite{Bacquart2018}
 
 Oxygen can also contaminate the exit stream in the chloro alkali process due to it's presence in ambient air. There are no safegaurds in place to prevent oxygen contaminating the hydrogen stream so it is likely that oxygen can be presence in any produced hydrogen if given the opportunity.\cite{Bacquart2018} 
 
 Oxygen in low concentrations does not adversely affect the function of the fuel cell system; however, it may be a concern for some on-board vehicle storage systems, for example, by reaction with metal hydride storage materials. \cite{InternationalStandardISO14687-2:20122012} 
 
 \subsection*{Helium, nitrogen and argon}
-Helium is not present as a feed material in any of the discussed processes, however there is also no barrier to Helium in the exit stream and therefore any helium that enters a SMR or electrolysis process will not be removed. Despite this it is unlikely that helium will be present in a hydrocarbon feedstock, or water.
+Helium may be as a feed material in through SMR as is can be present in low concentrations in natural gas. It is unlikely that helium will be present in the feed for electrolysis. There is also no barrier to Helium in the exit stream and therefore any helium that enters a SMR or electrolysis process will not be removed. 
 
-Argon is similar to helium, however it is more likely for Argon to be present in the natural gas feedstock for SMR. Unlike helium, the PSA step in SMR can act as a barrier for Argon, however this will depend on the specific molecular sieve used in the system. \cite{Bacquart2018}
+Argon is similar to helium, however it is more likely for Argon to be present in the natural gas feedstock for SMR. Agron is also present in low concentrations in air. Unlike helium, the PSA step in SMR can act as a barrier for Argon, however this will depend on the specific molecular sieve used in the system. \cite{Bacquart2018}
 
 Nitrogen is the most likely inert impurity to be present in fuel cell hydrogen, this is due to the abundance of nitrogen in the air which the system could be exposed to, and the frequency at which nitrogen is used as a functional gas in processes for purging chambers, actuating valves etc.
 
@@ -217,7 +223,7 @@ Carbon monoxide (CO) is a severe catalyst poison that adversely effects fuel cel
 
 \subsection*{Total sulfur compounds}
 Sulphur contamination is most likely to come from hydrogen produced from hydrocarbon sources. 
-Since the SMR process also uses catalysts that are susceptible to poisoning from sulphur compounds all plants are fit with a desulphurisation unit upstream from the main process. \cite{Muradov2015} This is designed to reduce the concentration of sulphurous compounds to $<$50 nmol/mol. \cite{Bacquart2018}
+Since the SMR process also uses catalysts that are susceptible to poisoning from sulphur compounds all plants feature a desulphurisation unit upstream from the main process. \cite{Muradov2015} This is designed to reduce the concentration of sulphurous compounds to $<$50 nmol/mol. \cite{Bacquart2018}
 
 Should the desulphurisation unit fail the catalysts used in both reforming steps will be deactivated, preventing the process from operating and will likely result in shut down of the plant. PSA also acts as a final barrier, since H\textsubscript{2}S will adsorb onto the molecular sieves more strongly than CO. \cite{Bacquart2018}
 
@@ -226,29 +232,31 @@ The other potential source of sulphur contamination is the potential release fro
 Sulfur containing compounds are severe catalyst poisons that at even very low levels can cause irreversible degradation of fuel cell performance due to a permanant reaction taking place between sulphur and the platinum catalyst. The specific sulfur compounds addressed in particular are: hydrogen sulfide (H\textsubscript{2}S), carbonyl sulfide (COS), carbon disulfide(CS\textsubscript{2}), methyl mercaptan (CH\textsubscript{3}SH). \cite{InternationalStandardISO14687-2:20122012} 
 
 \subsection*{Formaldehyde and formic acid}
-Formaldehyde (HCHO) and formic acid (HCOOH) is a produced through a side reaction in SMR depending on the specific operating conditions of the process.\cite{Muradov2015} PSA is the main barrier for preventing contamination of the product. \cite{Bacquart2018}
+Formaldehyde (HCHO) and formic acid (HCOOH) are produced through a side reaction in SMR depending on the specific operating conditions of the process.\cite{Muradov2015} PSA is the main barrier for preventing contamination of the product. \cite{Bacquart2018}
 
 Formaldehyde and formic acid have a similar effect on fuel cell performance as CO and are thus considered as reversible contaminants. The effect of HCHO and HCOOH on fuel cell performance can be more severe than that of CO due to slower recovery kinetics and their specifications are lower than that for CO. \cite{InternationalStandardISO14687-2:20122012} Lower catalyst loadings are particularly susceptible to catalyst poisoning contaminants.
 
 \subsection*{Ammonia}
 Hydrogen could be contaminated with ammonia through either SMR or electrolysis. Ammonia is a by-product of the reforming steps and PSA should be sufficient to remove ammoinia from the exit stream of SMR. Ammonia can also be present in water used in electrolysis however the reverse osmosis step used to purify the water before the process is normally sufficient in removing all ammonia before it is used in the process. \cite{Bacquart2018}
 
+Ammonia is also researched as a potential hydrogen storage and transport medium, where ammonia is decomposed into nitrogen and hydrogen prior to use in a fuel cell. \cite{LAMB20193580} Therefore in the future there may also be concerns regarding ammonia entering the fuel cell through this medium.
+
 Ammonia (NH\textsubscript{3}) causes some irreversible fuel cell performance degradation by affecting the ion exchange capacity of the ionomer of the proton exchange membrane. \cite{InternationalStandardISO14687-2:20122012}
 
 \subsection*{Total halogenated compounds} 
 Halogenated compounds can contaminate hydrogen by entering either SMR or electrolysis through the process input, or leaking into the process at other points where they are used. Potential sources include chlor-alkali production processes, refrigerants used in processing, and cleaning agents. \cite{Bacquart2018}
 
-In the chlor-alkali process, the presence of chlorine and hydrochloric acid in hydrogen gas could be likely since they are main feedstocks in the process. Both HCl and Cl\textsubscript{2} are highly soluble in water and are likely to leave the process in solution. Cl\textsubscript{2} and H\textsubscript{2} are also contained separatley from each other and not expected to cross contaminate. Cross contamination could occur in the event that there is not enough liquid water in the system. This would likely be detected as the system would quickly fill with hydrogen gas which is continuously monitored due to risk of explosion, shutting down the system and preventing contaminated hydrogen leaving. Therefore it is unlikely that Cl\textsubscript{ } will be present in the produced hydrogen. 
+In the chlor-alkali process, the presence of chlorine and hydrochloric acid in hydrogen gas could be likely since they are main feedstocks in the process. Both HCl and Cl\textsubscript{2} are highly soluble in water and are likely to leave the process in solution. Cl\textsubscript{2} and H\textsubscript{2} are also contained from each other and not expected to cross contaminate. Cross contamination could occur in the event that there is not enough liquid water in the system. This would likely be detected as the system would quickly fill with hydrogen gas which is continuously monitored due to risk of explosion, shutting down the system and preventing contaminated hydrogen leaving. Therefore it is unlikely that Cl\textsubscript{ } will be present in the produced hydrogen. 
 Halogenated compounds cause irreversible performance degradation similar to sulphur, reacting with the platinum electrocatalysts to form platinum-halides such as PtCl\textsubscript{4}. \cite{Dona2009} However the concentrations required to cause this damage has not been well documented in literature.
 
 \subsection*{Other impurities}
 
-\section{Hydrogen impurity enrichment}\label{enrichlit}
+\section{Hydrogen impurity enrichment using metal membranes}\label{enrichlit}
 'Hydrogen impurity enrichment' is a term for any technique which involves increasing the concentration of impurities within a hydrogen sample by means of removing the hydrogen matrix gas. There are two previous reports of impurity enrichment being used as a technique for hydrogen impurity 
 analysis. The first report by Papadis et al at Argonne National Laboratory used a Pd/Cu \cite{Ahmed2010} coated Pd/Ag membrane for non-sulphur containing hydrogen samples and a Pd/Au coated Pd/Ag membrane for sulphur 
 containing hydrogen samples to enrich impurities in a 50 bar sample. The analyte gas used contained N\textsubscript{2}, CH\textsubscript{4} and CO\textsubscript{2} at 100\textmu mol/mol and an additional 
- 2 \textmu mol/mol of H\textsubscript{2}S during sulphur tests sulphur. 
-The enrichment was calculated by using measured values of temperature and pressure along with the non-ideal gas law, this was represented through a 'calculated enrichment factor' as shown in equations \ref{eq:1}
+ 2 \textmu mol/mol of H\textsubscript{2}S during sulphur tests. 
+The enrichment was calculated by using measured values of temperature and pressure along with the non-ideal gas law this was represented through a 'calculated enrichment factor' as shown in equations \ref{eq:1}
 and \ref{eq:2}. 
 
 \begin{equation} \label{eq:1}
@@ -284,7 +292,7 @@ When operating the hydrogen impurity enrichment device it was found that both me
 calculate the CEF.\cite{Murugan2014, Murugan2015} While the tracer enrichment method has a lower uncertainty 
 due to it being dependant on fewer variables, it is impossible to tell if a leak has occurred in the device 
 due to the covariance 
-phenomena. \cite{Murugan2014} Leaks in the enrichment device could occur due to thermal expansion of components due to heating 
+phenomena. \cite{Murugan2014} The co-varience phemonena refers to the faact that any leaks from the system will effect the concentration of the tracer in an identical way to other impurities in the sample. Leaks in the enrichment device could occur due to thermal expansion of components due to heating 
 to the required operating temperature or cracks forming in the membrane. The stability of membranes used in 
 such a device will be discussed in the following section. During a leak it will be expected that the ratio of 
 krypton, along with other impurities which are not naturally present in air, will remain constant, resulting 
@@ -309,7 +317,7 @@ but only two hydrogen purity analysis standards have incorporated this technique
 A method for concentrating the impurities in a sample of hydrogen using a zeolite- packed chromatographic 
 column has been described in a paper by Hille \cite{Hille1990a}. The method involves flowing the gas sample into the column 
 using a pump and cooling the column to a temperature that allows the impurities to remain trapped whilst the 
-matrix gas passes through. The sample is then transferred to GC-MS for analysis. The enrichment factor for 
+matrix gas passes through. The sample is then transferred to Gas Chromatography Mass Spectrometer (GC-MS) for analysis. The enrichment factor for 
 this method is determined by the flowrate and amount of time that the gas is sampled into the column. 
 The method was validated by analysing gas mixtures of hydrogen containing 8.7 mmol/mol of silane. 
 By enriching the sample, the signal- to-noise for the same measurement was increased by a factor of 2000 
@@ -500,8 +508,7 @@ of Helium a H\textsubscript{2}/He selectivity of 330 is the minimum required whi
 are the exact values required by the standard, in reality they would be much lower. The highest reported 
 selectivity of a non-infinitely selective membrane was Liquid crystalline polyester which had a 
 H\textsubscript{2}/N\textsubscript{2} 
-selectivity of  2632 \cite{Weinkauf1992} which indicates that this method may be suitable for enriching some of the higher 
-concentration impurities in hydrogen samples, it is not a solution for lower concentration. 
+selectivity of  2632 \cite{Weinkauf1992} which indicates that this  is not a solution for enriching low concentration impurities. 
 It is also unlikely that the selectivity of a membrane material will stay constant throughout its lifespan. 
 Any drift in selectivity would throw off the calculation and either require regular changing of the membrane, 
 driving up cost, or regular calibration to recalculate the selectivity of the membrane at a given time, which 
@@ -583,8 +590,8 @@ As previously mentioned palladium is typically the material of choice for dense 
 membranes due to its combination of high stability, permeability, and catalytic activity. 
 Palladium based membranes have been successfully used to provide ultrapure hydrogen for a 
 number of applications including electronics, industrial gas, and fuel cell industries for a 
-number of years. The main downside to the use of palladium is its high cost of around \$25 
-per gram. \cite{JohnsomMattheyPreciousMetalsManagement2016} This high cost has pushed researchers into focusing on reducing the amount of 
+number of years. One of the main downside to the use of palladium is its high cost of around \$25 
+per gram. \cite{JohnsomMattheyPreciousMetalsManagement2016} Although for our application of hydrogen impurity enrichment this is of secondary importance as the membrane cost only represents around 20\% of the total device cost. The high cost of palladium has pushed researchers into focusing on reducing the amount of 
 palladium used in the membrane in order to find a more economical solution. This is done 
 either by using a traditional membrane approach, whereby the thickness of the membrane layer 
 is reduced as much as possible to maximise the flux while decreasing the overall amount of 
@@ -612,7 +619,7 @@ crystalline lattice resulting in membrane failure.
   \end{figure}
 
 
-From the impurities listed in ISO 14687-2 CO, H\textsubscript{2}O, Hydrocarbons and sulphur 
+From the impurities listed in ISO 14687 CO, H\textsubscript{2}O, Hydrocarbons and sulphur 
 containing compounds are known to have a physisorption interaction with palladium. 
 Physisorption based poisoning occurs by the impurity inducing a competitive adsorption 
 with hydrogen, blocking active sites for hydrogen dissociation, and hence reducing the 
@@ -1216,7 +1223,7 @@ at much faster permeation rates. This stems back to a lack of understanding behi
 surface kinetics of hydrogen dissociation (which is also an issue for non-palladium dense 
 membranes). Despite claims that ceramic membranes are inert to impurities there is 
 contradictory evidence showing that the materials cannot withstand acidic conditions and 
-degrade under atmospheres containing CO\textsubscript{2} and H\textsuperscript{2}S. 
+degrade under atmospheres containing CO\textsubscript{2} and H\textsubscript{2}S. 
 Finally, since such high temperatures are 
 required there will be difficulties forming a hermetic seal with ceramic membranes which can 
 withstand the high temperature environments. This is already an issue with ceramic supported 
@@ -1568,13 +1575,11 @@ to bringing this technology to market.
 
 
 \subsubsection{Viable membrane materials and outlook}
-
-
 While ceramic membranes provide a viable alternative to metallic membranes as an impurity 
 enrichment material, the technology is still in its infancy and the membranes do not show 
 suitable permeabilities to perform impurity enrichment in a reasonable time frame. While many 
 studies on these materials also claim that impurity resistance of these materials outclasses 
-metallic membranes, there is little backing up these claims.  
+metallic membranes, there is data proving this.  
 
 Of the membranes discussed, metallic membranes are the most suitable for hydrogen impurity 
 enrichment.  Palladium membranes are the only current material that has successfully been 
@@ -1615,17 +1620,17 @@ it will lead to a difference in the expansion rate which eventually leads to mem
 \end{itemize}
 Of the materials available for use as a support; ceramics, porous stainless steel, and porous glass have been the most widely studied. 
 
-\subsubsection*{Glass}
+\paragraph*{Glass}\\
 Porous glass supports are generally amorphous solids which feature pores ranging in sizes between the nanometre to micrometre range. They are commonly created through sol-gel synthesis, through metastable phase separation of borosilicate glasses, or by sintering glass powder. Porous glass supports have high thermal stability, and a narrow pore size distribution typically between 4-5 nm \cite{SCHLUNDER2006113} \cite{UEMIYA1991303}, theoretically allowing membrane thicknesses of ~8-10 nm to be achieved. \cite{Mardilovich2002} Despite this they arte extremely brittle and highly susceptible to acidic, alkaline or in the presence of metallic solutions. This limits their use in a number of common membrane manufacturing methods. 
 
 They are however extremely brittle and are highly susceptible to degradation under acidic, alkaline, or under metallic solutions which limits their use in a number of common membrane synthesis methods. \cite{MUKHERJEE2007107}
 
-\subsubsection*{Porous Stainless Steel (PSS)}
+\paragraph*{Porous Stainless Steel (PSS)}\\
 Porous stainless steel is widely available in a large number of geometries and mainly see commercial use in a number of filtering applications. A membrane layer can be deposited on top of PSS in order to gain such properties as the high mechanical strength of PSS. PSS also features a similar CTE to palladium which limits the likelihood of membrane failure due to difference in expansion rate.  They are however an expensive option, with 70\% of the cost in such systems being attributed to the PSS support.
 
 The main problem with using PSS supports revolves around operation during hydrogen separatrion. Since both the support material, and the membrane materials are metals, at temperatures above 275\textdegree C intermetallic diffusion will occur. Intermetallic diffusion is when molecules from the stainless steel support diffuse into the membrane layer and vice versa. The result is a drastic decrease in permeability, and potential compromise of membrane integrity due to the lattice structure of the membrane being changed. A common method for mitigating this effect is to modify the surface of the PSS support with an intermediate layer that is not susceptible to intermetallic diffusion. Common intermetallic diffusion barrier are zirconia, porous silica, and porous Pd-Ag.  \cite{Atsonios2015} It is also possible to create an oxide layer on the surface of the PSS support by heating the material to 80\textdegree C which achievges the same result. While these methods are effective at mitigating the effects of intermetallic diffusion; they instead introduce a different problem where, in particular with some ceramic intermetallic diffusion layers, there is a difference in CTE between the material and support. Many of the intermetallic diffusion materials can also be made into supports on their own, at a much lower cost than PSS so it also opens the question of if these materials can be made into satisfactory supports on their own, why bother adding them to costly PSS supports.
 
-\subsubsection*{Ceramic}
+\paragraph*{Ceramic}\\
 Ceramic supports generally consist of porous ceramics manufactured through sintering of ceramic powders. They are a good candidate for supporting metallic membranes due to their uniform pore size distribution (0.1-10 \textmu m) and their high chemical, thermal and mechanical stabilities. 
 
 While the materials and processes for manufacturing ceramic supports are cheaper, the overall manufacturing process requires more steps which increases the overall time required. The resulting membranes are also extremely brittle and can easily be damaged during handing. 
@@ -1635,19 +1640,19 @@ Al\textsubscript{2}O\textsubscript{3} has traditionally been the ceramic support
 \subsubsection{Membrane deposition methods}
 There are various methods which can be used to deposit dense metal membranes onto the surface of a support can be carried through a wide number of chemical processes. From our reviews performed in sections \ref{pdreview} and \ref{nonpdreview} the most commonly used methods for deposition of dense metal membranes are PVD (e.g. magnetron sputterring) and ELP. Other methods including such as chemical vapour deposition (CVD) \cite{Yun2011a, Wang2006a, David2011a}, electroplating deposition, atmospheric plasma \cite{HUANG2007160} and spray pyrolisis \cite{LI1993247} exist, however they have been omitted due to the inconsistency in final material, unreliability of the method, or cost. Additionally methods used to manufacture self-supporting membranes will not be discussed.
 
-\subsubsection*{Chemical vapour deposition (CVD)}
+\paragraph*{Chemical vapour deposition (CVD)}\\
 CVD involves the thermal composition of one or more metal complexes with a high volatility and subsequent deposition through nucleation and on a surface. Commonly used precursor materials are metal carbonyls or organometallic compoints. The method is known for it's ability to reliably deposit thin dense membrane layers typically ($<$2 µm). The method is held back by it's high material costs and the expensive operating conditions reaquired.\cite{Yun2011a, Basile2008} 
 
-\subsubsection*{Physical vapour deposition (PVD)}
+\paragraph*{Physical vapour deposition (PVD)}\\
 
 PVD is a coating method in which a solid material, usually a pure metal, is vaporized in a vacuum system in the presence of a inert gas. The generated atoms migrate in all directions and condensate when coming in contact with a lower temperature substrate,  forming a metallic film. PVD involves a using the desired membrane material as a target’, and a ‘coating surface’ which in the case of membrane fabrication is the support. \cite{Peters2015a} The target is bombarded with ions or neutral particles which atomise the material. The inert gas, normally argon, is introduced to the sputtering chamber. The sputtering gas is ionized with a positive charge, while the target is subjected to a negative voltage typically around the magnitude of -300V. This potential difference causes the positively charged ions to impact the surface of the target, as this occurs atoms of the target material are removed and are intended to land on the substrate with enough energy to form a thin, dense, and strongly attached film. Magnetrons are commonly employed in sputtering which use magnetic fields to confine the charged plasma particles as close to the target as possible, which increases the sputter yield. 
 
 PVD in the form of Magnetron Sputtering is already an industrially widespread deposition method and is used to deposit metallic films for several applications and products. \cite{Peters2015a} The method can be used to deposit any metal or alloy. This technique can produce extremely thin nanostructured membrane layers while allowing the alloy composition to be accurately controlled and minimising the presence of impurities. \cite{Xomeritakis1997,McCool1999}  However this method can prove to be expensive and complicated when looking to achieve defect free membranes. \cite{Keurentjes2004} The quality of the support is also a limiting factor with this fabrication method, the substrate must be extremely smooth in order for the film to properly adhere to the surface.  In addition to this some problems arise due to the small grain sizes created by this technique which can cause grain growth and phase transitions at temperatures as low as 200\textdegree C. \cite{Bryden1995}
 
-\subsubsection*{Electroplating deposition}
+\paragraph*{Electroplating deposition}\\
 EDP is a simple coating process where a thin metal layer is deposited on a substrate by the reduction of metal ions in solution. An electrical potential promotes the transport of the ions through the plating bath on to the desired support material which acts as a cathode. The thickness of the membrane is normally controlled by the electroplating time and the composition of the plating solution. The electrochemical process is simple and only involves simple and low-cost equipment. However, the support must be conductive, which greatly limits your choice. \cite{Yun2011a, NathanW.Ockwig2007a}.
 
-\subsubsection*{Electroless Plating (ELP)}\label{ELPREV}
+\paragraph*{Electroless Plating (ELP)}\label{ELPREV}\\
 ELP is an autocatalytic deposition method in which a surface is coated with a metallic film through a two step process. The first step, normally referred to as the activation step, involves preparing the surface by depositing small amounts of a metal with an equal to or higher electropositivity than the metal you desire onto the surface of the support material. Palladium is commonly used as the seeding material since it has the highest electroposity of metals capable of being deposited threough ELP and hence can be used to catalyse the deposition of any other metallic species. \cite{Exter2015}
 The second step is metallization where the reduction/oxidation reactions occur, catalysed by the deposited seeds and initiated by a reducing agent added to the plating bath.
 
@@ -1676,7 +1681,7 @@ Sequential plating involves plating layers on top of each other and forming thge
 
 Density functional theory (DFT) is a computationa quantum mechanical modelling method which is used to investigate the electronic structure of many body systems, in particular that of atoms, molecules and condensed phases. The method operates by providing an approximate solution to the Schrödinger equation of many body systems. This allows for prediction and calculation of material behaviour based purely on quantum mechanics, eliminating the need for fundamental material properties or experimental data. DFT techniques evaluate the electronic structure of a system by assuming a potential is acting on each of the systems electrons. 
 
-DFT-based methods prove to be useful in applications where a large number of elements and compositions must be investigated to optimize the desired material. For our application DFT calculations can be theoretically used to investigate, and quickly screen the suitability of any atomic configuration in the periodic table in combination with any of the ISO 14687-2 impurities. Much of the work in DFT screening of palladium membranes has been performed by the group of David S. Scholl who have suggested 5 criteria to ensure the application of DFT to the field of palladium membranes are performed in an optimal manner.\cite{SHOLL2007462}, \cite{doi:10.1021/ar500018b} These five criteria are:
+DFT-based methods prove to be useful in applications where a large number of elements and compositions must be investigated to optimize the desired material. For our application DFT calculations can be theoretically used to investigate, and quickly screen the suitability of any atomic configuration in the periodic table in combination with any of the ISO 14687 impurities. Much of the work in DFT screening of palladium membranes has been performed by the group of David S. Scholl who have suggested 5 criteria to ensure the application of DFT to the field of palladium membranes are performed in an optimal manner.\cite{SHOLL2007462}, \cite{doi:10.1021/ar500018b} These five criteria are:
 
 \begin{enumerate}
     \item The timescale and/or cost for predictions made using DFT should be shorter than it would take to perform the same tests experimentally
@@ -1861,9 +1866,13 @@ Despite these drawbacks DFT analysis is a useful tool for screening of potential
 
 
 \section{Conclusion}
-This chapter provided a review of the hydrogen process, from how hydrogen is produced and it's relationship to the impurites which can end up in the supply chain. The effect of these impurities on the operation of a fuel cell electric vehicle was discussed and the liklihood of these impurities reaching a consumers fuel cell. 
+In this chapter a number of concepts key to the question of measuring impurities in fuel grade hydrogen were explored. Hydrogen production methods were discussed, identifying key impurities likely to be in fuel cell hydrogen and were therefore suitable to be further researched. The main impurities of note are sulphur containining compounds, due to their low amount fraction required by ISO 14687 and their high reactivity making them the most difficult to measure. 
 
-Different methods for enriching hydrogen was discussed with one of the most promising methods identified being hydrogen impurity enrichment using a dense metal membrane. From here a number of membrane materials designed to separate hydrogen from multicomponent mixtures. An extensive summary has been provided on the separation performance and stability of these materials with an emphasis on the complications related to transitioning the use of these materials from laboratory and  R\&D efforts, to industrially relevant processes. The key observation is that while there is a large research focus on new membrane materials, there is a lack of research looking into the engineering of these membranes into functional systems and products. Out of the hundreds of materials being researched for gas separation, commercially only four-eight different polymers are being used, with some niche applications using palladium membranes. Research focus should shift towards focusing on repeatability, scale up, and creating engineered systems where new membrane materials can be used in order to make progress in bringing these new materials to market. Out of the membrane materials reviewed palladium based alloys were the most appropriate to be used for hydrogen impurity enrichment and focus in this thesis will be to find a suitable composition for measuring ISO 14687-2 impurities while minimising interaction with reactants. 
+H2 production identified the key impurities, and this helped you decide which impurities you wanted to work with (e.g. sulphur is the lowest amount fraction in the ISO standard, and reactive, so a good one to work with to give worst case scenario)
+- Review of enrichment techniques: why did you pick membrane enrichment over sorbent and cryofocussing? Perhaps discuss membrane enrichment allowed more flexibility in terms of work with different Pd compositions? Or are there big disadvantages over the other methods?
+- Review of membranes and DFT helped you select which types you want to work with, including from DFT the compositions you thought would be best - so could you list some of these and summarise why you picked them based on your review? Similar with supports.
+
+Different methods for enriching hydrogen was discussed with one of the most promising methods identified being hydrogen impurity enrichment using a dense metal membrane. This had an advantage other methods discuessed due to the flexability it provides. From here a number of membrane materials designed to separate hydrogen from multicomponent mixtures. An extensive summary has been provided on the separation performance and stability of these materials with an emphasis on the complications related to transitioning the use of these materials from laboratory and  R\&D efforts, to industrially relevant processes. The key observation is that while there is a large research focus on new membrane materials, there is a lack of research looking into the engineering of these membranes into functional systems and products. Out of the hundreds of materials being researched for gas separation, commercially only four-eight different polymers are being used, with some niche applications using palladium membranes. Research focus should shift towards focusing on repeatability, scale up, and creating engineered systems where new membrane materials can be used in order to make progress in bringing these new materials to market. Out of the membrane materials reviewed palladium based alloys were the most appropriate to be used for hydrogen impurity enrichment and focus in this thesis will be to find a suitable composition for measuring ISO 14687-2 impurities while minimising interaction with reactants. 
 
 DFT based theories were discuessed and identified as a method to save time money and cost when attemtping to optimise the palladium alloy composition. There is a gap in research on using this technique for palladium alloys specifically targeting ISO 14687-2 impurities. While limited literature exists since many papers adress the use of palladium surfaces as catalysts the research is useful for creating a starting base. Palladium alloy membranes can be screened for materials which exhibit the lowest reactivity with ISO 14687-2 impuruties, and once identified, they can be manufactured and tested. It is important to note however that there are a number of innacuracies involved in the technique and should only be used as a rough guide. 
 

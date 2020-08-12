@@ -1,72 +1,210 @@
-\chapter{Introduction}
-\section{Problem statement}
-Due to the damaging environmental effects of using fossil fuels in the transport sector, national and international targets have been set in order to reduce global CO\textsubscript{2} emissions. In the UK for example, there is a plan to completely ban the sales of new conventional petroleum vehicles by as early as 2040. \cite{DepartmentforEnvironment2017} One proposed solution is further adoption of fuel cells and other energy generation methods which utilize hydrogen as a carbon free energy source. 
+\chapter{Experimental methods}
+\section{Introduction}
 
-Despite the fact that the technology for hydrogen powered fuel cells, in particular proton exchange membrane fuel cells, has existed since the early 1960’s their application has been limited to providing power for space missions and other niche applications. It wasn’t until the late 90’s where developments in lowering platinum catalyst loading and the production of thin film electrodes drove the cost of fuel cells down to a level where they were a realistic option for transportation. As of 2017, a number of auto mobile manufacturers including Toyota,\cite{Toyota2015} Hyundai, \cite{Hyundai2015} Honda \cite{Honda} and Daimler \cite{Mohrdieck2014} now offer hydrogen vehicles commercially and it is becoming increasingly possible to retrofit a petroleum vehicle to run off hydrogen.\cite{FCell2016} Many countries in the EU and globally have ambitious hydrogen infrastructure plans over the next 10 years in an effort to become less reliant on importing fossil fuels, increase their energy security, and transition to a carbon free energy system.
+\section{Preparation of gas standards} \label{gasprep}
+Gas standards of hydrogen were prepared gravimetrically in 10 litre cylinders (BOC, UK) in accordance with \cite{InternationalStandardISO6142-1:2015} from pure hydrogen (Air Products, UK), nitrogen (Air Products), carbon monoxide (Scott Speciality Gases, UK), methane (CK Gases, UK) and krypton (BOC, UK). Any impurities that were detected in these pure gases were quantified and these values were then incorporated into the final determination of the gas mixture compositions and uncertainties. 
 
-The development of the hydrogen economy is still in its infancy in Europe, but several countries are aiming to employ sizable hydrogen fuelling infrastructures over the next few decades. National reports state that Europe’s position in 2030 will be: UK - 1,100 hydrogen refuelling stations and 1.6 million fuel cell vehicles 7, France – 600 hydrogen refuelling stations and 0.8 million fuel cell vehicles 8, Germany – 1,180 hydrogen refuelling stations and 1.8 million fuel cell vehicles 9 and the Netherlands – 200 hydrogen refuelling stations and 0.2 million fuel cell vehicles. 9 The fuel cell system in a hydrogen vehicle can easily degrade if even parts-per-billion to parts-per-million level of some impurities are present in the hydrogen. Therefore, it is imperative that hydrogen purity, and techniques for verifying the purity, are adequate to ensure customers vehicles are not inadvertently damaged by fluctuations in hydrogen composition. 
+For the purpose of this thesis the gas standards that were used to perform the permeation tests will be referred to as gas mixtures, and the gas standards that were used to calibrate the analytical instruments will be referred to as calibration gas standards. Before use, the gas mixtures were verified against traceable primary reference materials using Gas Chromatography with either a pulsed helium discharge ionisation detector (PDHID) for samples not containing sulphur [Reference for DN34], and sulphur chemiluminescence detector (SCD) for sulphur containing samples [Reference for B543]. The compisitions of the non-sulphur, and sulphur contining gas standards created for the purposes of this thesis are shown in tables \ref{nonsulf} and \ref{sulf}.
 
-International standards dictate that it is mandatory for all hydrogen suppliers to prove that their product is pure enough to prevent degradation of fuel cell components. The international standard ISO 14687-2:2012 10 shown in Table 1 specifies the maximum impurity levels of 13 impurities that are permissible in fuel cell hydrogen. ISO 14687-2:2012 include some challenging hydrogen purity specifications mainly due to the low limits of detection of standard techniques used to measure the compounds included in the standard. 
+\begin{table}[]
+    \centering
+    \caption{Gas mixture composition of the non-sulphur sample (Cylinder NG353R) used during impurity tests}
+    \label{nonsulf}
+    \begin{tabular}{@{}cc@{}}
+    \toprule
+    Impurity & \begin{tabular}[c]{@{}c@{}}Concentration \\ ($\mu$mol/mol)\end{tabular} \\ \midrule
+    O\textsubscript{2}       & 10.06 ± 0.241 \%                                                              \\
+    N\textsubscript{2}       & 10.04 ± 0.377 \%                                                               \\
+    CH\textsubscript{4}      & 10.01 ±0.096 \%                                                               \\
+    CO\textsubscript{2}      & 10 ± 0.082 \%                                                                 \\
+    CO       & 9.98 ±  0.085 \%                                                                \\
+    H\textsubscript{2}       & Balance                                                             \\ \bottomrule
+    \end{tabular}
+    \end{table}
 
-Existing hydrogen purity laboratories are unable to perform traceable analysis to ISO 14687 specifications because appropriate methods and standards have not been developed. The consequence of this is that hydrogen suppliers cannot provide evidence that their fuel meets the International Standard and therefore are not permitted to supply hydrogen. Of the 13 gaseous impurities listed in ISO 14687-2, there is no single method for measuring all impurities. Laboratories must therefore use several instruments to perform such an analysis.  In 2015 Murugan et al published a review of methods for analysing the purity of fuel grade hydrogen 11. They concluded that in order for a single laboratory to provide full hydrogen analysis to ISO 14687-2 specifications it would need to comprise a variety of instruments including GCs, FTIR and CRDS. The capital cost of purchasing the gas analysers to perform analysis on the measurable impurities in a hydrogen sample can amount to >€500,000 11 and hence performing analysis would be out of reach for many of the smaller laboratories. 
+    \begin{table}[]
+        \centering
+        \caption{Gas mixture composition of the sulphur sample (Cylinder 2380) used during impurity tests}
+        \label{sulf}
+        \begin{tabular}{@{}cc@{}}
+        \toprule
+        Impurity & \begin{tabular}[c]{@{}c@{}}Concentration \\ (umol/mol)\end{tabular} \\ \midrule
+        Kr       & 1.1 ± 1.056 \%                                                                \\
+        H\textsubscript{2}S      & 0.41 ± 0.346\%                                                                \\
+        OCS      & 0.42       ± 0.322 \%                                                               \\
+        CS\textsubscript{2}      & 0.362 ±  0.316 \%                                                              \\
+        t-BuSH   & 0.391 ± 0.315\%                                                               \\
+        THT      & 0.409  ± 0.319\%                                                             \\
+        H\textsubscript{2}       & Balance                                                             \\ \bottomrule
+        \end{tabular}
+        \end{table}
 
-While the impurities listed in ISO 14687-2 are specified at extremely low amount fractions, many can be analysed at higher amount fractions through the use of cheap and routine gas analysers such as GC-MS. A potential solution to this would be to increase the concentration above the limit of detection of one of these cheaper analysers. These techniques are referred to as enrichment or pre-concentration. The most commonly used technique for pre-concentration of hydrogen fuel samples is referred to as ‘Hydrogen Impurity Enrichment’.  This method involves passing the sample through a palladium or palladium alloy membrane which is heated to 400\textdegree C. Palladium as a membrane material only allows the passage of hydrogen, and as hydrogen leaves the system, the impurities remain, increasing in time as more hydrogen permeates through the membrane.  This increase in concentration is referred to as the enrichment factor and. Once the enrichment is complete the sample can then be analysed at these higher concentrations, and using the enrichment factor, the original composition of the sample can be found. 
 
-In order for these devices to provide accurate results the behaviour of the membrane material, and its interaction with any impurities present in the hydrogen same, must be properly understood.  
+\section{Membrane preparation}
+
+\subsection{Materials used}
+\subsection{Support fabrication}\label{supportmake}
+The YSZ 3\% hollow fibre substrates with a sponge like microstructure were fabricated by an induced phase-inversion process, followed by high temperature sintering. A uniform ceramic suspension, with 60 wt.\% solid loading YSZ 3\% powder (1μm, VWR), was prepared by ball milling. After degassing, the ceramic suspension was transferred into 200 mL stainless steel syringes and extruded through a tube-in-orifice spinneret (outer diameter 3 mm, inner diameter 1.2 mm) into a coagulation bath with no air gap. An extrusion rate of 7 and 5 mL min\textsuperscript{-1} was adopted for ceramic suspension and bore fluid (15 wt.\% 1,4- dioxane in n-hexane) respectively. The formed precursor fibres were kept in deionized water for a minimum of 12 h, in order to remove the excess solvent. After being gently washed with deionized water, the precursor fibres were dried at room temperature and sintered at 1400\textdegree C in a tubular furnace (Elite, Model TSH 17/75/450).
+
+\subsection{Membrane deposition}
+\subsubsection{Electoless Plating}\label{elpproc}
+Palladium silver, copper, gold, and ternary alloy compositions (expect for PdCuZr) were deposited onto the surface of the porous YSZ substrate through electroless plating. The process was performed in the two step activation-plating process discussed in section \ref{lit-ELPREV}. Palladium was used due to its high electro positivity compared to other metals commonly plated through electroless deposition. 
+
+Prior to deposition, the outer surface of the fibre was cleaned by sequential washings with a 1:1 mixture of ethanol and water for 10 min in an ultrasonic bath, and were then dried overnight at 120\textdegree C. The substrates were then coated at one end with a gas tight glaze and sintered at 900\textdegree C for 1 hour. The outer surfaces of the fibres were cleaned by sequential washings with a 1:1 mixture of ethanol and water for 10 min in an ultrasonic bath, and were then dried overnight at 120 \textdegree C.
+
+\begin{table}[]
+  \centering
+  \caption{Compositions used for activation of YSZ substrate prior to palladium deposition}
+  \label{pretreat}
+  \begin{tabular}{@{}ccccc@{}}
+  \toprule
+  \multicolumn{1}{l}{\multirow{2}{*}{Compound}} & \multicolumn{4}{c}{Concentration (g/L)}             \\ \cmidrule(l){2-5} 
+  \multicolumn{1}{l}{}                          & Sensitisation & Washing & Activation & Acid Washing \\ \midrule
+  SnCl\textsubscript{2}                                         & 1             & -       & -          & -            \\
+  PdCl\textsubscript{2}                                         & -             & -       & 0.1        & -            \\
+  HCl                                           & 1             & -       & 1          & 0.01           \\ \bottomrule
+  \end{tabular}
+  \end{table}
+
+\begin{table}[]
+    \centering
+    \caption{Compositions used for preparation of palladium based membranes on YSZ substrate through electroless plating and immersion plating}
+    \label{ELP}
+    \begin{tabular}{@{}ccccc@{}}
+    \toprule
+    \multirow{2}{*}{Compound} & \multicolumn{4}{c}{Deposited metal} \\
+                              & Pd      & Ag     & Cu      & Au     \\ \midrule
+    Metal Source (g/L)        &         &        &         &        \\ \midrule
+    PdCl\textsubscript{2}                     & 4       & -      & -       & -      \\
+    AgNO\textsubscript{3}                     & -       & 3.4    & -       & -      \\
+    CuSO\textsubscript{4}                     & -       & -      & 10      & -      \\
+    AuCl\textsubscript{3}                     & -       & -      & -       & 0.1    \\ \midrule
+    \multicolumn{5}{c}{Stabilising agent}                           \\ \midrule
+    NH\textsubscript{3}-H\textsubscript{2}O (mL/L)            & 198     & 200    & -       & -      \\
+    NaOH (g/L)                & -       & -      & 8.63    & 1      \\ \midrule
+    \multicolumn{5}{c}{Complexing Agent (g/L)}                      \\ \midrule
+    Na\textsubscript{2}EDTA-2H\textsubscript{2}O              & 40      & 35     & -       & -      \\
+    Persulfate                & -       & -      & 30      & -      \\ \midrule
+    \multicolumn{5}{c}{Reducing agent (mL/L)}                       \\ \midrule
+    N\textsubscript{2}H\textsubscript{4}                      & 5.6     & 4.2    & -       & -      \\
+    Formaldehyde              & -       & -      & 14      & -      \\ \bottomrule
+    \end{tabular}
+    \end{table}
+
+The substrates were then activated with Pd nuclei via sensitisation in an acidic SnCl\textsubscript{2} solution, followed by activation in an acidic PdCl\textsubscript{2} solution. The sensitisation/activation 
+process was carried out by immersing the glazed hollow fibre substrates sequentially in five chemical baths, i.e. acidic SnCl\textsubscript{2} solution for 5 min; deionised water for 5 min, acidic PdCl\textsubscript{2} solution for 5 min; 0.01 M HCl solution for 2 min; and finally deionised water for 3 mins. 
+All chemical baths were homogenised using compressed air. The sensitisation/activation process was repeated for 8 cycles. The composition of each bath is shown in Table \ref{pretreat}.
+
+\begin{figure}
+    \includegraphics[width=\linewidth]{figures/pretreatment.png}
+    \caption{Schematic representation of the sequential baths for sensitisation/activation process.}
+    \label{sintering}
+  \end{figure}
+
+The substrates were then immersed in a Pd electroless plating (ELP) solution, at 60\textdegree C, in order to deposit metallic Pd layers onto the activated surface. The Pd ELP solution was prepared according to the composition presented in Table \ref{ELP} taken from \cite{GouveiaGil2015} for Pd, \cite{Braun2014} for Ag, \cite{Pomerantz2009}  and left to stabilize for 1 h in an ultrasonic bath prior to use. The volume of Pd ELP solution was fixed at 4 mL per cm\textsubscript{2} of 
+substrate surface area. The electroless plating procedure was performed twice, with a total plating time of 60 mins.
+
+After the palladium coating the membranes were then subjected to one, or multiple, other plating steps of silver, gold, or copper. The plating time for silver was 30 minutes for one cycle and the volume of plating solution to substrate was the same as the palladium steps.
+
+It should be noted that the deposition of gold is through immersion plating rather than electroless plating. \cite{adawiyah_azlina_fadil_aisha_hanim_2016} Immersion plating is the process of applying adhering layers of nobler metals to another metal's surface by dipping the material in a heated nobler metal solution ion to produce a replacement reaction. This causes the deposition of a metallic coating on a base metal from solutions that contain coating metal. One metal is typically displaced by metal ions that have lower levels of oxidation potential, relative to the metal ion being displaced. The plating time for gold was 3 hours and the volume of plating solution to substrate was 4mL/cm\textsuperscript{3}. 
+
+The resulting composite membranes consisting of multiple metal layers stacked were then heat treated at 500\textdegree C under an environment containing 25\% H\textsubscript{2} in Ar balance for 24 hours in order to alloy the layers into a homogenous membrane and reduce any oxides that were present on the surface.
 
 
-\section{Research Background}
-\subsection{Hydrogen Production}
-Hydrogen production refers to a range of industrial processes for generating hydrogen. Since there are no natural reserves of hydrogen all hydrogen must be obtained through one of these methods. The most important factor for determining the feasibility of a hydrogen production process is the primary source of energy that is used. Currently the options for this are nuclear energy in the form of heat, renewable energy in the form of heat, electricity, or light, or fossil fuels. Currently the primary sources of hydrogen are from steam reforming of methane and other hydrocarbons which in total accounts for 96\% of global hydrogen production, with electrolysis of water accounting for the remaining 4\%.
-\subsubsection{Hydrogen from fossil fuels and hydrocarbons}
-Fossil fuels are the most dominating source of hydrogen production and there are a number of processes which utilize fossil fuels to produce hydrogen. The most popular and therefore the ones which will be discussed are steam methane reforming, hydrocarbon decomposition
-\paragraph{Steam Methane reforming}
-is the conventional and most economical method for producing hydrogen, and it has been predicated by the IEA that this trend will continue despite the emergence of other hydrogen production methods. Steam methane reforming occurs through a two-step chemical process. If another hydrocarbon other than methane is being used it must first be pre-reformed into methane as shown in equation \ref{eq:1}
+\begin{figure}
+    \includegraphics[width=\linewidth]{figures/ELpprocedure.png}
+    \caption{Example of ELP procedure when manufacturing a PdCu membrane on YSZ substrate}
+    \label{ELP Procedure}
+  \end{figure}
+
+\subsubsection{Magnetron Sputtering}\label{msproc}
+Membranes were deposited using a closed field unbalanced magnetron sputter ion plating system produced by Teer Coatings Ltd. The thin film membranes were deposited onto the YSZ 3\% hollow fibres by mounting them vertically inside the sputtering system. The system was then evacuated to 1x10\textsuperscript{-6} mBar and subjected to an ion cleaning process with Ar plasma prior to sputtering. Pd, Cu, and Zr targets (99.9\% purity) were used to sputter the chosen alloy composition onto the membranes at the target currents shown in. A bias voltage of 50 V was applied to the magnetron during deposition runs. Samples were deposited using pulsed DC, with a constant target to substrate distance and a sample rotation speed of 16 rpm. An Ar flux of 25 (SCC/m) was used during deposition. PdCu membranes in both BCC and FCC phase were manufactured through magnetron sputtering along with PdCuZr ternary alloys. 
+
+\begin{table}[]
+    \centering
+    \caption{Conditions used during magnetron sputtering of palladium membranes on YSZ tubular substrate}
+    \label{sputtering}
+    \begin{tabular}{@{}cccc@{}}
+    \toprule
+    \multirow{2}{*}{Alloy} & \multicolumn{3}{c}{Target current (A)} \\
+                           & Pd          & Cu          & Zr         \\ \midrule
+    PdCuZr                 & 1.25        & 0.65        & 0.4        \\
+    PdCu (fcc)             & 1.25        & 0.8         & -          \\
+    PdCu (bcc)             & 1.2         & 1.0         & -          \\ \bottomrule
+    \end{tabular}
+    \end{table}
+
+\subsection{Materials testing}\label{MatTest}
+The thickness of the plated layers was characterised by first using a Focused Ion Beam (FIB) to mill through a section of the hollow fibre to provide a flat, cross sectional surface for analysis. The thickness of the metal later was then measured using high resolution Scanning Electron Microscopy (SEM) and composition analysed using Energy Dispersive x-ray Spectrometry (EDS) on the same sample. 
+
+The surface composition of the membrane was further characterised using X-ray Photoelectron Spectroscopy to provide a more accurate compositional analysis for the top 10 nm of the membrane, the depth which is most relevant for catalytic dissociation of hydrogen and adsorption of impurities.
+
+Prior to the H\textsubscript{2} permeation tests, the integrity of the hollow fibre membranes was evaluated by testing the gas-tightness of the membrane under N\textsubscript{2} atmosphere, up to 10 bar and room temperature and using a gas-tightness apparatus developed in house. \cite{GouveiaGil2015}
+
+\section{Membrane Characterization}
+
+\subsection{Membrane testing rig}
+After the membranes were ensured to be gas tight, hydrogen permeation measurements were performed using the experimental apparatus shown in Figure 1. The palladium alloy composite hollow fibre membranes were sealed on to a stainless steel ¼” NPT fitting. The membrane was then placed in a Sulfinert®-treated sample vessel (Thames Restek, UK) with nominal volume of 300 cm\textsuperscript{3}. The vessel was then heated using heavy insulated heating tape (OMEGA STH051-020). The heating was controlled using the temperature of the membrane using a PID temperature controller (OMRON). The feed was supplied from a cylinder either containing BIP+ hydrogen (Air Products) for pure hydrogen permeability tests or one of two gravimetrically prepared gas mixtures for impurity testing shown in tables \ref{nonsulf} and \ref{sulf}. Prior to introducing gas to the membrane the system was evacuated down to 1 x 10\textsuperscript{-6} mbar. The pressure on the retentate side of the membrane is controlled using a tamper proof pressure reducer. The set-up is shown in figure \ref{testrig}. After tests the system was vented and purged 7 times with N\textsubscript{2} to ensure an explosive atmosphere could not build up within the equipment.
+
+The flux and permeability of the membrane were automatically calculated using software developed in house. Each membrane sample was made using the same batch of substrate and cut to the same length prior to testing. The permeability (P)  of a dense metal membrane is given by Eqn \ref{eq:1} \cite{NathanW.Ockwig2007} and is a function of the hydrogen flux through the membrane (J), the concentration and pressure gradient across the membrane ($P^{0.5}_{ret}-P^{0.5}_{perm}$), and the thickness of the metallic membrane (l). 
 
 \begin{equation} \label{eq:1}
-    C_n H_m + H_2 O \rightarrow nCO +(\frac{n+m}{2})H_2 
-\end{equation}
-\begin{equation}\label{eq:2}
-    CH_4 + H_2 O \rightarrow CO + 3H_2 \quad \Delta H_{298K}^o = +205 kJ/mol
-\end{equation}
-\begin{equation}\label{eq:3}
-    CO+ H_2 O \rightarrow CO_2 + H_2 \quad \Delta H_{298K}^o = -41 kJ/mol
+    P = \frac{J l}{P^{0.5}_{ret}-P^{0.5}_{perm}}
 \end{equation}
 
-Equation \ref{eq:2} takes place in a reactor operating at 700-850\textdegree C, at pressures of 3-25 bar, 
-and in the presence of a nickel based catalyst. 
-The result of this step is a mixture of CO and H\textsubscript{2}, commonly referred to as syngas. 
-This syngas is used as a feedstock for the reaction shown in equation \ref{eq:3} known as water gas shift in order to produce greater hydrogen yields.  
-This step is carried out in a two-step reaction. 
-An initial high temperature stage at 350\textdegree C which converts majority of the syngas to CO\textsubscript{2} and hydrogen, and a final low-temperature step which operates at 250\textdegree{O} C which utilizes a catalyst with higher activity to minimise the remaining CO\textsubscript{2}. The final product will be a mixture of CO\textsubscript{2} and H\textsubscript{2}.  
+\begin{landscape}
+\begin{figure}[h]
+  \centering
+  \includegraphics[decodearray={0.2 0.5}, width=0.9\linewidth, height=\textheight,  keepaspectratio]{/Users/marc/Thesis/Experimental/perm_rig.png}
+  \caption{Experimental set up used during hydrogen permeation and enrichment experiments, TC: Temperature controller, PI: Pressure indicator, V: Valve, TV: Three-way valve,  FI: Flow indicator.}
+  \label{testrig}
+\end{figure}
 
-A number of separation steps are utilised in order to prevent impurities from contaminating the resulting gas mixture. The traditional separation step is pressure swing adsorption (PSA) which takes advantage of adsorption of gaseous molecules onto a molecular sieve at high pressures. Hydrogen purities of ~99.9\% are achievable using this method however the cost is high and typically contributes to around 20-30\% of the total production cost. The other main separation step is desulphurization which uses a combination of CoMo and ZnO catalysts in series at 450-550\textdegree C to remove sulphur. This step is essential to ensure sulphur is not present in the gas exit stream and also to ensure catalyst poisoning does not occur at any point in the process. 
+\end{landscape}
 
-\paragraph{Hydrocarbon decomposition}
-is a process by which hydrocarbon molecules are converted into solid carbon and hydrogen. This reaction is typically operated either thermally or by creating a plasma. Both methods require a metallic catalyst such as nickel or iron. The reaction is shown in equation \ref{eq:4}
+\section{Hydrogen impurity enrichment}\label{enrichproc}
+A hydrogen impurity enrichment device was designed and tested, more details on this will be discussed in chapter 6. This section will describe the methodology and testing procedure for the hydrogen impurity enrichment device. 
 
-\begin{equation}\label{eq:4}
-    C_x H_2x+2 \rightarrow xC + (x+1)H_2
-\end{equation}
+Hydrogen impurity enrichment tests were performed on synthetic samples created using the procedure described in section \ref{gasprep} and using a sample taken from a hydrogen refuelling station. Regardless of source all samples were tested using a PDHID in order to calculate it's oxygen level for safety reasons. Since only hydrogen can leave the HIED in normal testing conditions, if not checked the concentration of oxygen could rise above a safe level and create an explosive mixture. For the purpose of these tests the enrichment factor was capped at a value that would ensure the oxygen level in the mixture would not surpass 1\%. 
 
-An advantage of this process is that the only feedstock is the hydrocarbon, so presuming that the feedstock is sufficiently pure this method of hydrogen production should remove the needs for further downstream processing. The main disadvantage of this method is the since solid carbon is the main by-product the catalyst will easily be deactivated and will require regular maintenance.
-\subsubsection{Hydrogen from water}
-\paragraph{Thermal decomposition of water}
-is the process of splitting water into hydrogen and oxygen at temperatures of 2000\textdegree C, this can be lowered under the presence of a nickel or iron based catalyst. Due to the high energy demand for this production method water splitting is not a feasible method of commercial hydrogen production.
+The enrichment factor was calculated using both non-ideal gas law (equation \ref{lit-eq:1}), and tracer enrichment (equation \ref{lit-eq:2}) methods. This was to ensure any leaks in the device could be detected using non-ideal gas law method, while having a low uncertainty on the final value from the tracer enrichment method. Gas composition testing was performed using the same GC procedures discuessed in section \ref{gasprep}
+\subsection{Krypton spiking}
+In order to perform enrichment using the tracer enrichment method a certain quantity of inert gas, not normally present within a hydrogen sample, must be included in the gas. Krypton was used in this study. For synthetic samples this can be added using loop addition along with other impurities using the procedure in section \ref{gasprep}. When taking a sample directly from a hydrogen refuelling station, as would have to be done in real sampling, this approach is not effective as the tracer gas cannot be added to an already pressurised container. The krypton must first be added to the evacuated sampling vessel through loop addition.
 
-\begin{equation}
-    H_2 O \rightarrow H_2 + \frac{1}{2} O_2  \quad \Delta H_{298K}^o = +286 kJ/mol
-\end{equation}
+Since sampling from a hydrogen refuelling station is dependent on a number of variables, it is difficult to determine the final pressure of the sample. Therefore, a fixed quantity of krypton gas was added to the cylingers. For the purpose of this thesis, since 10L cylinders were used for the purpose of hydrogen sampling, 0.24g of Kr was added through loop addition as this is enough to ensure at a max fill pressure of 100 bar there would be atleast 70 \textmu mol/mol, which is well within the range of the GC-PDHID detector, and avaliable gas standards for validation. 
 
-\paragraph{Electrolysis}
-is the second most popular method for producing pure hydrogen after SMR. This method uses an electric current to split water into hydrogen and oxygen. The main competitive advantage of electrolysis is that they are modular and highly scalable, allowing hydrogen to be produced in a distributed manner. The main input to the process is electricity and if this electricity is produced using renewable sources then the process can be considered carbon neutral. This is further incentivised by the increasing price of natural gas and the decreasing price of electricity, which some predict will result in electrolysis becoming more economically feasible than SMR in the future. 
-\begin{equation}
-2H_2 O +  2e^- \rightarrow H_2 + 2OH^-
-\end{equation}
-\begin{equation}
-2OH^- \rightarrow \frac{1}{2}O_2+ H_2 O + 2e^-
-\end{equation}
+\subsection{Performing enrichment}
+The protocol for performing hydrogen impurity enrichment is similar to hydrogen permeation tests. After evacuation the gas is introduced to a vessel containing the chosen palladium membrane composition at a set enrichment pressure and the vessel heated to 300\textdegree C to begin enrichment. The pressure of the enrichment vessel and sample cylinder were both monitored and their values used to calculate the enrichment factor in real time using equations \ref{lit-eq:1} and \ref{lit-eq:2}. Once the desired enrichment factor was achieved the heater was switched off and the enrichment vessel isolated. The enrichment vessel was then brought to the desired GC detector and it's composition tested against a gas standard as described in section \ref{gasprep}
 
- \renewcommand{\bibname}{References}
+\section{Density functional theory} \label{DFTparams}
+All DFT calculations were performed using the Quantum Espresso (QE) \cite{QE-2009, QE-2017, doi:10.1063/5.0005082} ab initio simulation package using the generalized gradient approximation with the PW91 functional to describe electron-correlation effects. Ion-electron interactions were described using ultra-soft pseudopotentials. A plane-wave expansion with a cut-off energy of 233.73 eV was used in all calculations. Geometry relaxations were performed with a conjugate gradient method until the forces on all unconstrained atoms were less than 0.03 eV/A. A Monkhorst Pack mesh with 5x5x5 k-points was used for all calculations as this was determined to be adequate for achieveing convergence from literature in table \ref{lit-DFTREV} and backed up by initial testing on a Pd system as shown in figure \ref{kpoints}.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth, height=0.45\textheight,keepaspectratio]{/Users/marc/Thesis/Experimental/kpoints.jpg}
+  \caption{Total energy as a function of $M\times M\times M$ k-points across a Pd(111) fcc slab}
+  \label{kpoints}
+\end{figure}
+
+Python with scikit learn, pandas, numpy, and matplotlib packages were used for scripting, data collection and analysis. Sample files can be found in Appendix 3. 
+
+\subsection{ISO 14687 Impurities and Hydrogen} \label{gassim}
+ISO 14687 impurities were simulated using the above parameters and their structure relaxed until convergence was achieved. The resulting structure was then cross checked using bond lengths from literature to ensure the resulting molecule was an accurate representation. 
+
+\subsection{Palladium and Palladium alloy slab models}\label{slabsim}
+The structure of bulk palladium was first created using a lattice parameter of 3.859\si{\angstrom} as reported by D. Wheeler \cite{PhysRev.25.753}. Initially the pure palladium slab model used to represent the periodic supercell was created using this palladium primative unit cell cleaved using the miller indices $(h,k,l) = (111)$ which is adequate in describing the surface of a palladium membrane. A $2\times 2$ slab was created in order to ensure minimal in-plane interactions between neighbouring molecules adsorbed onto the surface in the periodic simulations. The slab was extended to 5 atom thickness which is adequate to describe the surface of Pd(111) and a 20\si{\angstrom} vaccum layer was placed on top. The resulting supercell consisted of 20 atoms. 
+
+When creating palladium alloy systems it was assumed that alloys adopt a substitutional, random fcc structure. Metal atoms were randomly distributed among the fcc lattice in the supercell. All atoms were allowed to relax during the calculation, with the volume of the super cell fixed. 
+
+Quantum ATK Virtual NanoLab Builder \cite{synopsys} was used to generate these structures and export to QE input files. Each metal composition was simulated with three random distributions of substituted metal. For each alloy, geometry optimization was performed to get the lattice constant and total energy of each alloy prior to adsorption of gaseous molecules.
+
+\subsubsection{Adsorption energy}
+In order to find the adsorption energy of each ISO 14687 impurity on the membrane surfaces the molecules simulated in section \ref{gassim} were inserted into the vacuum region of the slab models generated in section \ref{slabsim}. (111) fcc surfaces have 4 available sites for adsorption shown in figure \ref{lit-fccsites} A separate system was created for adsorption of each impurity onto each of these sites. Initially the adsorbed molecule was simulated using a ridgid constraint to prevent any changes to the impurities molecular structure, and a low cutoff energy in order to get a quick starting point for the basis of the full simulation. Final goemetry relaxation was then performed from this using the parameters described in section \ref{DFTparams}
+
+The adsorption energy, $E_{i_{ads}}$, for the adsorption of a gaseous impurity on the surface is then calculated using equation \ref{lit-adseqn} where $i$ is the target ISO 14687 impurity or hydrogen molecule.
+
+
+
+\renewcommand{\bibname}{References}
 \bibliographystyle{unsrtnat}
 \bibliography{library.bib}
