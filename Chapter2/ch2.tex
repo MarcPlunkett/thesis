@@ -8,7 +8,7 @@ A fuel cell is made up from an electrolyte and two electrocatalysts at both the 
 
 Fuel cells are typically categorised based on the material used as an electrolyte. This classification determines the electro chemical reactions which take place, the type of electrocatalysts, fuels which can be used, and operating conditions. Some examples are Solid Oxide Fuel Cells (SOFC) which uses a proton conducting metal oxide heated to a high temperature (500-1000\textdegree C), proton exchange membrane fuel cells (PEMFC) uses a proton conducting polymer membrane as an electrolyte material, typically nafion. And alkaline fuel cells which use a uses an aqueous solution of potassium hydroxide.  
 
-While a number of fuel cell technologies can use hydrogen as a fuel source, the most suitable for FCEV's, and in particular mass production of affordable vehicles, are proton exchange membrane fuel cells (PEMFC). This is due to their high power density, low start up time, and low operating temperatures. \cite{Alaswad2016}
+While a number of fuel cell technologies can use hydrogen as a fuel source, the most suitable for FCEV's, and in particular mass production of affordable vehicles, are proton exchange membrane fuel cells. This is due to their high power density, low start up time, and low operating temperatures. \cite{Alaswad2016}
 
 \begin{figure}[H]
     \centering
@@ -28,13 +28,7 @@ While a number of fuel cell technologies can use hydrogen as a fuel source, the 
 \end{equation}
 
 
- A PEMFC cell consists of two metal bipolar plates which act to distribute the fuel and oxident within the cell, aid water management within the cell, separate individual cells in a fuel cell stack, and carry current away from the cell. \cite{Alaswad2016} A Membrane electrode assembly (MEA) which consists of the polymer membrane, two dispersed noble metal catalyst layers to enable the anode and cathode reactions, and two gas diffusion layers to ensure uniform access of fuel and oxident to the catalyst layer. Common materials for the MEA are shown in figure \ref{fig:MEA}\cite{Mehta2003}. The components are wedged between two rubber seals to ensure the cell is gas tight. Individual cells are combined in series to form a fuel cell stack which can provide the desired power as shown in \ref{fig:pemfcstack}
-
-\begin{figure}[H]
-    \includegraphics[scale=0.7]{figures/MEA.png}
-    \caption{Classification of MEA materials in a PEMFC, adapted from \cite{Mehta2003}}
-    \label{fig:MEA}
-\end{figure}
+ A PEMFC cell consists of two metal bipolar plates which act to distribute the fuel and oxident within the cell, aid water management within the cell, separate individual cells in a fuel cell stack, and carry current away from the cell. \cite{Alaswad2016} A Membrane electrode assembly (MEA) which consists of the polymer membrane (usually nafion \cite{Mehta2003}), two dispersed noble metal catalyst layers to enable the anode and cathode reactions (Pt or Pt-alloys supported on porous carbon \cite{Mehta2003}), and two gas diffusion layers (graphite paper or cloth proofed with polytetrafluoroethylene \cite{Mehta2003}) to ensure uniform access of fuel and oxident to the catalyst layer. The components are wedged between two rubber seals to ensure the cell is gas tight. Individual cells are combined in series to form a fuel cell stack which can provide the desired power as shown in \ref{fig:pemfcstack}
 
 \begin{figure}[H]
     \includegraphics[scale=0.5]{figures/PEMFCstack.png}
@@ -88,7 +82,26 @@ poisoning does not occur at any point in the process.
 
 The cost of producting hydrogen through SMR varies but averages at around £2 per kg of hydrogen and therefore costs around £2000 per tonne of hydrogen produced. \cite{hydrogencouncil_2020}
 
-\paragraph{Autothermal Reforming (ATR)}
+\paragraph{Autothermal Reforming (ATR)} combines SMR and fuel oxidation into a single unit. \cite{SPEIGHT2015119} Oxygen, sometimes CO\textsubscript{2}, and steam is used in a reaction with the selected hydrocarbon to produce syngas (H\textsubscript{2} and CO). Two different types of catalysts are commonly used for ATR:  Group VIII transition metals (e.g. platinum, rhodium or nickel) supported on an ion-conducting oxide (e.g. ceria, gadolinium-doped ceria), and mixed non-noble metal oxides with the ABO\textsubscript{3} stoichiometry and a perovskite structure. \cite{SUI2016461} The full reaction is a combination of steam reforming and partial oxidation reactions, these are shown in equations \ref{ATR1} to \ref{ATR4}\cite{SUI2016461}
+
+\begin{equation} \label{ATR1}
+    CH_{4} + \frac{1}{4}O_2 + \frac{1}{2}H_2O \rightarrow CO + \frac{5}{2} H_2
+\end{equation}
+\begin{equation} \label{ATR2}
+    CH_{4} + \frac{1}{2}O_2 + \frac{1}{2}CO_2 \rightarrow \frac{3}{2} H_2 + \frac{3}{2}CO + \frac{1}{2} H_2O
+\end{equation}
+\begin{equation} \label{ATR3}
+    C_nH_m + \frac{m}{4}O_2 + (2n-\frac{m}{4)}H_2O \rightarrow nCO +2nH_2
+\end{equation}
+\begin{equation} \label{ATR4}
+    C_nH_m + (n-\frac{1}{2})O_2 + CO_2 \rightarrow (n+1)CO +\frac{m}{2}H_2
+\end{equation}
+
+The key element for determining the H\textsubscript{2}/CO ratio of the produced syngas is the feed composition. When carbon dioxide is present in the feed the H\textsubscript{2}/CO ratio achieved is around 1:1, whereas when steam is present ratios of around 2.5:1 are possible. On an industrial scale the process is usually performed at temperatures between 900-1100 \textdegree C, using a feed with an O\textsubscript{2}/hydrocarbon ratio between 0.55-0.6.\cite{CHIESA2010383} ATR can be used to produce hydrogen from natural gas, however it has recently been studies for production of hydrogen from biofuels. \cite{FRUSTERI2015109}
+
+By taking advantage of this the heat produced from the exothermic oxidation of fuel can be used to power the endothermic reforming process. ATR has become popular in recent years for small, distributed generation of hydrogen, demonstrating faster start up times than SMR. The process also features a compact design with a small footprint, and is soot free, offering clear potential economic and operational benefits over SMR. \cite{SUI2016461} Most ATR plants do not suffer from soot formation, due to optimised design inhibiting these reactions.\cite{SUI2016461}
+
+Despite this ATR is more favourable towards producing exit compositions with low H\textsubscript{2}/CO ratios, making SMR the better choice for producing hydrogen in large capacities. \cite{SUI2016461} As smaller, more distributed hydrocarbon production technologies, such as biogas production, become more widespread, ATR would be a beneficial companion due to it's modular, small scale nature.
 
 \paragraph{Hydrocarbon decomposition} is a process by which hydrocarbon molecules are converted into solid carbon and hydrogen. \cite{Ahmed2009} This reaction is typically operated either thermally or by creating a plasma. A metallic catalyst such as nickel or iron is required. The reaction is shown in equation \ref{eq:4} \cite{Muradov2008} 
 

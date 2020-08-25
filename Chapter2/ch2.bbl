@@ -1,4 +1,4 @@
-\begin{thebibliography}{160}
+\begin{thebibliography}{164}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -85,6 +85,52 @@ N~Muradov.
 Hydrogen Council.
 \newblock Path to hydrogencompetitiveness a cost perspective.
 \newblock Jan 2020.
+
+\bibitem[Speight(2015)]{SPEIGHT2015119}
+J.G. Speight.
+\newblock 6 - gasification processes for syngas and hydrogen production.
+\newblock In Rafael Luque and James~G. Speight, editors, \emph{Gasification for
+  Synthetic Fuel Production}, Woodhead Publishing Series in Energy, pages 119
+  -- 146. Woodhead Publishing, 2015.
+\newblock ISBN 978-0-85709-802-3.
+\newblock \doi{https://doi.org/10.1016/B978-0-85709-802-3.00006-0}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/B9780857098023000060}.
+
+\bibitem[Sui and Xiu(2016)]{SUI2016461}
+S.~Sui and G.H. Xiu.
+\newblock 14 - fuels and fuel processing in sofc applications.
+\newblock In Kevin Kendall and Michaela Kendall, editors,
+  \emph{High-Temperature Solid Oxide Fuel Cells for the 21st Century (Second
+  Edition)}, pages 461 -- 495. Academic Press, Boston, second edition edition,
+  2016.
+\newblock ISBN 978-0-12-410453-2.
+\newblock \doi{https://doi.org/10.1016/B978-0-12-410453-2.00014-2}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/B9780124104532000142}.
+
+\bibitem[Chiesa(2010)]{CHIESA2010383}
+P.~Chiesa.
+\newblock 15 - advanced technologies for syngas and hydrogen (h2) production
+  from fossil-fuel feedstocks in power plants.
+\newblock In Dermot Roddy, editor, \emph{Advanced Power Plant Materials, Design
+  and Technology}, Woodhead Publishing Series in Energy, pages 383 -- 411.
+  Woodhead Publishing, 2010.
+\newblock ISBN 978-1-84569-515-6.
+\newblock \doi{https://doi.org/10.1533/9781845699468.3.383}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/B9781845695156500157}.
+
+\bibitem[Frusteri and Bonura(2015)]{FRUSTERI2015109}
+F.~Frusteri and G.~Bonura.
+\newblock 5 - hydrogen production by reforming of bio-alcohols.
+\newblock In Velu Subramani, Angelo Basile, and T.~Nejat Veziroğlu, editors,
+  \emph{Compendium of Hydrogen Energy}, Woodhead Publishing Series in Energy,
+  pages 109 -- 136. Woodhead Publishing, Oxford, 2015.
+\newblock ISBN 978-1-78242-361-4.
+\newblock \doi{https://doi.org/10.1016/B978-1-78242-361-4.00005-4}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/B9781782423614000054}.
 
 \bibitem[Ahmed et~al.(2009)Ahmed, Aitani, Rahman, Al-Dawood, and
   Al-Muhaish]{Ahmed2009}

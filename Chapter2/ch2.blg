@@ -16,45 +16,45 @@ Warning--empty journal in Basile2008
 Warning--empty author and editor in doi:10.1002/9780470447710.ch2
 Warning--empty author and editor in doi:10.1002/9780470447710.ch4
 Warning--empty author and editor in dftbook1
-You've used 160 entries,
+You've used 164 entries,
             2481 wiz_defined-function locations,
-            1822 strings with 44653 characters,
-and the built_in function-call counts, 72003 in all, are:
-= -- 6525
-> -- 3833
-< -- 69
-+ -- 1460
-- -- 1131
-* -- 6318
-:= -- 11718
-add.period$ -- 780
-call.type$ -- 160
-change.case$ -- 318
-chr.to.int$ -- 151
-cite$ -- 176
-duplicate$ -- 3167
-empty$ -- 6087
-format.name$ -- 1346
-if$ -- 15156
+            1864 strings with 46022 characters,
+and the built_in function-call counts, 74480 in all, are:
+= -- 6789
+> -- 3908
+< -- 77
++ -- 1488
+- -- 1151
+* -- 6478
+:= -- 12072
+add.period$ -- 808
+call.type$ -- 164
+change.case$ -- 327
+chr.to.int$ -- 155
+cite$ -- 180
+duplicate$ -- 3303
+empty$ -- 6307
+format.name$ -- 1374
+if$ -- 15751
 int.to.chr$ -- 10
-int.to.str$ -- 161
-missing$ -- 154
-newline$ -- 1099
-num.names$ -- 487
-pop$ -- 958
+int.to.str$ -- 165
+missing$ -- 158
+newline$ -- 1131
+num.names$ -- 507
+pop$ -- 985
 preamble$ -- 1
-purify$ -- 160
+purify$ -- 164
 quote$ -- 0
-skip$ -- 1785
+skip$ -- 1892
 stack$ -- 0
-substring$ -- 3943
-swap$ -- 458
-text.length$ -- 17
+substring$ -- 4095
+swap$ -- 510
+text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1111
+type$ -- 1139
 warning$ -- 13
-while$ -- 591
+while$ -- 611
 width$ -- 0
-write$ -- 2660
+write$ -- 2746
 (There were 13 warnings)
