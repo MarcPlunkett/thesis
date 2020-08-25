@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{13}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -55,6 +55,14 @@ Dennis Hayter and Intelligent Energy.
 \newblock {Global H2Mobility initiatives – what they mean for FCEV
   introduction}.
 \newblock Technical Report September, 2014.
+
+\bibitem[Errity(2020)]{stephen_errity_2020}
+Stephen Errity.
+\newblock Where can i buy hydrogen and where is my nearest hydrogen filling
+  station?
+\newblock \emph{Driving Electric}, Feb 2020.
+\newblock URL
+  \url{https://www.drivingelectric.com/your-questions-answered/1363/where-can-i-buy-hydrogen-and-where-my-nearest-hydrogen-filling-station}.
 
 \bibitem[{International Standard ISO 14687-2:
   2012}(2012)]{InternationalStandardISO14687-2:20122012}

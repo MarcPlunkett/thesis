@@ -4,7 +4,7 @@
 \contentsline {chapter}{\numberline {1}Introduction}{20}% 
 \contentsline {section}{\numberline {1.1}Problem statement}{20}% 
 \contentsline {section}{\numberline {1.2}Research Objectives}{23}% 
-\contentsline {section}{\numberline {1.3}Thesis structure and presentation}{24}% 
+\contentsline {section}{\numberline {1.3}Thesis structure and presentation}{25}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-3}
 \contentsline {chapter}{\numberline {2}Literature review}{28}% 
@@ -12,27 +12,28 @@
 \contentsline {section}{\numberline {2.2}Hydrogen Production}{31}% 
 \contentsline {subsection}{\numberline {2.2.1}Hydrogen from fossil fuels and hydrocarbons}{31}% 
 \contentsline {paragraph}{Steam Methane reforming}{32}% 
+\contentsline {paragraph}{Autothermal Reforming (ATR)}{33}% 
 \contentsline {paragraph}{Hydrocarbon decomposition}{33}% 
 \contentsline {subsection}{\numberline {2.2.2}Hydrogen from water}{34}% 
 \contentsline {paragraph}{Electrolysis}{34}% 
 \contentsline {paragraph}{Thermal decomposition of water}{34}% 
 \contentsline {section}{\numberline {2.3}Hydrogen impurities in the supply chain}{36}% 
-\contentsline {section}{\numberline {2.4}Hydrogen impurity enrichment}{43}% 
+\contentsline {section}{\numberline {2.4}Hydrogen impurity enrichment using metal membranes}{44}% 
 \contentsline {subsection}{\numberline {2.4.1}Other enrichment methods}{46}% 
 \contentsline {subsubsection}{Sorbent tubes}{46}% 
-\contentsline {subsubsection}{Cryo-focusing}{46}% 
+\contentsline {subsubsection}{Cryo-focusing}{47}% 
 \contentsline {section}{\numberline {2.5}Review of hydrogen selective membranes}{47}% 
-\contentsline {subsection}{\numberline {2.5.1}Criteria for a hydrogen impurity enrichment material}{51}% 
+\contentsline {subsection}{\numberline {2.5.1}Criteria for a hydrogen impurity enrichment material}{52}% 
 \contentsline {subsubsection}{Dense metallic}{55}% 
 \contentsline {subsubsection}{Dense Ceramic}{80}% 
 \contentsline {subsubsection}{Viable membrane materials and outlook}{87}% 
 \contentsline {subsection}{\numberline {2.5.2}Membrane manufacture}{87}% 
 \contentsline {subsubsection}{Support selection}{88}% 
 \contentsline {subsubsection}{Membrane deposition methods}{91}% 
-\contentsline {section}{\numberline {2.6}Density functional theory for screening of membrane alloy compositions}{96}% 
-\contentsline {subsection}{\numberline {2.6.1}Key concepts}{97}% 
-\contentsline {subsubsection}{Simulating crystalline structures}{97}% 
-\contentsline {subsubsection}{Approximations}{101}% 
+\contentsline {section}{\numberline {2.6}Density functional theory for screening of membrane alloy compositions}{95}% 
+\contentsline {subsection}{\numberline {2.6.1}Key concepts}{96}% 
+\contentsline {subsubsection}{Simulating crystalline structures}{96}% 
+\contentsline {subsubsection}{Approximations}{100}% 
 \contentsline {paragraph}{LDA}{101}% 
 \contentsline {paragraph}{GGA}{101}% 
 \contentsline {subsubsection}{Pseudopotentials}{101}% 
@@ -41,23 +42,24 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
 \contentsline {chapter}{\numberline {3}Experimental methods}{137}% 
-\contentsline {section}{\numberline {3.1}Density functional theory}{137}% 
-\contentsline {subsection}{\numberline {3.1.1}ISO 14687-2 Impurities and Hydrogen}{137}% 
-\contentsline {subsection}{\numberline {3.1.2}Palladium and Palladium alloy slab models}{138}% 
-\contentsline {subsubsection}{Adsorption energy}{139}% 
-\contentsline {section}{\numberline {3.2}Membrane manufacture}{140}% 
-\contentsline {subsection}{\numberline {3.2.1}Materials used}{140}% 
-\contentsline {subsection}{\numberline {3.2.2}Support fabritcation}{140}% 
-\contentsline {subsection}{\numberline {3.2.3}Membrane deposition}{140}% 
-\contentsline {subsubsection}{Electoless Plating}{140}% 
-\contentsline {subsubsection}{Magnetron Sputtering}{143}% 
-\contentsline {subsection}{\numberline {3.2.4}Materials testing}{144}% 
-\contentsline {section}{\numberline {3.3}Membrane testing}{145}% 
-\contentsline {subsection}{\numberline {3.3.1}Preparation of gas standards}{145}% 
-\contentsline {subsection}{\numberline {3.3.2}Membrane testing rig}{145}% 
-\contentsline {section}{\numberline {3.4}Hydrogen impurity enrichment}{149}% 
-\contentsline {subsection}{\numberline {3.4.1}Krypton spiking}{149}% 
-\contentsline {subsection}{\numberline {3.4.2}Performing enrichment}{150}% 
+\contentsline {section}{\numberline {3.1}Introduction}{137}% 
+\contentsline {section}{\numberline {3.2}Preparation of gas standards}{137}% 
+\contentsline {section}{\numberline {3.3}Membrane preparation}{138}% 
+\contentsline {subsection}{\numberline {3.3.1}Materials used}{138}% 
+\contentsline {subsection}{\numberline {3.3.2}Support fabrication}{138}% 
+\contentsline {subsection}{\numberline {3.3.3}Membrane deposition}{139}% 
+\contentsline {subsubsection}{Electoless Plating}{139}% 
+\contentsline {subsubsection}{Magnetron Sputtering}{142}% 
+\contentsline {subsection}{\numberline {3.3.4}Materials testing}{143}% 
+\contentsline {section}{\numberline {3.4}Membrane Characterization}{144}% 
+\contentsline {subsection}{\numberline {3.4.1}Membrane testing rig}{144}% 
+\contentsline {section}{\numberline {3.5}Hydrogen impurity enrichment}{146}% 
+\contentsline {subsection}{\numberline {3.5.1}Krypton spiking}{146}% 
+\contentsline {subsection}{\numberline {3.5.2}Performing enrichment}{147}% 
+\contentsline {section}{\numberline {3.6}Density functional theory}{147}% 
+\contentsline {subsection}{\numberline {3.6.1}ISO 14687 Impurities and Hydrogen}{148}% 
+\contentsline {subsection}{\numberline {3.6.2}Palladium and Palladium alloy slab models}{149}% 
+\contentsline {subsubsection}{Adsorption energy}{149}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
 \contentsline {chapter}{\numberline {4}Density functional theory as a screening method for dense metal membranes}{154}% 

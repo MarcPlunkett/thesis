@@ -5,6 +5,55 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
+\bibitem[{International Standards
+  Organisation}(2015)]{InternationalStandardISO6142-1:2015}
+{International Standards Organisation}.
+\newblock {ISO/TC 158 Analysis of gases}, 2015.
+
+\bibitem[{Gouveia Gil} et~al.(2015){Gouveia Gil}, Reis, Chadwick, Wu, and
+  Li]{GouveiaGil2015}
+Ana {Gouveia Gil}, Miria Hespanhol~M Reis, David Chadwick, Zhentao Wu, and
+  K~Li.
+\newblock {A highly permeable hollow fibre substrate for Pd/Al2O3 composite
+  membranes in hydrogen permeation}.
+\newblock \emph{International Journal of Hydrogen Energy}, 40\penalty0
+  (8):\penalty0 3249--3258, 2015.
+\newblock ISSN 0360-3199.
+\newblock \doi{https://doi.org/10.1016/j.ijhydene.2015.01.021}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0360319915000580}.
+
+\bibitem[Braun et~al.(2014)Braun, Tarditi, Miller, and Cornaglia]{Braun2014}
+Fernando Braun, Ana~M Tarditi, James~B Miller, and Laura~M Cornaglia.
+\newblock {Pd-based binary and ternary alloy membranes: Morphological and
+  perm-selective characterization in the presence of H2S}.
+\newblock \emph{Journal of Membrane Science}, 450:\penalty0 299--307, 2014.
+\newblock \doi{10.1016/j.memsci.2013.09.026}.
+
+\bibitem[Pomerantz and {Yi Hua}(2009)]{Pomerantz2009}
+Natalie Pomerantz and Ma~{Yi Hua}.
+\newblock {Effect of H 2S on the performance and long-term stability of Pd/Cu
+  membranes}.
+\newblock \emph{Industrial and Engineering Chemistry Research}, 48\penalty0
+  (8):\penalty0 4030--4039, 2009.
+\newblock ISSN 08885885.
+\newblock \doi{10.1021/ie801947a}.
+
+\bibitem[Adawiyah et~al.(2016)Adawiyah, Azlina, Fadil, Aisha, and
+  Hanim]{adawiyah_azlina_fadil_aisha_hanim_2016}
+M.a.~Rabiatul Adawiyah, O.~Saliza Azlina, Nor~Akmal Fadil, Siti~Rabiatull
+  Aisha, and M.a~Azmah Hanim.
+\newblock Electroless and immersion plating process towards structures and imc
+  formation.
+\newblock \emph{International Journal of Engineering and Technology},
+  8\penalty0 (6):\penalty0 2558–2570, 2016.
+\newblock \doi{10.21817/ijet/2016/v8i6/160806210}.
+
+\bibitem[{Nathan W. Ockwig}(2007)]{NathanW.Ockwig2007}
+Tina M~Nenoff {Nathan W. Ockwig}.
+\newblock {Membranes for Hydrogen Separation}.
+\newblock \emph{Chemical Reviews}, 107:\penalty0 4078--4110, 2007.
+
 \bibitem[Giannozzi et~al.(2009)Giannozzi, Baroni, Bonini, Calandra, Car,
   Cavazzoni, Ceresoli, Chiarotti, Cococcioni, Dabo, {Dal Corso}, de~Gironcoli,
   Fabris, Fratesi, Gebauer, Gerstmann, Gougoussis, Kokalj, Lazzeri,
@@ -71,54 +120,5 @@ Inc Synopsys.
 \newblock Quantumatk.
 \newblock \emph{Atomic-Scale Modeling for Semiconductor \& Materials Research}.
 \newblock URL \url{https://www.synopsys.com/silicon/quantumatk.html}.
-
-\bibitem[{Gouveia Gil} et~al.(2015){Gouveia Gil}, Reis, Chadwick, Wu, and
-  Li]{GouveiaGil2015}
-Ana {Gouveia Gil}, Miria Hespanhol~M Reis, David Chadwick, Zhentao Wu, and
-  K~Li.
-\newblock {A highly permeable hollow fibre substrate for Pd/Al2O3 composite
-  membranes in hydrogen permeation}.
-\newblock \emph{International Journal of Hydrogen Energy}, 40\penalty0
-  (8):\penalty0 3249--3258, 2015.
-\newblock ISSN 0360-3199.
-\newblock \doi{https://doi.org/10.1016/j.ijhydene.2015.01.021}.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/S0360319915000580}.
-
-\bibitem[Braun et~al.(2014)Braun, Tarditi, Miller, and Cornaglia]{Braun2014}
-Fernando Braun, Ana~M Tarditi, James~B Miller, and Laura~M Cornaglia.
-\newblock {Pd-based binary and ternary alloy membranes: Morphological and
-  perm-selective characterization in the presence of H2S}.
-\newblock \emph{Journal of Membrane Science}, 450:\penalty0 299--307, 2014.
-\newblock \doi{10.1016/j.memsci.2013.09.026}.
-
-\bibitem[Pomerantz and {Yi Hua}(2009)]{Pomerantz2009}
-Natalie Pomerantz and Ma~{Yi Hua}.
-\newblock {Effect of H 2S on the performance and long-term stability of Pd/Cu
-  membranes}.
-\newblock \emph{Industrial and Engineering Chemistry Research}, 48\penalty0
-  (8):\penalty0 4030--4039, 2009.
-\newblock ISSN 08885885.
-\newblock \doi{10.1021/ie801947a}.
-
-\bibitem[Adawiyah et~al.(2016)Adawiyah, Azlina, Fadil, Aisha, and
-  Hanim]{adawiyah_azlina_fadil_aisha_hanim_2016}
-M.a.~Rabiatul Adawiyah, O.~Saliza Azlina, Nor~Akmal Fadil, Siti~Rabiatull
-  Aisha, and M.a~Azmah Hanim.
-\newblock Electroless and immersion plating process towards structures and imc
-  formation.
-\newblock \emph{International Journal of Engineering and Technology},
-  8\penalty0 (6):\penalty0 2558–2570, 2016.
-\newblock \doi{10.21817/ijet/2016/v8i6/160806210}.
-
-\bibitem[{International Standards
-  Organisation}(2015)]{InternationalStandardISO6142-1:2015}
-{International Standards Organisation}.
-\newblock {ISO/TC 158 Analysis of gases}, 2015.
-
-\bibitem[{Nathan W. Ockwig}(2007)]{NathanW.Ockwig2007}
-Tina M~Nenoff {Nathan W. Ockwig}.
-\newblock {Membranes for Hydrogen Separation}.
-\newblock \emph{Chemical Reviews}, 107:\penalty0 4078--4110, 2007.
 
 \end{thebibliography}

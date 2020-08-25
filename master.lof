@@ -6,22 +6,22 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematic of a PEMFC cell \cite {Dharmalingam2019}\relax }}{29}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Classification of MEA materials \cite {Mehta2003}\relax }}{30}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematic of fuel cell \cite {Dharmalingam2019}\relax }}{29}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Classification of MEA materials in a PEMFC, adapted from \cite {Mehta2003}\relax }}{30}% 
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Schematic of a PEMFC stack \cite {Li2019}\relax }}{31}% 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Simplified block diagram of a typical modern SMR plant. WGS is a water gas shift reactor. CO\textsubscript {2} concentrations are in mol.\%. \cite {Muradov2015}\relax }}{32}% 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Illustration of the five membrane separation mechanisms (i) Poiseuille Flow/Knudsen diffusion, (ii) Molecular Sieving, (iii) Surface diffusion (iV) Capillary condensation (V) Solution diffusion (Vi) Facilitated transport\relax }}{48}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Simplified block diagram of a typical modern Steam Methane Reforming (SMR) and Water Gas Shift (WGS) plant. CO\textsubscript {2} concentrations are in mol.\%. \cite {Muradov2015}\relax }}{32}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Illustration of the five membrane separation mechanisms (i) Poiseuille Flow/Knudsen diffusion, (ii) Molecular Sieving, (iii) Surface diffusion (iV) Capillary condensation (V) Solution diffusion (Vi) Facilitated transport\relax }}{49}% 
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Palladium-Hydrogen phase diagram adapted from \cite {Li2008b}\relax }}{58}% 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Metals which can be deposited using electro less plating \cite {Exter2015}\relax }}{95}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Metals which can be deposited using electro less plating \cite {Exter2015}\relax }}{94}% 
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Total energies (per atom) for bulk Cu calculated as a function of M for calculations using MxMxM kpoints \cite {doi:10.1002/9780470447710.ch4}\relax }}{98}% 
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Top view of the high-symmetry adsorption sites fcc, hcp, bridge, and top \cite {Zeng2009}\relax }}{100}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Total energy as a function of $M\times M\times M$ k-points across a Pd(111) fcc slab\relax }}{138}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematic representation of the sequential baths for sensitisation/activation process.\relax }}{142}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Example of ELP procedure when manufacturing a PdCu membrane on YSZ substrate\relax }}{143}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Experimental set up used during hydrogen permeation and enrichment experiments, TC: Temperature controller, PI: Pressure indicator, V: Valve, TV: Three-way valve, FI: Flow indicator.\relax }}{148}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic representation of the sequential baths for sensitisation/activation process.\relax }}{141}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Example of ELP procedure when manufacturing a PdCu membrane on YSZ substrate\relax }}{142}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Experimental set up used during hydrogen permeation and enrichment experiments, TC: Temperature controller, PI: Pressure indicator, V: Valve, TV: Three-way valve, FI: Flow indicator.\relax }}{145}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Total energy as a function of $M\times M\times M$ k-points across a Pd(111) fcc slab\relax }}{148}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
 \addvspace {10\p@ }
@@ -58,7 +58,7 @@
 \contentsline {figure}{\numberline {6.6}{\ignorespaces $CEF_{NI}$ over the 180 hour enrichment of the inert hydrogen sample shown in table 6.1\hbox {}\relax }}{229}% 
 \contentsline {figure}{\numberline {6.7}{\ignorespaces GC-PDHID data of the inert sample both before and after enrichment with N\textsubscript {2} peaks shown at Time=3.25, and Kr peaks shown at Time=3.92\relax }}{231}% 
 \contentsline {figure}{\numberline {6.8}{\ignorespaces GC-PDHID data of the sulphurous sample both before and after enrichment with commercial membrane\relax }}{232}% 
-\contentsline {figure}{\numberline {6.9}{\ignorespaces $CEF_{NI}$ over the 40 hour enrichment of the sulphurous hydrogen sample shown in table 3.5\hbox {}\relax }}{234}% 
+\contentsline {figure}{\numberline {6.9}{\ignorespaces $CEF_{NI}$ over the 40 hour enrichment of the sulphurous hydrogen sample shown in table 3.2\hbox {}\relax }}{234}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
 \addvspace {10\p@ }

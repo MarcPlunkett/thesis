@@ -1,21 +1,9 @@
-\begin{thebibliography}{159}
+\begin{thebibliography}{160}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
-
-\bibitem[Dharmalingam et~al.(2019)Dharmalingam, Kugarajah, and
-  Sugumar]{Dharmalingam2019}
-Sangeetha Dharmalingam, Vaidhegi Kugarajah, and Moogambigai Sugumar.
-\newblock {Chapter 1.7 - Membranes for Microbial Fuel Cells}.
-\newblock In S~Venkata Mohan, Sunita Varjani, and Ashok B T Microbial
-  Electrochemical~Technology Pandey, editors, \emph{Biomass, Biofuels and
-  Biochemicals}, pages 143--194. Elsevier, 2019.
-\newblock ISBN 978-0-444-64052-9.
-\newblock \doi{https://doi.org/10.1016/B978-0-444-64052-9.00007-8}.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/B9780444640529000078}.
 
 \bibitem[Alaswad et~al.(2016)Alaswad, Palumbo, Dassisti, Olabi, and
   Engineering]{Alaswad2016}
@@ -28,6 +16,18 @@ A~Alaswad, A~Palumbo, M~Dassisti, A~G B T Reference Module in Materials~Science
 \newblock \doi{https://doi.org/10.1016/B978-0-12-803581-8.04009-1}.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/B9780128035818040091}.
+
+\bibitem[Dharmalingam et~al.(2019)Dharmalingam, Kugarajah, and
+  Sugumar]{Dharmalingam2019}
+Sangeetha Dharmalingam, Vaidhegi Kugarajah, and Moogambigai Sugumar.
+\newblock {Chapter 1.7 - Membranes for Microbial Fuel Cells}.
+\newblock In S~Venkata Mohan, Sunita Varjani, and Ashok B T Microbial
+  Electrochemical~Technology Pandey, editors, \emph{Biomass, Biofuels and
+  Biochemicals}, pages 143--194. Elsevier, 2019.
+\newblock ISBN 978-0-444-64052-9.
+\newblock \doi{https://doi.org/10.1016/B978-0-444-64052-9.00007-8}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/B9780444640529000078}.
 
 \bibitem[Mehta and Cooper(2003)]{Mehta2003}
 Viral Mehta and Joyce~Smith Cooper.
@@ -182,6 +182,17 @@ Thomas Bacquart, Arul Murugan, Martine Carr{\'{e}}, Bruno Gozlan, Fabien
   2012}(2012)]{InternationalStandardISO14687-2:20122012}
 {International Standard ISO 14687-2: 2012}.
 \newblock {Hydrogen Fuel - Product Specification}, 2012.
+
+\bibitem[Lamb et~al.(2019)Lamb, Dolan, and Kennedy]{LAMB20193580}
+Krystina~E. Lamb, Michael~D. Dolan, and Danielle~F. Kennedy.
+\newblock Ammonia for hydrogen storage; a review of catalytic ammonia
+  decomposition and hydrogen separation and purification.
+\newblock \emph{International Journal of Hydrogen Energy}, 44\penalty0
+  (7):\penalty0 3580 -- 3593, 2019.
+\newblock ISSN 0360-3199.
+\newblock \doi{https://doi.org/10.1016/j.ijhydene.2018.12.024}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0360319918339272}.
 
 \bibitem[Don{\'{a}} et~al.(2009)Don{\'{a}}, Cordin, Deisl, Bertel, Franchini,
   Zucca, and Redinger]{Dona2009}
