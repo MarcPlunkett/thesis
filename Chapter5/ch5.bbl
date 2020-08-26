@@ -5,21 +5,6 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Bacquart et~al.(2020)Bacquart, Moore, Hart, Morris, Aarhaug, Kjos,
-  Aupretre, Colas, Haloua, Gozlan, and Murugan]{BACQUART20205565}
-Thomas Bacquart, Niamh Moore, Nick Hart, Abigail Morris, Thor~A. Aarhaug, Ole
-  Kjos, Fabien Aupretre, Thibault Colas, Frederique Haloua, Bruno Gozlan, and
-  Arul Murugan.
-\newblock Hydrogen quality sampling at the hydrogen refuelling station –
-  lessons learnt on sampling at the production and at the nozzle.
-\newblock \emph{International Journal of Hydrogen Energy}, 45\penalty0
-  (8):\penalty0 5565 -- 5576, 2020.
-\newblock ISSN 0360-3199.
-\newblock \doi{https://doi.org/10.1016/j.ijhydene.2019.10.178}.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/S0360319919340510}.
-\newblock 22nd World Hydrogen Energy Conference.
-
 \bibitem[Murugan and Brown(2014)]{Murugan2014}
 Arul Murugan and Andrew~S Brown.
 \newblock {Advancing the analysis of impurities in hydrogen by use of a novel
@@ -56,5 +41,20 @@ Skid mounted rigs: Pilot plants: Nuclear engineering decommissioning.
 Sulfinert-treated sample cylinders.
 \newblock URL
   \url{https://www.restek.com/Technical-Resources/Technical-Library/Petroleum-Petrochemical/petro_A005}.
+
+\bibitem[Bacquart et~al.(2020)Bacquart, Moore, Hart, Morris, Aarhaug, Kjos,
+  Aupretre, Colas, Haloua, Gozlan, and Murugan]{BACQUART20205565}
+Thomas Bacquart, Niamh Moore, Nick Hart, Abigail Morris, Thor~A. Aarhaug, Ole
+  Kjos, Fabien Aupretre, Thibault Colas, Frederique Haloua, Bruno Gozlan, and
+  Arul Murugan.
+\newblock Hydrogen quality sampling at the hydrogen refuelling station –
+  lessons learnt on sampling at the production and at the nozzle.
+\newblock \emph{International Journal of Hydrogen Energy}, 45\penalty0
+  (8):\penalty0 5565 -- 5576, 2020.
+\newblock ISSN 0360-3199.
+\newblock \doi{https://doi.org/10.1016/j.ijhydene.2019.10.178}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0360319919340510}.
+\newblock 22nd World Hydrogen Energy Conference.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{164}
+\begin{thebibliography}{169}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -250,6 +250,56 @@ Enrico Don{\'{a}}, Michael Cordin, Clemens Deisl, Erminald Bertel, Cesare
 \newblock ISSN 0002-7863.
 \newblock \doi{10.1021/ja809674n}.
 \newblock URL \url{https://doi.org/10.1021/ja809674n}.
+
+\bibitem[D.D. et~al.(2011)D.D., S., and R.]{d.d._s._r._2011}
+Papadias D.D., Ahmed S., and Kumar R.
+\newblock Fuel quality issues in stationary fuel cell systems, 2011.
+\newblock URL
+  \url{https://www.energy.gov/sites/prod/files/2014/03/f10/fuel_quality_stationary_fuel_cells.pdf}.
+
+\bibitem[Seo et~al.(2016)Seo, Kim, Hwang, Seo, Seo, Yang, Han, Jung, Guim,
+  Nahm, Yoon, and Kim]{SEO201644}
+Ji-Sung Seo, Da-Yeong Kim, Sun-Mi Hwang, Min~Ho Seo, Dong-Jun Seo, Seung~Yong
+  Yang, Chan~Hui Han, Yong-Min Jung, Hwanuk Guim, Kee~Suk Nahm, Young-Gi Yoon,
+  and Tae-Young Kim.
+\newblock Degradation of polymer electrolyte membrane fuel cell by siloxane in
+  biogas.
+\newblock \emph{Journal of Power Sources}, 316:\penalty0 44 -- 52, 2016.
+\newblock ISSN 0378-7753.
+\newblock \doi{https://doi.org/10.1016/j.jpowsour.2016.03.063}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0378775316302762}.
+
+\bibitem[Kortsdottir et~al.(2013)Kortsdottir, Ferriz, Lagergren, and
+  Lindstrom]{Kortsdottir_2013}
+K.~Kortsdottir, F.~J.~Perez Ferriz, C.~Lagergren, and R.~W. Lindstrom.
+\newblock Reformate hydrogen fuel in {PEM} fuel cells: the effect of alkene
+  impurities on anode activity.
+\newblock \emph{{ECS} Transactions}, 58\penalty0 (1):\penalty0 1857--1865, aug
+  2013.
+\newblock \doi{10.1149/05801.1857ecst}.
+\newblock URL \url{https://doi.org/10.1149%2F05801.1857ecst}.
+
+\bibitem[Kim et~al.(2010)Kim, Allendorf, Stavila, and Sholl]{C001657H}
+Ki~Chul Kim, Mark~D. Allendorf, Vitalie Stavila, and David~S. Sholl.
+\newblock Predicting impurity gases and phases during hydrogen evolution from
+  complex metal hydrides using free energy minimization enabled by
+  first-principles calculations.
+\newblock \emph{Phys. Chem. Chem. Phys.}, 12:\penalty0 9918--9926, 2010.
+\newblock \doi{10.1039/C001657H}.
+\newblock URL \url{http://dx.doi.org/10.1039/C001657H}.
+
+\bibitem[Bulgarin et~al.(2020)Bulgarin, Jorschick, Preuster, Bösmann, and
+  Wasserscheid]{BULGARIN2020712}
+A.~Bulgarin, H.~Jorschick, P.~Preuster, A.~Bösmann, and P.~Wasserscheid.
+\newblock Purity of hydrogen released from the liquid organic hydrogen carrier
+  compound perhydro dibenzyltoluene by catalytic dehydrogenation.
+\newblock \emph{International Journal of Hydrogen Energy}, 45\penalty0
+  (1):\penalty0 712 -- 720, 2020.
+\newblock ISSN 0360-3199.
+\newblock \doi{https://doi.org/10.1016/j.ijhydene.2019.10.067}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0360319919338285}.
 
 \bibitem[Ahmed et~al.(2010)Ahmed, Lee, and Papadias]{Ahmed2010}
 Shabbir Ahmed, Sheldon H~D Lee, and Dionissios~D Papadias.

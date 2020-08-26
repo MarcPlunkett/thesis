@@ -1,4 +1,4 @@
-\begin{thebibliography}{11}
+\begin{thebibliography}{12}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -9,6 +9,21 @@
   Organisation}(2015)]{InternationalStandardISO6142-1:2015}
 {International Standards Organisation}.
 \newblock {ISO/TC 158 Analysis of gases}, 2015.
+
+\bibitem[Bacquart et~al.(2020)Bacquart, Moore, Hart, Morris, Aarhaug, Kjos,
+  Aupretre, Colas, Haloua, Gozlan, and Murugan]{BACQUART20205565}
+Thomas Bacquart, Niamh Moore, Nick Hart, Abigail Morris, Thor~A. Aarhaug, Ole
+  Kjos, Fabien Aupretre, Thibault Colas, Frederique Haloua, Bruno Gozlan, and
+  Arul Murugan.
+\newblock Hydrogen quality sampling at the hydrogen refuelling station –
+  lessons learnt on sampling at the production and at the nozzle.
+\newblock \emph{International Journal of Hydrogen Energy}, 45\penalty0
+  (8):\penalty0 5565 -- 5576, 2020.
+\newblock ISSN 0360-3199.
+\newblock \doi{https://doi.org/10.1016/j.ijhydene.2019.10.178}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0360319919340510}.
+\newblock 22nd World Hydrogen Energy Conference.
 
 \bibitem[{Gouveia Gil} et~al.(2015){Gouveia Gil}, Reis, Chadwick, Wu, and
   Li]{GouveiaGil2015}
