@@ -56,10 +56,10 @@
 \contentsline {section}{\numberline {3.6}Hydrogen impurity enrichment}{154}% 
 \contentsline {subsection}{\numberline {3.6.1}Krypton spiking}{154}% 
 \contentsline {subsection}{\numberline {3.6.2}Performing enrichment}{155}% 
-\contentsline {section}{\numberline {3.7}Density functional theory}{155}% 
+\contentsline {section}{\numberline {3.7}Density functional theory}{156}% 
 \contentsline {subsection}{\numberline {3.7.1}ISO 14687 Impurities and Hydrogen}{156}% 
 \contentsline {subsection}{\numberline {3.7.2}Palladium and Palladium alloy slab models}{157}% 
-\contentsline {subsubsection}{Adsorption energy}{157}% 
+\contentsline {subsubsection}{Adsorption energy}{158}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
 \contentsline {chapter}{\numberline {4}Density functional theory as a screening method for dense metal membranes}{162}% 
