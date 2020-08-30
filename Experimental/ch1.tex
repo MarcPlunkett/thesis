@@ -1,17 +1,31 @@
 \chapter{Experimental methods}
 \section{Introduction}
-
+This chapter provides an overview of the materials, techniques, and methods used in the experimental work performed in this thesis and outlines the procedures used in the following chapters. 
 \section{Preparation of gas standards} \label{gasprep}
 Gas standards of hydrogen were prepared gravimetrically in 10 litre cylinders (BOC, UK) in accordance with \cite{InternationalStandardISO6142-1:2015} from pure hydrogen (Air Products, UK), nitrogen (Air Products), carbon monoxide (Scott Speciality Gases, UK), methane (CK Gases, UK) and krypton (BOC, UK). Any impurities that were detected in these pure gases were quantified and these values were then incorporated into the final determination of the gas mixture compositions and uncertainties. 
 
-For the purpose of this thesis the gas standards that were used to perform the permeation tests will be referred to as gas mixtures, and the gas standards that were used to calibrate the analytical instruments will be referred to as calibration gas standards. Before use, the gas mixtures were verified against traceable primary reference materials using Gas Chromatography with either a pulsed helium discharge ionisation detector (PDHID) for samples not containing sulphur [Reference for DN34], and sulphur chemiluminescence detector (SCD) for sulphur containing samples [Reference for B543]. The compisitions of the non-sulphur, and sulphur contining gas standards created for the purposes of this thesis are shown in tables \ref{nonsulf} and \ref{sulf}.
+The 10 liter cylinder was evacuated to $1 \times 10^{-6} mBar$ using a scroll pump followed by a turbo pump. This pressure ensureds that any residual gas within the cylinder will not contribute towards the uncertainty of the final mixture. \cite{InternationalStandardISO6142-1:2015} The target masses of each impurity desired in the gas mixture was then calculated using equation \ref{targetmass}where $M_\Omega$ is calculated using equation \ref{targetmass1}
+
+\begin{equation}\label{targetmass} 
+  m_j = \frac{y_k \times M_k}{\sum_{i=1}^{q}y_i \times M_i}\times m_\Omega
+\end{equation}
+
+\begin{equation}\label{targetmass1}
+  m_\Omega = \frac{p_{F, \Omega} \times V_{cyl}}{Z_\Omega \times R \times T_F}\sum_{i=1}^{q}y_i \times M_i
+\end{equation}
+
+After the target masses have been calculated a preparation procedure is selected taking into account the target composition and uncertainty of the calibration gas mixture; the target filling pressure of the calibration gas mixture; the required tolerance for the preparation; the composition of any available parent gas mixture; and the performance specifications of the balance to be used.  For this work it was determined that adding impurities using a 10mL loop weighed using a Mettler Toledo model  PR2004 top pan balance, and hydrogen through direct fill weighed using a Mettler Toledo Model XP26003L top pan balance was appropriate for all gas mixtures. For loop addition the loop is weighed before and after the addition of the component to the cylinder. The difference is the mass of the component added to the cylinder. 
+
+The uncertainty of each mass added to  the cylinder is then calculated taking into account the accuracy of the balance including it's calibration and linearity, repeatability of the balance readings including errors caused by the location of the cylinder on the balance, buoyancy effects, effects of moisture adsorption and dust on the outer surface of the cylinder, errors due to the loss of material during transfer into the cylinder. Guidence on these uncertainty values can be found in Appendix 3. All weighing procedures required the use of a tare, which is a vessel made of the same material that nominally has the same internal and external volumes. For all sulphur containing samples the internal surfaces of the cylinders were pretreated by heating a mixture of 5\% H\textsubscript{2}S in CH\textsubscript{4} in order to prevent the added H\textsubscript{2}S reacting with the cylinder walls. 
+
+For the purpose of this thesis the gas standards that were used to perform the permeation tests will be referred to as gas mixtures, and the gas standards that were used to calibrate the analytical instruments will be referred to as calibration gas standards. Before use, the gas mixtures were verified against traceable primary reference materials using Gas Chromatography with either a pulsed helium discharge ionisation detector (PDHID) for samples not containing sulphur \cite{bacquart_murugan_2019, morris_bacquart_2019}, and sulphur chemiluminescence detector (SCD) for sulphur containing samples \cite{bacquart_murugan_20191}. The compisitions of the non-sulphur, and sulphur contining gas standards created for the purposes of this thesis are shown in tables \ref{nonsulf} and \ref{sulf}.
 
 \section{Hydrogen sampling}\label{sampletake}
 Hydrogen sampling was performed using the sampling procedure developed by Bacquart et al \cite{BACQUART20205565}. The H\textsubscript{2} Qualitizer designed by Linde Australia was used and is designed to operate in line when a hydrogen vehicle is being refuelled. The adaptor is effectivley a T piece inserted between the refuelling nozzle and the FCEV (Toyota Mirai). A pressure regulator is installed before the connection to the sampling cylinder and set at 18MPa in order to prevent overpressurisation of the vessel. 
 
-The H\textsubscript{2} Qualitizer pressure reducer is fixed and tightened onto the sampling cylinder valve using a DIN 477 N.1 connection . The high-pressure hose leading from the sample cylinder is then connected to the pressure reducer and sample taking connections using quick connect fittings.  The sample-taking adapter is then connected on to the FCEV receptacle. The system is then purged and is considered ready for sampling. 
+The H\textsubscript{2} Qualitizer pressure reducer is fixed and tightened onto the sampling cylinder valve using a DIN 477 N.1 connection. The high-pressure hose leading from the sample cylinder is then connected to the pressure reducer and sample taking connections using quick connect fittings.  The sample-taking adapter is then connected on to the FCEV receptacle. The system is then purged and is considered ready for sampling. 
  
-A number of safety measures are in place whenm performing this procedure. The sampling bottle is secured using a safety belt at the HRS location and at the suitable distance to perform the sampling. An earthing cable and anti-whip device needs to be connected to both the pressure regulator and sample taking adapter to ensure safe operation. Anti spark wrenches (bronze) were used when connecting all fittings.
+A number of safety measures are in place when performing this procedure. The sampling bottle is secured using a safety belt at the HRS location and at the suitable distance to perform the sampling. An earthing cable and anti-whip device needs to be connected to both the pressure regulator and sample taking adapter to ensure safe operation. Anti spark wrenches (bronze) were used when connecting all fittings.
 
 \begin{table}[]
     \centering
@@ -207,8 +221,6 @@ Quantum ATK Virtual NanoLab Builder \cite{synopsys} was used to generate these s
 In order to find the adsorption energy of each ISO 14687 impurity on the membrane surfaces the molecules simulated in section \ref{gassim} were inserted into the vacuum region of the slab models generated in section \ref{slabsim}. (111) fcc surfaces have 4 available sites for adsorption shown in figure \ref{lit-fccsites} A separate system was created for adsorption of each impurity onto each of these sites. Initially the adsorbed molecule was simulated using a ridgid constraint to prevent any changes to the impurities molecular structure, and a low cutoff energy in order to get a quick starting point for the basis of the full simulation. Final goemetry relaxation was then performed from this using the parameters described in section \ref{DFTparams}
 
 The adsorption energy, $E_{i_{ads}}$, for the adsorption of a gaseous impurity on the surface is then calculated using equation \ref{lit-adseqn} where $i$ is the target ISO 14687 impurity or hydrogen molecule.
-
-
 
 \renewcommand{\bibname}{References}
 \bibliographystyle{unsrtnat}

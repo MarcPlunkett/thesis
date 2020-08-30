@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{15}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -9,6 +9,27 @@
   Organisation}(2015)]{InternationalStandardISO6142-1:2015}
 {International Standards Organisation}.
 \newblock {ISO/TC 158 Analysis of gases}, 2015.
+
+\bibitem[Bacquart and Murugan(2019{\natexlab{a}})]{bacquart_murugan_2019}
+Thomas Bacquart and Arul Murugan.
+\newblock Desk instruction 34: Methods for performing analysis of impurities in
+  hydrogen.
+\newblock \emph{National Physical Laboratory: Chemical, Medical and
+  Environmental Science Department}, 2019{\natexlab{a}}.
+
+\bibitem[Morris and Bacquart(2019)]{morris_bacquart_2019}
+Abigail~S Morris and Thomas Bacquart.
+\newblock Desk instruction 34a: Methods for analysing ar, o2 and n2 in hydrogen
+  using gc-pdhid.
+\newblock \emph{National Physical Laboratory: Chemical, Medical and
+  Environmental Science Department}, 2019.
+
+\bibitem[Bacquart and Murugan(2019{\natexlab{b}})]{bacquart_murugan_20191}
+Thomas~S Bacquart and Arul Murugan.
+\newblock Desk instruction 34c: Methods for performing total sulphur analysis
+  (total sulphur or h2s) in hydrogen using gc-scd.
+\newblock \emph{National Physical Laboratory: Chemical, Medical and
+  Environmental Science Department}, 2019{\natexlab{b}}.
 
 \bibitem[Bacquart et~al.(2020)Bacquart, Moore, Hart, Morris, Aarhaug, Kjos,
   Aupretre, Colas, Haloua, Gozlan, and Murugan]{BACQUART20205565}
