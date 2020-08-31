@@ -2,67 +2,67 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Schematic presentation of the thesis structure\relax }}{25}% 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Schematic presentation of the thesis structure\relax }}{24}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematic of fuel cell \cite {Dharmalingam2019}\relax }}{29}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Schematic of a PEMFC stack \cite {Li2019}\relax }}{30}% 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Simplified block diagram of a typical modern Steam Methane Reforming (SMR) and Water Gas Shift (WGS) plant. CO\textsubscript {2} concentrations are in mol.\%. \cite {Muradov2015}\relax }}{31}% 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Illustration of the five membrane separation mechanisms (i) Poiseuille Flow/Knudsen diffusion, (ii) Molecular Sieving, (iii) Surface diffusion (iV) Capillary condensation (V) Solution diffusion (Vi) Facilitated transport\relax }}{51}% 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Palladium-Hydrogen phase diagram adapted from \cite {Li2008b}\relax }}{61}% 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Metals which can be deposited using electro less plating \cite {Exter2015}\relax }}{97}% 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Total energies (per atom) for bulk Cu calculated as a function of M for calculations using MxMxM kpoints \cite {doi:10.1002/9780470447710.ch4}\relax }}{101}% 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Top view of the high-symmetry adsorption sites fcc, hcp, bridge, and top \cite {Zeng2009}\relax }}{103}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematic of fuel cell \cite {Dharmalingam2019}\relax }}{28}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Schematic of a PEMFC stack \cite {Li2019}\relax }}{29}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Simplified block diagram of a typical modern Steam Methane Reforming (SMR) and Water Gas Shift (WGS) plant. CO\textsubscript {2} concentrations are in mol.\%. \cite {Muradov2015}\relax }}{30}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Illustration of the five membrane separation mechanisms (i) Poiseuille Flow/Knudsen diffusion, (ii) Molecular Sieving, (iii) Surface diffusion (iV) Capillary condensation (V) Solution diffusion (Vi) Facilitated transport\relax }}{50}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Palladium-Hydrogen phase diagram adapted from \cite {Li2008b}\relax }}{60}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Metals which can be deposited using electro less plating \cite {Exter2015}\relax }}{96}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Total energies (per atom) for bulk Cu calculated as a function of M for calculations using MxMxM kpoints \cite {doi:10.1002/9780470447710.ch4}\relax }}{100}% 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Top view of the high-symmetry adsorption sites fcc, hcp, bridge, and top \cite {Zeng2009}\relax }}{102}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic representation of the sequential baths for sensitisation/activation process.\relax }}{148}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Example of ELP procedure when manufacturing a PdCu membrane on YSZ substrate\relax }}{149}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Experimental set up used during hydrogen permeation and enrichment experiments, TC: Temperature controller, PI: Pressure indicator, V: Valve, TV: Three-way valve, FI: Flow indicator.\relax }}{152}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Total energy as a function of $M\times M\times M$ k-points across a Pd(111) fcc slab\relax }}{156}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic representation of the sequential baths for sensitisation/activation process.\relax }}{147}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Example of ELP procedure when manufacturing a PdCu membrane on YSZ substrate\relax }}{148}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Experimental set up used during hydrogen permeation and enrichment experiments, TC: Temperature controller, PI: Pressure indicator, V: Valve, TV: Three-way valve, FI: Flow indicator.\relax }}{151}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Total energy as a function of $M\times M\times M$ k-points across a Pd(111) fcc slab\relax }}{155}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Adsorption energy of H for each site on a 2x2x5 Pd slab\relax }}{167}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Average binding energy of H\textsubscript {2} on the surface of palladium and palladium alloy slabs\relax }}{169}% 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Average binding energy of He on the surface of palladium and palladium alloy slabs\relax }}{171}% 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Average binding energy of N\textsubscript {2} on the surface of palladium and palladium alloy slabs\relax }}{172}% 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Average binding energy of CO\textsubscript {2} on the surface of palladium and palladium alloy slabs\relax }}{173}% 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Average binding energy of Ar on the surface of palladium and palladium alloy slabs\relax }}{174}% 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces binding energy of H and CO for each site on a 2x2x5 Pd slab\relax }}{176}% 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Average binding energy of CO on the surface of palladium and palladium alloy slabs\relax }}{177}% 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Average binding energy of NH\textsubscript {3} on the surface of palladium and palladium alloy slabs\relax }}{178}% 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Average binding energy of O\textsubscript {2} on the surface of palladium and palladium alloy slabs\relax }}{181}% 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Average binding energy of H\textsubscript {2}O on the surface of palladium and palladium alloy slabs\relax }}{182}% 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces binding energy of H and CH\textsubscript {4} for each site on a 2x2x5 Pd slab\relax }}{185}% 
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Average binding energy of Methane on the surface of palladium and palladium alloy slabs\relax }}{186}% 
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Average binding energy of formaldehyde on the surface of palladium and palladium alloy slabs\relax }}{188}% 
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Average binding energy of Formic Acid on the surface of palladium and palladium alloy slabs\relax }}{189}% 
-\contentsline {figure}{\numberline {4.16}{\ignorespaces binding energy of H and H\textsubscript {2}S for each site on a 2x2x5 Pd slab\relax }}{191}% 
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Average binding energy of H\textsubscript {2}S on the surface of palladium and palladium alloy slabs\relax }}{192}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Adsorption energy of H for each site on a 2x2x5 Pd slab\relax }}{166}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Average binding energy of H\textsubscript {2} on the surface of palladium and palladium alloy slabs\relax }}{168}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Average binding energy of He on the surface of palladium and palladium alloy slabs\relax }}{170}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Average binding energy of N\textsubscript {2} on the surface of palladium and palladium alloy slabs\relax }}{171}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Average binding energy of CO\textsubscript {2} on the surface of palladium and palladium alloy slabs\relax }}{172}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Average binding energy of Ar on the surface of palladium and palladium alloy slabs\relax }}{173}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces binding energy of H and CO for each site on a 2x2x5 Pd slab\relax }}{175}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Average binding energy of CO on the surface of palladium and palladium alloy slabs\relax }}{176}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Average binding energy of NH\textsubscript {3} on the surface of palladium and palladium alloy slabs\relax }}{177}% 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Average binding energy of O\textsubscript {2} on the surface of palladium and palladium alloy slabs\relax }}{180}% 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Average binding energy of H\textsubscript {2}O on the surface of palladium and palladium alloy slabs\relax }}{181}% 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces binding energy of H and CH\textsubscript {4} for each site on a 2x2x5 Pd slab\relax }}{184}% 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Average binding energy of Methane on the surface of palladium and palladium alloy slabs\relax }}{185}% 
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Average binding energy of formaldehyde on the surface of palladium and palladium alloy slabs\relax }}{187}% 
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Average binding energy of Formic Acid on the surface of palladium and palladium alloy slabs\relax }}{188}% 
+\contentsline {figure}{\numberline {4.16}{\ignorespaces binding energy of H and H\textsubscript {2}S for each site on a 2x2x5 Pd slab\relax }}{190}% 
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Average binding energy of H\textsubscript {2}S on the surface of palladium and palladium alloy slabs\relax }}{191}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces SEM images of fabricated membranes (a) PdCu (fcc) (Sputtering) (b) PdAg (ELP) (c)PdAu (ELP) (d) PdCuZr (Sputtering) (e) PdAgAu (ELP) (f) PdCuAg (ELP) (g) PdCu (bcc) (Sputtering) (h) typical cross section\relax }}{205}% 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Permeability data for pure hydrogen, non-sulphur, and sulphur permeation tests\relax }}{213}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces SEM images of fabricated membranes (a) PdCu (fcc) (Sputtering) (b) PdAg (ELP) (c)PdAu (ELP) (d) PdCuZr (Sputtering) (e) PdAgAu (ELP) (f) PdCuAg (ELP) (g) PdCu (bcc) (Sputtering) (h) typical cross section\relax }}{204}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Permeability data for pure hydrogen, non-sulphur, and sulphur permeation tests\relax }}{212}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Predicted concentration of krypton within hydrogen samples in; 1L cylinder (30.8 mg Kr), 10L cylinder (300.79 mg Kr), 50L cylinder (1484 mg Kr)\relax }}{223}% 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces P\&ID for the redesigned hydrogen impurity enrichment device\relax }}{227}% 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Disconnected transportable unit\relax }}{229}% 
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Comparison of the On/Off temperature controller and PID temperature controller over a 1 hour period\relax }}{230}% 
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Diagrammatic representation of the data processing algorithm used to provide real time enrichment factor\relax }}{233}% 
-\contentsline {figure}{\numberline {6.6}{\ignorespaces $CEF_{NI}$ over the 180 hour enrichment of the inert hydrogen sample shown in table 6.1\hbox {}\relax }}{236}% 
-\contentsline {figure}{\numberline {6.7}{\ignorespaces GC-PDHID data of the inert sample both before and after enrichment with N\textsubscript {2} peaks shown at Time=3.25, and Kr peaks shown at Time=3.92\relax }}{238}% 
-\contentsline {figure}{\numberline {6.8}{\ignorespaces GC-SCD data of the sulphurous sample both before and after enrichment with commercial membrane\relax }}{239}% 
-\contentsline {figure}{\numberline {6.9}{\ignorespaces $CEF_{NI}$ over the 40 hour enrichment of the sulphurous hydrogen sample shown in table 3.2\hbox {}\relax }}{241}% 
-\contentsline {figure}{\numberline {6.10}{\ignorespaces $CEF_{NI}$ over the 120 hour enrichment of the HRS hydrogen sample\relax }}{243}% 
-\contentsline {figure}{\numberline {6.11}{\ignorespaces GC-PDHID data of the HRS sample both before and after enrichment with commercial membrane\relax }}{245}% 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Predicted concentration of krypton within hydrogen samples in; 1L cylinder (30.8 mg Kr), 10L cylinder (300.79 mg Kr), 50L cylinder (1484 mg Kr)\relax }}{222}% 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces P\&ID for the redesigned hydrogen impurity enrichment device\relax }}{226}% 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Disconnected transportable unit\relax }}{228}% 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Comparison of the On/Off temperature controller and PID temperature controller over a 1 hour period\relax }}{229}% 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Diagrammatic representation of the data processing algorithm used to provide real time enrichment factor\relax }}{232}% 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces $CEF_{NI}$ over the 180 hour enrichment of the inert hydrogen sample shown in table 6.1\hbox {}\relax }}{235}% 
+\contentsline {figure}{\numberline {6.7}{\ignorespaces GC-PDHID data of the inert sample both before and after enrichment with N\textsubscript {2} peaks shown at Time=3.25, and Kr peaks shown at Time=3.92\relax }}{237}% 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces GC-SCD data of the sulphurous sample both before and after enrichment with commercial membrane\relax }}{238}% 
+\contentsline {figure}{\numberline {6.9}{\ignorespaces $CEF_{NI}$ over the 40 hour enrichment of the sulphurous hydrogen sample shown in table 3.2\hbox {}\relax }}{240}% 
+\contentsline {figure}{\numberline {6.10}{\ignorespaces $CEF_{NI}$ over the 120 hour enrichment of the HRS hydrogen sample\relax }}{242}% 
+\contentsline {figure}{\numberline {6.11}{\ignorespaces GC-PDHID data of the HRS sample both before and after enrichment with commercial membrane\relax }}{244}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Theoretical manufacturing process for a bespoke dense metal membrane with optimal composition calculated by a research provider, manufactured to specification, and delivered to the customer\relax }}{251}% 
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Proposed solution for automatic quality assurance of fuel cell hydrogen at HRS's\relax }}{254}% 
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Theoretical manufacturing process for a bespoke dense metal membrane with optimal composition calculated by a research provider, manufactured to specification, and delivered to the customer\relax }}{250}% 
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Proposed solution for automatic quality assurance of fuel cell hydrogen at HRS's\relax }}{253}% 
 \gdef \the@ipfilectr {}
