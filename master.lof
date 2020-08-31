@@ -56,11 +56,13 @@
 \contentsline {figure}{\numberline {6.5}{\ignorespaces Diagrammatic representation of the data processing algorithm used to provide real time enrichment factor\relax }}{233}% 
 \contentsline {figure}{\numberline {6.6}{\ignorespaces $CEF_{NI}$ over the 180 hour enrichment of the inert hydrogen sample shown in table 6.1\hbox {}\relax }}{236}% 
 \contentsline {figure}{\numberline {6.7}{\ignorespaces GC-PDHID data of the inert sample both before and after enrichment with N\textsubscript {2} peaks shown at Time=3.25, and Kr peaks shown at Time=3.92\relax }}{238}% 
-\contentsline {figure}{\numberline {6.8}{\ignorespaces GC-PDHID data of the sulphurous sample both before and after enrichment with commercial membrane\relax }}{239}% 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces GC-SCD data of the sulphurous sample both before and after enrichment with commercial membrane\relax }}{239}% 
 \contentsline {figure}{\numberline {6.9}{\ignorespaces $CEF_{NI}$ over the 40 hour enrichment of the sulphurous hydrogen sample shown in table 3.2\hbox {}\relax }}{241}% 
+\contentsline {figure}{\numberline {6.10}{\ignorespaces $CEF_{NI}$ over the 120 hour enrichment of the HRS hydrogen sample\relax }}{243}% 
+\contentsline {figure}{\numberline {6.11}{\ignorespaces GC-PDHID data of the HRS sample both before and after enrichment with commercial membrane\relax }}{245}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Theoretical manufacturing process for a bespoke dense metal membrane with optimal composition calculated by a research provider, manufactured to specification, and delivered to the customer\relax }}{248}% 
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Proposed solution for automatic quality assurance of fuel cell hydrogen at HRS's\relax }}{251}% 
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Theoretical manufacturing process for a bespoke dense metal membrane with optimal composition calculated by a research provider, manufactured to specification, and delivered to the customer\relax }}{251}% 
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Proposed solution for automatic quality assurance of fuel cell hydrogen at HRS's\relax }}{254}% 
 \gdef \the@ipfilectr {}

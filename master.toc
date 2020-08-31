@@ -94,25 +94,25 @@
 \contentsline {chapter}{\numberline {6}A hydrogen impurity measurement device for measuring ISO 14687 impurities}{219}% 
 \contentsline {section}{\numberline {6.1}Introduction}{220}% 
 \contentsline {section}{\numberline {6.2}Addition of krypton for tracer enrichment}{221}% 
-\contentsline {section}{\numberline {6.3}Hydrogen Impurity enrichment device}{222}% 
+\contentsline {section}{\numberline {6.3}Hydrogen Impurity enrichment device}{224}% 
 \contentsline {subsection}{\numberline {6.3.1}Requirements}{224}% 
-\contentsline {subsection}{\numberline {6.3.2}System design}{224}% 
+\contentsline {subsection}{\numberline {6.3.2}System design}{225}% 
 \contentsline {subsection}{\numberline {6.3.3}Control/Measurement system}{229}% 
 \contentsline {subsection}{\numberline {6.3.4}Data processing}{232}% 
 \contentsline {section}{\numberline {6.4}Enrichment of hydrogen samples}{234}% 
 \contentsline {subsection}{\numberline {6.4.1}Inert components}{235}% 
 \contentsline {subsection}{\numberline {6.4.2}Sulphur containing compounds}{238}% 
 \contentsline {subsection}{\numberline {6.4.3}HRS sample}{242}% 
-\contentsline {section}{\numberline {6.5}Conclusion}{242}% 
+\contentsline {section}{\numberline {6.5}Conclusion}{245}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
-\contentsline {chapter}{\numberline {7}Conclusions and future work}{246}% 
-\contentsline {section}{\numberline {7.1}Membranes for hydrogen separation}{246}% 
-\contentsline {subsection}{\numberline {7.1.1}DFT for screening impurity resistant alloys}{246}% 
-\contentsline {subsection}{\numberline {7.1.2}Use for dense metal membranes in the hydrogen economy}{247}% 
-\contentsline {section}{\numberline {7.2}Impurity enrichment devices}{249}% 
-\contentsline {subsection}{\numberline {7.2.1}Commercialisation and optimisation}{249}% 
-\contentsline {subsection}{\numberline {7.2.2}Additional use cases}{250}% 
-\contentsline {section}{\numberline {7.3}Other hydrogen impurity measurement challenges}{252}% 
-\contentsline {section}{\numberline {7.4}Closing remarks}{252}% 
+\contentsline {chapter}{\numberline {7}Conclusions and future work}{249}% 
+\contentsline {section}{\numberline {7.1}Membranes for hydrogen separation}{249}% 
+\contentsline {subsection}{\numberline {7.1.1}DFT for screening impurity resistant alloys}{249}% 
+\contentsline {subsection}{\numberline {7.1.2}Use for dense metal membranes in the hydrogen economy}{250}% 
+\contentsline {section}{\numberline {7.2}Impurity enrichment devices}{252}% 
+\contentsline {subsection}{\numberline {7.2.1}Commercialisation and optimisation}{252}% 
+\contentsline {subsection}{\numberline {7.2.2}Additional use cases}{253}% 
+\contentsline {section}{\numberline {7.3}Other hydrogen impurity measurement challenges}{255}% 
+\contentsline {section}{\numberline {7.4}Closing remarks}{255}% 
 \gdef \the@ipfilectr {}

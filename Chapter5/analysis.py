@@ -21,7 +21,6 @@ with plt.style.context(['science']):
     ax.set(ylabel="Krypton concentration ($\mu$mol/mol)")
     ax.autoscale(tight=False)
     fig.suptitle('1L sample vessel', fontsize=14)
-
     fig.show()
     fig.savefig('1L.jpg', dpi=300)
 
@@ -108,6 +107,42 @@ with plt.style.context(['science']):
     fig.show()
     fig.savefig('inertgc.jpg', dpi=300)
 
+
+dfunenriched = pd.read_csv(
+    '/Users/marc/Thesis/Chapter5/hrsenrichgc1.csv')
+
+x_new = np.linspace(1.9, 4, 500)
+
+
+spl1 = make_interp_spline(dfunenriched['time'],  dfunenriched['Signal'], k=2)  # type: BSpline
+power_smooth1 = spl1(x_new)
+
+
+
+dfenriched = pd.read_csv(
+    '/Users/marc/Thesis/Chapter5/hrsenrichgc2.csv')
+
+
+x_new2 = np.linspace(1.9, 4, 100)
+
+spl1 = make_interp_spline(dfenriched['time'],  dfenriched['Signal'], k=2)  # type: BSpline
+power_smooth2 = spl1(x_new2)
+
+
+with plt.style.context(['science']):
+    fig, ax = plt.subplots(figsize=(6,5))
+    ax.plot(x_new, abs(power_smooth1) , color='black', linestyle='dashed', label='Before enrichment')
+    ax.plot(x_new2, abs(power_smooth2) , color='black', label='After enrichment')
+
+    ax.set(xlabel="Time (Minutes)")
+    ax.set(ylabel="Signal")
+    ax.autoscale(tight=False)
+    fig.suptitle('GC data of the HRS sample before and after enrichment', fontsize=14)
+    plt.legend()
+    fig.show()
+    fig.savefig('hrsgc.jpg', dpi=300)
+
+
 dfenrichni = pd.read_csv('/Users/marc/Thesis/Chapter5/inertenrichni.csv')
 
 dfenrichni
@@ -127,6 +162,26 @@ with plt.style.context(['science']):
     fig.suptitle('Automatic CEF$_{NI}$ calcutaions for inert enrichment test', fontsize=14)
     fig.show()
     fig.savefig('inertenrich.jpg', dpi=300)
+
+dfenrichni = pd.read_csv('/Users/marc/Thesis/Chapter5/hrsenrichni.csv')
+
+dfenrichni
+
+x_new2 = np.linspace(0, 120, 1000)
+
+spl1 = make_interp_spline(dfenrichni['Time'],  dfenrichni['CEFNI'], k=2)  # type: BSpline
+power_smooth2 = spl1(x_new2)
+
+with plt.style.context(['science']):
+    fig, ax = plt.subplots(figsize=(11,8))
+    ax.plot(x_new2, power_smooth2 , color='black',)
+
+    ax.set(xlabel="Time (Hours)")
+    ax.set(ylabel="CEF$_NI$")
+    ax.autoscale(tight=False)
+    fig.suptitle('Automatic CEF$_{NI}$ calcutaions for HRS enrichment test', fontsize=14)
+    fig.show()
+    fig.savefig('hrsenrichni.jpg', dpi=300)
 
 
 dfsulfenrichni = pd.read_csv('/Users/marc/Thesis/Chapter5/sulfenrichni.csv')
