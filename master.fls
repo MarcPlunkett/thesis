@@ -236,10 +236,9 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/rm-lmtt8.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/rm-lmtt8.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/rm-lmcsc10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/rm-lmcsc10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/rm-lmcsc10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/rm-lmr17.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/rm-lmri12.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/rm-lmr17.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm
 OUTPUT /Users/marc/Thesis/master.pdf
 INPUT /usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -265,6 +264,7 @@ OUTPUT /Users/marc/Thesis/master.toc
 OUTPUT /Users/marc/Thesis/Chapter1/ch1.aux
 INPUT /Users/marc/Thesis/Chapter1/ch1.tex
 INPUT /Users/marc/Thesis/Chapter1/ch1.tex
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT /Users/marc/Thesis/figures/funnel.png
 INPUT /Users/marc/Thesis/figures/funnel.png
 INPUT /Users/marc/Thesis/figures/funnel.png
@@ -480,6 +480,7 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi6.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr6.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb
