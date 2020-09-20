@@ -1,0 +1,60 @@
+\begin{thebibliography}{7}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Murugan and Brown(2014)]{Murugan2014}
+Arul Murugan and Andrew~S Brown.
+\newblock {Advancing the analysis of impurities in hydrogen by use of a novel
+  tracer enrichment method}.
+\newblock \emph{Analytical Methods}, 6\penalty0 (15):\penalty0 5472, 2014.
+\newblock \doi{10.1039/c3ay42174k}.
+
+\bibitem[Podesta et~al.(2017)Podesta, Mark, Dymock, Underwood, Bacquart,
+  Sutton, Davidson, and Machin]{Podesta2017}
+Michael Podesta, Darren Mark, Ross Dymock, Robin Underwood, Thomas Bacquart,
+  Gavin Sutton, Stuart Davidson, and Graham Machin.
+\newblock Re-estimation of argon isotope ratios leading to a revised estimate
+  of the boltzmann constant.
+\newblock \emph{Metrologia}, 54, 06 2017.
+\newblock \doi{10.1088/1681-7575/aa7880}.
+
+\bibitem[Ahmed et~al.(2010)Ahmed, Lee, and Papadias]{Ahmed2010}
+Shabbir Ahmed, Sheldon H~D Lee, and Dionissios~D Papadias.
+\newblock {Analysis of trace impurities in hydrogen: Enrichment of impurities
+  using a H2 selective permeation membrane☆}.
+\newblock \emph{International Journal of Hydrogen Energy}, 35\penalty0
+  (22):\penalty0 12480--12490, 2010.
+\newblock \doi{10.1016/j.ijhydene.2010.08.042}.
+
+\bibitem[swa()]{swagelok}
+Product catalog.
+\newblock URL \url{https://www.swagelok.com/en/toolbox/product-catalog}.
+
+\bibitem[str()]{stratatechnology}
+Skid mounted rigs: Pilot plants: Nuclear engineering decommissioning.
+\newblock URL \url{https://www.stratatec.co.uk/}.
+
+\bibitem[sul()]{sulfinerttreatedsamplecylinder}
+Sulfinert-treated sample cylinders.
+\newblock URL
+  \url{https://www.restek.com/Technical-Resources/Technical-Library/Petroleum-Petrochemical/petro_A005}.
+
+\bibitem[Bacquart et~al.(2020)Bacquart, Moore, Hart, Morris, Aarhaug, Kjos,
+  Aupretre, Colas, Haloua, Gozlan, and Murugan]{BACQUART20205565}
+Thomas Bacquart, Niamh Moore, Nick Hart, Abigail Morris, Thor~A. Aarhaug, Ole
+  Kjos, Fabien Aupretre, Thibault Colas, Frederique Haloua, Bruno Gozlan, and
+  Arul Murugan.
+\newblock Hydrogen quality sampling at the hydrogen refuelling station –
+  lessons learnt on sampling at the production and at the nozzle.
+\newblock \emph{International Journal of Hydrogen Energy}, 45\penalty0
+  (8):\penalty0 5565 -- 5576, 2020.
+\newblock ISSN 0360-3199.
+\newblock \doi{https://doi.org/10.1016/j.ijhydene.2019.10.178}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0360319919340510}.
+\newblock 22nd World Hydrogen Energy Conference.
+
+\end{thebibliography}
