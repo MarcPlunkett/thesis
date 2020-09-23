@@ -98,7 +98,7 @@
 \contentsline {subsection}{\numberline {6.3.1}Safety}{226}% 
 \contentsline {subsection}{\numberline {6.3.2}Usability}{227}% 
 \contentsline {subsection}{\numberline {6.3.3}Automation}{228}% 
-\contentsline {section}{\numberline {6.4}Conclusion}{233}% 
+\contentsline {section}{\numberline {6.4}Conclusion}{231}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
 \contentsline {chapter}{\numberline {7}Enriching impurities in hydrogen refuelling station samples}{236}% 
@@ -110,13 +110,16 @@
 \contentsline {section}{\numberline {7.3}Conclusion}{249}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-9}
-\contentsline {chapter}{\numberline {8}Conclusions and future work}{252}% 
-\contentsline {section}{\numberline {8.1}Membranes for hydrogen separation}{252}% 
-\contentsline {subsection}{\numberline {8.1.1}DFT for screening impurity resistant alloys}{252}% 
-\contentsline {subsection}{\numberline {8.1.2}Use for dense metal membranes in the hydrogen economy}{253}% 
-\contentsline {section}{\numberline {8.2}Impurity enrichment devices}{255}% 
-\contentsline {subsection}{\numberline {8.2.1}Commercialisation and optimisation}{256}% 
+\contentsline {chapter}{\numberline {8}Conclusions and future work}{251}% 
+\contentsline {section}{\numberline {8.1}Membranes for hydrogen separation}{251}% 
+\contentsline {subsection}{\numberline {8.1.1}DFT for screening impurity resistant alloys}{251}% 
+\contentsline {subsection}{\numberline {8.1.2}Use for dense metal membranes in the hydrogen economy}{252}% 
+\contentsline {section}{\numberline {8.2}Impurity enrichment devices}{254}% 
+\contentsline {subsection}{\numberline {8.2.1}Commercialisation and optimisation}{255}% 
 \contentsline {subsection}{\numberline {8.2.2}Additional use cases}{258}% 
 \contentsline {section}{\numberline {8.3}Other hydrogen impurity measurement challenges}{258}% 
 \contentsline {section}{\numberline {8.4}Closing remarks}{258}% 
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-10}
+\contentsline {subsection}{\numberline {8.4.1}Palladium system}{288}% 
 \gdef \the@ipfilectr {}

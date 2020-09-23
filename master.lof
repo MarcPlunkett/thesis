@@ -66,6 +66,15 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Theoretical manufacturing process for a bespoke dense metal membrane with optimal composition calculated by a research provider, manufactured to specification, and delivered to the customer\relax }}{254}% 
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Proposed solution for automatic quality assurance of fuel cell hydrogen at HRS's\relax }}{257}% 
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Theoretical manufacturing process for a bespoke dense metal membrane with optimal composition calculated by a research provider, manufactured to specification, and delivered to the customer\relax }}{253}% 
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Proposed solution for automatic quality assurance of fuel cell hydrogen at HRS's\relax }}{256}% 
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-10}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Enrichment device control panel\relax }}{291}% 
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Enrichment device chassis layout\relax }}{292}% 
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Example of connecting thermocouples using TE3\relax }}{293}% 
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Information based views on eurotherm control panel (a) System Summary (b) Vertical trend over time (c) Vertical bar chart (d) Horizontal bar chart\relax }}{293}% 
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Temperature control views\relax }}{294}% 
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Heating switch\relax }}{294}% 
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Disconnected transportable unit\relax }}{295}% 
 \gdef \the@ipfilectr {}

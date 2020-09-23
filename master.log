@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.27)  22 SEP 2020 22:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.27)  23 SEP 2020 15:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -64,33 +64,55 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \footskip       = 50.75pt
 (typearea)              \baselineskip   = 14.5pt
 (typearea)              on input line 1715.
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/afterpage.sty
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count90
+\lst@gtempboxa=\box27
+\lst@token=\toks15
+\lst@length=\count91
+\lst@currlwidth=\dimen103
+\lst@column=\count92
+\lst@pos=\count93
+\lst@lostspace=\dimen104
+\lst@width=\dimen105
+\lst@newlines=\count94
+\lst@lineno=\count95
+\lst@maxwidth=\dimen106
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count96
+\lst@skipnumbers=\count97
+\lst@framebox=\box28
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks15
-\AP@partial=\box27
-\AP@footins=\box28
+\AP@output=\toks16
+\AP@partial=\box29
+\AP@footins=\box30
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/siunitx/siunitx.sty (/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2019-09-19 L3 programming layer (loader) 
  (/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2019-09-19 L3 programming layer (code)
-\c_max_int=\count90
-\l_tmpa_int=\count91
-\l_tmpb_int=\count92
-\g_tmpa_int=\count93
-\g_tmpb_int=\count94
-\g__kernel_prg_map_int=\count95
-\c__ior_term_noprompt_ior=\count96
-\c_log_iow=\count97
-\l_iow_line_count_int=\count98
-\l__iow_line_target_int=\count99
-\l__iow_one_indent_int=\count100
-\l__iow_indent_int=\count101
-\c_zero_dim=\dimen103
-\c_max_dim=\dimen104
-\l_tmpa_dim=\dimen105
-\l_tmpb_dim=\dimen106
-\g_tmpa_dim=\dimen107
-\g_tmpb_dim=\dimen108
+\c_max_int=\count98
+\l_tmpa_int=\count99
+\l_tmpb_int=\count100
+\g_tmpa_int=\count101
+\g_tmpb_int=\count102
+\g__kernel_prg_map_int=\count103
+\c__ior_term_noprompt_ior=\count104
+\c_log_iow=\count105
+\l_iow_line_count_int=\count106
+\l__iow_line_target_int=\count107
+\l__iow_one_indent_int=\count108
+\l__iow_indent_int=\count109
+\c_zero_dim=\dimen107
+\c_max_dim=\dimen108
+\l_tmpa_dim=\dimen109
+\l_tmpb_dim=\dimen110
+\g_tmpa_dim=\dimen111
+\g_tmpb_dim=\dimen112
 \c_zero_skip=\skip48
 \c_max_skip=\skip49
 \l_tmpa_skip=\skip50
@@ -103,194 +125,194 @@ Package: expl3 2019-09-19 L3 programming layer (code)
 \l_tmpb_muskip=\muskip13
 \g_tmpa_muskip=\muskip14
 \g_tmpb_muskip=\muskip15
-\l_keys_choice_int=\count102
-\l__intarray_loop_int=\count103
-\c__intarray_sp_dim=\dimen109
-\g__intarray_font_int=\count104
-\c__fp_leading_shift_int=\count105
-\c__fp_middle_shift_int=\count106
-\c__fp_trailing_shift_int=\count107
-\c__fp_big_leading_shift_int=\count108
-\c__fp_big_middle_shift_int=\count109
-\c__fp_big_trailing_shift_int=\count110
-\c__fp_Bigg_leading_shift_int=\count111
-\c__fp_Bigg_middle_shift_int=\count112
-\c__fp_Bigg_trailing_shift_int=\count113
-\c__kernel_randint_max_int=\count114
-\g__fp_array_int=\count115
-\l__fp_array_loop_int=\count116
-\l__sort_length_int=\count117
-\l__sort_min_int=\count118
-\l__sort_top_int=\count119
-\l__sort_max_int=\count120
-\l__sort_true_max_int=\count121
-\l__sort_block_int=\count122
-\l__sort_begin_int=\count123
-\l__sort_end_int=\count124
-\l__sort_A_int=\count125
-\l__sort_B_int=\count126
-\l__sort_C_int=\count127
-\l__str_internal_int=\count128
-\c__str_replacement_char_int=\count129
-\l__tl_analysis_normal_int=\count130
-\l__tl_analysis_index_int=\count131
-\l__tl_analysis_nesting_int=\count132
-\l__tl_analysis_type_int=\count133
-\l__regex_internal_a_int=\count134
-\l__regex_internal_b_int=\count135
-\l__regex_internal_c_int=\count136
-\l__regex_balance_int=\count137
-\l__regex_group_level_int=\count138
-\l__regex_mode_int=\count139
-\c__regex_cs_in_class_mode_int=\count140
-\c__regex_cs_mode_int=\count141
-\l__regex_catcodes_int=\count142
-\l__regex_default_catcodes_int=\count143
-\c__regex_catcode_D_int=\count144
-\c__regex_catcode_S_int=\count145
-\c__regex_catcode_L_int=\count146
-\c__regex_catcode_O_int=\count147
-\c__regex_catcode_A_int=\count148
-\c__regex_all_catcodes_int=\count149
-\l__regex_show_lines_int=\count150
-\l__regex_min_state_int=\count151
-\l__regex_max_state_int=\count152
-\l__regex_left_state_int=\count153
-\l__regex_right_state_int=\count154
-\l__regex_capturing_group_int=\count155
-\l__regex_min_pos_int=\count156
-\l__regex_max_pos_int=\count157
-\l__regex_curr_pos_int=\count158
-\l__regex_start_pos_int=\count159
-\l__regex_success_pos_int=\count160
-\l__regex_curr_char_int=\count161
-\l__regex_curr_catcode_int=\count162
-\l__regex_last_char_int=\count163
-\l__regex_case_changed_char_int=\count164
-\l__regex_curr_state_int=\count165
-\l__regex_step_int=\count166
-\l__regex_min_active_int=\count167
-\l__regex_max_active_int=\count168
-\l__regex_replacement_csnames_int=\count169
-\l__regex_match_count_int=\count170
-\l__regex_min_submatch_int=\count171
-\l__regex_submatch_int=\count172
-\l__regex_zeroth_submatch_int=\count173
-\g__regex_trace_regex_int=\count174
-\c_empty_box=\box29
-\l_tmpa_box=\box30
-\l_tmpb_box=\box31
-\g_tmpa_box=\box32
-\g_tmpb_box=\box33
-\l__box_top_dim=\dimen110
-\l__box_bottom_dim=\dimen111
-\l__box_left_dim=\dimen112
-\l__box_right_dim=\dimen113
-\l__box_top_new_dim=\dimen114
-\l__box_bottom_new_dim=\dimen115
-\l__box_left_new_dim=\dimen116
-\l__box_right_new_dim=\dimen117
-\l__box_internal_box=\box34
-\l__coffin_internal_box=\box35
-\l__coffin_internal_dim=\dimen118
-\l__coffin_offset_x_dim=\dimen119
-\l__coffin_offset_y_dim=\dimen120
-\l__coffin_x_dim=\dimen121
-\l__coffin_y_dim=\dimen122
-\l__coffin_x_prime_dim=\dimen123
-\l__coffin_y_prime_dim=\dimen124
-\c_empty_coffin=\box36
-\l__coffin_aligned_coffin=\box37
-\l__coffin_aligned_internal_coffin=\box38
-\l_tmpa_coffin=\box39
-\l_tmpb_coffin=\box40
-\g_tmpa_coffin=\box41
-\g_tmpb_coffin=\box42
-\l__coffin_bounding_shift_dim=\dimen125
-\l__coffin_left_corner_dim=\dimen126
-\l__coffin_right_corner_dim=\dimen127
-\l__coffin_bottom_corner_dim=\dimen128
-\l__coffin_top_corner_dim=\dimen129
-\l__coffin_scaled_total_height_dim=\dimen130
-\l__coffin_scaled_width_dim=\dimen131
-\c__coffin_empty_coffin=\box43
-\l__coffin_display_coffin=\box44
-\l__coffin_display_coord_coffin=\box45
-\l__coffin_display_pole_coffin=\box46
-\l__coffin_display_offset_dim=\dimen132
-\l__coffin_display_x_dim=\dimen133
-\l__coffin_display_y_dim=\dimen134
+\l_keys_choice_int=\count110
+\l__intarray_loop_int=\count111
+\c__intarray_sp_dim=\dimen113
+\g__intarray_font_int=\count112
+\c__fp_leading_shift_int=\count113
+\c__fp_middle_shift_int=\count114
+\c__fp_trailing_shift_int=\count115
+\c__fp_big_leading_shift_int=\count116
+\c__fp_big_middle_shift_int=\count117
+\c__fp_big_trailing_shift_int=\count118
+\c__fp_Bigg_leading_shift_int=\count119
+\c__fp_Bigg_middle_shift_int=\count120
+\c__fp_Bigg_trailing_shift_int=\count121
+\c__kernel_randint_max_int=\count122
+\g__fp_array_int=\count123
+\l__fp_array_loop_int=\count124
+\l__sort_length_int=\count125
+\l__sort_min_int=\count126
+\l__sort_top_int=\count127
+\l__sort_max_int=\count128
+\l__sort_true_max_int=\count129
+\l__sort_block_int=\count130
+\l__sort_begin_int=\count131
+\l__sort_end_int=\count132
+\l__sort_A_int=\count133
+\l__sort_B_int=\count134
+\l__sort_C_int=\count135
+\l__str_internal_int=\count136
+\c__str_replacement_char_int=\count137
+\l__tl_analysis_normal_int=\count138
+\l__tl_analysis_index_int=\count139
+\l__tl_analysis_nesting_int=\count140
+\l__tl_analysis_type_int=\count141
+\l__regex_internal_a_int=\count142
+\l__regex_internal_b_int=\count143
+\l__regex_internal_c_int=\count144
+\l__regex_balance_int=\count145
+\l__regex_group_level_int=\count146
+\l__regex_mode_int=\count147
+\c__regex_cs_in_class_mode_int=\count148
+\c__regex_cs_mode_int=\count149
+\l__regex_catcodes_int=\count150
+\l__regex_default_catcodes_int=\count151
+\c__regex_catcode_D_int=\count152
+\c__regex_catcode_S_int=\count153
+\c__regex_catcode_L_int=\count154
+\c__regex_catcode_O_int=\count155
+\c__regex_catcode_A_int=\count156
+\c__regex_all_catcodes_int=\count157
+\l__regex_show_lines_int=\count158
+\l__regex_min_state_int=\count159
+\l__regex_max_state_int=\count160
+\l__regex_left_state_int=\count161
+\l__regex_right_state_int=\count162
+\l__regex_capturing_group_int=\count163
+\l__regex_min_pos_int=\count164
+\l__regex_max_pos_int=\count165
+\l__regex_curr_pos_int=\count166
+\l__regex_start_pos_int=\count167
+\l__regex_success_pos_int=\count168
+\l__regex_curr_char_int=\count169
+\l__regex_curr_catcode_int=\count170
+\l__regex_last_char_int=\count171
+\l__regex_case_changed_char_int=\count172
+\l__regex_curr_state_int=\count173
+\l__regex_step_int=\count174
+\l__regex_min_active_int=\count175
+\l__regex_max_active_int=\count176
+\l__regex_replacement_csnames_int=\count177
+\l__regex_match_count_int=\count178
+\l__regex_min_submatch_int=\count179
+\l__regex_submatch_int=\count180
+\l__regex_zeroth_submatch_int=\count181
+\g__regex_trace_regex_int=\count182
+\c_empty_box=\box31
+\l_tmpa_box=\box32
+\l_tmpb_box=\box33
+\g_tmpa_box=\box34
+\g_tmpb_box=\box35
+\l__box_top_dim=\dimen114
+\l__box_bottom_dim=\dimen115
+\l__box_left_dim=\dimen116
+\l__box_right_dim=\dimen117
+\l__box_top_new_dim=\dimen118
+\l__box_bottom_new_dim=\dimen119
+\l__box_left_new_dim=\dimen120
+\l__box_right_new_dim=\dimen121
+\l__box_internal_box=\box36
+\l__coffin_internal_box=\box37
+\l__coffin_internal_dim=\dimen122
+\l__coffin_offset_x_dim=\dimen123
+\l__coffin_offset_y_dim=\dimen124
+\l__coffin_x_dim=\dimen125
+\l__coffin_y_dim=\dimen126
+\l__coffin_x_prime_dim=\dimen127
+\l__coffin_y_prime_dim=\dimen128
+\c_empty_coffin=\box38
+\l__coffin_aligned_coffin=\box39
+\l__coffin_aligned_internal_coffin=\box40
+\l_tmpa_coffin=\box41
+\l_tmpb_coffin=\box42
+\g_tmpa_coffin=\box43
+\g_tmpb_coffin=\box44
+\l__coffin_bounding_shift_dim=\dimen129
+\l__coffin_left_corner_dim=\dimen130
+\l__coffin_right_corner_dim=\dimen131
+\l__coffin_bottom_corner_dim=\dimen132
+\l__coffin_top_corner_dim=\dimen133
+\l__coffin_scaled_total_height_dim=\dimen134
+\l__coffin_scaled_width_dim=\dimen135
+\c__coffin_empty_coffin=\box45
+\l__coffin_display_coffin=\box46
+\l__coffin_display_coord_coffin=\box47
+\l__coffin_display_pole_coffin=\box48
+\l__coffin_display_offset_dim=\dimen136
+\l__coffin_display_x_dim=\dimen137
+\l__coffin_display_y_dim=\dimen138
 \g__char_data_ior=\read1
-\l__seq_internal_a_int=\count175
-\l__seq_internal_b_int=\count176
+\l__seq_internal_a_int=\count183
+\l__seq_internal_b_int=\count184
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2019-04-06 v L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count177
-\l__pdf_internal_box=\box47
+\l__kernel_color_stack_int=\count185
+\l__pdf_internal_box=\box49
 )) (/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2019-05-28 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count178
-\g__xparse_grabber_int=\count179
-\l__xparse_m_args_int=\count180
-\l__xparse_v_nesting_int=\count181
+\l__xparse_current_arg_int=\count186
+\g__xparse_grabber_int=\count187
+\l__xparse_m_args_int=\count188
+\l__xparse_v_nesting_int=\count189
 )
 Package: siunitx 2018/05/17 v2.7s A comprehensive (SI) units package
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks16
-\ex@=\dimen135
+\@emptytoks=\toks17
+\ex@=\dimen139
 )) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
-\col@sep=\dimen136
-\ar@mcellbox=\box48
-\extrarowheight=\dimen137
-\NC@list=\toks17
+\col@sep=\dimen140
+\ar@mcellbox=\box50
+\extrarowheight=\dimen141
+\NC@list=\toks18
 \extratabsurround=\skip54
 \backup@length=\skip55
-\ar@cellbox=\box49
+\ar@cellbox=\box51
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2019-05-28 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box50
-\l__siunitx_tmp_dim=\dimen138
-\l__siunitx_tmp_int=\count182
-\l__siunitx_number_mantissa_length_int=\count183
-\l__siunitx_number_uncert_length_int=\count184
-\l__siunitx_round_int=\count185
-\l__siunitx_process_decimal_int=\count186
-\l__siunitx_process_uncertainty_int=\count187
-\l__siunitx_process_fixed_int=\count188
-\l__siunitx_process_integer_min_int=\count189
-\l__siunitx_process_precision_int=\count190
-\l__siunitx_group_min_int=\count191
-\l__siunitx_angle_marker_box=\box51
-\l__siunitx_angle_unit_box=\box52
-\l__siunitx_angle_marker_dim=\dimen139
-\l__siunitx_angle_unit_dim=\dimen140
-\l__siunitx_unit_int=\count192
-\l__siunitx_unit_denominator_int=\count193
-\l__siunitx_unit_numerator_int=\count194
-\l__siunitx_unit_prefix_int=\count195
-\l__siunitx_unit_prefix_base_int=\count196
-\l__siunitx_unit_prefix_gram_int=\count197
-\l__siunitx_number_product_int=\count198
+\l__siunitx_tmp_box=\box52
+\l__siunitx_tmp_dim=\dimen142
+\l__siunitx_tmp_int=\count190
+\l__siunitx_number_mantissa_length_int=\count191
+\l__siunitx_number_uncert_length_int=\count192
+\l__siunitx_round_int=\count193
+\l__siunitx_process_decimal_int=\count194
+\l__siunitx_process_uncertainty_int=\count195
+\l__siunitx_process_fixed_int=\count196
+\l__siunitx_process_integer_min_int=\count197
+\l__siunitx_process_precision_int=\count198
+\l__siunitx_group_min_int=\count199
+\l__siunitx_angle_marker_box=\box53
+\l__siunitx_angle_unit_box=\box54
+\l__siunitx_angle_marker_dim=\dimen143
+\l__siunitx_angle_unit_dim=\dimen144
+\l__siunitx_unit_int=\count266
+\l__siunitx_unit_denominator_int=\count267
+\l__siunitx_unit_numerator_int=\count268
+\l__siunitx_unit_prefix_int=\count269
+\l__siunitx_unit_prefix_base_int=\count270
+\l__siunitx_unit_prefix_gram_int=\count271
+\l__siunitx_number_product_int=\count272
 \c__siunitx_one_fill_skip=\skip56
 \l__siunitx_table_unit_align_skip=\skip57
-\l__siunitx_table_exponent_dim=\dimen141
-\l__siunitx_table_integer_dim=\dimen142
-\l__siunitx_table_mantissa_dim=\dimen143
-\l__siunitx_table_marker_dim=\dimen144
-\l__siunitx_table_result_dim=\dimen145
-\l__siunitx_table_uncert_dim=\dimen146
-\l__siunitx_table_fill_pre_dim=\dimen147
-\l__siunitx_table_fill_post_dim=\dimen148
-\l__siunitx_table_fill_mid_dim=\dimen149
-\l__siunitx_table_pre_box=\box53
-\l__siunitx_table_post_box=\box54
-\l__siunitx_table_mantissa_box=\box55
-\l__siunitx_table_result_box=\box56
+\l__siunitx_table_exponent_dim=\dimen145
+\l__siunitx_table_integer_dim=\dimen146
+\l__siunitx_table_mantissa_dim=\dimen147
+\l__siunitx_table_marker_dim=\dimen148
+\l__siunitx_table_result_dim=\dimen149
+\l__siunitx_table_uncert_dim=\dimen150
+\l__siunitx_table_fill_pre_dim=\dimen151
+\l__siunitx_table_fill_post_dim=\dimen152
+\l__siunitx_table_fill_mid_dim=\dimen153
+\l__siunitx_table_pre_box=\box55
+\l__siunitx_table_post_box=\box56
+\l__siunitx_table_mantissa_box=\box57
+\l__siunitx_table_result_box=\box58
 \l__siunitx_table_number_align_skip=\skip58
 \l__siunitx_table_text_align_skip=\skip59
  (/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator.sty
@@ -311,8 +333,8 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen150
-\Gin@req@width=\dimen151
+\Gin@req@height=\dimen154
+\Gin@req@width=\dimen155
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
  (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
@@ -516,26 +538,26 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
 \LTright=\skip61
 \LTpre=\skip62
 \LTpost=\skip63
-\LTchunksize=\count199
-\LTcapwidth=\dimen152
-\LT@head=\box57
-\LT@firsthead=\box58
-\LT@foot=\box59
-\LT@lastfoot=\box60
-\LT@cols=\count266
-\LT@rows=\count267
-\c@LT@tables=\count268
-\c@LT@chunks=\count269
-\LT@p@ftn=\toks18
+\LTchunksize=\count273
+\LTcapwidth=\dimen156
+\LT@head=\box59
+\LT@firsthead=\box60
+\LT@foot=\box61
+\LT@lastfoot=\box62
+\LT@cols=\count274
+\LT@rows=\count275
+\c@LT@tables=\count276
+\c@LT@chunks=\count277
+\LT@p@ftn=\toks19
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
  (/usr/local/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
  (/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks19
-\XKV@tempa@toks=\toks20
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
 )
-\XKV@depth=\count270
+\XKV@depth=\count278
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/local/texlive/2019/texmf-dist/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
@@ -543,78 +565,78 @@ Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-
 Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
  (/usr/local/texlive/2019/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box61
+\collectedbox=\box63
 )
-\tc@llx=\dimen153
-\tc@lly=\dimen154
-\tc@urx=\dimen155
-\tc@ury=\dimen156
+\tc@llx=\dimen157
+\tc@lly=\dimen158
+\tc@urx=\dimen159
+\tc@ury=\dimen160
 Package trimclip Info: Using driver 'tc-pdftex.def'.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen157
-\adjbox@Height=\dimen158
-\adjbox@Depth=\dimen159
-\adjbox@Totalheight=\dimen160
-\adjbox@pwidth=\dimen161
-\adjbox@pheight=\dimen162
-\adjbox@pdepth=\dimen163
-\adjbox@ptotalheight=\dimen164
+\adjbox@Width=\dimen161
+\adjbox@Height=\dimen162
+\adjbox@Depth=\dimen163
+\adjbox@Totalheight=\dimen164
+\adjbox@pwidth=\dimen165
+\adjbox@pheight=\dimen166
+\adjbox@pdepth=\dimen167
+\adjbox@ptotalheight=\dimen168
  (/usr/local/texlive/2019/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count271
+\c@checkoddpage=\count279
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box62
-\sift@deathcycles=\count272
-\@vwid@loff=\dimen165
-\@vwid@roff=\dimen166
+\@vwid@box=\box64
+\sift@deathcycles=\count280
+\@vwid@loff=\dimen169
+\@vwid@roff=\dimen170
 )) (/usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip64
 \bibsep=\skip65
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count273
+\c@NAT@ctr=\count281
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/notoccite/notoccite.sty
 Package: notoccite 2000/07/20
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/cite/chapterbib.sty
-\c@inputfile=\count274
+\c@inputfile=\count282
 Package: chapterbib 2010/09/18  v 1.17
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
-\TX@col@width=\dimen167
-\TX@old@table=\dimen168
-\TX@old@col=\dimen169
-\TX@target=\dimen170
-\TX@delta=\dimen171
-\TX@cols=\count275
-\TX@ftn=\toks21
+\TX@col@width=\dimen171
+\TX@old@table=\dimen172
+\TX@old@col=\dimen173
+\TX@target=\dimen174
+\TX@delta=\dimen175
+\TX@cols=\count283
+\TX@ftn=\toks22
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen172
-\lightrulewidth=\dimen173
-\cmidrulewidth=\dimen174
-\belowrulesep=\dimen175
-\belowbottomsep=\dimen176
-\aboverulesep=\dimen177
-\abovetopsep=\dimen178
-\cmidrulesep=\dimen179
-\cmidrulekern=\dimen180
-\defaultaddspace=\dimen181
-\@cmidla=\count276
-\@cmidlb=\count277
-\@aboverulesep=\dimen182
-\@belowrulesep=\dimen183
-\@thisruleclass=\count278
-\@lastruleclass=\count279
-\@thisrulewidth=\dimen184
+\heavyrulewidth=\dimen176
+\lightrulewidth=\dimen177
+\cmidrulewidth=\dimen178
+\belowrulesep=\dimen179
+\belowbottomsep=\dimen180
+\aboverulesep=\dimen181
+\abovetopsep=\dimen182
+\cmidrulesep=\dimen183
+\cmidrulekern=\dimen184
+\defaultaddspace=\dimen185
+\@cmidla=\count284
+\@cmidlb=\count285
+\@aboverulesep=\dimen186
+\@belowrulesep=\dimen187
+\@thisruleclass=\count286
+\@lastruleclass=\count287
+\@thisrulewidth=\dimen188
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip66
-\multirow@cntb=\count280
+\multirow@cntb=\count288
 \multirow@dima=\skip67
-\bigstrutjot=\dimen185
+\bigstrutjot=\dimen189
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/textgreek/textgreek.sty
 Package: textgreek 2011/10/09 v0.7 Greek symbols in text
 Package textgreek Info: Loading the definitions for the Greek fontencoding. on input line 39.
@@ -981,16 +1003,17 @@ Package: caption 2019/09/01 v3.3d Customizing captions (AR)
  (/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2019/09/01 v1.8d caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen186
-\captionmargin@=\dimen187
-\captionwidth=\dimen188
-\caption@tempdima=\dimen189
-\caption@indent=\dimen190
-\caption@parindent=\dimen191
-\caption@hangindent=\dimen192
+\captionmargin=\dimen190
+\captionmargin@=\dimen191
+\captionwidth=\dimen192
+\caption@tempdima=\dimen193
+\caption@indent=\dimen194
+\caption@parindent=\dimen195
+\caption@hangindent=\dimen196
 )
-\c@caption@flags=\count281
-\c@ContinuedFloat=\count282
+\c@caption@flags=\count289
+\c@ContinuedFloat=\count290
+Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
@@ -999,12 +1022,12 @@ Package: acronym 2015/03/21 v1.41 Support for acronyms (Tobias Oetiker)
  (/usr/local/texlive/2019/texmf-dist/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
 ) (/usr/local/texlive/2019/texmf-dist/tex/generic/xstring/xstring.sty (/usr/local/texlive/2019/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count283
-\decimalpart=\count284
+\integerpart=\count291
+\decimalpart=\count292
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
-\AC@clearlist=\toks22
+\AC@clearlist=\toks23
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/xr.sty
 Package: xr 2019/01/05 v5.04 eXternal References (DPC)
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -1026,11 +1049,11 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )) (/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count285
-\float@exts=\toks23
-\float@box=\box63
-\@float@everytoks=\toks24
-\@floatcapt=\box64
+\c@float@type=\count293
+\float@exts=\toks24
+\float@box=\box65
+\@float@everytoks=\toks25
+\@floatcapt=\box66
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
@@ -1038,14 +1061,15 @@ Package: setspace 2011/12/19 v6.7a set line spacing
    defining Unicode char U+2606 (decimal 9734)
    defining Unicode char U+2212 (decimal 8722)
    defining Unicode char U+E5F8 (decimal 58872)
-Package xr Info: IMPORTING LABELS FROM Chapter2/ch2.aux on input line 35.
+Package xr Info: IMPORTING LABELS FROM Chapter2/ch2.aux on input line 36.
 
 
 LaTeX Warning: Label `lit-cathode' multiply defined.
 
-Package xr Info: IMPORTING LABELS FROM Experimental/ch1.aux on input line 36.
-Package xr Info: IMPORTING LABELS FROM Chapter3/ch3.aux on input line 37.
-Package xr Info: IMPORTING LABELS FROM Chapter4/ch4.aux on input line 38.
+Package xr Info: IMPORTING LABELS FROM Experimental/ch1.aux on input line 37.
+Package xr Info: IMPORTING LABELS FROM Chapter3/ch3.aux on input line 38.
+Package xr Info: IMPORTING LABELS FROM Chapter4/ch4.aux on input line 39.
+Package xr Info: IMPORTING LABELS FROM Chapter5/ch5.aux on input line 40.
 (/Users/marc/Thesis/master.aux (/Users/marc/Thesis/acronyms.aux) (/Users/marc/Thesis/Chapter1/ch1.aux) (/Users/marc/Thesis/Chapter2/ch2.aux
 
 LaTeX Warning: Label `cathode' multiply defined.
@@ -1065,53 +1089,55 @@ LaTeX Warning: Label `proc-testingchapref' multiply defined.
 
 LaTeX Warning: Label `proc-testingchapref' multiply defined.
 
-) (/Users/marc/Thesis/Chapter6/ch6.aux))
+) (/Users/marc/Thesis/Chapter6/ch6.aux) (/Users/marc/Thesis/appendices/master.aux))
 \openout1 = `master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 47.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 44.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 44.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 47.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 47.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 44.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 47.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
+)
+\c@lstlisting=\count294
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 ) (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count286
-\scratchdimen=\dimen193
-\scratchbox=\box65
-\nofMPsegments=\count287
-\nofMParguments=\count288
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count289
-\MPscratchDim=\dimen194
-\MPnumerator=\count290
-\makeMPintoPDFobject=\count291
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count295
+\scratchdimen=\dimen197
+\scratchbox=\box67
+\nofMPsegments=\count296
+\nofMParguments=\count297
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count298
+\MPscratchDim=\dimen198
+\MPnumerator=\count299
+\makeMPintoPDFobject=\count300
+\everyMPtoPDFconversion=\toks27
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
@@ -1148,72 +1174,72 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 44.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 47.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 44.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 47.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 44.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 47.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 44.
+(Font)              <12> on input line 47.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 44.
+(Font)              <8> on input line 47.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 44.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 44.
+(Font)              <6> on input line 47.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 47.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 44.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 47.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 68--79
+Underfull \hbox (badness 10000) in paragraph at lines 71--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--79
+Underfull \hbox (badness 10000) in paragraph at lines 71--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--79
+Underfull \hbox (badness 10000) in paragraph at lines 71--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--79
+Underfull \hbox (badness 10000) in paragraph at lines 71--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--79
+Underfull \hbox (badness 10000) in paragraph at lines 71--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--79
+Underfull \hbox (badness 10000) in paragraph at lines 71--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--79
+Underfull \hbox (badness 10000) in paragraph at lines 71--82
 
  []
 
 [1
 
 ]
-Overfull \hbox (2.21503pt too wide) in paragraph at lines 83--84
+Overfull \hbox (2.21503pt too wide) in paragraph at lines 86--87
 \OT1/lmr/m/n/12 As gov-ern-ment en-ti-ties around the world seek to fur-ther de-velop their hy-dro-gen economies
  []
 
@@ -1221,12 +1247,7 @@ Overfull \hbox (2.21503pt too wide) in paragraph at lines 83--84
 
 ] [3
 
-] (/Users/marc/Thesis/master.lof
-Overfull \hbox (7.76727pt too wide) in paragraph at lines 20--20
- [][] []\OT1/lmr/m/n/12 Schematic rep-re-sen-ta-tion of the se-quen-tial baths for sen-si-ti-sa-tion/activation 
- []
-
-[4
+] (/Users/marc/Thesis/master.lof [4
 
 ] [5] [6])
 \tf@lof=\write3
@@ -1725,7 +1746,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--188
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 182--188
-\OT1/lmr/m/n/12 dom ex-clud-ing/including ccl (qep 3.4.1 and 3.4.2).  Mar 2020.
+\OT1/lmr/m/n/12 dom ex-clud-ing/in-clud-ing ccl (qep 3.4.1 and 3.4.2).  Mar 2020.
  []
 
 
@@ -2124,14 +2145,8 @@ Chapter 7.
 
 ] [237]
 
-LaTeX Warning: Reference `dataproc' on page 238 undefined on input line 18.
-
-
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 22.
-
-
-LaTeX Warning: Reference `dataproc' on page 238 undefined on input line 36.
 
 [238] [239]
 </Users/marc/Thesis/Chapter5/inertenrich.jpg, id=854, 649.7073pt x 527.8119pt>
@@ -2190,65 +2205,118 @@ Package pdftex.def Info: /Users/marc/Thesis/Chapter5/hrsgc.jpg  used on input li
  [248
 
 
-] [249 </Users/marc/Thesis/Chapter5/hrsgc.jpg>] (/Users/marc/Thesis/enrichmentresults/ch5.bbl [250]
-
-Package natbib Warning: Empty `thebibliography' environment on input line 8.
-
-)) [251
-
-]
+] [249 </Users/marc/Thesis/Chapter5/hrsgc.jpg>]) [250]
 \openout2 = `Chapter6/ch6.aux'.
 
  (/Users/marc/Thesis/Chapter6/ch6.tex
 Chapter 8.
-[252
+[251
 
 
 
 
-]
+] [252]
 </Users/marc/Thesis/Chapter6/manuproc.png, id=903, 7427.75pt x 2925.93124pt>
 File: /Users/marc/Thesis/Chapter6/manuproc.png Graphic file (type png)
 <use /Users/marc/Thesis/Chapter6/manuproc.png>
 Package pdftex.def Info: /Users/marc/Thesis/Chapter6/manuproc.png  used on input line 19.
 (pdftex.def)             Requested size: 448.13095pt x 176.48587pt.
- [253] [254 </Users/marc/Thesis/Chapter6/manuproc.png>] [255]
-</Users/marc/Thesis/Chapter6/automation.png, id=914, 3865.44125pt x 4291.03125pt>
+ [253 </Users/marc/Thesis/Chapter6/manuproc.png>] [254]
+</Users/marc/Thesis/Chapter6/automation.png, id=911, 3865.44125pt x 4291.03125pt>
 File: /Users/marc/Thesis/Chapter6/automation.png Graphic file (type png)
 <use /Users/marc/Thesis/Chapter6/automation.png>
-Package pdftex.def Info: /Users/marc/Thesis/Chapter6/automation.png  used on input line 42.
+Package pdftex.def Info: /Users/marc/Thesis/Chapter6/automation.png  used on input line 41.
 (pdftex.def)             Requested size: 448.13095pt x 497.41951pt.
- [256] [257 </Users/marc/Thesis/Chapter6/automation.png>]
-Overfull \hbox (13.15826pt too wide) in paragraph at lines 52--52
+ [255] [256 </Users/marc/Thesis/Chapter6/automation.png>] [257]
+Overfull \hbox (13.15826pt too wide) in paragraph at lines 55--55
 []\OT1/lmr/bx/n/17.28 Other hy-dro-gen im-pu-rity mea-sure-ment chal-lenges 
  []
 
 [258] (/Users/marc/Thesis/Chapter6/ch6.bbl [259] [260
 
-])) [261] [262
+])) [261]
+\openout2 = `appendices/master.aux'.
+
+ (/Users/marc/Thesis/appendices/master.tex [262
 
 
-] [263] (/Users/marc/Thesis/master.aux (/Users/marc/Thesis/acronyms.aux) (/Users/marc/Thesis/Chapter1/ch1.aux) (/Users/marc/Thesis/Chapter2/ch2.aux) (/Users/marc/Thesis/Experimental/ch1.aux) (/Users/marc/Thesis/Chapter3/ch3.aux) (/Users/marc/Thesis/Chapter4/ch4.aux) (/Users/marc/Thesis/Chapter5/ch5.aux) (/Users/marc/Thesis/enrichmentresults/ch5.aux) (/Users/marc/Thesis/Chapter6/ch6.aux))
 
-LaTeX Warning: There were undefined references.
 
+]
+Overfull \hbox (21.14827pt too wide) in paragraph at lines 63--63
+[]    \OT1/lmtt/m/n/12 pseudo_dir='/home/mp916/Simulations/qe/qe-6.1/Simulationpdpaper/Pseudo',[] 
+ []
+
+[263]
+Overfull \hbox (21.14827pt too wide) in paragraph at lines 109--109
+[]    \OT1/lmtt/m/n/12 pseudo_dir='/home/mp916/Simulations/qe/qe-6.1/Simulationpdpaper/Pseudo',[] 
+ []
+
+[264] [265] [266] [267] [268] [269] [270] [271] [272] [273] [274] [275] [276] [277] [278] [279] [280] [281] [282] [283] [284] [285] [286] [287]
+Overfull \hbox (95.21329pt too wide) in paragraph at lines 791--791
+[]  \OT1/lmtt/m/n/12 pseudo_dir='/media/mp916/0A6296CF6296BF3F/MembraneDFTscript/Simulationpdpaper/Pseudo',[] 
+ []
+
+[288] [289] [290]
+</Users/marc/Thesis/appendices/Picture1.png, id=1027, 452.69125pt x 185.69376pt>
+File: /Users/marc/Thesis/appendices/Picture1.png Graphic file (type png)
+<use /Users/marc/Thesis/appendices/Picture1.png>
+Package pdftex.def Info: /Users/marc/Thesis/appendices/Picture1.png  used on input line 795.
+(pdftex.def)             Requested size: 448.13095pt x 183.82321pt.
+</Users/marc/Thesis/appendices/Picture2.png, id=1028, 452.69125pt x 340.27126pt>
+File: /Users/marc/Thesis/appendices/Picture2.png Graphic file (type png)
+<use /Users/marc/Thesis/appendices/Picture2.png>
+Package pdftex.def Info: /Users/marc/Thesis/appendices/Picture2.png  used on input line 800.
+(pdftex.def)             Requested size: 448.13095pt x 336.84361pt.
+ [291 </Users/marc/Thesis/appendices/Picture1.png>]
+</Users/marc/Thesis/appendices/Picture3.png, id=1033, 317.185pt x 237.88875pt>
+File: /Users/marc/Thesis/appendices/Picture3.png Graphic file (type png)
+<use /Users/marc/Thesis/appendices/Picture3.png>
+Package pdftex.def Info: /Users/marc/Thesis/appendices/Picture3.png  used on input line 805.
+(pdftex.def)             Requested size: 448.13095pt x 336.12735pt.
+ [292 </Users/marc/Thesis/appendices/Picture2.png>]
+</Users/marc/Thesis/appendices/Picture4.png, id=1038, 452.69125pt x 105.39375pt>
+File: /Users/marc/Thesis/appendices/Picture4.png Graphic file (type png)
+<use /Users/marc/Thesis/appendices/Picture4.png>
+Package pdftex.def Info: /Users/marc/Thesis/appendices/Picture4.png  used on input line 810.
+(pdftex.def)             Requested size: 448.13095pt x 104.33208pt.
+</Users/marc/Thesis/appendices/Picture5.png, id=1039, 398.48875pt x 177.66376pt>
+File: /Users/marc/Thesis/appendices/Picture5.png Graphic file (type png)
+<use /Users/marc/Thesis/appendices/Picture5.png>
+Package pdftex.def Info: /Users/marc/Thesis/appendices/Picture5.png  used on input line 815.
+(pdftex.def)             Requested size: 448.13095pt x 199.80345pt.
+ [293 </Users/marc/Thesis/appendices/Picture3.png> </Users/marc/Thesis/appendices/Picture4.png>]
+</Users/marc/Thesis/appendices/Picture6.png, id=1046, 424.58624pt x 299.1175pt>
+File: /Users/marc/Thesis/appendices/Picture6.png Graphic file (type png)
+<use /Users/marc/Thesis/appendices/Picture6.png>
+Package pdftex.def Info: /Users/marc/Thesis/appendices/Picture6.png  used on input line 820.
+(pdftex.def)             Requested size: 448.13095pt x 315.72116pt.
+</Users/marc/Thesis/appendices/Picture7.png, id=1047, 452.69125pt x 195.73125pt>
+File: /Users/marc/Thesis/appendices/Picture7.png Graphic file (type png)
+<use /Users/marc/Thesis/appendices/Picture7.png>
+Package pdftex.def Info: /Users/marc/Thesis/appendices/Picture7.png  used on input line 825.
+(pdftex.def)             Requested size: 448.13095pt x 193.75958pt.
+) [294 </Users/marc/Thesis/appendices/Picture5.png> </Users/marc/Thesis/appendices/Picture6.png>] [295 </Users/marc/Thesis/appendices/Picture7.png>] [296
+
+
+] [297] (/Users/marc/Thesis/master.aux (/Users/marc/Thesis/acronyms.aux) (/Users/marc/Thesis/Chapter1/ch1.aux) (/Users/marc/Thesis/Chapter2/ch2.aux) (/Users/marc/Thesis/Experimental/ch1.aux) (/Users/marc/Thesis/Chapter3/ch3.aux) (/Users/marc/Thesis/Chapter4/ch4.aux) (/Users/marc/Thesis/Chapter5/ch5.aux) (/Users/marc/Thesis/enrichmentresults/ch5.aux) (/Users/marc/Thesis/Chapter6/ch6.aux) (/Users/marc/Thesis/appendices/master.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21932 strings out of 492609
- 424617 string characters out of 6129048
- 496607 words of memory out of 5000000
- 25455 multiletter control sequences out of 15000+600000
+ 23307 strings out of 492609
+ 445231 string characters out of 6129048
+ 518382 words of memory out of 5000000
+ 26805 multiletter control sequences out of 15000+600000
  593392 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,19n,100p,2448b,747s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /Users/marc/Thesis/master.pdf (264 pages, 22074519 bytes).
+Output written on /Users/marc/Thesis/master.pdf (298 pages, 23259159 bytes).
 PDF statistics:
- 1011 PDF objects out of 1200 (max. 8388607)
- 655 compressed objects within 7 object streams
+ 1135 PDF objects out of 1200 (max. 8388607)
+ 730 compressed objects within 8 object streams
  0 named destinations out of 1000 (max. 500000)
- 236 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 271 words of extra memory for PDF output out of 10000 (max. 10000000)
 
