@@ -13,13 +13,6 @@
 \newblock URL
   \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/9780470447710.ch1}.
 
-\bibitem[Morgan et~al.(2020)Morgan, Burt, and
-  Feldman]{morgan_burt_feldman_2020}
-Timothy~Prickett Morgan, Jeffrey Burt, and Michael Feldman.
-\newblock A new era in high performance computing, Jun 2020.
-\newblock URL
-  \url{https://www.nextplatform.com/2020/06/09/a-new-era-in-high-performance-computing/}.
-
 \bibitem[Sholl(2007)]{SHOLL2007462}
 David~S. Sholl.
 \newblock Using density functional theory to study hydrogen diffusion in
@@ -32,6 +25,13 @@ David~S. Sholl.
   \url{http://www.sciencedirect.com/science/article/pii/S0925838806017439}.
 \newblock Proceedings of the International Symposium on Metal-Hydrogen Systems,
   Fundamentals and Applications (MH2006).
+
+\bibitem[Morgan et~al.(2020)Morgan, Burt, and
+  Feldman]{morgan_burt_feldman_2020}
+Timothy~Prickett Morgan, Jeffrey Burt, and Michael Feldman.
+\newblock A new era in high performance computing, Jun 2020.
+\newblock URL
+  \url{https://www.nextplatform.com/2020/06/09/a-new-era-in-high-performance-computing/}.
 
 \bibitem[Khasawneh et~al.(2019)Khasawneh, Saidan, and
   Al-Addous]{doi:10.1177/0144598719839767}
