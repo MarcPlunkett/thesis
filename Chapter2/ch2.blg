@@ -18,7 +18,7 @@ Warning--empty author and editor in doi:10.1002/9780470447710.ch4
 Warning--empty author and editor in dftbook1
 You've used 169 entries,
             2481 wiz_defined-function locations,
-            1902 strings with 47690 characters,
+            1902 strings with 47680 characters,
 and the built_in function-call counts, 76938 in all, are:
 = -- 6984
 > -- 4091

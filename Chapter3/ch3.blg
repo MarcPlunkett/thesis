@@ -6,7 +6,7 @@ Database file #1: library.bib
 Warning--empty publisher in doi:10.1002/9780470504437.ch1
 You've used 29 entries,
             2481 wiz_defined-function locations,
-            818 strings with 14016 characters,
+            819 strings with 14010 characters,
 and the built_in function-call counts, 15500 in all, are:
 = -- 1166
 > -- 1227
