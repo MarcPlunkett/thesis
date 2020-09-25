@@ -1845,4 +1845,478 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 143.
 
 [149] [150]
-</Users/marc/Thesis/Experimental/perm_rig.png, id
+</Users/marc/Thesis/Experimental/perm_rig.png, id=522, decode=[0.2 0.5], 8270.9pt x 6073.69125pt>
+File: /Users/marc/Thesis/Experimental/perm_rig.png Graphic file (type png)
+<use /Users/marc/Thesis/Experimental/perm_rig.png>
+Package pdftex.def Info: /Users/marc/Thesis/Experimental/perm_rig.png  used on input line 178.
+(pdftex.def)             Requested size: 571.82857pt x 419.91925pt.
+
+
+LaTeX Warning: Float too large for page by 10.78828pt on input line 181.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[151 </Users/marc/Thesis/Experimental/perm_rig.png>] [152
+
+
+] [153]
+</Users/marc/Thesis/Experimental/kpoints.jpg, id=533, 248.3679pt x 197.538pt>
+File: /Users/marc/Thesis/Experimental/kpoints.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Experimental/kpoints.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Experimental/kpoints.jpg  used on input line 208.
+(pdftex.def)             Requested size: 359.56711pt x 285.97966pt.
+ [154] [155 </Users/marc/Thesis/Experimental/kpoints.jpg>] (/Users/marc/Thesis/Experimental/ch1.bbl [156] [157
+
+] [158])) [159]
+\openout2 = `Chapter3/ch3.aux'.
+
+ (/Users/marc/Thesis/Chapter3/ch3.tex
+Chapter 4.
+[160
+
+
+
+
+] [161] [162] [163] [164]
+</Users/marc/Thesis/Chapter3/data/PDSITES.jpg, id=569, 396.0396pt x 341.3553pt>
+File: /Users/marc/Thesis/Chapter3/data/PDSITES.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter3/data/PDSITES.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/PDSITES.jpg  used on input line 85.
+(pdftex.def)             Requested size: 396.03862pt x 341.35445pt.
+ [165] [166 </Users/marc/Thesis/Chapter3/data/PDSITES.jpg>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 98.
+
+[167]
+</Users/marc/Thesis/Chapter3/data/h2ads.jpg, id=579, 890.3664pt x 501.5538pt>
+File: /Users/marc/Thesis/Chapter3/data/h2ads.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter3/data/h2ads.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/h2ads.jpg  used on input line 115.
+(pdftex.def)             Requested size: 571.97913pt x 322.20253pt.
+ [168 </Users/marc/Thesis/Chapter3/data/h2ads.jpg>]
+</Users/marc/Thesis/Chapter3/data/HEads.jpg, id=584, 645.8529pt x 506.8536pt>
+File: /Users/marc/Thesis/Chapter3/data/HEads.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter3/data/HEads.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/HEads.jpg  used on input line 126.
+(pdftex.def)             Requested size: 403.31511pt x 316.51202pt.
+</Users/marc/Thesis/Chapter3/data/N2ads.jpg, id=585, 660.7887pt x 506.8536pt>
+File: /Users/marc/Thesis/Chapter3/data/N2ads.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter3/data/N2ads.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/N2ads.jpg  used on input line 134.
+(pdftex.def)             Requested size: 403.31511pt x 309.35812pt.
+</Users/marc/Thesis/Chapter3/data/CO2ads.jpg, id=586, 655.7298pt x 506.8536pt>
+File: /Users/marc/Thesis/Chapter3/data/CO2ads.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter3/data/CO2ads.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/CO2ads.jpg  used on input line 141.
+(pdftex.def)             Requested size: 403.31511pt x 311.74791pt.
+</Users/marc/Thesis/Chapter3/data/ARads.jpg, id=587, 655.7298pt x 506.8536pt>
+File: /Users/marc/Thesis/Chapter3/data/ARads.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter3/data/ARads.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/ARads.jpg  used on input line 148.
+(pdftex.def)             Requested size: 403.31511pt x 311.74791pt.
+ [169
+
+
+] [170 </Users/marc/Thesis/Chapter3/data/HEads.jpg>] [171 </Users/marc/Thesis/Chapter3/data/N2ads.jpg>] [172 </Users/marc/Thesis/Chapter3/data/CO2ads.jpg>] [173 </Users/marc/Thesis/Chapter3/data/ARads.jpg>]
+</Users/marc/Thesis/Chapter3/data/COSites.jpg, id=603, 386.1627pt x 341.3553pt>
+File: /Users/marc/Thesis/Chapter3/data/COSites.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter3/data/COSites.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/COSites.jpg  used on input line 166.
+(pdftex.def)             Requested size: 386.16176pt x 341.35445pt.
+ [174] [175 </Users/marc/Thesis/Chapter3/data/COSites.jpg>]
+</Users/marc/Thesis/Chapter3/data/COads.jpg, id=611, 885.3075pt x 501.5538pt>
+File: /Users/marc/Thesis/Chapter3/data/COads.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter3/data/COads.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/COads.jpg  used on input line 175.
+(pdftex.def)             Requested size: 571.97131pt x 324.03926pt.
+ [176 </Users/marc/Thesis/Chapter3/data/COads.jpg>]
+</Users/marc/Thesis/Chapter3/data/NH3ads.jpg, id=615, 882.6576pt x 506.8536pt>
+File: /Users/marc/Thesis/Chapter3/data/NH3ads.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter3/data/NH3ads.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/NH3ads.jpg  used on input line 186.
+(pdftex.def)             Requested size: 403.3203pt x 231.60095pt.
+ [177
+
+
+ </Users/marc/Thesis/Chapter3/data/NH3ads.jpg>] [178] [179]
+</Users/marc/Thesis/Chapter3/data/O2ads.jpg, id=625, 877.5987pt x 501.5538pt>
+File: /Users/marc/Thesis/Chapter3/data/O2ads.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter3/data/O2ads.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/O2ads.jpg  used on input line 201.
+(pdftex.def)             Requested size: 571.95898pt x 326.87856pt.
+ [180 </Users/marc/Thesis/Chapter3/data/O2ads.jpg>]
+</Users/marc/Thesis/Chapter3/data/H2Oads.jpg, id=630, 877.5987pt x 501.5538pt>
+File: /Users/marc/Thesis/Chapter3/data/H2Oads.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter3/data/H2Oads.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/H2Oads.jpg  used on input line 212.
+(pdftex.def)             Requested size: 571.95898pt x 326.87856pt.
+ [181 </Users/marc/Thesis/Chapter3/data/H2Oads.jpg>] [182
+
+
+
+
+]
+</Users/marc/Thesis/Chapter3/data/CH4Sites.jpg, id=637, 386.1627pt x 341.3553pt>
+File: /Users/marc/Thesis/Chapter3/data/CH4Sites.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter3/data/CH4Sites.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/CH4Sites.jpg  used on input line 235.
+(pdftex.def)             Requested size: 386.16176pt x 341.35445pt.
+ [183] [184 </Users/marc/Thesis/Chapter3/data/CH4Sites.jpg>]
+</Users/marc/Thesis/Chapter3/data/CH4ads.jpg, id=644, 885.3075pt x 501.5538pt>
+File: /Users/marc/Thesis/Chapter3/data/CH4ads.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter3/data/CH4ads.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/CH4ads.jpg  used on input line 243.
+(pdftex.def)             Requested size: 571.97131pt x 324.03926pt.
+ [185 </Users/marc/Thesis/Chapter3/data/CH4ads.jpg>] [186
+
+
+]
+</Users/marc/Thesis/Chapter3/data/Formaldehydeads.jpg, id=652, 885.3075pt x 501.5538pt>
+File: /Users/marc/Thesis/Chapter3/data/Formaldehydeads.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter3/data/Formaldehydeads.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/Formaldehydeads.jpg  used on input line 265.
+(pdftex.def)             Requested size: 571.97131pt x 324.03926pt.
+ [187 </Users/marc/Thesis/Chapter3/data/Formaldehydeads.jpg>]
+</Users/marc/Thesis/Chapter3/data/FAads.jpg, id=656, 877.5987pt x 501.5538pt>
+File: /Users/marc/Thesis/Chapter3/data/FAads.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter3/data/FAads.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/FAads.jpg  used on input line 275.
+(pdftex.def)             Requested size: 571.95898pt x 326.87856pt.
+ [188 </Users/marc/Thesis/Chapter3/data/FAads.jpg>]
+</Users/marc/Thesis/Chapter3/data/H2SSites.jpg, id=660, 386.1627pt x 341.3553pt>
+File: /Users/marc/Thesis/Chapter3/data/H2SSites.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter3/data/H2SSites.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/H2SSites.jpg  used on input line 290.
+(pdftex.def)             Requested size: 313.69029pt x 277.29318pt.
+ [189
+
+
+
+
+] [190 </Users/marc/Thesis/Chapter3/data/H2SSites.jpg>]
+</Users/marc/Thesis/Chapter3/data/H2Sads.jpg, id=667, 885.3075pt x 501.5538pt>
+File: /Users/marc/Thesis/Chapter3/data/H2Sads.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter3/data/H2Sads.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter3/data/H2Sads.jpg  used on input line 299.
+(pdftex.def)             Requested size: 571.97131pt x 324.03926pt.
+ [191 </Users/marc/Thesis/Chapter3/data/H2Sads.jpg>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 313.
+
+[192
+
+
+] (/Users/marc/Thesis/Chapter3/ch3.bbl [193] [194
+
+] [195] [196] [197] [198])) [199]
+\openout2 = `Chapter4/ch4.aux'.
+
+ (/Users/marc/Thesis/Chapter4/ch4.tex
+Chapter 5.
+[200
+
+
+
+
+] [201] [202]
+<figures/Semxsect.png, id=707, 2810.5pt x 4474.7175pt>
+File: figures/Semxsect.png Graphic file (type png)
+<use figures/Semxsect.png>
+Package pdftex.def Info: figures/Semxsect.png  used on input line 23.
+(pdftex.def)             Requested size: 359.20242pt x 571.90158pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 31.
+
+[203] [204 </Users/marc/Thesis/figures/Semxsect.png>] [205]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 59.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 81.
+
+[206] [207] [208]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 110.
+
+[209] [210
+
+
+] [211]
+<figures/permeabilitychart.png, id=738, 1482.53876pt x 707.64375pt>
+File: figures/permeabilitychart.png Graphic file (type png)
+<use figures/permeabilitychart.png>
+Package pdftex.def Info: figures/permeabilitychart.png  used on input line 138.
+(pdftex.def)             Requested size: 635.5pt x 303.34148pt.
+ [212 </Users/marc/Thesis/figures/permeabilitychart.png>] [213
+
+
+] [214] (/Users/marc/Thesis/Chapter4/ch4.bbl [215] [216
+
+])) [217]
+\openout2 = `Chapter5/ch5.aux'.
+
+ (/Users/marc/Thesis/Chapter5/ch5.tex
+Chapter 6.
+[218
+
+
+
+
+] [219] [220]
+</Users/marc/Thesis/Chapter5/1L.jpg, id=768, 375.804pt x 342.5598pt>
+File: /Users/marc/Thesis/Chapter5/1L.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter5/1L.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/1L.jpg  used on input line 27.
+(pdftex.def)             Requested size: 224.06548pt x 204.24637pt.
+</Users/marc/Thesis/Chapter5/10L.jpg, id=769, 375.804pt x 342.5598pt>
+File: /Users/marc/Thesis/Chapter5/10L.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter5/10L.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/10L.jpg  used on input line 28.
+(pdftex.def)             Requested size: 224.06548pt x 204.24637pt.
+</Users/marc/Thesis/Chapter5/50L.jpg, id=770, 375.804pt x 342.5598pt>
+File: /Users/marc/Thesis/Chapter5/50L.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter5/50L.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/50L.jpg  used on input line 29.
+(pdftex.def)             Requested size: 224.06548pt x 204.24637pt.
+ [221]
+Overfull \vbox (18.23909pt too high) has occurred while \output is active []
+
+ [222 </Users/marc/Thesis/Chapter5/1L.jpg> </Users/marc/Thesis/Chapter5/10L.jpg> </Users/marc/Thesis/Chapter5/50L.jpg>] [223] [224]
+</Users/marc/Thesis/Chapter5/PID.pdf, id=784, 845.1575pt x 597.23125pt>
+File: /Users/marc/Thesis/Chapter5/PID.pdf Graphic file (type pdf)
+<use /Users/marc/Thesis/Chapter5/PID.pdf>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/PID.pdf  used on input line 54.
+(pdftex.def)             Requested size: 598.28638pt x 422.77939pt.
+ [225 </Users/marc/Thesis/Chapter5/PID.pdf>] [226
+
+
+]
+</Users/marc/Thesis/figures/TU.png, id=808, 971.63pt x 421.575pt>
+File: /Users/marc/Thesis/figures/TU.png Graphic file (type png)
+<use /Users/marc/Thesis/figures/TU.png>
+Package pdftex.def Info: /Users/marc/Thesis/figures/TU.png  used on input line 74.
+(pdftex.def)             Requested size: 448.13095pt x 194.43503pt.
+ [227] [228 </Users/marc/Thesis/figures/TU.png>]
+</Users/marc/Thesis/Chapter5/TC.jpg, id=817, 388.0899pt x 342.5598pt>
+File: /Users/marc/Thesis/Chapter5/TC.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter5/TC.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/TC.jpg  used on input line 94.
+(pdftex.def)             Requested size: 448.13095pt x 395.58197pt.
+ [229] [230 </Users/marc/Thesis/Chapter5/TC.jpg>]
+</Users/marc/Thesis/Chapter5/pseudocode.png, id=824, 5531.66624pt x 6073.69125pt>
+File: /Users/marc/Thesis/Chapter5/pseudocode.png Graphic file (type png)
+<use /Users/marc/Thesis/Chapter5/pseudocode.png>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/pseudocode.png  used on input line 107.
+(pdftex.def)             Requested size: 448.13095pt x 492.02191pt.
+ (/Users/marc/Thesis/Chapter5/ch5.bbl [231] [232 </Users/marc/Thesis/Chapter5/pseudocode.png>] [233]
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
+[]\OT1/lmr/m/n/12 Product cat-a-log.  URL $\OT1/lmtt/m/n/12 https : / / www . swagelok . com / en / toolbox /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--44
+[]\OT1/lmr/m/n/12 Sulfinert-treated sam-ple cylin-ders.  URL $\OT1/lmtt/m/n/12 https : / / www . restek . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--44
+\OT1/lmtt/m/n/12 Technical-[]Resources / Technical-[]Library / Petroleum-[]Petrochemical / petro _
+ []
+
+[234
+
+])) [235]
+\openout2 = `enrichmentresults/ch5.aux'.
+
+ (/Users/marc/Thesis/enrichmentresults/ch5.tex
+Chapter 7.
+[236
+
+
+
+
+] [237]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 22.
+
+[238] [239]
+</Users/marc/Thesis/Chapter5/inertenrich.jpg, id=854, 649.7073pt x 527.8119pt>
+File: /Users/marc/Thesis/Chapter5/inertenrich.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter5/inertenrich.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/inertenrich.jpg  used on input line 43.
+(pdftex.def)             Requested size: 571.94612pt x 464.64505pt.
+
+
+LaTeX Warning: Float too large for page by 41.01408pt on input line 46.
+
+[240 </Users/marc/Thesis/Chapter5/inertenrich.jpg>]
+</Users/marc/Thesis/Chapter5/inertgc.jpg, id=859, 389.5353pt x 342.5598pt>
+File: /Users/marc/Thesis/Chapter5/inertgc.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter5/inertgc.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/inertgc.jpg  used on input line 55.
+(pdftex.def)             Requested size: 448.13095pt x 394.09227pt.
+ [241
+
+
+] [242 </Users/marc/Thesis/Chapter5/inertgc.jpg>]
+</Users/marc/Thesis/Chapter5/sulfcomgc.jpg, id=866, 622.9674pt x 342.5598pt>
+File: /Users/marc/Thesis/Chapter5/sulfcomgc.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter5/sulfcomgc.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/sulfcomgc.jpg  used on input line 67.
+(pdftex.def)             Requested size: 448.13095pt x 246.42854pt.
+ [243 </Users/marc/Thesis/Chapter5/sulfcomgc.jpg>] [244]
+</Users/marc/Thesis/Chapter5/sulfenrichni.jpg, id=874, 654.5253pt x 527.8119pt>
+File: /Users/marc/Thesis/Chapter5/sulfenrichni.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter5/sulfenrichni.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/sulfenrichni.jpg  used on input line 79.
+(pdftex.def)             Requested size: 571.94612pt x 461.23026pt.
+
+
+LaTeX Warning: Float too large for page by 37.59929pt on input line 82.
+
+[245 </Users/marc/Thesis/Chapter5/sulfenrichni.jpg>] [246
+
+
+]
+</Users/marc/Thesis/Chapter5/hrsenrichni.jpg, id=882, 649.7073pt x 527.8119pt>
+File: /Users/marc/Thesis/Chapter5/hrsenrichni.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter5/hrsenrichni.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/hrsenrichni.jpg  used on input line 91.
+(pdftex.def)             Requested size: 571.94612pt x 464.64505pt.
+
+
+LaTeX Warning: Float too large for page by 41.01408pt on input line 94.
+
+[247 </Users/marc/Thesis/Chapter5/hrsenrichni.jpg>]
+</Users/marc/Thesis/Chapter5/hrsgc.jpg, id=886, 389.5353pt x 342.5598pt>
+File: /Users/marc/Thesis/Chapter5/hrsgc.jpg Graphic file (type jpg)
+<use /Users/marc/Thesis/Chapter5/hrsgc.jpg>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter5/hrsgc.jpg  used on input line 101.
+(pdftex.def)             Requested size: 448.13095pt x 394.09227pt.
+ [248
+
+
+] [249 </Users/marc/Thesis/Chapter5/hrsgc.jpg>]) [250]
+\openout2 = `Chapter6/ch6.aux'.
+
+ (/Users/marc/Thesis/Chapter6/ch6.tex
+Chapter 8.
+[251
+
+
+
+
+] [252]
+</Users/marc/Thesis/Chapter6/manuproc.png, id=903, 7427.75pt x 2925.93124pt>
+File: /Users/marc/Thesis/Chapter6/manuproc.png Graphic file (type png)
+<use /Users/marc/Thesis/Chapter6/manuproc.png>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter6/manuproc.png  used on input line 19.
+(pdftex.def)             Requested size: 448.13095pt x 176.48587pt.
+ [253 </Users/marc/Thesis/Chapter6/manuproc.png>] [254]
+</Users/marc/Thesis/Chapter6/automation.png, id=911, 3865.44125pt x 4291.03125pt>
+File: /Users/marc/Thesis/Chapter6/automation.png Graphic file (type png)
+<use /Users/marc/Thesis/Chapter6/automation.png>
+Package pdftex.def Info: /Users/marc/Thesis/Chapter6/automation.png  used on input line 41.
+(pdftex.def)             Requested size: 448.13095pt x 497.41951pt.
+ [255] [256 </Users/marc/Thesis/Chapter6/automation.png>] [257]
+Overfull \hbox (13.15826pt too wide) in paragraph at lines 57--57
+[]\OT1/lmr/bx/n/17.28 Other hy-dro-gen im-pu-rity mea-sure-ment chal-lenges 
+ []
+
+[258] (/Users/marc/Thesis/Chapter6/ch6.bbl [259] [260
+
+])) [261]
+\openout2 = `appendices/master.aux'.
+
+ (/Users/marc/Thesis/appendices/master.tex [262
+
+
+
+
+]
+Overfull \hbox (21.14827pt too wide) in paragraph at lines 63--63
+[]    \OT1/lmtt/m/n/12 pseudo_dir='/home/mp916/Simulations/qe/qe-6.1/Simulationpdpaper/Pseudo',[] 
+ []
+
+[263]
+Overfull \hbox (21.14827pt too wide) in paragraph at lines 109--109
+[]    \OT1/lmtt/m/n/12 pseudo_dir='/home/mp916/Simulations/qe/qe-6.1/Simulationpdpaper/Pseudo',[] 
+ []
+
+[264] [265] [266] [267] [268] [269] [270] [271] [272] [273] [274] [275] [276] [277] [278] [279] [280] [281] [282] [283] [284] [285] [286] [287]
+Overfull \hbox (95.21329pt too wide) in paragraph at lines 791--791
+[]  \OT1/lmtt/m/n/12 pseudo_dir='/media/mp916/0A6296CF6296BF3F/MembraneDFTscript/Simulationpdpaper/Pseudo',[] 
+ []
+
+[288] [289] [290]
+</Users/marc/Thesis/appendices/Picture1.png, id=1027, 452.69125pt x 185.69376pt>
+File: /Users/marc/Thesis/appendices/Picture1.png Graphic file (type png)
+<use /Users/marc/Thesis/appendices/Picture1.png>
+Package pdftex.def Info: /Users/marc/Thesis/appendices/Picture1.png  used on input line 795.
+(pdftex.def)             Requested size: 448.13095pt x 183.82321pt.
+</Users/marc/Thesis/appendices/Picture2.png, id=1028, 452.69125pt x 340.27126pt>
+File: /Users/marc/Thesis/appendices/Picture2.png Graphic file (type png)
+<use /Users/marc/Thesis/appendices/Picture2.png>
+Package pdftex.def Info: /Users/marc/Thesis/appendices/Picture2.png  used on input line 800.
+(pdftex.def)             Requested size: 448.13095pt x 336.84361pt.
+ [291 </Users/marc/Thesis/appendices/Picture1.png>]
+</Users/marc/Thesis/appendices/Picture3.png, id=1033, 317.185pt x 237.88875pt>
+File: /Users/marc/Thesis/appendices/Picture3.png Graphic file (type png)
+<use /Users/marc/Thesis/appendices/Picture3.png>
+Package pdftex.def Info: /Users/marc/Thesis/appendices/Picture3.png  used on input line 805.
+(pdftex.def)             Requested size: 448.13095pt x 336.12735pt.
+ [292 </Users/marc/Thesis/appendices/Picture2.png>]
+</Users/marc/Thesis/appendices/Picture4.png, id=1038, 452.69125pt x 105.39375pt>
+File: /Users/marc/Thesis/appendices/Picture4.png Graphic file (type png)
+<use /Users/marc/Thesis/appendices/Picture4.png>
+Package pdftex.def Info: /Users/marc/Thesis/appendices/Picture4.png  used on input line 810.
+(pdftex.def)             Requested size: 448.13095pt x 104.33208pt.
+</Users/marc/Thesis/appendices/Picture5.png, id=1039, 398.48875pt x 177.66376pt>
+File: /Users/marc/Thesis/appendices/Picture5.png Graphic file (type png)
+<use /Users/marc/Thesis/appendices/Picture5.png>
+Package pdftex.def Info: /Users/marc/Thesis/appendices/Picture5.png  used on input line 815.
+(pdftex.def)             Requested size: 448.13095pt x 199.80345pt.
+ [293 </Users/marc/Thesis/appendices/Picture3.png> </Users/marc/Thesis/appendices/Picture4.png>]
+</Users/marc/Thesis/appendices/Picture6.png, id=1046, 424.58624pt x 299.1175pt>
+File: /Users/marc/Thesis/appendices/Picture6.png Graphic file (type png)
+<use /Users/marc/Thesis/appendices/Picture6.png>
+Package pdftex.def Info: /Users/marc/Thesis/appendices/Picture6.png  used on input line 820.
+(pdftex.def)             Requested size: 448.13095pt x 315.72116pt.
+</Users/marc/Thesis/appendices/Picture7.png, id=1047, 452.69125pt x 195.73125pt>
+File: /Users/marc/Thesis/appendices/Picture7.png Graphic file (type png)
+<use /Users/marc/Thesis/appendices/Picture7.png>
+Package pdftex.def Info: /Users/marc/Thesis/appendices/Picture7.png  used on input line 825.
+(pdftex.def)             Requested size: 448.13095pt x 193.75958pt.
+) [294 </Users/marc/Thesis/appendices/Picture5.png> </Users/marc/Thesis/appendices/Picture6.png>] [295 </Users/marc/Thesis/appendices/Picture7.png>] [296
+
+
+] [297] (/Users/marc/Thesis/master.aux (/Users/marc/Thesis/acronyms.aux) (/Users/marc/Thesis/Chapter1/ch1.aux) (/Users/marc/Thesis/Chapter2/ch2.aux) (/Users/marc/Thesis/Experimental/ch1.aux) (/Users/marc/Thesis/Chapter3/ch3.aux) (/Users/marc/Thesis/Chapter4/ch4.aux) (/Users/marc/Thesis/Chapter5/ch5.aux) (/Users/marc/Thesis/enrichmentresults/ch5.aux) (/Users/marc/Thesis/Chapter6/ch6.aux) (/Users/marc/Thesis/appendices/master.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 23307 strings out of 492609
+ 445231 string characters out of 6129048
+ 518376 words of memory out of 5000000
+ 26805 multiletter control sequences out of 15000+600000
+ 593392 words of font info for 58 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,19n,100p,2448b,747s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on /Users/marc/Thesis/master.pdf (298 pages, 23259568 bytes).
+PDF statistics:
+ 1135 PDF objects out of 1200 (max. 8388607)
+ 730 compressed objects within 8 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 271 words of extra memory for PDF output out of 10000 (max. 10000000)
+

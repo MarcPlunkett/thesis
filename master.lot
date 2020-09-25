@@ -1,0 +1,51 @@
+\gdef \the@ipfilectr {@-1}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-2}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {1.1}{\ignorespaces Concentration limits for ISO-14687 impurities\relax }}{21}% 
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-3}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Summary of impurities in the hydrogen supply chain and their effects on fuel cell operation adapted from \cite {Bacquart2018}\relax }}{36}% 
+\contentsline {table}{\numberline {2.2}{\ignorespaces Types of hydrogen separation membrane\relax }}{53}% 
+\contentsline {table}{\numberline {2.3}{\ignorespaces Metals which show the ability for hydrogen permeation \cite {NathanW.Ockwig2007}\relax }}{57}% 
+\contentsline {table}{\numberline {2.4}{\ignorespaces Review of palladium alloys and their interactions with impurities\relax }}{67}% 
+\contentsline {table}{\numberline {2.5}{\ignorespaces Hydrogen permeable non-palladium metallic membranes\relax }}{79}% 
+\contentsline {table}{\numberline {2.6}{\ignorespaces Hydrogen permeable ceramic and cermet membranes which show resistance to common hydrogen impurities\relax }}{85}% 
+\contentsline {table}{\numberline {2.7}{\ignorespaces Review of DFT studies for adsorption of ISO 14687-2 impurites and hydrogen on palladium membrane surfaces\relax }}{107}% 
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-4}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Gas mixture composition of the non-sulphur sample (Cylinder NG353R) used during impurity tests\relax }}{144}% 
+\contentsline {table}{\numberline {3.2}{\ignorespaces Gas mixture composition of the sulphur sample (Cylinder 2380) used during impurity tests\relax }}{144}% 
+\contentsline {table}{\numberline {3.3}{\ignorespaces Compositions used for activation of YSZ substrate prior to palladium deposition\relax }}{146}% 
+\contentsline {table}{\numberline {3.4}{\ignorespaces Compositions used for preparation of palladium based membranes on YSZ substrate through electroless plating and immersion plating\relax }}{146}% 
+\contentsline {table}{\numberline {3.5}{\ignorespaces Conditions used during magnetron sputtering of palladium membranes on YSZ tubular substrate\relax }}{149}% 
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-5}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Simulated total energy values of alloy slabs\relax }}{164}% 
+\contentsline {table}{\numberline {4.2}{\ignorespaces Simulated total energy values of ISO 14687-2 impurities\relax }}{164}% 
+\contentsline {table}{\numberline {4.3}{\ignorespaces Correlation coefficient of Ag, Au, Cu, Zr addition to Pd with binding energy of H\relax }}{167}% 
+\contentsline {table}{\numberline {4.4}{\ignorespaces Best performing alloys for each environment with respect to the different between the binding energies with relevant impurities, and the binding energy of hydrogen\relax }}{192}% 
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-6}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Membrane compositions analysed by EDS and their thickness measured using FIB-SEM\relax }}{203}% 
+\contentsline {table}{\numberline {5.2}{\ignorespaces Pure hydrogen permeability of studied alloy membranes under pure hydrogen at 300\textdegree C and 1 bar pressure differential\relax }}{206}% 
+\contentsline {table}{\numberline {5.3}{\ignorespaces Permeability results for all membranes under both impurity conditions\relax }}{206}% 
+\contentsline {table}{\numberline {5.4}{\ignorespaces XPS composition analysis of the palladium alloy membrane surfaces after impurity tests\relax }}{209}% 
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-7}
+\addvspace {10\p@ }
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-8}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Gas mixture composition of the inert sample used during enrichment tests\relax }}{238}% 
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-9}
+\addvspace {10\p@ }
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-10}
+\contentsline {table}{\numberline {8.1}{\ignorespaces Standard uncertainties (k=1) of the balances used for gravametric preparation of gas standards\relax }}{262}% 
+\gdef \the@ipfilectr {}
