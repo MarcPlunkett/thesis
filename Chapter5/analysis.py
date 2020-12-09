@@ -6,6 +6,10 @@ import seaborn as sns;
 from scipy.interpolate import make_interp_spline, BSpline
 from random import random
 
+plt.style.reload_library()
+plt.rcParams.update({'errorbar.capsize': 2})
+plt.style.use('science')
+
 plt.rcParams.update({'errorbar.capsize': 2})
 
 df = pd.read_csv(
@@ -17,7 +21,7 @@ plt.style.use('science')
 with plt.style.context(['science']):
     fig, ax = plt.subplots(figsize=(6,5))
     ax.plot(df['P(bar)'], df['n1L'], label='1L', color='black')
-    ax.set(xlabel="Sample fill pressure (bar")
+    ax.set(xlabel="Sample fill pressure (bar)")
     ax.set(ylabel="Krypton concentration ($\mu$mol/mol)")
     ax.autoscale(tight=False)
     fig.suptitle('1L sample vessel', fontsize=14)
@@ -27,7 +31,7 @@ with plt.style.context(['science']):
 with plt.style.context(['science']):
     fig, ax = plt.subplots(figsize=(6,5))
     ax.plot(df['P(bar)'], df['n10L'], color='black')
-    ax.set(xlabel="Sample fill pressure (bar")
+    ax.set(xlabel="Sample fill pressure (bar)")
     ax.set(ylabel="Krypton concentration ($\mu$mol/mol)")
     ax.autoscale(tight=False)
     fig.suptitle('10L sample vessel', fontsize=14)
@@ -37,7 +41,7 @@ with plt.style.context(['science']):
 with plt.style.context(['science']):
     fig, ax = plt.subplots(figsize=(6,5))
     ax.plot(df['P(bar)'], df['n50L'], color='black')
-    ax.set(xlabel="Sample fill pressure (bar")
+    ax.set(xlabel="Sample fill pressure (bar)")
     ax.set(ylabel="Krypton concentration ($\mu$mol/mol)")
     ax.autoscale(tight=False)
     fig.suptitle('50L sample vessel', fontsize=14)
@@ -100,7 +104,7 @@ with plt.style.context(['science']):
     ax.plot(x_new2, power_smooth2 , color='black', label='After enrichment')
 
     ax.set(xlabel="Time (Minutes)")
-    ax.set(ylabel="Signal")
+    ax.set(ylabel="Signal (a.u)")
     ax.autoscale(tight=False)
     fig.suptitle('GC data of the inert sample before and after enrichment', fontsize=14)
     plt.legend()
@@ -135,7 +139,7 @@ with plt.style.context(['science']):
     ax.plot(x_new2, abs(power_smooth2) , color='black', label='After enrichment')
 
     ax.set(xlabel="Time (Minutes)")
-    ax.set(ylabel="Signal")
+    ax.set(ylabel="Signal (a.u)")
     ax.autoscale(tight=False)
     fig.suptitle('GC data of the HRS sample before and after enrichment', fontsize=14)
     plt.legend()
@@ -216,7 +220,7 @@ with plt.style.context(['science']):
     ax.plot(dfenriched['time'], dfenriched['Signal2'], color='black', label='After enrichment')
 
     ax.set(xlabel="Time (Minutes)")
-    ax.set(ylabel="Signal")
+    ax.set(ylabel="Signal (a.u)")
     ax.autoscale(tight=False)
     fig.suptitle('GC data of the sulphurous sample tested using the commercial membrane before and after enrichment', fontsize=14)
     plt.legend()

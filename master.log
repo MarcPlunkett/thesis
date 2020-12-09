@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.27)  9 DEC 2020 00:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.27)  9 DEC 2020 11:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2050,11 +2050,11 @@ LaTeX Warning: No positions in optional float specifier.
 
 
 ] [211]
-<figures/permeabilitychart.png, id=738, 1482.53876pt x 707.64375pt>
+<figures/permeabilitychart.png, id=738, 1453.43pt x 698.61pt>
 File: figures/permeabilitychart.png Graphic file (type png)
 <use figures/permeabilitychart.png>
 Package pdftex.def Info: figures/permeabilitychart.png  used on input line 138.
-(pdftex.def)             Requested size: 635.5pt x 303.34148pt.
+(pdftex.def)             Requested size: 635.5pt x 305.47057pt.
  [212 </Users/marc/Thesis/figures/permeabilitychart.png>] [213
 
 
@@ -2159,11 +2159,11 @@ Package pdftex.def Info: /Users/marc/Thesis/Chapter5/inertenrich.jpg  used on in
 LaTeX Warning: Float too large for page by 41.01408pt on input line 46.
 
 [240 </Users/marc/Thesis/Chapter5/inertenrich.jpg>]
-</Users/marc/Thesis/Chapter5/inertgc.jpg, id=859, 389.5353pt x 342.5598pt>
+</Users/marc/Thesis/Chapter5/inertgc.jpg, id=859, 390.7398pt x 342.5598pt>
 File: /Users/marc/Thesis/Chapter5/inertgc.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter5/inertgc.jpg>
 Package pdftex.def Info: /Users/marc/Thesis/Chapter5/inertgc.jpg  used on input line 55.
-(pdftex.def)             Requested size: 448.13095pt x 394.09227pt.
+(pdftex.def)             Requested size: 448.13095pt x 392.89006pt.
  [241
 
 
@@ -2197,11 +2197,11 @@ Package pdftex.def Info: /Users/marc/Thesis/Chapter5/hrsenrichni.jpg  used on in
 LaTeX Warning: Float too large for page by 41.01408pt on input line 94.
 
 [247 </Users/marc/Thesis/Chapter5/hrsenrichni.jpg>]
-</Users/marc/Thesis/Chapter5/hrsgc.jpg, id=886, 389.5353pt x 342.5598pt>
+</Users/marc/Thesis/Chapter5/hrsgc.jpg, id=886, 390.7398pt x 342.5598pt>
 File: /Users/marc/Thesis/Chapter5/hrsgc.jpg Graphic file (type jpg)
 <use /Users/marc/Thesis/Chapter5/hrsgc.jpg>
 Package pdftex.def Info: /Users/marc/Thesis/Chapter5/hrsgc.jpg  used on input line 101.
-(pdftex.def)             Requested size: 448.13095pt x 394.09227pt.
+(pdftex.def)             Requested size: 448.13095pt x 392.89006pt.
  [248
 
 
@@ -2313,7 +2313,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  57i,19n,100p,2448b,747s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /Users/marc/Thesis/master.pdf (298 pages, 23259599 bytes).
+Output written on /Users/marc/Thesis/master.pdf (298 pages, 23276383 bytes).
 PDF statistics:
  1135 PDF objects out of 1200 (max. 8388607)
  730 compressed objects within 8 object streams

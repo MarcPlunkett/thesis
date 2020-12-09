@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns;
 from scipy.interpolate import make_interp_spline, BSpline
 from random import random
-
+plt.style.reload_library()
 plt.rcParams.update({'errorbar.capsize': 2})
-
+plt.style.use('science')
 def site_graph():
     df = pd.read_csv(
             '/Users/marc/Thesis/Chapter3/data/Hydrogen_adsorption.csv')
@@ -272,7 +272,7 @@ def CO_graphs():
         fig.suptitle('CO adsorption', fontsize=24)
         ax.autoscale(tight=False)
         plt.ylim(-1.5, 0.25)
-        plt.legend()
+        plt.legend(loc='lower center', ncol=2)
         fig.show()
         fig.savefig('COads.jpg', dpi=300)
 
@@ -920,7 +920,7 @@ def Formaldehyde_graphs():
         ax.axes.xaxis.set_visible(False)
         fig.suptitle('Formaldehyde adsorption', fontsize=24)
         ax.autoscale(tight=False)
-        plt.legend()
+        plt.legend(ncol=2)
         fig.show()
         fig.savefig('Formaldehydeads.jpg', dpi=300)
 
@@ -1149,7 +1149,7 @@ def FA_graphs():
         ax.axes.xaxis.set_visible(False)
         fig.suptitle('Formic Acid adsorption', fontsize=24)
         ax.autoscale(tight=False)
-        plt.legend()
+        plt.legend(ncol=2)
         fig.show()
         fig.savefig('FAads.jpg', dpi=300)
 
@@ -1226,7 +1226,7 @@ def CH4_graphs():
 
     with plt.style.context(['science']):
         fig, ax = plt.subplots(figsize=(6,5))
-        ax.plot(PD['Site'], PD['adsry'], label='CO', color='black', marker='D', linestyle='dashed' )
+        ax.plot(PD['Site'], PD['adsry'], label='CH4', color='black', marker='D', linestyle='dashed' )
         ax.plot(h2PD['Site'], h2PD['adsry'], label='H', color='black', marker='D' )
 
         
@@ -1279,7 +1279,7 @@ def CH4_graphs():
         ax.axes.xaxis.set_visible(False)
         fig.suptitle('CH$_4$ adsorption', fontsize=24)
         ax.autoscale(tight=False)
-        plt.legend()
+        plt.legend(ncol=2)
         fig.show()
         fig.savefig('CH4ads.jpg', dpi=300)
 
