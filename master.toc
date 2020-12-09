@@ -121,5 +121,4 @@
 \contentsline {section}{\numberline {8.4}Closing remarks}{259}% 
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-10}
-\contentsline {subsection}{\numberline {8.4.1}Palladium system}{288}% 
 \gdef \the@ipfilectr {}
