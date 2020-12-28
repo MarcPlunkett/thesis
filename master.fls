@@ -464,6 +464,18 @@ INPUT /Users/marc/Thesis/Chapter6/ch6.bbl
 OUTPUT /Users/marc/Thesis/appendices/master.aux
 INPUT /Users/marc/Thesis/appendices/master.tex
 INPUT /Users/marc/Thesis/appendices/master.tex
+INPUT /Users/marc/Thesis/appendices/PdAg.jpg
+INPUT /Users/marc/Thesis/appendices/PdAg.jpg
+INPUT /Users/marc/Thesis/appendices/PdAg.jpg
+INPUT /Users/marc/Thesis/appendices/AuPd.png
+INPUT /Users/marc/Thesis/appendices/AuPd.png
+INPUT /Users/marc/Thesis/appendices/AuPd.png
+INPUT /Users/marc/Thesis/appendices/CuPd.png
+INPUT /Users/marc/Thesis/appendices/CuPd.png
+INPUT /Users/marc/Thesis/appendices/CuPd.png
+INPUT /Users/marc/Thesis/appendices/ZrPd.png
+INPUT /Users/marc/Thesis/appendices/ZrPd.png
+INPUT /Users/marc/Thesis/appendices/ZrPd.png
 INPUT /Users/marc/Thesis/appendices/Picture1.png
 INPUT /Users/marc/Thesis/appendices/Picture1.png
 INPUT /Users/marc/Thesis/appendices/Picture1.png
@@ -485,6 +497,8 @@ INPUT /Users/marc/Thesis/appendices/Picture6.png
 INPUT /Users/marc/Thesis/appendices/Picture7.png
 INPUT /Users/marc/Thesis/appendices/Picture7.png
 INPUT /Users/marc/Thesis/appendices/Picture7.png
+INPUT /Users/marc/Thesis/appendices/master.bbl
+INPUT /Users/marc/Thesis/appendices/master.bbl
 INPUT /Users/marc/Thesis/master.aux
 INPUT /Users/marc/Thesis/acronyms.aux
 INPUT /Users/marc/Thesis/acronyms.aux

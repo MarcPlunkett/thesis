@@ -276,17 +276,21 @@ Finally, while much thought has been put into the effect of impurities on the pe
 analysis. The first report by Papadis et al at Argonne National Laboratory used a Pd/Cu \cite{Ahmed2010} coated Pd/Ag membrane for non-sulphur containing hydrogen samples and a Pd/Au coated Pd/Ag membrane for sulphur 
 containing hydrogen samples to enrich impurities in a 50 bar sample. The analyte gas used contained N\textsubscript{2}, CH\textsubscript{4} and CO\textsubscript{2} at 100\textmu mol/mol and an additional 
  2 \textmu mol/mol of H\textsubscript{2}S during sulphur tests. 
-The enrichment was calculated by using measured values of temperature and pressure along with the non-ideal gas law this was represented through a 'calculated enrichment factor' as shown in equations \ref{eq:1}
-and \ref{eq:2}. 
+The enrichment was calculated by using measured values of temperature and pressure along with the non-ideal gas law this was represented through a 'calculated enrichment factor' as shown in equations \ref{CEFNI1}
+and \ref{CEFNI2}. 
 
-\begin{equation} \label{eq:1}
+\begin{equation} \label{CEFNI1}
     % \frac{(\frac{P_{1,a} V_1)}{Z_{1,a} RT_{1,a}})}
     CEF_{NI} = \frac{\frac{P_{1,a} V_1}{Z_{1,a}RT_{1,a}}\frac{P_{2,a} V_2}{Z_{2,a}RT_{2,a}}-\frac{P_{1,b} V_1}{Z_{1,b}RT_{1,b}}}{\frac{P_{2,b} V_2}{Z_{2,b}RT_{2,b}}}
 \end{equation}
 
-\begin{equation}\label{eq:2}
+\begin{equation}\label{CEFNI2}
     y_{i,a} = \frac{y_{i,b}}{CEF}
 \end{equation}
+For equation \ref{CEFNI1} CEF\textsubscript{NI} is the Calculated Enrichment Factor for the non-ideal gas law method, P\textsubscript{1,a} P\textsubscript{1,b} refer to the pressures in the gas cylinder and enrichment vessel before enrichment, P\textsubscript{2,a} P\textsubscript{2,b} refer to the pressures in the gas cylinder and enrichment vessel after  enrichment, V\textsubscript{1} refers to the volume of the gas cylinder which is generally 10L, V\textsubscript{2} is the volume of the enrichment vessel, R is the gas constant $8.3145 J mol^{-1} K ^-1$, T\textsubscript{1,a} and T\textsubscript{1,b} is the temperature of the gas cylinder and enrichment vessel before enrichment, T\textsubscript{2,a} and T\textsubscript{2,b} is the temperature of the gas cylinder and enrichment vessel after enrichment. Z is the compressability factor of the hydrogen in either the gas cylinder (a) or enrichment vessel (b) before (1), or after (2) enrichment.
+
+For equation \ref{CEFNI2} $y_{i,a}$ is the concentration of component i before enrichment, $y_{i,b}$ is the concentration of component i after enrichment, and CEF is the calculated calculated enrichment factor determined in equation \ref{CEFNI1}
+
 The set-up was able to reach enrichment factors of around 32 for non-sulphur tests and 15 
 for sulphur tests. The non-sulphur tests closely matched with the actual component concentrations, 
 however in the second set of tests there was some loss of sulphur observed, most likely due to the 
@@ -302,6 +306,8 @@ shown in equation \ref{eq:3}.
 \begin{equation} \label{eq:3}
     CEF_{Tracer} = \frac{y_{kr_b}}{y_{Kr_b}} = \frac{1}{y_{Kr_a}} \frac{A_{Kr_b}}{A_{Kr_a}} y_{Kr_{st}}
 \end{equation}
+
+For equation \ref{eq:3} CEF\textsubscript{Tracer} is the Calculated Enrichment Factor determined using tracer enrichment, $y_{kr_a}$ and $y_{kr_b}$ is the concentration of krypton in the enrichment vessel before and after enrichment respectivley, $y_{Kr_{st}}$ is the concentration of krypton in the standard used to determine the concentration of krypton in the sample. A is a corerlation factor for the detector used find the concentration of Krypton, this is usually 1 but is added in order to account for the uncertainty of thye detector. 
 
 The set-up was similar to the one used by Papadias et al \cite{Ahmed2010} and was used to enrich a 50 bar 10L hydrogen sample 
 containing 1.5-2 \textmu mol/mol of CO, Kr, CH\textsubscript{4} and N\textsubscript{2}. Use of the tracer enrichment 
@@ -507,6 +513,8 @@ permeation could be easily estimated.
     n_{i_{exit}} = n_{exit_{total}}/ \alpha^{H_2 /i}    
 \end{equation}
 
+Where $n_{i_{exit}}$ is the number of moles of impurity $i$ leaving the system, $n_{exit_{total}}$ is the total number of moles leaving the system, and $\alpha^{H_2 /i}$ is the selectivity of hydrogen relative to impurity $i$.
+
 The concentration, and therefore the number of moles of impurity on the retentate side of the membrane 
 could then be analysed using suitable instrumentation. These values could then be added together and 
 divided by the enrichment factor in order to give the original number of moles that would be in the vessel.
@@ -515,6 +523,7 @@ divided by the enrichment factor in order to give the original number of moles t
     y_i=\frac{(n_{i_{ret}}+n_{i_{exit}})/n_{tot_{ret}}}{CEF} 
 \end{equation}
 
+Where $y_i$ is the concentration of component $i$ in the gas sample, $n_{i_{ret}}$ is the number of moles of $i$ on the retentate side of the membrane, $n_{tot_{ret}}$ is the number of moles of gas remaining on the retentate side of the membrane.
 In practice however this may not be feasible due to the low concentrations of impurities expected to be 
 present in these hydrogen samples. In order for an enrichment calculation to work there must be an analysable 
 concentration of impurity remaining in order to back calculate. Since the level of expected impurities in a 
@@ -586,6 +595,8 @@ the thickness of the dense layer.
 \begin{equation}\label{eq:7}
     J=\frac{\phi}{l} (P_{H,ret}^{0.5} - P_{H,perm}^{0.5})
 \end{equation}
+
+Where J is the flux of the membrane, l is the thickness of the membrane serparation layer, $\phi$ is the permeability of hydrogen in the membrane material, and P is the partial pressure of hydrogen on the retentate and permeate sides of the membrane. 
 
 From the metals shown in Table \ref{tb:2} palladium and its alloys are by far the most 
 popular choice due to a combination of high hydrogen permeability, favourable catalytic 
@@ -1220,6 +1231,8 @@ described through the Wagner equation written as Eq \ref{eq:5}
 \end{equation}
 \renewcommand{\bibname}{References}
 
+Where J is the flux of the membrane, R is the gas constant, T is the operatng temperature of the membrane in K, L is the thickness of the membrane layer, F is the faraday constant. $\theta$ is the permeability of electrons and protonic hydrogen, and P is the partial pressure of hydrogen on the retentate (') and permeate ('') sides of the membrane.
+
 Dense ceramic membranes can be split into two broad categories; single phase ceramic 
 membranes are composed of a single material which has the ability to conduct both protons 
 and electrons, and multi-phase ceramic membranes which are normally composed of two or more 
@@ -1735,7 +1748,7 @@ In order to determine the adsorption energy of impurities on a palladium membran
 
 \begin{figure}[H]
     \includegraphics[width=\linewidth]{figures/fccsites.png}
-    \caption{Top view of the high-symmetry adsorption sites fcc, hcp, bridge, and top \cite{Zeng2009}}
+    \caption{Schematic representation of (111) face Pd showing the high-symmetry adsorption sites fcc, hcp, bridge, and top \cite{Zeng2009}}
     \label{fccsites}
   \end{figure}
 

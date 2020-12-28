@@ -1,0 +1,32 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ghosh et~al.(1999)Ghosh, Kantner, and Olson]{Ghosh1999}
+Gautam Ghosh, C.~Kantner, and G.~Olson.
+\newblock Thermodynamic modeling of the pd-x (x=ag, co, fe, ni) systems.
+\newblock \emph{Journal of Phase Equilibria}, 20:\penalty0 295--308, 05 1999.
+\newblock \doi{10.1361/105497199770335811}.
+
+\bibitem[Sluiter et~al.(2006)Sluiter, Colinet, and Pasturel]{Sluiter2006}
+Marcel Sluiter, Catherine Colinet, and Alain Pasturel.
+\newblock Ab initio calculation of the phase stability in au-pd and ag-pt
+  alloys.
+\newblock \emph{Physical Review B}, 73, 05 2006.
+\newblock \doi{10.1103/PhysRevB.73.174204}.
+
+\bibitem[Waterstrat et~al.(1999)Waterstrat, Shapiro, and
+  Jeremie]{WATERSTRAT199963}
+R.M Waterstrat, A~Shapiro, and A~Jeremie.
+\newblock The palladium–zirconium phase diagram.
+\newblock \emph{Journal of Alloys and Compounds}, 290\penalty0 (1):\penalty0 63
+  -- 70, 1999.
+\newblock ISSN 0925-8388.
+\newblock \doi{https://doi.org/10.1016/S0925-8388(99)00127-9}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0925838899001279}.
+
+\end{thebibliography}
