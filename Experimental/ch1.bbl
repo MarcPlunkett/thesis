@@ -1,4 +1,4 @@
-\begin{thebibliography}{15}
+\begin{thebibliography}{18}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -45,6 +45,31 @@ Thomas Bacquart, Niamh Moore, Nick Hart, Abigail Morris, Thor~A. Aarhaug, Ole
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S0360319919340510}.
 \newblock 22nd World Hydrogen Energy Conference.
+
+\bibitem[doi(2007{\natexlab{a}})]{doi:https://doi.org/10.1002/9780470319475.ch2}
+\emph{Preparation of Ceramic Membranes}, chapter~2, pages 21--57.
+\newblock John Wiley Sons, Ltd, 2007{\natexlab{a}}.
+\newblock ISBN 9780470319475.
+\newblock \doi{https://doi.org/10.1002/9780470319475.ch2}.
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/9780470319475.ch2}.
+
+\bibitem[doi(2007{\natexlab{b}})]{doi:https://doi.org/10.1002/9780470319475.ch3}
+\emph{Characterization of Ceramic Membranes}, chapter~3, pages 59--95.
+\newblock John Wiley Sons, Ltd, 2007{\natexlab{b}}.
+\newblock ISBN 9780470319475.
+\newblock \doi{https://doi.org/10.1002/9780470319475.ch3}.
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/9780470319475.ch3}.
+
+\bibitem[doi(2007{\natexlab{c}})]{doi:https://doi.org/10.1002/9780470319475.ch4}
+\emph{Transport and Separation of Gases in Porous Ceramic Membranes},
+  chapter~4, pages 97--134.
+\newblock John Wiley Sons, Ltd, 2007{\natexlab{c}}.
+\newblock ISBN 9780470319475.
+\newblock \doi{https://doi.org/10.1002/9780470319475.ch4}.
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/9780470319475.ch4}.
 
 \bibitem[{Gouveia Gil} et~al.(2015){Gouveia Gil}, Reis, Chadwick, Wu, and
   Li]{GouveiaGil2015}
