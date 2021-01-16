@@ -1,5 +1,6 @@
-\chapter*{Appendices}
-\section*{Uncertainties}
+\addcontentsline{toc}{part}{Appendices}%
+
+\chapter{Uncertainties}
 The uncertainties used for gravametric calculation of gas standard is the quadrature sum of the weighing uncertainties before and after the transfer of the component into the vessel.
 \begin{table}[H]
     \centering
@@ -13,10 +14,10 @@ The uncertainties used for gravametric calculation of gas standard is the quadra
     Mettler Toledo XP205      & 0.1 mg               \\
     Sartorius R160P           & 0.1 mg               \\ \bottomrule
     \end{tabular}
-    \caption*{Standard uncertainties (k=1) of the balances used for gravametric preparation of gas standards}
+    \caption{Standard uncertainties (k=1) of the balances used for gravametric preparation of gas standards}
 \end{table}
 
-\section*{Metallic Phase Diagrams}
+\chapter{Metallic Phase Diagrams}
 \begin{figure}[H]
   \includegraphics[width=\linewidth]{/Users/marc/Thesis/appendices/PdAg.jpg}
   \caption{The calculated Ag-Pd phase diagram with experimental points \cite{Ghosh1999}}
@@ -38,9 +39,9 @@ The uncertainties used for gravametric calculation of gas standard is the quadra
 \end{figure}
 
 
-\section*{Simulation files}
-\subsection*{Hydrogen impurities}
-\subsubsection*{Ammonia}
+\chapter{Simulation files}
+\section{Hydrogen impurities}
+\subsection{Ammonia}
 \begin{verbatim}
     &CONTROL
     calculation='relax',
@@ -84,7 +85,7 @@ The uncertainties used for gravametric calculation of gas standard is the quadra
     0.000000000000d0  0.968552952250d0  0.000000000000d0
     0.000000000000d0  0.000000000000d0  0.994255872719d0
 \end{verbatim}
-\subsubsection*{Argon}
+\subsection{Argon}
 \begin{verbatim}
     &CONTROL
     calculation='scf',
@@ -131,7 +132,7 @@ The uncertainties used for gravametric calculation of gas standard is the quadra
   
 \end{verbatim}
 
-\subsubsection*{Carbon Dioxide}
+\subsection{Carbon Dioxide}
 \begin{verbatim}
     
 &CONTROL
@@ -187,7 +188,7 @@ CELL_PARAMETERS {alat}
 
 \end{verbatim}
 
-\subsubsection*{Carbon Monoxide}
+\subsection{Carbon Monoxide}
 \begin{verbatim}
     
 &CONTROL
@@ -240,7 +241,7 @@ CELL_PARAMETERS {alat}
 0.000000000000d0  0.000000000000d0  1.000000000000d0
 \end{verbatim}
 
-\subsubsection*{Formaldehyde}
+\subsection{Formaldehyde}
 \begin{verbatim}
     
 &CONTROL
@@ -298,7 +299,7 @@ CELL_PARAMETERS {alat}
 
 \end{verbatim}
 
-\subsubsection*{Formic acid}
+\subsection{Formic acid}
 \begin{verbatim}
     
 &CONTROL
@@ -357,7 +358,7 @@ CELL_PARAMETERS {alat}
 
 \end{verbatim}
 
-\subsubsection*{Hydrogen}
+\subsection{Hydrogen}
 \begin{verbatim}
     
 &CONTROL
@@ -410,7 +411,7 @@ CELL_PARAMETERS {alat}
 0.000000000000d0  0.000000000000d0  3.858856497911d0
 \end{verbatim}
 
-\subsubsection*{Helium}
+\subsection{Helium}
 \begin{verbatim}
     
 &CONTROL
@@ -463,7 +464,7 @@ CELL_PARAMETERS {alat}
 
 \end{verbatim}
 
-\subsubsection*{Hydrogen Sulphide}
+\subsection{Hydrogen Sulphide}
 \begin{verbatim}
     
 &CONTROL
@@ -519,7 +520,7 @@ CELL_PARAMETERS {alat}
 
 \end{verbatim}
 
-\subsubsection*{Methane}
+\subsection{Methane}
 \begin{verbatim}
     
 &CONTROL
@@ -577,7 +578,7 @@ CELL_PARAMETERS {alat}
 
 \end{verbatim}
 
-\subsubsection*{Nitrogen}
+\subsection{Nitrogen}
 \begin{verbatim}
     
 &CONTROL
@@ -631,7 +632,7 @@ CELL_PARAMETERS {alat}
 
 \end{verbatim}
 
-\subsubsection*{Oxygen}
+\subsection{Oxygen}
 \begin{verbatim}
     
 &CONTROL
@@ -684,7 +685,7 @@ CELL_PARAMETERS {alat}
 
 
 \end{verbatim}
-\subsubsection*{Water}
+\subsection{Water}
 \begin{verbatim}
 
 &CONTROL
@@ -737,8 +738,8 @@ CELL_PARAMETERS {alat}
 0.000000000000d0  0.948259720965d0  0.000000000000d0
 0.000000000000d0  0.000000000000d0  1.023268717357d0
 \end{verbatim}
-\subsection*{Palladium system}
-\subsubsection*{Example system adsorbing Hydrogen on the surface of PdAg }
+\section{Palladium system}
+\subsection{Example system adsorbing Hydrogen on the surface of PdAg }
 \begin{verbatim}
     &CONTROL
   calculation='scf',
@@ -813,7 +814,7 @@ CELL_PARAMETERS {alat}
   0.000000000000d0  0.000000000000d0  3.858856497911d0
 \end{verbatim}
 
-\section*{EDS mapping of membranes}
+\chapter{EDS mapping of membranes}
 \begin{figure}[H]
   \includegraphics[width=\linewidth]{/Users/marc/Thesis/appendices/edspdcuau.png}
 \end{figure}
@@ -885,7 +886,7 @@ CELL_PARAMETERS {alat}
   \caption{PdCuAu EDS spectra}
 \end{figure}
 
-\section*{Pictures of commercial enrichment device}
+\chapter{Pictures of commercial enrichment device}
 
 \begin{figure}[H]
     \includegraphics[width=\linewidth]{/Users/marc/Thesis/appendices/Picture1.png}

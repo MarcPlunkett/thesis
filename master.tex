@@ -12,8 +12,13 @@
 \usepackage{longtable}
 \usepackage{adjustbox}
 \usepackage{pdflscape}
+\usepackage[a-1b]{pdfx}
+ \usepackage{hyperref}
 \usepackage[square,numbers]{natbib}
 \usepackage{notoccite}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{appendix}
 \usepackage{chapterbib, tabularx}
 \usepackage{booktabs}
 \usepackage{multirow}
@@ -22,7 +27,6 @@
 \usepackage[center]{caption}
 \usepackage{acronym}
 \usepackage{xr}
-\usepackage[dvipsnames]{xcolor}
 \usepackage{float}
 \usepackage{setspace}
 \DeclareUnicodeCharacter{2005}{ }
@@ -40,7 +44,7 @@
 \externaldocument[HRS-]{Chapter5/ch5}
 
 
-
+\usepackage{titlesec}
 
 \newcolumntype{L}{>{\centering\arraybackslash}m{3cm}}
 \doublespacing
@@ -93,13 +97,13 @@ I would like to acknowledge my colleagues from my National Physical Laboratory a
 And my biggest thanks to my friends and family for all the support you have shown me through this research. I would like to thank my brother, David, for his wise counsel and sympathetic ear and my parents who  are always there for me. Finally, there are my dear friends; Dr. Iain Hyndman, Emma Abraham, David Mckechnie, Bradley Hannah, Anthony Houghton, and Chen Chen for seeing me through the highs and lows and for creating so many unforgettable moments outside of my research. 
 
 
+\tableofcontents
 
 \listoffigures
 \listoftables
 
 \include{acronyms}
 
-\tableofcontents
 
 
 \include{Chapter1/ch1}
@@ -117,7 +121,7 @@ And my biggest thanks to my friends and family for all the support you have show
 \include{enrichmentresults/ch5}
 
 \include{Chapter6/ch6}
-
+\appendix
 \include{appendices/master}
 
 \chapter*{List of Publications and Presentations}
